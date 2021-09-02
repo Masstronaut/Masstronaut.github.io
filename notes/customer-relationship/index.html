@@ -6,19 +6,18 @@
 	<link rel="icon" href="/favicon.svg" />
 	<link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	
+	<title>Customer relationship - Allan Deutsch</title>
 
 		
 
 		<link rel="modulepreload" href="/_app/start-daa118cf.js">
 		<link rel="modulepreload" href="/_app/chunks/vendor-ccfa631e.js">
 		<link rel="modulepreload" href="/_app/pages/__layout.svelte-4477a366.js">
-		<link rel="modulepreload" href="/_app/pages/notes/index.svelte-ac2cda14.js">
-		<link rel="modulepreload" href="/_app/chunks/NoteGrid-a254452b.js">
+		<link rel="modulepreload" href="/_app/pages/notes/customer-relationship.md-a4c3ec16.js">
+		<link rel="modulepreload" href="/_app/chunks/note-page-b1998762.js">
 		<link rel="stylesheet" href="/_app/assets/start-61d1577b.css">
 		<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-bf9be0eb.css">
-		<link rel="stylesheet" href="/_app/assets/pages/notes/index.svelte-60d023e6.css">
-		<link rel="stylesheet" href="/_app/assets/NoteGrid-8f8934e6.css">
+		<link rel="stylesheet" href="/_app/assets/note-page-8233447c.css">
 
 		<script type="module">
 			import { start } from "/_app/start-daa118cf.js";
@@ -35,11 +34,11 @@
 					error: null,
 					nodes: [
 						import("/_app/pages/__layout.svelte-4477a366.js"),
-						import("/_app/pages/notes/index.svelte-ac2cda14.js")
+						import("/_app/pages/notes/customer-relationship.md-a4c3ec16.js")
 					],
 					page: {
 						host: location.host, // TODO this is redundant
-						path: "/notes",
+						path: "/notes/customer-relationship",
 						query: new URLSearchParams(""),
 						params: {}
 					}
@@ -56,68 +55,41 @@
 
 	<nav class="svelte-13jw4rr"><ul class="svelte-13jw4rr"><li class="svelte-13jw4rr"><a sveltekit:prefetch href="/" class="svelte-13jw4rr">Home</a></li>
 	
-	<li class="svelte-13jw4rr active"><a sveltekit:prefetch href="/notes" class="svelte-13jw4rr">Notes</a></li></ul></nav>
+	<li class="svelte-13jw4rr"><a sveltekit:prefetch href="/notes" class="svelte-13jw4rr">Notes</a></li></ul></nav>
 
 	<div class="corner svelte-13jw4rr"><a href="https://twitter.com/AllanDeutsch" alt="Twitter" class="svelte-13jw4rr"><svg height="20" width="20" class="mr-1.5 inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 612 612"><path fill="currentColor" d="M612 116.258a250.714 250.714 0 01-72.088 19.772c25.929-15.527 45.777-40.155 55.184-69.411-24.322 14.379-51.169 24.82-79.775 30.48-22.907-24.437-55.49-39.658-91.63-39.658-69.334 0-125.551 56.217-125.551 125.513 0 9.828 1.109 19.427 3.251 28.606-104.326-5.24-196.835-55.223-258.75-131.174-10.823 18.51-16.98 40.078-16.98 63.101 0 43.559 22.181 81.993 55.835 104.479a125.556 125.556 0 01-56.867-15.756v1.568c0 60.806 43.291 111.554 100.693 123.104-10.517 2.83-21.607 4.398-33.08 4.398-8.107 0-15.947-.803-23.634-2.333 15.985 49.907 62.336 86.199 117.253 87.194-42.947 33.654-97.099 53.655-155.916 53.655-10.134 0-20.116-.612-29.944-1.721 55.567 35.681 121.536 56.485 192.438 56.485 230.948 0 357.188-191.291 357.188-357.188l-.421-16.253c24.666-17.593 46.005-39.697 62.794-64.861z"></path></svg></a>
 
 <a href="https://github.com/masstronaut" alt="GitHub" class="svelte-13jw4rr"><svg height="20" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="20" data-view-component="true" class="mr-1.5 inline"><path fill="currentColor" fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg></a></div>
 </header>
-<div class="container"><div class="content svelte-io2j72"><header class="svelte-1m6w7cz"><h1 class="svelte-1m6w7cz">My notes</h1>
-	<p class="about svelte-1m6w7cz">This is where I cultivate my thoughts in public. I&#39;m working on migrating more of them into the
-open. They&#39;re written for myself and shared to spark conversations.<br>
-Want to discuss them with me? I&#39;d love to hear from you
-<a href="https://twitter.com/AllanDeutsch" alt="Allan Deutsch on Twitter">@AllanDeutsch</a>.
-	</p></header>
-<div class="note__container svelte-ubzzcp"><h2>Notes</h2>
-	<div class="notegrid svelte-ubzzcp"><a href="./notes/business-model-canvas" class="svelte-16yj2ch"><article class="svelte-16yj2ch"><header class="svelte-16yj2ch"><h1 class="svelte-16yj2ch">Business Model Canvas</h1></header>
-<section class="notemetadata svelte-16yj2ch"><div class="date svelte-16yj2ch">Jun 13, 2021</div>
-	<div class="status budding svelte-16yj2ch">Budding 🌿</div></section></article>
-</a><a href="./notes/customer-relationship" class="svelte-16yj2ch"><article class="svelte-16yj2ch"><header class="svelte-16yj2ch"><h1 class="svelte-16yj2ch">Customer relationship</h1></header>
-<section class="notemetadata svelte-16yj2ch"><div class="date svelte-16yj2ch">Jun 15, 2021</div>
-	<div class="status seedling svelte-16yj2ch">Seedling 🌱</div></section></article>
-</a><a href="./notes/value-proposition" class="svelte-16yj2ch"><article class="svelte-16yj2ch"><header class="svelte-16yj2ch"><h1 class="svelte-16yj2ch">Value proposition</h1></header>
-<section class="notemetadata svelte-16yj2ch"><div class="date svelte-16yj2ch">Jun 12, 2021</div>
-	<div class="status seedling svelte-16yj2ch">Seedling 🌱</div></section></article>
-</a><a href="./notes/type-1-2-decisions" class="svelte-16yj2ch"><article class="svelte-16yj2ch"><header class="svelte-16yj2ch"><h1 class="svelte-16yj2ch">Type-1 and Type-2 Decisions</h1></header>
-<section class="notemetadata svelte-16yj2ch"><div class="date svelte-16yj2ch">Jul 13, 2021</div>
-	<div class="status evergreen svelte-16yj2ch">Evergreen 🌲</div></section></article>
-</a><a href="./notes/distribution-channel" class="svelte-16yj2ch"><article class="svelte-16yj2ch"><header class="svelte-16yj2ch"><h1 class="svelte-16yj2ch">Distribution channel</h1></header>
-<section class="notemetadata svelte-16yj2ch"><div class="date svelte-16yj2ch">Jun 15, 2021</div>
-	<div class="status budding svelte-16yj2ch">Budding 🌿</div></section></article>
-</a><a href="./notes/monetized-content-compound-growth" class="svelte-16yj2ch"><article class="svelte-16yj2ch"><header class="svelte-16yj2ch"><h1 class="svelte-16yj2ch">Monetized content creation is a compound growth system</h1></header>
-<section class="notemetadata svelte-16yj2ch"><div class="date svelte-16yj2ch">Apr 6, 2021</div>
-	<div class="status evergreen svelte-16yj2ch">Evergreen 🌲</div></section></article>
-</a><a href="./notes/restaurants" class="svelte-16yj2ch"><article class="svelte-16yj2ch"><header class="svelte-16yj2ch"><h1 class="svelte-16yj2ch">Restaurants I like</h1></header>
-<section class="notemetadata svelte-16yj2ch"><div class="date svelte-16yj2ch">Jun 12, 2021</div>
-	<div class="status seedling svelte-16yj2ch">Seedling 🌱</div></section></article>
-</a><a href="./notes/compound-growth-most-impactful-at-end" class="svelte-16yj2ch"><article class="svelte-16yj2ch"><header class="svelte-16yj2ch"><h1 class="svelte-16yj2ch">Compound growth is most impactful at the end</h1></header>
-<section class="notemetadata svelte-16yj2ch"><div class="date svelte-16yj2ch">Aug 11, 2021</div>
-	<div class="status evergreen svelte-16yj2ch">Evergreen 🌲</div></section></article>
-</a><a href="./notes/compound-growth-system" class="svelte-16yj2ch"><article class="svelte-16yj2ch"><header class="svelte-16yj2ch"><h1 class="svelte-16yj2ch">Compound growth system</h1></header>
-<section class="notemetadata svelte-16yj2ch"><div class="date svelte-16yj2ch">Aug 11, 2021</div>
-	<div class="status seedling svelte-16yj2ch">Seedling 🌱</div></section></article>
-</a><a href="./notes/customer-segment" class="svelte-16yj2ch"><article class="svelte-16yj2ch"><header class="svelte-16yj2ch"><h1 class="svelte-16yj2ch">Customer segment</h1></header>
-<section class="notemetadata svelte-16yj2ch"><div class="date svelte-16yj2ch">Jun 12, 2021</div>
-	<div class="status budding svelte-16yj2ch">Budding 🌿</div></section></article>
-</a><a href="./notes/positioning-statement" class="svelte-16yj2ch"><article class="svelte-16yj2ch"><header class="svelte-16yj2ch"><h1 class="svelte-16yj2ch">Positioning statement</h1></header>
-<section class="notemetadata svelte-16yj2ch"><div class="date svelte-16yj2ch">Aug 10, 2021</div>
-	<div class="status budding svelte-16yj2ch">Budding 🌿</div></section></article>
-</a><a href="./notes/segmentation-targeting-positioning" class="svelte-16yj2ch"><article class="svelte-16yj2ch"><header class="svelte-16yj2ch"><h1 class="svelte-16yj2ch">Segmentation, Targeting, and Positioning (STP)</h1></header>
-<section class="notemetadata svelte-16yj2ch"><div class="date svelte-16yj2ch">Aug 10, 2021</div>
-	<div class="status budding svelte-16yj2ch">Budding 🌿</div></section></article>
-</a><a href="./notes/learning-process" class="svelte-16yj2ch"><article class="svelte-16yj2ch"><header class="svelte-16yj2ch"><h1 class="svelte-16yj2ch">The learning process</h1></header>
-<section class="notemetadata svelte-16yj2ch"><div class="date svelte-16yj2ch">Jul 26, 2021</div>
-	<div class="status evergreen svelte-16yj2ch">Evergreen 🌲</div></section></article>
-</a><a href="./notes/ask-dont-tell" class="svelte-16yj2ch"><article class="svelte-16yj2ch"><header class="svelte-16yj2ch"><h1 class="svelte-16yj2ch">Ask, don&#39;t tell</h1></header>
-<section class="notemetadata svelte-16yj2ch"><div class="date svelte-16yj2ch">Jun 13, 2021</div>
-	<div class="status evergreen svelte-16yj2ch">Evergreen 🌲</div></section></article>
-</a><a href="./notes/spaced-repetition-workflow" class="svelte-16yj2ch"><article class="svelte-16yj2ch"><header class="svelte-16yj2ch"><h1 class="svelte-16yj2ch">My spaced repetition workflow</h1></header>
-<section class="notemetadata svelte-16yj2ch"><div class="date svelte-16yj2ch">Jun 24, 2021</div>
-	<div class="status evergreen svelte-16yj2ch">Evergreen 🌲</div></section></article>
-</a><a href="./notes/world-recursive" class="svelte-16yj2ch"><article class="svelte-16yj2ch"><header class="svelte-16yj2ch"><h1 class="svelte-16yj2ch">The world is recursive</h1></header>
-<section class="notemetadata svelte-16yj2ch"><div class="date svelte-16yj2ch">Apr 13, 2021</div>
-	<div class="status seedling svelte-16yj2ch">Seedling 🌱</div></section></article>
-</a></div>
+<div class="container"><div class="content svelte-io2j72">
+
+<div class="note__container svelte-1uo9kpe"><header class="svelte-1uo9kpe"><h1 class="title svelte-1uo9kpe">Customer relationship</h1>
+<div class="note__metadata svelte-1uo9kpe"><div class="date svelte-1uo9kpe">🌱 Planted on June 15, 2021.
+		Last tended on August 31, 2021.</div>
+	<div class="note__status seedling svelte-1uo9kpe">seedling 🌱</div></div></header>
+	
+	<div class="note__content svelte-1uo9kpe"><p><strong>Customer relationships</strong>: The interactions and strategies around those interactions to help the business [[Attract, develop, and retain]] customers. </p>
+<p>Customer relationships are one of the blocks of the <a href="business-model-canvas">business-model-canvas</a>.</p>
+<p>There are three goals of customer relationships:
+</p>
+<ul><li>Acquiring new customers</li>
+<li>Keeping customers happy</li>
+<li>Upselling customers to delight them and increase revenue </li></ul>
+<p>These relationship goals are similar to the [[People management]] goal to [[Attract, develop, and retain]] talent.</p>
+<p>Forms of customer relationships may include:</p>
+<ul><li>communities (customer P2P interaction, like discord communities or user forums)</li>
+<li>automation (recommendation systems)</li>
+<li>self-serve (online documentation)</li>
+<li>personal assistance (customer representative)</li>
+<li>Dedicated personal assistance (account managers)</li>
+<li>co-creation (discord, YouTube, Goodreads, etc.)</li></ul>
+<p>A [[Customer acquisition strategy]] is linked with the awareness stage of a <a href="distribution-channel">distribution channel</a>. Acquisition strategies are targeted based on the customer segment and distribution channel. </p>
+<p>There are 2 broad categories of [[Marketing strategy]]:
+</p>
+<ul><li><p>Inbound marketing</p></li>
+<li><p>Outbound marketing</p></li>
+<li><p><strong>[[Outbound marketing]]</strong>: The traditional approach to marketing that involves reaching out to people through methods like cold calling, email blasts, and ads. </p></li>
+<li><p><strong>[[Inbound marketing]]</strong>: A modern approach to marketing that involves establishing the brand as a thought leader in its field and reaches customers by providing valuable content to them using methods like blogging, email newsletters with actionable advice, [[Search Engine Optimization (SEO)]], [[Social media marketing]], etc. </p></li></ul></div>
 </div></div>
 	<footer class="svelte-io2j72"><a href="mailto:allan@allandeutsch.com" class="svelte-io2j72">allan@allandeutsch.com</a></footer>
 </div>
