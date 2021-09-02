@@ -6,14 +6,14 @@
 	<link rel="icon" href="/favicon.svg" />
 	<link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>My spaced repetition workflow - Allan Deutsch</title>
+	<title>Build infrastructure after not having it becomes painful - Allan Deutsch</title>
 
 		
 
 		<link rel="modulepreload" href="/_app/start-7c1e1337.js">
 		<link rel="modulepreload" href="/_app/chunks/vendor-ccfa631e.js">
 		<link rel="modulepreload" href="/_app/pages/__layout.svelte-4477a366.js">
-		<link rel="modulepreload" href="/_app/pages/notes/spaced-repetition-workflow.md-732267d7.js">
+		<link rel="modulepreload" href="/_app/pages/notes/build-infrastructure-after-pain.md-45e3563e.js">
 		<link rel="modulepreload" href="/_app/chunks/note-page-b1998762.js">
 		<link rel="stylesheet" href="/_app/assets/start-61d1577b.css">
 		<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-bf9be0eb.css">
@@ -34,11 +34,11 @@
 					error: null,
 					nodes: [
 						import("/_app/pages/__layout.svelte-4477a366.js"),
-						import("/_app/pages/notes/spaced-repetition-workflow.md-732267d7.js")
+						import("/_app/pages/notes/build-infrastructure-after-pain.md-45e3563e.js")
 					],
 					page: {
 						host: location.host, // TODO this is redundant
-						path: "/notes/spaced-repetition-workflow",
+						path: "/notes/build-infrastructure-after-pain",
 						query: new URLSearchParams(""),
 						params: {}
 					}
@@ -63,48 +63,19 @@
 </header>
 <div class="container"><div class="content svelte-io2j72">
 
-<div class="note__container svelte-1uo9kpe"><header class="svelte-1uo9kpe"><h1 class="title svelte-1uo9kpe">My spaced repetition workflow</h1>
-<div class="note__metadata svelte-1uo9kpe"><div class="date svelte-1uo9kpe">🌱 Planted on June 24, 2021.
-		</div>
-	<div class="note__status evergreen svelte-1uo9kpe">evergreen 🌲</div></div></header>
+<div class="note__container svelte-1uo9kpe"><header class="svelte-1uo9kpe"><h1 class="title svelte-1uo9kpe">Build infrastructure after not having it becomes painful</h1>
+<div class="note__metadata svelte-1uo9kpe"><div class="date svelte-1uo9kpe">🌱 Planted on July 1, 2021.
+		Last tended on August 15, 2021.</div>
+	<div class="note__status seedling svelte-1uo9kpe">seedling 🌱</div></div></header>
 	
-	<div class="note__content svelte-1uo9kpe"><h2 id="prerequisites"><a href="#prerequisites" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a>Prerequisites</h2>
-<ol><li>Have Obsidian.md installed and set up.</li></ol>
-<h2 id="setup"><a href="#setup" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a>Setup</h2>
-<ol><li>Open the Obsidian settings</li>
-<li>Select the <code>Community plugins</code> option from the left navigation pane</li>
-<li>Ensure <code>Safe mode</code> is turned off</li>
-<li>Click the <code>Browse</code> button</li>
-<li>Find and install the <code>Spaced Repetition</code> plugin from the list of community plugins</li>
-<li>In the <code>Community plugins</code> page, under <code>Installed plugins</code> find and enable <code>Spaced repetition</code></li></ol>
-<h3 id="recommended-spaced-repetition-configuration-settings"><a href="#recommended-spaced-repetition-configuration-settings" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a>Recommended Spaced Repetition configuration settings</h3>
-<ol><li>In the left navigation pane, under <code>Plugin options</code> select <code>Spaced Repetition</code></li>
-<li>Enable the option to <code>Save scheduling comment on the same line as the flashcard&#39;s last line</code>. This ensures flashcards in markdown lists are rendered correctly.</li>
-<li>Enable the option to <code>Bury related cards until the next day</code>. This prevents two deletion cards from the same block of text being shown on the same day.</li>
-<li>Change the <code>Separator for inline flashcards</code> to <code>:-:</code>. This improves compatibility with code blocks, as the default option (<code>::</code>) is commonly used in programming languages as a namespace separator.</li>
-<li>Change the <code>Separator for multiline flashcards</code> to <code>:_:</code>. This improves compatibility with code blocks, as sometimes the default option (<code>?</code>) is used as part of a ternary operator on its own line to respect line length settings.</li></ol>
-<h2 id="authoring-notes"><a href="#authoring-notes" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a>Authoring notes</h2>
-<h3 id="setting-up-a-note-to-contain-flashcards"><a href="#setting-up-a-note-to-contain-flashcards" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a>Setting up a note to contain flashcards</h3>
-<p>To indicate that a note contains flashcards, it must contain one of your flashcard tags. By default, the flashcard tag is <code>flashcards</code>. Tags can be inserted into the body of the note using <code>#flashcards</code>. Since the fact that a note contains flashcards is metadata, I prefer to put it in the [[YAML Frontmatter]] of a note. Frontmatter must be at the start of a markdown file, and is started and ended by <code>---</code> on its own line. Here’s a basic example with no other metadata:</p>
-<pre class="language-yaml"><!-- HTML_TAG_START --><code class="language-yaml"><span class="token punctuation">---</span>
-<span class="token key atrule">tags</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>flashcards<span class="token punctuation">]</span>
-<span class="token punctuation">---</span></code><!-- HTML_TAG_END --></pre>
-<p>Flashcards can be separated into multiple decks. This can be helpful if you want to sort them by topic (such as biology, physics, CS, etc.), type (vocab, concepts, ideas, etc.) or some other method meaningful to you. Doing so is very simple - just append them to the end of the <code>flashcards</code> tag and use <code>/</code> to separate the hierarchy of the decks. For example:</p>
-<pre class="language-undefined"><!-- HTML_TAG_START --><code class="language-undefined">tags: [flashcards/subjects/math]</code><!-- HTML_TAG_END --></pre>
-<p>Would put notes in that file into a <code>math</code> deck that exists within a larger <code>subjects</code> deck.</p>
-<h3 id="authoring-notes-that-contain-flashcards"><a href="#authoring-notes-that-contain-flashcards" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a>Authoring notes that contain flashcards</h3>
-<p>When authoring notes, insert flashcards whenever writing the key details of a topic that you wish to retain. One easy example is in a list with definitions or explanations. In these cases, I’ll typically <strong>bold</strong> the term, add a colon, the inline flashcard separator, and then the definition, like this:</p>
-<ul><li><strong>Inline flashcard</strong>:  Flashcards with both sides of the card defined on a single line, like this one.</li></ul>
-<p>Also use inline flashcards in small paragraphs that contain key information. The benefit of this is quickly apparent when it fills your flashcard deck with key information you want to retain.</p>
-<p>Make sure to continue writing ==on a new line== after using inline flashcards! Doing so ensures that extra content doesn’t get added to the back of the card. ==Highlighting== text in a flashcard note creates a ==cloze deletion==. This type of flashcard will show all the surround context, with just the highlighted bit removed for you to recall. Very helpful for learning terms that are used in a sentence or for key info written in the middle of a sentence.</p>
-<h4 id="multi-line-flashcards"><a href="#multi-line-flashcards" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a>Multi-line flashcards</h4>
-<p>Sometimes the answer to a question is longer than a single line. I find this is often the case for lists I want to retain (such as Cialdini’s principles of persuasion, Maslow’s Hierarchy of Needs, or Bloom’s taxonomy). For those, particularly the ordered ones, I like to note them as ordered lists. When reviewing a flashcard on them, I want the back side of my flashcard to be the list of all the items. This requires multi-line flashcards.</p>
-<p>How do I author multi-line flashcards?
-</p>
-<ol><li>Write the prompt that goes on the front of the card</li>
-<li>On a new line, add the multi-line flashcard separator :_:</li>
-<li>On a new line below the separator, write multiple lines of answer<ol><li>Avoid adding any blank lines within the content that belongs on the back of the flashcard</li></ol></li>
-<li>Add a blank line at the <strong>end</strong> of the flashcard.</li></ol></div>
+	<div class="note__content svelte-1uo9kpe"><h1 id="build-infrastructure-after-not-having-it-becomes-painful"><a href="#build-infrastructure-after-not-having-it-becomes-painful" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a>Build infrastructure after not having it becomes painful</h1>
+<p>When starting something new, it can be tempting to build infrastructure and supporting pieces early on. That infrastructure - once built - can reduce the friction of the activity. There are a few problems with doing so too early though:</p>
+<ul><li>Building infrastructure for an activity is time taken away from actually <em>doing</em> the activity</li>
+<li>Without some experience doing the activity, it’s hard to determine what infrastructure is truly valuable</li>
+<li>Building infrastructure isn’t progress, whereas doing the activity is</li>
+<li>The activity may not be continued long term, and the infrastructure is unlikely to be a worthwhile investment in the short term</li></ul>
+<p>When lack of infrastructure becomes painful, it creates clarity about what problems the infrastructure needs to solve. </p>
+<p>Once it becomes clear than an activity is going to continue, [[Automation unlocks progressively more meaningful problems]].</p></div>
 </div></div>
 	<footer class="svelte-io2j72"><a href="mailto:allan@allandeutsch.com" class="svelte-io2j72">allan@allandeutsch.com</a></footer>
 </div>
