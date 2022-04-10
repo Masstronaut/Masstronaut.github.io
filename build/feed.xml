@@ -1,0 +1,413 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+  <channel>
+    <title>Allan's Notes</title>
+    <link>https://www.allandeutsch.com</link>
+    <description>Content from Allan's notes, via RSS.</description>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2022 Allan Deutsch</copyright>
+    <pubDate>Sun, 10 Apr 2022 23:52:55 GMT</pubDate>
+    <lastBuildDate>Sun, 10 Apr 2022 23:52:55 GMT</lastBuildDate>
+    <ttl>60</ttl>
+    
+    <item>
+      <title>Microeconomics</title>
+      <link>https://www.allandeutsch.com/notes/microeconomics</link>
+      <pubDate>Sun, 19 Sep 2021 00:00:00 GMT</pubDate>
+      <description>An overview of my notes on microeconomics.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/microeconomics</guid>
+    </item>
+    
+
+    <item>
+      <title>Consumer demand</title>
+      <link>https://www.allandeutsch.com/notes/consumer-demand</link>
+      <pubDate>Wed, 22 Sep 2021 00:00:00 GMT</pubDate>
+      <description>Consumer demand looks at the three types of relationships between goods and how price changes to one product affects demand for another.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/consumer-demand</guid>
+    </item>
+    
+
+    <item>
+      <title>Marginal utility</title>
+      <link>https://www.allandeutsch.com/notes/marginal-utility</link>
+      <pubDate>Mon, 20 Sep 2021 00:00:00 GMT</pubDate>
+      <description>The incremental value gained from have one more of something.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/marginal-utility</guid>
+    </item>
+    
+
+    <item>
+      <title>Market forces</title>
+      <link>https://www.allandeutsch.com/notes/market-forces</link>
+      <pubDate>Sun, 09 Jan 2022 00:00:00 GMT</pubDate>
+      <description>The factors that impact the price of goods and services, which in turn drives supply and demand changes.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/market-forces</guid>
+    </item>
+    
+
+    <item>
+      <title>Supply and demand</title>
+      <link>https://www.allandeutsch.com/notes/supply-demand</link>
+      <pubDate>Sun, 19 Sep 2021 00:00:00 GMT</pubDate>
+      <description>An area of microeconomics focused on how price influences the behavior of producers and consumers.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/supply-demand</guid>
+    </item>
+    
+
+    <item>
+      <title>Great UI shadows imitate real shadows</title>
+      <link>https://www.allandeutsch.com/notes/ui-shadows</link>
+      <pubDate>Thu, 21 Oct 2021 00:00:00 GMT</pubDate>
+      <description>UI shadows should create an illusion of depth. For the best illusion, imitate reality.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/ui-shadows</guid>
+    </item>
+    
+
+    <item>
+      <title>Restaurants I like</title>
+      <link>https://www.allandeutsch.com/notes/restaurants</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 GMT</pubDate>
+      <description>A list of some of my favorite places to get a meal in the Seattle area.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/restaurants</guid>
+    </item>
+    
+
+    <item>
+      <title>The principal-agent problem</title>
+      <link>https://www.allandeutsch.com/notes/principal-agent-problem</link>
+      <pubDate>Mon, 29 Nov 2021 00:00:00 GMT</pubDate>
+      <description>When there is a conflict in priorities between one party (the principal) and another party (the agent) that executions on their behalf.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/principal-agent-problem</guid>
+    </item>
+    
+
+    <item>
+      <title>Grapow</title>
+      <link>https://www.allandeutsch.com/notes/grapow</link>
+      <pubDate>Sat, 06 Nov 2021 00:00:00 GMT</pubDate>
+      <description>Grapow is a sweet & spicy Thai dish made with ground meat, Thai chilis, and Thai basil. This dish is often requested by friends joining for dinner.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/grapow</guid>
+    </item>
+    
+
+    <item>
+      <title>Value innovation</title>
+      <link>https://www.allandeutsch.com/notes/value-innovation</link>
+      <pubDate>Sun, 12 Sep 2021 00:00:00 GMT</pubDate>
+      <description>Value innovation is how companies offer dramatically higher value at lower costs, escaping competition.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/value-innovation</guid>
+    </item>
+    
+
+    <item>
+      <title>Use contrast to direct attention</title>
+      <link>https://www.allandeutsch.com/notes/use-contrast-direct-attention</link>
+      <pubDate>Thu, 25 Mar 2021 00:00:00 GMT</pubDate>
+      <description>Visual focus is naturally drawn to contrast. Use contrast in design to direct attention.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/use-contrast-direct-attention</guid>
+    </item>
+    
+
+    <item>
+      <title>Make hard decisions quickly</title>
+      <link>https://www.allandeutsch.com/notes/hard-decisions</link>
+      <pubDate>Tue, 15 Jun 2021 00:00:00 GMT</pubDate>
+      <description>The less differentiated the options are, the harder it is to choose one.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/hard-decisions</guid>
+    </item>
+    
+
+    <item>
+      <title>Type-1 and Type-2 Decisions</title>
+      <link>https://www.allandeutsch.com/notes/type-1-2-decisions</link>
+      <pubDate>Wed, 14 Jul 2021 00:00:00 GMT</pubDate>
+      <description>A decision dichotomy based on if the decision can be mitigated or reversed.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/type-1-2-decisions</guid>
+    </item>
+    
+
+    <item>
+      <title>Ask, don't tell</title>
+      <link>https://www.allandeutsch.com/notes/ask-dont-tell</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 GMT</pubDate>
+      <description>Giving unprompted advice is ineffective. Instead, lead people to ask for advice.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/ask-dont-tell</guid>
+    </item>
+    
+
+    <item>
+      <title>Vicious and virtuous cycles</title>
+      <link>https://www.allandeutsch.com/notes/vicious-virtuous-cycles</link>
+      <pubDate>Fri, 24 Sep 2021 00:00:00 GMT</pubDate>
+      <description>Self-reinforcing cycles that act as compound growth systems. Negative cycles are vicious, positive cycles are virtuous.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/vicious-virtuous-cycles</guid>
+    </item>
+    
+
+    <item>
+      <title>The fundamental habits</title>
+      <link>https://www.allandeutsch.com/notes/fundamental-habits</link>
+      <pubDate>Thu, 23 Sep 2021 00:00:00 GMT</pubDate>
+      <description>These simple behaviors are often challenging, but provide a rock solid foundation for the rest of life.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/fundamental-habits</guid>
+    </item>
+    
+
+    <item>
+      <title>Utility</title>
+      <link>https://www.allandeutsch.com/notes/utility</link>
+      <pubDate>Wed, 22 Sep 2021 00:00:00 GMT</pubDate>
+      <description>Utility is the microeconomics concept for how much satisfaction, pain reduction, happiness, or value a buyer gets from a product or service.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/utility</guid>
+    </item>
+    
+
+    <item>
+      <title>Blue Ocean</title>
+      <link>https://www.allandeutsch.com/notes/blue-ocean</link>
+      <pubDate>Fri, 10 Sep 2021 00:00:00 GMT</pubDate>
+      <description>Blue oceans are markets that haven't been created yet. They are lucrative business opportunities.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/blue-ocean</guid>
+    </item>
+    
+
+    <item>
+      <title>Segmentation, Targeting, and Positioning (STP)</title>
+      <link>https://www.allandeutsch.com/notes/segmentation-targeting-positioning</link>
+      <pubDate>Wed, 11 Aug 2021 00:00:00 GMT</pubDate>
+      <description>Group consumers into segments, determine which to target, and estable the product's position for them.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/segmentation-targeting-positioning</guid>
+    </item>
+    
+
+    <item>
+      <title>Common traits of successful blue ocean strategies</title>
+      <link>https://www.allandeutsch.com/notes/traits-successful-blue-ocean-strategy</link>
+      <pubDate>Thu, 16 Sep 2021 00:00:00 GMT</pubDate>
+      <description>Great strategies have a clear focus, diverge from competition, and are easy to explain.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/traits-successful-blue-ocean-strategy</guid>
+    </item>
+    
+
+    <item>
+      <title>Value curve</title>
+      <link>https://www.allandeutsch.com/notes/value-curve</link>
+      <pubDate>Thu, 16 Sep 2021 00:00:00 GMT</pubDate>
+      <description>The line on a strategy canvas showing the emphasis a company places on each factor of competition in its industry.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/value-curve</guid>
+    </item>
+    
+
+    <item>
+      <title>Blue Ocean strategy</title>
+      <link>https://www.allandeutsch.com/notes/blue-ocean-strategy</link>
+      <pubDate>Wed, 15 Sep 2021 00:00:00 GMT</pubDate>
+      <description>Blue ocean strategy is about creating new markets to escape competition.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/blue-ocean-strategy</guid>
+    </item>
+    
+
+    <item>
+      <title>Factors of competition</title>
+      <link>https://www.allandeutsch.com/notes/competition-factors</link>
+      <pubDate>Wed, 15 Sep 2021 00:00:00 GMT</pubDate>
+      <description>The factors that companies/products within an industry typically compete on to provide value to customers.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/competition-factors</guid>
+    </item>
+    
+
+    <item>
+      <title>The Four Actions framework</title>
+      <link>https://www.allandeutsch.com/notes/four-actions-framework</link>
+      <pubDate>Wed, 15 Sep 2021 00:00:00 GMT</pubDate>
+      <description>Helps identify which factors a business should eliminate, reduce, raise, and create. Typically used with a strategy canvas.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/four-actions-framework</guid>
+    </item>
+    
+
+    <item>
+      <title>The strategy canvas</title>
+      <link>https://www.allandeutsch.com/notes/strategy-canvas</link>
+      <pubDate>Mon, 13 Sep 2021 00:00:00 GMT</pubDate>
+      <description>An analytical tool that shows how much emphasis companies place on value areas in their industry.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/strategy-canvas</guid>
+    </item>
+    
+
+    <item>
+      <title>Red ocean</title>
+      <link>https://www.allandeutsch.com/notes/red-ocean</link>
+      <pubDate>Fri, 10 Sep 2021 00:00:00 GMT</pubDate>
+      <description>Crowded markets where customers have many options to choose from, resulting in cutthroat competition.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/red-ocean</guid>
+    </item>
+    
+
+    <item>
+      <title>Business Model Canvas</title>
+      <link>https://www.allandeutsch.com/notes/business-model-canvas</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 GMT</pubDate>
+      <description>A modern alternative to a business plan. It has 9 sections with details of the business, its customers, and how it provides value.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/business-model-canvas</guid>
+    </item>
+    
+
+    <item>
+      <title>Customer relationship</title>
+      <link>https://www.allandeutsch.com/notes/customer-relationship</link>
+      <pubDate>Wed, 16 Jun 2021 00:00:00 GMT</pubDate>
+      <description>The interactions a business has with customers and the strategies around those interactions.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/customer-relationship</guid>
+    </item>
+    
+
+    <item>
+      <title>Value proposition</title>
+      <link>https://www.allandeutsch.com/notes/value-proposition</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 GMT</pubDate>
+      <description>The way(s) a product or service benefits its target customers and the statement describing it.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/value-proposition</guid>
+    </item>
+    
+
+    <item>
+      <title>Build infrastructure after not having it becomes painful</title>
+      <link>https://www.allandeutsch.com/notes/build-infrastructure-after-pain</link>
+      <pubDate>Fri, 02 Jul 2021 00:00:00 GMT</pubDate>
+      <description>The pain caused by a lack of infrastructure proves the infrastructure is necessary.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/build-infrastructure-after-pain</guid>
+    </item>
+    
+
+    <item>
+      <title>Distribution channel</title>
+      <link>https://www.allandeutsch.com/notes/distribution-channel</link>
+      <pubDate>Wed, 16 Jun 2021 00:00:00 GMT</pubDate>
+      <description>Distribution channels are how products and services get from a business to its customers.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/distribution-channel</guid>
+    </item>
+    
+
+    <item>
+      <title>Monetized content creation is a compound growth system</title>
+      <link>https://www.allandeutsch.com/notes/monetized-content-compound-growth</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 GMT</pubDate>
+      <description>New content creates new organic inbound traffic and retains the audience. Old content creates more value from new audience.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/monetized-content-compound-growth</guid>
+    </item>
+    
+
+    <item>
+      <title>Compound growth is most impactful at the end</title>
+      <link>https://www.allandeutsch.com/notes/compound-growth-most-impactful-at-end</link>
+      <pubDate>Thu, 12 Aug 2021 00:00:00 GMT</pubDate>
+      <description>Compound growth is exponential. Each compounding period generates more growth than the previous one.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/compound-growth-most-impactful-at-end</guid>
+    </item>
+    
+
+    <item>
+      <title>Compound growth system</title>
+      <link>https://www.allandeutsch.com/notes/compound-growth-system</link>
+      <pubDate>Thu, 12 Aug 2021 00:00:00 GMT</pubDate>
+      <description>Any system in which growth is proportional to the principal, added to that principal, and then repeated.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/compound-growth-system</guid>
+    </item>
+    
+
+    <item>
+      <title>Customer segment</title>
+      <link>https://www.allandeutsch.com/notes/customer-segment</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 GMT</pubDate>
+      <description>The groups of people a business aims to serve.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/customer-segment</guid>
+    </item>
+    
+
+    <item>
+      <title>Positioning statement</title>
+      <link>https://www.allandeutsch.com/notes/positioning-statement</link>
+      <pubDate>Wed, 11 Aug 2021 00:00:00 GMT</pubDate>
+      <description>An explanation of how a product fits into its market.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/positioning-statement</guid>
+    </item>
+    
+
+    <item>
+      <title>Situation analysis</title>
+      <link>https://www.allandeutsch.com/notes/situation-analysis</link>
+      <pubDate>Tue, 10 Aug 2021 00:00:00 GMT</pubDate>
+      <description>A tool for identifying and evaluating the market conditions for a product or service.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/situation-analysis</guid>
+    </item>
+    
+
+    <item>
+      <title>The learning process</title>
+      <link>https://www.allandeutsch.com/notes/learning-process</link>
+      <pubDate>Tue, 27 Jul 2021 00:00:00 GMT</pubDate>
+      <description>A repeating cycle of receiving input, processing it to create output, evaluating that output, and evaluating results to improve future processing.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/learning-process</guid>
+    </item>
+    
+
+    <item>
+      <title>My spaced repetition workflow</title>
+      <link>https://www.allandeutsch.com/notes/spaced-repetition-workflow</link>
+      <pubDate>Fri, 25 Jun 2021 00:00:00 GMT</pubDate>
+      <description>The setup and workflow I use to retain what I learn and deepen my understanding.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/spaced-repetition-workflow</guid>
+    </item>
+    
+
+    <item>
+      <title>The world is recursive</title>
+      <link>https://www.allandeutsch.com/notes/world-recursive</link>
+      <pubDate>Wed, 14 Apr 2021 00:00:00 GMT</pubDate>
+      <description>The same things happen across domains and contexts all over the world. Very little is unique or novel.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/world-recursive</guid>
+    </item>
+    
+  </channel>
+</rss>
