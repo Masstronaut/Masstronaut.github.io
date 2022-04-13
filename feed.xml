@@ -6,12 +6,52 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2022 Allan Deutsch</copyright>
-    <pubDate>Wed, 13 Apr 2022 01:33:35 GMT</pubDate>
-    <lastBuildDate>Wed, 13 Apr 2022 01:33:35 GMT</lastBuildDate>
+    <pubDate>Wed, 13 Apr 2022 08:07:35 GMT</pubDate>
+    <lastBuildDate>Wed, 13 Apr 2022 08:07:35 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
-      <title>Seattle area cafés I like to work from</title>
+      <title>Avocado toast</title>
+      <link>https://www.allandeutsch.com/notes/avocado-toast</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 GMT</pubDate>
+      <description>Perhaps the icon of a generation, avocado toast is a delicious and nutritious way to start the day. </description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/avocado-toast</guid>
+    </item>
+    
+
+    <item>
+      <title>Price Elasticity of Demand (PED)</title>
+      <link>https://www.allandeutsch.com/notes/price-elasticity-demand</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 GMT</pubDate>
+      <description>Price changes impact the demand for goods and services. PED is a microeconomics tool for quantifyng that impact.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/price-elasticity-demand</guid>
+    </item>
+    
+
+    <item>
+      <title>Present three options to build consensus</title>
+      <link>https://www.allandeutsch.com/notes/three-options-consensus</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 GMT</pubDate>
+      <description>Cognitive biases lead people to evaluate options in context. There are strong biases that impact decision making when there are one or two options.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/three-options-consensus</guid>
+    </item>
+    
+
+    <item>
+      <title>Single-option aversion bias</title>
+      <link>https://www.allandeutsch.com/notes/single-option-aversion-bias</link>
+      <pubDate>Fri, 26 Mar 2021 00:00:00 GMT</pubDate>
+      <description>People are biased against deciding on a single option. Multiple options enable people to compare and make informed decisions.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/single-option-aversion-bias</guid>
+    </item>
+    
+
+    <item>
+      <title>Seattle area cafés I like</title>
       <link>https://www.allandeutsch.com/notes/cafes</link>
       <pubDate>Sat, 28 Aug 2021 00:00:00 GMT</pubDate>
       <description>A curated list of my favorite Seattle area cafes to sit, sip, and relax or work.</description>
@@ -37,6 +77,36 @@
       <description>An overview of my notes on microeconomics.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://www.allandeutsch.com/notes/microeconomics</guid>
+    </item>
+    
+
+    <item>
+      <title>Costs of production</title>
+      <link>https://www.allandeutsch.com/notes/production-cost</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 GMT</pubDate>
+      <description>Understanding the costs facing a business is an important part of evaluating its profitability. There are two categories of costs - fixed and variable.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/production-cost</guid>
+    </item>
+    
+
+    <item>
+      <title>Opportunity cost</title>
+      <link>https://www.allandeutsch.com/notes/opportunity-cost</link>
+      <pubDate>Sun, 16 Jan 2022 00:00:00 GMT</pubDate>
+      <description>The most valuable alternative that must be given up.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/opportunity-cost</guid>
+    </item>
+    
+
+    <item>
+      <title>Price elasticity</title>
+      <link>https://www.allandeutsch.com/notes/price-elasticity</link>
+      <pubDate>Wed, 22 Sep 2021 00:00:00 GMT</pubDate>
+      <description>Price elasticity measures how much the demand for a good changes in response to price changes.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/price-elasticity</guid>
     </item>
     
 
@@ -417,6 +487,16 @@
       <description>The same things happen across domains and contexts all over the world. Very little is unique or novel.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://www.allandeutsch.com/notes/world-recursive</guid>
+    </item>
+    
+
+    <item>
+      <title>Give mostly positive feedback</title>
+      <link>https://www.allandeutsch.com/notes/positive-feedback</link>
+      <pubDate>Mon, 15 Mar 2021 00:00:00 GMT</pubDate>
+      <description>Both positive and negative feedback are important, but on high performing teams positive feedback outweighs constructive feedback 5 to 1.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/positive-feedback</guid>
     </item>
     
   </channel>
