@@ -6,8 +6,8 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2022 Allan Deutsch</copyright>
-    <pubDate>Wed, 13 Apr 2022 08:16:04 GMT</pubDate>
-    <lastBuildDate>Wed, 13 Apr 2022 08:16:04 GMT</lastBuildDate>
+    <pubDate>Wed, 13 Apr 2022 08:56:51 GMT</pubDate>
+    <lastBuildDate>Wed, 13 Apr 2022 08:56:51 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
@@ -117,6 +117,16 @@
       <description>Consumer demand looks at the three types of relationships between goods and how price changes to one product affects demand for another.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://www.allandeutsch.com/notes/consumer-demand</guid>
+    </item>
+    
+
+    <item>
+      <title>Cross-Price Elasticity of Demand (CPED)</title>
+      <link>https://www.allandeutsch.com/notes/cross-price-elasticity</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 GMT</pubDate>
+      <description>Microeconomics tool for quantifying the change in demand for a product in response to price changes for substitute goods.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/cross-price-elasticity</guid>
     </item>
     
 
@@ -237,6 +247,16 @@
       <description>Self-reinforcing cycles that act as compound growth systems. Negative cycles are vicious, positive cycles are virtuous.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://www.allandeutsch.com/notes/vicious-virtuous-cycles</guid>
+    </item>
+    
+
+    <item>
+      <title>Categories of customer attributes</title>
+      <link>https://www.allandeutsch.com/notes/customer-attribute-categories</link>
+      <pubDate>Thu, 23 Sep 2021 00:00:00 GMT</pubDate>
+      <description>Customer attributes can be grouped as demographic, psychographic, geographic, or behavior.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://www.allandeutsch.com/notes/customer-attribute-categories</guid>
     </item>
     
 
