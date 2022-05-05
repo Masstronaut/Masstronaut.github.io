@@ -6,10 +6,20 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2022 Allan Deutsch</copyright>
-    <pubDate>Thu, 05 May 2022 04:46:14 GMT</pubDate>
-    <lastBuildDate>Thu, 05 May 2022 04:46:14 GMT</lastBuildDate>
+    <pubDate>Thu, 05 May 2022 04:54:49 GMT</pubDate>
+    <lastBuildDate>Thu, 05 May 2022 04:54:49 GMT</lastBuildDate>
     <ttl>60</ttl>
     
+    <item>
+      <title>Setting up a SvelteKit project with Storybook</title>
+      <link>https://allandeutsch.com/notes/sveltekit-storybook-setup</link>
+      <pubDate>Tue, 19 Apr 2022 00:00:00 GMT</pubDate>
+      <description>Setting up Storybook on a SvelteKit project doesn't work out of the box using the config tool. This guide walks you through a few extra steps needed to get SvelteKit and Storybook running.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/sveltekit-storybook-setup</guid>
+    </item>
+    
+
     <item>
       <title>Avocado toast</title>
       <link>https://allandeutsch.com/notes/avocado-toast</link>
