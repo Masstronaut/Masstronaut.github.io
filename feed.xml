@@ -6,8 +6,8 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2022 Allan Deutsch</copyright>
-    <pubDate>Fri, 06 May 2022 06:14:58 GMT</pubDate>
-    <lastBuildDate>Fri, 06 May 2022 06:14:58 GMT</lastBuildDate>
+    <pubDate>Fri, 06 May 2022 16:19:14 GMT</pubDate>
+    <lastBuildDate>Fri, 06 May 2022 16:19:14 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
@@ -77,6 +77,16 @@
       <description>A list of some of my favorite places to get a meal in the Seattle area.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/restaurants</guid>
+    </item>
+    
+
+    <item>
+      <title>Money market</title>
+      <link>https://allandeutsch.com/notes/money-market</link>
+      <pubDate>Sun, 23 Jan 2022 00:00:00 GMT</pubDate>
+      <description>The market for currency and the mechanics that govern it, such as interest rates, money supply, and the required reserve ratio.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/money-market</guid>
     </item>
     
 
