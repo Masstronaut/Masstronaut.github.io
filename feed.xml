@@ -6,10 +6,40 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2022 Allan Deutsch</copyright>
-    <pubDate>Tue, 17 May 2022 15:34:35 GMT</pubDate>
-    <lastBuildDate>Tue, 17 May 2022 15:34:35 GMT</lastBuildDate>
+    <pubDate>Tue, 24 May 2022 06:41:13 GMT</pubDate>
+    <lastBuildDate>Tue, 24 May 2022 06:41:13 GMT</lastBuildDate>
     <ttl>60</ttl>
     
+    <item>
+      <title>Cross-Price Elasticity of Demand (CPED)</title>
+      <link>https://allandeutsch.com/notes/cross-price-elasticity</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 GMT</pubDate>
+      <description>Microeconomics tool for quantifying the change in demand for a product in response to price changes for substitute goods.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/cross-price-elasticity</guid>
+    </item>
+    
+
+    <item>
+      <title>Positioning statement</title>
+      <link>https://allandeutsch.com/notes/positioning-statement</link>
+      <pubDate>Wed, 11 Aug 2021 00:00:00 GMT</pubDate>
+      <description>A position statement explains how a product fits into its market.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/positioning-statement</guid>
+    </item>
+    
+
+    <item>
+      <title>Price Elasticity of Demand (PED)</title>
+      <link>https://allandeutsch.com/notes/price-elasticity-demand</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 GMT</pubDate>
+      <description>Price changes impact the demand for goods and services. PED is a microeconomics tool for quantifyng that impact.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/price-elasticity-demand</guid>
+    </item>
+    
+
     <item>
       <title>Money market</title>
       <link>https://allandeutsch.com/notes/money-market</link>
@@ -37,16 +67,6 @@
       <description>Perhaps the icon of a generation, avocado toast is a delicious and nutritious way to start the day. </description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/avocado-toast</guid>
-    </item>
-    
-
-    <item>
-      <title>Price Elasticity of Demand (PED)</title>
-      <link>https://allandeutsch.com/notes/price-elasticity-demand</link>
-      <pubDate>Tue, 28 Sep 2021 00:00:00 GMT</pubDate>
-      <description>Price changes impact the demand for goods and services. PED is a microeconomics tool for quantifyng that impact.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/price-elasticity-demand</guid>
     </item>
     
 
@@ -137,16 +157,6 @@
       <description>Consumer demand looks at the three types of relationships between goods and how price changes to one product affects demand for another.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/consumer-demand</guid>
-    </item>
-    
-
-    <item>
-      <title>Cross-Price Elasticity of Demand (CPED)</title>
-      <link>https://allandeutsch.com/notes/cross-price-elasticity</link>
-      <pubDate>Tue, 28 Sep 2021 00:00:00 GMT</pubDate>
-      <description>Microeconomics tool for quantifying the change in demand for a product in response to price changes for substitute goods.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/cross-price-elasticity</guid>
     </item>
     
 
@@ -477,16 +487,6 @@
       <description>The groups of people a business aims to serve.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/customer-segment</guid>
-    </item>
-    
-
-    <item>
-      <title>Positioning statement</title>
-      <link>https://allandeutsch.com/notes/positioning-statement</link>
-      <pubDate>Wed, 11 Aug 2021 00:00:00 GMT</pubDate>
-      <description>An explanation of how a product fits into its market.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/positioning-statement</guid>
     </item>
     
 
