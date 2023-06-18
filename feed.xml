@@ -6,10 +6,20 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2023 Allan Deutsch</copyright>
-    <pubDate>Sat, 17 Jun 2023 23:46:55 GMT</pubDate>
-    <lastBuildDate>Sat, 17 Jun 2023 23:46:55 GMT</lastBuildDate>
+    <pubDate>Sun, 18 Jun 2023 03:18:15 GMT</pubDate>
+    <lastBuildDate>Sun, 18 Jun 2023 03:18:15 GMT</lastBuildDate>
     <ttl>60</ttl>
     
+    <item>
+      <title>10 questions to evaluate a startup idea</title>
+      <link>https://allandeutsch.com/notes/Evaluating a startup idea</link>
+      <pubDate>Sat, 17 Jun 2023 00:00:00 GMT</pubDate>
+      <description>10 questions to ask about any startup idea that will help you evaluate if it's worth pursuing.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/Evaluating a startup idea</guid>
+    </item>
+    
+
     <item>
       <title>Cozumel travel guide</title>
       <link>https://allandeutsch.com/notes/cozumel-travel-guide</link>
