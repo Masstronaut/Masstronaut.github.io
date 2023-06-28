@@ -6,10 +6,20 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2023 Allan Deutsch</copyright>
-    <pubDate>Tue, 27 Jun 2023 18:27:53 GMT</pubDate>
-    <lastBuildDate>Tue, 27 Jun 2023 18:27:53 GMT</lastBuildDate>
+    <pubDate>Wed, 28 Jun 2023 19:27:49 GMT</pubDate>
+    <lastBuildDate>Wed, 28 Jun 2023 19:27:49 GMT</lastBuildDate>
     <ttl>60</ttl>
     
+    <item>
+      <title>git-cheatsheet</title>
+      <link>https://allandeutsch.com/notes/git-cheatsheet</link>
+      <pubDate>Tue, 24 May 2022 00:00:00 GMT</pubDate>
+      <description>Some common scenarios and how to resolve them using git.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/git-cheatsheet</guid>
+    </item>
+    
+
     <item>
       <title>10 questions to evaluate a startup idea</title>
       <link>https://allandeutsch.com/notes/Evaluating a startup idea</link>
