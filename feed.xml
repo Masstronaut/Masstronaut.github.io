@@ -6,10 +6,20 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2023 Allan Deutsch</copyright>
-    <pubDate>Mon, 07 Aug 2023 00:13:32 GMT</pubDate>
-    <lastBuildDate>Mon, 07 Aug 2023 00:13:32 GMT</lastBuildDate>
+    <pubDate>Wed, 09 Aug 2023 03:55:04 GMT</pubDate>
+    <lastBuildDate>Wed, 09 Aug 2023 03:55:04 GMT</lastBuildDate>
     <ttl>60</ttl>
     
+    <item>
+      <title>I want a smaller phone</title>
+      <link>https://allandeutsch.com/notes/smaller-phone</link>
+      <pubDate>Mon, 26 Jun 2023 00:00:00 GMT</pubDate>
+      <description>As a tech guy, I'm often interested in the latest and greatest gadget. This has historically meant the biggest and best smart phone, but no longer...</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/smaller-phone</guid>
+    </item>
+    
+
     <item>
       <title>git-cheatsheet</title>
       <link>https://allandeutsch.com/notes/git-cheatsheet</link>
@@ -31,10 +41,10 @@
     
 
     <item>
-      <title>My work-life balance</title>
+      <title>My reflections work-life balance</title>
       <link>https://allandeutsch.com/notes/work-life-balance</link>
       <pubDate>Wed, 05 Apr 2023 00:00:00 GMT</pubDate>
-      <description>null</description>
+      <description>These are my reflections on how I view work-life balance, and how that view has changed over time.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/work-life-balance</guid>
     </item>
