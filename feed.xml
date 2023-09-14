@@ -6,10 +6,30 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2023 Allan Deutsch</copyright>
-    <pubDate>Mon, 11 Sep 2023 00:49:21 GMT</pubDate>
-    <lastBuildDate>Mon, 11 Sep 2023 00:49:21 GMT</lastBuildDate>
+    <pubDate>Thu, 14 Sep 2023 18:15:28 GMT</pubDate>
+    <lastBuildDate>Thu, 14 Sep 2023 18:15:28 GMT</lastBuildDate>
     <ttl>60</ttl>
     
+    <item>
+      <title>Seattle area cafés I like</title>
+      <link>https://allandeutsch.com/notes/cafes</link>
+      <pubDate>Sat, 28 Aug 2021 00:00:00 GMT</pubDate>
+      <description>A curated list of my favorite Seattle area cafes to sit, sip, and relax or work.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/cafes</guid>
+    </item>
+    
+
+    <item>
+      <title>Value proposition</title>
+      <link>https://allandeutsch.com/notes/value-proposition</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 GMT</pubDate>
+      <description>The way(s) a product or service benefits its target customers and the statement describing it.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/value-proposition</guid>
+    </item>
+    
+
     <item>
       <title>Restaurants I like</title>
       <link>https://allandeutsch.com/notes/restaurants</link>
@@ -147,16 +167,6 @@
       <description>People are biased against deciding on a single option. Multiple options enable people to compare and make informed decisions.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/single-option-aversion-bias</guid>
-    </item>
-    
-
-    <item>
-      <title>Seattle area cafés I like</title>
-      <link>https://allandeutsch.com/notes/cafes</link>
-      <pubDate>Sat, 28 Aug 2021 00:00:00 GMT</pubDate>
-      <description>A curated list of my favorite Seattle area cafes to sit, sip, and relax or work.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/cafes</guid>
     </item>
     
 
@@ -467,16 +477,6 @@
       <description>The interactions a business has with customers and the strategies around those interactions.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/customer-relationship</guid>
-    </item>
-    
-
-    <item>
-      <title>Value proposition</title>
-      <link>https://allandeutsch.com/notes/value-proposition</link>
-      <pubDate>Sun, 13 Jun 2021 00:00:00 GMT</pubDate>
-      <description>The way(s) a product or service benefits its target customers and the statement describing it.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/value-proposition</guid>
     </item>
     
 
