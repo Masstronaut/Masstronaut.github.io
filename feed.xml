@@ -6,10 +6,20 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2023 Allan Deutsch</copyright>
-    <pubDate>Sun, 31 Dec 2023 00:11:37 GMT</pubDate>
-    <lastBuildDate>Sun, 31 Dec 2023 00:11:37 GMT</lastBuildDate>
+    <pubDate>Sun, 31 Dec 2023 02:40:02 GMT</pubDate>
+    <lastBuildDate>Sun, 31 Dec 2023 02:40:02 GMT</lastBuildDate>
     <ttl>60</ttl>
     
+    <item>
+      <title>Mac tips</title>
+      <link>https://allandeutsch.com/notes/mac-tips</link>
+      <pubDate>Wed, 23 Jun 2021 00:00:00 GMT</pubDate>
+      <description>Various tips, hotkeys, and software I use on my Mac that I find to be broadly helpful and think everyone should know about.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/mac-tips</guid>
+    </item>
+    
+
     <item>
       <title>Adding users to new teams with Lucia auth and Prisma</title>
       <link>https://allandeutsch.com/notes/customer-teams-lucia</link>
