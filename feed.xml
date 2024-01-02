@@ -6,10 +6,20 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Tue, 02 Jan 2024 06:07:06 GMT</pubDate>
-    <lastBuildDate>Tue, 02 Jan 2024 06:07:06 GMT</lastBuildDate>
+    <pubDate>Tue, 02 Jan 2024 21:13:54 GMT</pubDate>
+    <lastBuildDate>Tue, 02 Jan 2024 21:13:54 GMT</lastBuildDate>
     <ttl>60</ttl>
     
+    <item>
+      <title>Playa del Carmen travel guide</title>
+      <link>https://allandeutsch.com/notes/pdc-travel-guide</link>
+      <pubDate>Sat, 30 Dec 2023 00:00:00 GMT</pubDate>
+      <description>Tips from my travels to PDC, including where to eat, stay, and visit!</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/pdc-travel-guide</guid>
+    </item>
+    
+
     <item>
       <title>Mac tips</title>
       <link>https://allandeutsch.com/notes/mac-tips</link>
