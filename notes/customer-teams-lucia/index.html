@@ -8,25 +8,25 @@
 		<link href="../../_app/immutable/assets/0.bf16e262.css" rel="stylesheet">
 		<link href="../../_app/immutable/assets/NoteGridStatusFilter.d210e4e4.css" rel="stylesheet">
 		<link href="../../_app/immutable/assets/13.11355b3f.css" rel="stylesheet">
-		<link rel="modulepreload" href="../../_app/immutable/entry/start.50295024.js">
+		<link rel="modulepreload" href="../../_app/immutable/entry/start.173a1bb1.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/scheduler.95003110.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/singletons.1c06fd6e.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/paths.8bea17c0.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/singletons.10b0880c.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/paths.955709c3.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/parse.bee59afc.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/control.f5b05b5f.js">
-		<link rel="modulepreload" href="../../_app/immutable/entry/app.f9b2849b.js">
+		<link rel="modulepreload" href="../../_app/immutable/entry/app.b6002b44.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/preload-helper.41c905a7.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/index.46e80ea9.js">
-		<link rel="modulepreload" href="../../_app/immutable/nodes/0.7a48c952.js">
+		<link rel="modulepreload" href="../../_app/immutable/nodes/0.910ddeed.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/each.fce2738d.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/index.45b59163.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/navigation.5566c884.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/toast.8e2ce133.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/navigation.398873c1.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/toast.c2028114.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/spread.8a54911c.js">
-		<link rel="modulepreload" href="../../_app/immutable/nodes/13.5380d26d.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/LoadNote.f6a380a2.js">
+		<link rel="modulepreload" href="../../_app/immutable/nodes/13.ea01b4c9.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/LoadNote.012b224d.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/index.a2bcfa65.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/stores.816d8565.js"><title>Adding users to new teams with Lucia auth and Prisma - Allan Deutsch</title><!-- HEAD_svelte-n5ip0u_START --><meta name="description" content="When building a B2B product, most customers will want to invite their team members. This post explores how I added support for that to Penguinsight, a user feedback SaaS I'm building."><meta property="og:title" content="Adding users to new teams with Lucia auth and Prisma"><meta property="og:type" content="article"><meta property="og:url" content="https://allandeutsch.com/notes/customer-teams-lucia"><meta property="og:description" content="When building a B2B product, most customers will want to invite their team members. This post explores how I added support for that to Penguinsight, a user feedback SaaS I'm building."><meta property="og:locale" content="en_US"><meta property="twitter:card" content="summary"><meta property="twitter:url" content="https://allandeutsch.com"><meta property="twitter:title" content="Adding users to new teams with Lucia auth and Prisma"><meta property="twitter:description" content="When building a B2B product, most customers will want to invite their team members. This post explores how I added support for that to Penguinsight, a user feedback SaaS I'm building."><meta property="twitter:site" content="@AllanDeutsch"><meta property="twitter:creator" content="@AllanDeutsch"><link rel="canonical" href="https://allandeutsch.com/notes/customer-teams-lucia"><script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="AllanDeutsch" data-description="Support me on Buy me a coffee!" data-message="" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18" data-svelte-h="svelte-bv2cpr"></script><!-- HEAD_svelte-n5ip0u_END -->
+		<link rel="modulepreload" href="../../_app/immutable/chunks/stores.78cd07c0.js"><title>Adding users to new teams with Lucia auth and Prisma - Allan Deutsch</title><!-- HEAD_svelte-n5ip0u_START --><meta name="description" content="When building a B2B product, most customers will want to invite their team members. This post explores how I added support for that to Penguinsight, a user feedback SaaS I'm building."><meta property="og:title" content="Adding users to new teams with Lucia auth and Prisma"><meta property="og:type" content="article"><meta property="og:url" content="https://allandeutsch.com/notes/customer-teams-lucia"><meta property="og:description" content="When building a B2B product, most customers will want to invite their team members. This post explores how I added support for that to Penguinsight, a user feedback SaaS I'm building."><meta property="og:locale" content="en_US"><meta property="twitter:card" content="summary"><meta property="twitter:url" content="https://allandeutsch.com"><meta property="twitter:title" content="Adding users to new teams with Lucia auth and Prisma"><meta property="twitter:description" content="When building a B2B product, most customers will want to invite their team members. This post explores how I added support for that to Penguinsight, a user feedback SaaS I'm building."><meta property="twitter:site" content="@AllanDeutsch"><meta property="twitter:creator" content="@AllanDeutsch"><link rel="canonical" href="https://allandeutsch.com/notes/customer-teams-lucia"><script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="AllanDeutsch" data-description="Support me on Buy me a coffee!" data-message="" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18" data-svelte-h="svelte-bv2cpr"></script><!-- HEAD_svelte-n5ip0u_END -->
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script
 			async
@@ -336,7 +336,7 @@
 			
 			<script>
 				{
-					__sveltekit_125fbmg = {
+					__sveltekit_1emz3su = {
 						base: new URL("../..", location).pathname.slice(0, -1),
 						env: {"PUBLIC_SUPABASE_ANON_KEY":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFlb3ZmZXRyaXNyZnFpZWF0bXp3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODcwNjM0NTYsImV4cCI6MjAwMjYzOTQ1Nn0.s9KXOQ0gDdl7e3lTUxdN5yfPI0rLZ-dSRMfEwoHhK00","PUBLIC_SUPABASE_URL":"https://aeovfetrisrfqieatmzw.supabase.co"}
 					};
@@ -346,8 +346,8 @@
 					const data = [{"type":"data","data":{session:null,user:null},"uses":{}},null];
 
 					Promise.all([
-						import("../../_app/immutable/entry/start.50295024.js"),
-						import("../../_app/immutable/entry/app.f9b2849b.js")
+						import("../../_app/immutable/entry/start.173a1bb1.js"),
+						import("../../_app/immutable/entry/app.b6002b44.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 13],
