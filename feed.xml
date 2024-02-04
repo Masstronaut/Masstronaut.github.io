@@ -6,17 +6,27 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Sun, 04 Feb 2024 23:00:55 GMT</pubDate>
-    <lastBuildDate>Sun, 04 Feb 2024 23:00:55 GMT</lastBuildDate>
+    <pubDate>Sun, 04 Feb 2024 23:20:27 GMT</pubDate>
+    <lastBuildDate>Sun, 04 Feb 2024 23:20:27 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
-      <title>Structural types improve data compatibility</title>
-      <link>https://allandeutsch.com/notes/Structural types improve data compatibility</link>
+      <title>Slugs make links readable</title>
+      <link>https://allandeutsch.com/notes/slugs-make-links-readable</link>
+      <pubDate>Sun, 04 Feb 2024 00:00:00 GMT</pubDate>
+      <description>Special characters aren't valid in URLs, so custom slugs are used to make links easier to read.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/slugs-make-links-readable</guid>
+    </item>
+    
+
+    <item>
+      <title>Structural types increase data compatibility</title>
+      <link>https://allandeutsch.com/notes/structural-types-increase-compatibility</link>
       <pubDate>Sun, 04 Feb 2024 00:00:00 GMT</pubDate>
       <description>Structural types are only concerned with the shape of data, rather than the names of types. This makes data types more compatible.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/Structural types improve data compatibility</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/structural-types-increase-compatibility</guid>
     </item>
     
 
