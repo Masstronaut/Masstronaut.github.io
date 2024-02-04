@@ -6,15 +6,15 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Sun, 04 Feb 2024 08:44:23 GMT</pubDate>
-    <lastBuildDate>Sun, 04 Feb 2024 08:44:23 GMT</lastBuildDate>
+    <pubDate>Sun, 04 Feb 2024 09:34:31 GMT</pubDate>
+    <lastBuildDate>Sun, 04 Feb 2024 09:34:31 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
       <title>Branded types make code easier to read and maintain</title>
       <link>https://allandeutsch.com/notes/branded-types-readable</link>
       <pubDate>Sat, 03 Feb 2024 00:00:00 GMT</pubDate>
-      <description>Branded types make use of the type system to annotate values with additional context. The annotations introduce type-safety to types that would otherwise be identical across contexts such as an an email string that may or may not be validated.</description>
+      <description>Add context to values by using the type system for annotations. It also adds type-safety to types that would otherwise be identical across contexts such as a string, email, or user ID.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/branded-types-readable</guid>
     </item>
