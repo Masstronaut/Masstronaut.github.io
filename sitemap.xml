@@ -9,7 +9,12 @@
       >
 			
 				<url>
-					<loc>https://allandeutsch.com/notes/branded-types-readable</loc>
+					<loc>https://allandeutsch.com/notes/Structural types improve data compatibility</loc>
+					<lastmod>2024-02-04</lastmod>
+				</url>
+			,
+				<url>
+					<loc>https://allandeutsch.com/notes/structural-branded-types-nominal</loc>
 					<lastmod>2024-02-03</lastmod>
 				</url>
 			,

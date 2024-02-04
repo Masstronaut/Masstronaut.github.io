@@ -6,17 +6,27 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Sun, 04 Feb 2024 22:17:23 GMT</pubDate>
-    <lastBuildDate>Sun, 04 Feb 2024 22:17:23 GMT</lastBuildDate>
+    <pubDate>Sun, 04 Feb 2024 23:00:55 GMT</pubDate>
+    <lastBuildDate>Sun, 04 Feb 2024 23:00:55 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
-      <title>Branded types make code easier to read and maintain</title>
-      <link>https://allandeutsch.com/notes/branded-types-readable</link>
+      <title>Structural types improve data compatibility</title>
+      <link>https://allandeutsch.com/notes/Structural types improve data compatibility</link>
+      <pubDate>Sun, 04 Feb 2024 00:00:00 GMT</pubDate>
+      <description>Structural types are only concerned with the shape of data, rather than the names of types. This makes data types more compatible.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/Structural types improve data compatibility</guid>
+    </item>
+    
+
+    <item>
+      <title>Type branding reduce the compatibility of structural types</title>
+      <link>https://allandeutsch.com/notes/structural-branded-types-nominal</link>
       <pubDate>Sat, 03 Feb 2024 00:00:00 GMT</pubDate>
       <description>Add context to values by using the type system for annotations. It also adds type-safety to types that would otherwise be identical across contexts such as a string, email, or user ID.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/branded-types-readable</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/structural-branded-types-nominal</guid>
     </item>
     
 
