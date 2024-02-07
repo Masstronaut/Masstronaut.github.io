@@ -9,6 +9,11 @@
       >
 			
 				<url>
+					<loc>https://allandeutsch.com/notes/publishing-this-site</loc>
+					<lastmod>2024-02-07</lastmod>
+				</url>
+			,
+				<url>
 					<loc>https://allandeutsch.com/notes/svelte-component-apis</loc>
 					<lastmod>2024-02-06</lastmod>
 				</url>

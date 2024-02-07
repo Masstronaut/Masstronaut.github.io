@@ -6,10 +6,20 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Wed, 07 Feb 2024 19:38:28 GMT</pubDate>
-    <lastBuildDate>Wed, 07 Feb 2024 19:38:28 GMT</lastBuildDate>
+    <pubDate>Wed, 07 Feb 2024 20:03:15 GMT</pubDate>
+    <lastBuildDate>Wed, 07 Feb 2024 20:03:15 GMT</lastBuildDate>
     <ttl>60</ttl>
     
+    <item>
+      <title>The publishing pipeline for allandeutsch.com</title>
+      <link>https://allandeutsch.com/notes/publishing-this-site</link>
+      <pubDate>Mon, 04 Oct 2021 00:00:00 GMT</pubDate>
+      <description>An overview of how I avoided needing to copy+paste my notes into blogging software to publish them.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/publishing-this-site</guid>
+    </item>
+    
+
     <item>
       <title>Svelte component APIs</title>
       <link>https://allandeutsch.com/notes/svelte-component-apis</link>
