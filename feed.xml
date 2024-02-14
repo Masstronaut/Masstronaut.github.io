@@ -6,10 +6,20 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Wed, 14 Feb 2024 21:34:18 GMT</pubDate>
-    <lastBuildDate>Wed, 14 Feb 2024 21:34:18 GMT</lastBuildDate>
+    <pubDate>Wed, 14 Feb 2024 22:09:44 GMT</pubDate>
+    <lastBuildDate>Wed, 14 Feb 2024 22:09:44 GMT</lastBuildDate>
     <ttl>60</ttl>
     
+    <item>
+      <title>Make API misuse hard</title>
+      <link>https://allandeutsch.com/notes/make-api-misuse-hard</link>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 GMT</pubDate>
+      <description>Being hard to misuse is an underrated characteristic of exceptional APIs, especially when the possibility needs to be exposed to the client for advanced scenarios.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/make-api-misuse-hard</guid>
+    </item>
+    
+
     <item>
       <title>The publishing pipeline for allandeutsch.com</title>
       <link>https://allandeutsch.com/notes/publishing-this-site</link>
