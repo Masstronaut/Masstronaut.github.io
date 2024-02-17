@@ -6,10 +6,20 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Fri, 16 Feb 2024 21:58:54 GMT</pubDate>
-    <lastBuildDate>Fri, 16 Feb 2024 21:58:54 GMT</lastBuildDate>
+    <pubDate>Sat, 17 Feb 2024 02:46:11 GMT</pubDate>
+    <lastBuildDate>Sat, 17 Feb 2024 02:46:11 GMT</lastBuildDate>
     <ttl>60</ttl>
     
+    <item>
+      <title>TypeScript assertion functions increase type safety</title>
+      <link>https://allandeutsch.com/notes/ts-assertion-function-safety</link>
+      <pubDate>Fri, 16 Feb 2024 00:00:00 GMT</pubDate>
+      <description>Something goes here</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/ts-assertion-function-safety</guid>
+    </item>
+    
+
     <item>
       <title>Make API misuse hard</title>
       <link>https://allandeutsch.com/notes/make-api-misuse-hard</link>
