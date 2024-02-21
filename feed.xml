@@ -6,8 +6,8 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Wed, 21 Feb 2024 03:38:45 GMT</pubDate>
-    <lastBuildDate>Wed, 21 Feb 2024 03:38:45 GMT</lastBuildDate>
+    <pubDate>Wed, 21 Feb 2024 09:13:58 GMT</pubDate>
+    <lastBuildDate>Wed, 21 Feb 2024 09:13:58 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
@@ -71,10 +71,10 @@
     
 
     <item>
-      <title>Type branding reduce the compatibility of structural types</title>
+      <title>Type branding removes structural type compatibility</title>
       <link>https://allandeutsch.com/notes/structural-branded-types-nominal</link>
       <pubDate>Sat, 03 Feb 2024 00:00:00 GMT</pubDate>
-      <description>Add context to values by using the type system for annotations. It also adds type-safety to types that would otherwise be identical across contexts such as a string, email, or user ID.</description>
+      <description>A structural type can be "branded" to add context to values by using the type system for annotations as is done with nominal types. Doing so makes them incompatible with structurally equivalent types.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/structural-branded-types-nominal</guid>
     </item>
