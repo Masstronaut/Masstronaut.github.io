@@ -6,10 +6,20 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Sun, 03 Mar 2024 20:19:22 GMT</pubDate>
-    <lastBuildDate>Sun, 03 Mar 2024 20:19:22 GMT</lastBuildDate>
+    <pubDate>Thu, 07 Mar 2024 04:09:13 GMT</pubDate>
+    <lastBuildDate>Thu, 07 Mar 2024 04:09:13 GMT</lastBuildDate>
     <ttl>60</ttl>
     
+    <item>
+      <title>Pasta Arabica</title>
+      <link>https://allandeutsch.com/notes/pasta-arabica</link>
+      <pubDate>Wed, 06 Mar 2024 00:00:00 GMT</pubDate>
+      <description>An improvised pasta dish made to drawn inspiration from the flavors and sounds of the Middle East. It is hearty and surprisingly bright.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/pasta-arabica</guid>
+    </item>
+    
+
     <item>
       <title>TypeScript assertion functions increase type safety</title>
       <link>https://allandeutsch.com/notes/assertion-functions</link>
