@@ -6,10 +6,40 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Sat, 09 Mar 2024 22:27:39 GMT</pubDate>
-    <lastBuildDate>Sat, 09 Mar 2024 22:27:39 GMT</lastBuildDate>
+    <pubDate>Fri, 29 Mar 2024 02:09:14 GMT</pubDate>
+    <lastBuildDate>Fri, 29 Mar 2024 02:09:14 GMT</lastBuildDate>
     <ttl>60</ttl>
     
+    <item>
+      <title>Resolving CORS errors in SvelteKit</title>
+      <link>https://allandeutsch.com/notes/sveltekit-cors</link>
+      <pubDate>Wed, 27 Mar 2024 00:00:00 GMT</pubDate>
+      <description>Cross-origin resource sharing requests let a user access resources on one site from another, but only if the server performs the secret CORS handshake with the browser.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/sveltekit-cors</guid>
+    </item>
+    
+
+    <item>
+      <title>Type branding removes structural type compatibility</title>
+      <link>https://allandeutsch.com/notes/structural-branded-types-nominal</link>
+      <pubDate>Sat, 03 Feb 2024 00:00:00 GMT</pubDate>
+      <description>A structural type can be "branded" to add context to values by using the type system for annotations as is done with nominal types. Doing so makes them incompatible with structurally equivalent types.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/structural-branded-types-nominal</guid>
+    </item>
+    
+
+    <item>
+      <title>Total Typescript notes</title>
+      <link>https://allandeutsch.com/notes/total-typescript-notes</link>
+      <pubDate>Thu, 23 Nov 2023 00:00:00 GMT</pubDate>
+      <description>I've learned a lot from this course, and use this note to record bits I want to remember and riff on some of my observations.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/total-typescript-notes</guid>
+    </item>
+    
+
     <item>
       <title>Pasta Arabica</title>
       <link>https://allandeutsch.com/notes/pasta-arabica</link>
@@ -77,16 +107,6 @@
       <description>Structural types are only concerned with the shape of data, rather than the names of types. This makes data types more compatible.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/structural-types-increase-compatibility</guid>
-    </item>
-    
-
-    <item>
-      <title>Type branding removes structural type compatibility</title>
-      <link>https://allandeutsch.com/notes/structural-branded-types-nominal</link>
-      <pubDate>Sat, 03 Feb 2024 00:00:00 GMT</pubDate>
-      <description>A structural type can be "branded" to add context to values by using the type system for annotations as is done with nominal types. Doing so makes them incompatible with structurally equivalent types.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/structural-branded-types-nominal</guid>
     </item>
     
 
