@@ -6,20 +6,10 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Sat, 06 Apr 2024 10:02:42 GMT</pubDate>
-    <lastBuildDate>Sat, 06 Apr 2024 10:02:42 GMT</lastBuildDate>
+    <pubDate>Sat, 06 Apr 2024 10:08:26 GMT</pubDate>
+    <lastBuildDate>Sat, 06 Apr 2024 10:08:26 GMT</lastBuildDate>
     <ttl>60</ttl>
     
-    <item>
-      <title>Resolving CORS errors in SvelteKit</title>
-      <link>https://allandeutsch.com/notes/sveltekit-cors</link>
-      <pubDate>Wed, 27 Mar 2024 00:00:00 GMT</pubDate>
-      <description>Cross-origin resource sharing requests let a user access resources on one site from another, but only if the server performs the secret CORS handshake with the browser.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/sveltekit-cors</guid>
-    </item>
-    
-
     <item>
       <title>Type branding removes structural type compatibility</title>
       <link>https://allandeutsch.com/notes/structural-branded-types-nominal</link>
@@ -27,6 +17,16 @@
       <description>A structural type can be "branded" to add context to values by using the type system for annotations as is done with nominal types. Doing so makes them incompatible with structurally equivalent types.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/structural-branded-types-nominal</guid>
+    </item>
+    
+
+    <item>
+      <title>Resolving CORS errors in SvelteKit</title>
+      <link>https://allandeutsch.com/notes/sveltekit-cors</link>
+      <pubDate>Wed, 27 Mar 2024 00:00:00 GMT</pubDate>
+      <description>Cross-origin resource sharing requests let a user access resources on one site from another, but only if the server performs the secret CORS handshake with the browser.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/sveltekit-cors</guid>
     </item>
     
 
