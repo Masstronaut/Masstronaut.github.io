@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="../../favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link href="../../_app/immutable/assets/0.47e689ed.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/NoteGridStatusFilter.144730f5.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/13.bda1802b.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/MDSveXNoteLayout.61812917.css" rel="stylesheet">
+		<link rel="modulepreload" href="../../_app/immutable/entry/start.6e87927c.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/scheduler.73a07135.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/singletons.20415498.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/paths.2a579a86.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/parse.bee59afc.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/control.f5b05b5f.js">
+		<link rel="modulepreload" href="../../_app/immutable/entry/app.c82a4428.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/preload-helper.41c905a7.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/index.ba10b74b.js">
+		<link rel="modulepreload" href="../../_app/immutable/nodes/0.c7f0a36d.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/each.1a597225.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/index.45b59163.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/navigation.7a89c183.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/toast.31378efa.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/spread.8a54911c.js">
+		<link rel="modulepreload" href="../../_app/immutable/nodes/13.a4c66695.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/LoadNote.1568a229.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/stores.0421041e.js"><title>Linting and formatting a svelte project - Allan Deutsch</title><!-- HEAD_svelte-1jpu5mq_START --><meta name="description" content="Pulling together a bunch of language tools can be a bother, but I find automated formatting &amp; code review tools are worth the hassle."><meta property="og:title" content="Linting and formatting a svelte project"><meta property="og:type" content="article"><meta property="og:url" content="https://allandeutsch.com/notes/lint-format-svelte"><meta property="og:description" content="Pulling together a bunch of language tools can be a bother, but I find automated formatting &amp; code review tools are worth the hassle."><meta property="og:locale" content="en_US"><meta property="twitter:card" content="summary"><meta property="twitter:url" content="https://allandeutsch.com"><meta property="twitter:title" content="Linting and formatting a svelte project"><meta property="twitter:description" content="Pulling together a bunch of language tools can be a bother, but I find automated formatting &amp; code review tools are worth the hassle."><meta property="twitter:site" content="@AllanDeutsch"><meta property="twitter:creator" content="@AllanDeutsch"><link rel="canonical" href="https://allandeutsch.com/notes/lint-format-svelte"><script type="module" src="https://www.penguinsight.com/selection.js" data-svelte-h="svelte-1q73puk"></script><script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="AllanDeutsch" data-description="Support me on Buy me a coffee!" data-message="" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18" data-svelte-h="svelte-bv2cpr"></script><!-- HEAD_svelte-1jpu5mq_END --><!-- HEAD_svelte-cpyj77_START -->   <meta name="theme-color" content="dark"><!-- HTML_TAG_START --><script nonce="%sveltekit.nonce%">(function setInitialMode(defaultMode, themeColors2) {
+  const rootEl = document.documentElement;
+  const mode = localStorage.getItem("mode-watcher-mode") || defaultMode;
+  const light = mode === "light" || mode === "system" && window.matchMedia("(prefers-color-scheme: light)").matches;
+  rootEl.classList[light ? "remove" : "add"]("dark");
+  rootEl.style.colorScheme = light ? "light" : "dark";
+  if (themeColors2) {
+    const themeMetaEl = document.querySelector('meta[name="theme-color"]');
+    if (themeMetaEl) {
+      themeMetaEl.setAttribute("content", mode === "light" ? themeColors2.light : themeColors2.dark);
+    }
+  }
+  localStorage.setItem("mode-watcher-mode", mode);
+})("system", {"dark":"dark","light":"light"});</script><!-- HTML_TAG_END --><!-- HEAD_svelte-cpyj77_END -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=UA-86124920-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-86124920-1');
+		</script>
+	</head>
+	<body data-sveltekit-preload-data="hover" class="bg-base-100">
+		<div style="display: contents">  <div class="toaster  svelte-jyff3d"> </div> <div class="navbar bg-base-100"><div class="navbar-start"><div class="dropdown"><button tabindex="0" class="btn-ghost btn sm:hidden" data-svelte-h="svelte-1h8jdop"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16"></path></svg></button> <ul tabindex="0" class="dropdown-content menu rounded-box menu-sm mt-3 w-52 bg-base-100 p-2 shadow"><li><a href="/">Home</a></li><li><a href="/notes">Notes</a></li></ul></div> <a class="btn-ghost btn text-xl normal-case" href="/">Allan Deutsch</a></div> <div class="navbar-center hidden sm:flex"><ul class="menu menu-horizontal px-1 text-base"><li><a href="/">Home</a></li><li><a href="/notes">Notes</a></li></ul></div> <div class="navbar-end"> <div class="h-8" data-svelte-h="svelte-1hosge2"><a href="https://twitter.com/AllanDeutsch" class="group"><svg height="24" width="24" class="mr-1.5 inline fill-base-content transition-colors duration-300 group-hover:fill-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 612 612"><path d="M612 116.258a250.714 250.714 0 01-72.088 19.772c25.929-15.527 45.777-40.155 55.184-69.411-24.322 14.379-51.169 24.82-79.775 30.48-22.907-24.437-55.49-39.658-91.63-39.658-69.334 0-125.551 56.217-125.551 125.513 0 9.828 1.109 19.427 3.251 28.606-104.326-5.24-196.835-55.223-258.75-131.174-10.823 18.51-16.98 40.078-16.98 63.101 0 43.559 22.181 81.993 55.835 104.479a125.556 125.556 0 01-56.867-15.756v1.568c0 60.806 43.291 111.554 100.693 123.104-10.517 2.83-21.607 4.398-33.08 4.398-8.107 0-15.947-.803-23.634-2.333 15.985 49.907 62.336 86.199 117.253 87.194-42.947 33.654-97.099 53.655-155.916 53.655-10.134 0-20.116-.612-29.944-1.721 55.567 35.681 121.536 56.485 192.438 56.485 230.948 0 357.188-191.291 357.188-357.188l-.421-16.253c24.666-17.593 46.005-39.697 62.794-64.861z"></path></svg></a> <a href="https://github.com/masstronaut" class="group"><svg height="24" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true" class="mr-1.5 inline fill-base-content transition-colors duration-300 group-hover:fill-primary"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg></a></div> </div></div> <div class="p-1 sm:p-4"> <pi-select team="TKxfdiO22xOXIrW0c0Pfi"></pi-select> <article class="note-container prose mb-8 max-w-full svelte-564mcj"><header class="w-full max-w-3xl self-center"><h1 class="mb-8 text-left text-4xl font-bold">Linting and formatting a svelte project</h1> <div class="text-md mb-12 mt-4 flex justify-between border-t border-t-neutral border-opacity-20 pt-1 text-base-content"><div><span class="pr-2" data-svelte-h="svelte-114jejz">🌱</span><span class="hidden sm:inline" data-svelte-h="svelte-1psjisz">Planted
+				</span>April 13, 2024.
+				<br>Last tended April 15, 2024.</div> <div class="flex flex-col items-end"><div class="note__status budding svelte-564mcj">budding 🌿</div> <div>1 minute read ⏱</div></div></div></header>  <p data-svelte-h="svelte-1shthb7">I’m a big fan of automated dev tools and pipelines. I’ve found them invaluable on solo projects like this blog and <a href="https://penguinsight.com" rel="nofollow">Penguinsight</a>. It’s nice to know that my code is getting reviewed by another set of eyes, even if those eyes are my own which previously had the foresight to set up tools and automated testing.</p> <p data-svelte-h="svelte-10sfsyg">Around a month ago I was reviewing my editor choices and ended up switching to <a href="https://zed.dev" rel="nofollow">zed</a> as my main daily-driver. Absent the plugin ecosystem of VS Code, I tried to get prettier &amp; eslint working and temporarily gave up. After about a month without it, I was reminded of how great they are while working on Kent C. Dodd’s <a href="https://epicweb.dev/" rel="nofollow">Epic Web Dev course</a> and that was the final straw. Time to get the tools working again!</p> <p data-svelte-h="svelte-103q6e1">This ended up being a bigger project than I expected for a few reasons:</p> <ul data-svelte-h="svelte-oprkpr"><li>ESLint upgraded to a new <a href="https://eslint.org/docs/latest/extend/plugin-migration-flat-config" rel="nofollow">flat config</a> format which I adopted</li> <li><a href="https://github.com/typescript-eslint/typescript-eslint/issues/8211" rel="nofollow">typescript-eslint doesn’t support the latest eslint 9.0.0 yet</a>, which naturally I discovered after trying to use the latest eslint 😅</li> <li>There is a new <a href="https://sveltejs.github.io/eslint-plugin-svelte/migration/" rel="nofollow">eslint-plugin-svelte</a> which replaced <code>eslint-plugin-svelte3</code></li> <li>I needed to integrate <code>prettier-plugin-svelte</code> since I’m no longer getting it via the VS Code plugin</li></ul> <h2 id="setting-up-prettier" data-svelte-h="svelte-4xfkqc"><a aria-hidden="true" tabindex="-1" href="#setting-up-prettier"><span class="icon icon-link"></span></a><a href="#setting-up-prettier" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a>Setting up prettier</h2> <p data-svelte-h="svelte-1wdaf5d">Prettier handles file formatting. I prefer to have things formatted consistently. I also configure my editor to automatically format files on save so that I can focus on writing code rather than formatting it.</p> <h3 id="installing-prettier-packages" data-svelte-h="svelte-1dpq7w0"><a aria-hidden="true" tabindex="-1" href="#installing-prettier-packages"><span class="icon icon-link"></span></a><a href="#installing-prettier-packages" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a>Installing prettier packages</h3> <p data-svelte-h="svelte-mjoeia">From the top, here’s the setup. First, install all the dependencies for formatting (I’ve specified version I know work together). Since these are dev tools not needed for prod, I can use <code>--save-dev</code>.</p> <!-- HTML_TAG_START --><pre class="shiki shiki-themes github-light slack-dark" style="background-color:#fff;--shiki-dark-bg:#222222;color:#24292e;--shiki-dark:#E6E6E6" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#DCDCAA">npm</span><span style="color:#032F62;--shiki-dark:#CE9178"> i</span><span style="color:#005CC5;--shiki-dark:#CE9178"> --save-dev</span><span style="color:#032F62;--shiki-dark:#CE9178"> prettier@3.2.5</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#DCDCAA">npm</span><span style="color:#032F62;--shiki-dark:#CE9178"> i</span><span style="color:#005CC5;--shiki-dark:#CE9178"> --save-dev</span><span style="color:#032F62;--shiki-dark:#CE9178"> prettier-plugin-organize-imports@3.2.4</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#DCDCAA">npm</span><span style="color:#032F62;--shiki-dark:#CE9178"> i</span><span style="color:#005CC5;--shiki-dark:#CE9178"> --save-dev</span><span style="color:#032F62;--shiki-dark:#CE9178"> prettier-plugin-svelte@3.2.2</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#DCDCAA">npm</span><span style="color:#032F62;--shiki-dark:#CE9178"> i</span><span style="color:#005CC5;--shiki-dark:#CE9178"> --save-dev</span><span style="color:#032F62;--shiki-dark:#CE9178"> prettier-plugin-tailwindcss@0.5.13</span></span></code></pre><!-- HTML_TAG_END --><!-- HTML_TAG_START --><pre class="code-copy-target hidden">npm i --save-dev prettier@3.2.5
+npm i --save-dev prettier-plugin-organize-imports@3.2.4
+npm i --save-dev prettier-plugin-svelte@3.2.2
+npm i --save-dev prettier-plugin-tailwindcss@0.5.13</pre><!-- HTML_TAG_END --> <p data-svelte-h="svelte-19x8frn">I use svelte and tailwind, so those plugins are pretty self-explanatory. I like <code>prettier-plugin-organize-imports</code> because most of the time import order is irrelevant, using the plugin to order them minimizes changes for cleaner PR diffs.</p> <h3 id="configuring-prettier" data-svelte-h="svelte-1gwxumn"><a aria-hidden="true" tabindex="-1" href="#configuring-prettier"><span class="icon icon-link"></span></a><a href="#configuring-prettier" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a>Configuring prettier</h3> <p data-svelte-h="svelte-aovl55">With the dependencies all installed, it’s time to get prettier setup! There are a few options for the prettier config file, but I prefer <code>prettier.config.js</code> for a couple reasons:</p> <ol data-svelte-h="svelte-volqe7"><li>I can import JSDoc typings to get intellisense, which helps me fill out my config options</li> <li>It’s more convenient if all the tooling config files are <code>*.config.js</code> for matching patterns</li></ol> <p data-svelte-h="svelte-2v77kd">Here’s my <code>prettier.config.js</code> file contents:</p> <!-- HTML_TAG_START --><pre class="shiki shiki-themes github-light slack-dark" style="background-color:#fff;--shiki-dark-bg:#222222;color:#24292e;--shiki-dark:#E6E6E6" tabindex="0" js twoslash><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A9955">/** </span><span style="color:#D73A49;--shiki-dark:#569CD6">@type</span><span style="color:#6F42C1;--shiki-dark:#4EC9B0"> &#123;import("prettier").Config&#125;</span><span style="color:#6A737D;--shiki-dark:#6A9955"> */</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#569CD6">const</span><span style="color:#005CC5;--shiki-dark:#9CDCFE"> config</span><span style="color:#D73A49;--shiki-dark:#D4D4D4"> =</span><span style="color:#24292E;--shiki-dark:#E6E6E6"> &#123;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">	useTabs:</span><span style="color:#005CC5;--shiki-dark:#569CD6"> true</span><span style="color:#24292E;--shiki-dark:#E6E6E6">,</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">	singleQuote:</span><span style="color:#005CC5;--shiki-dark:#569CD6"> true</span><span style="color:#24292E;--shiki-dark:#E6E6E6">,</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">	trailingComma:</span><span style="color:#032F62;--shiki-dark:#CE9178"> 'none'</span><span style="color:#24292E;--shiki-dark:#E6E6E6">,</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">	bracketSameLine:</span><span style="color:#005CC5;--shiki-dark:#569CD6"> true</span><span style="color:#24292E;--shiki-dark:#E6E6E6">,</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">	plugins:</span><span style="color:#24292E;--shiki-dark:#E6E6E6"> [</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#CE9178">		'prettier-plugin-svelte'</span><span style="color:#24292E;--shiki-dark:#E6E6E6">,</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#CE9178">		'prettier-plugin-tailwindcss'</span><span style="color:#24292E;--shiki-dark:#E6E6E6">,</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#CE9178">		'prettier-plugin-organize-imports'</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">	],</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A9955">	// This tells prettier to handle svelte files separately</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">	overrides:</span><span style="color:#24292E;--shiki-dark:#E6E6E6"> [</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">		&#123;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">			files:</span><span style="color:#032F62;--shiki-dark:#CE9178"> '*.svelte'</span><span style="color:#24292E;--shiki-dark:#E6E6E6">,</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">			options:</span><span style="color:#24292E;--shiki-dark:#E6E6E6"> &#123; </span><span style="color:#24292E;--shiki-dark:#9CDCFE">parser:</span><span style="color:#032F62;--shiki-dark:#CE9178"> 'svelte'</span><span style="color:#24292E;--shiki-dark:#E6E6E6"> &#125;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">		&#125;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">	]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">&#125;;</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#C586C0">export</span><span style="color:#D73A49;--shiki-dark:#C586C0"> default</span><span style="color:#24292E;--shiki-dark:#9CDCFE"> config</span><span style="color:#24292E;--shiki-dark:#E6E6E6">;</span></span>
+<span class="line"></span></code></pre><!-- HTML_TAG_END --><!-- HTML_TAG_START --><pre class="code-copy-target hidden">/** @type &#123;import("prettier").Config&#125; */
+const config = &#123;
+	useTabs: true,
+	singleQuote: true,
+	trailingComma: 'none',
+	bracketSameLine: true,
+	plugins: [
+		'prettier-plugin-svelte',
+		'prettier-plugin-tailwindcss',
+		'prettier-plugin-organize-imports'
+	],
+	// This tells prettier to handle svelte files separately
+	overrides: [
+		&#123;
+			files: '*.svelte',
+			options: &#123; parser: 'svelte' &#125;
+		&#125;
+	]
+&#125;;
+export default config;
+</pre><!-- HTML_TAG_END --> <p data-svelte-h="svelte-w9a446">My reasoning for these preferences:</p> <ul data-svelte-h="svelte-1s995mp"><li>tabs are less characters than the equivalent spaces, and can be customized to render differently for people who prefer more spaces/indentation</li> <li>Single quotes add less visual noise than double quotes</li> <li>Less trailing commas means less syntax on screen, particularly syntax which does nothing</li> <li>Brackets on the same line means more code on screen and looks cleaner</li></ul> <p data-svelte-h="svelte-1wrrzwo">The <code>overrides</code> is necessary for svelte files to be parsed correctly. It overrides the default parser with the <code>svelte</code> parser for files with the <code>.svelte</code> extension.</p> <h3 id="prettier-ignore-file" data-svelte-h="svelte-1gv59yo"><a aria-hidden="true" tabindex="-1" href="#prettier-ignore-file"><span class="icon icon-link"></span></a><a href="#prettier-ignore-file" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a>Prettier ignore file</h3> <p data-svelte-h="svelte-110zqo9">I have a number of files which I <strong>don’t</strong> want to format. Those are defined in a <code>.prettierignore</code> file. My list denotes files that are generated programmatically or which are not maintained by me, such as the <code>node_modules</code>. Here’s the list:</p> <!-- HTML_TAG_START --><pre class="shiki shiki-themes github-light slack-dark" style="background-color:#fff;--shiki-dark-bg:#222222;color:#24292e;--shiki-dark:#E6E6E6" tabindex="0"><code><span class="line"><span>node_modules/**</span></span>
+<span class="line"><span>build/**</span></span>
+<span class="line"><span>.svelte-kit/**</span></span>
+<span class="line"><span>.env</span></span>
+<span class="line"><span>.env.*</span></span>
+<span class="line"><span>.vscode/**</span></span>
+<span class="line"><span>static/**</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span># Ignore files for PNPM, NPM and YARN</span></span>
+<span class="line"><span>pnpm-lock.yaml</span></span>
+<span class="line"><span>package-lock.json</span></span>
+<span class="line"><span>yarn.lock</span></span></code></pre><!-- HTML_TAG_END --><!-- HTML_TAG_START --><pre class="code-copy-target hidden">node_modules/**
+build/**
+.svelte-kit/**
+.env
+.env.*
+.vscode/**
+static/**
+
+# Ignore files for PNPM, NPM and YARN
+pnpm-lock.yaml
+package-lock.json
+yarn.lock</pre><!-- HTML_TAG_END --> <h3 id="running-prettier-via-npm-scripts" data-svelte-h="svelte-18knu64"><a aria-hidden="true" tabindex="-1" href="#running-prettier-via-npm-scripts"><span class="icon icon-link"></span></a><a href="#running-prettier-via-npm-scripts" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a>Running prettier via npm scripts</h3> <p data-svelte-h="svelte-1yogda2">At this point, prettier is configured and ready to run. I like to add npm scripts for a couple actions - linting and formatting - for convenience. In <code>package.json</code> add the <code>&quot;lint&quot;</code> and <code>&quot;format&quot;</code> commands:</p> <!-- HTML_TAG_START --><pre class="shiki shiki-themes github-light slack-dark" style="background-color:#fff;--shiki-dark-bg:#222222;color:#24292e;--shiki-dark:#E6E6E6" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">&#123;</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#9CDCFE">	"scripts"</span><span style="color:#24292E;--shiki-dark:#E6E6E6"> : &#123;</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#9CDCFE">		"lint"</span><span style="color:#24292E;--shiki-dark:#E6E6E6">: </span><span style="color:#032F62;--shiki-dark:#CE9178">"prettier --check '&#123;src,tests&#125;/**/*.&#123;js,ts,svelte&#125;'"</span><span style="color:#24292E;--shiki-dark:#E6E6E6">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#9CDCFE">		"format"</span><span style="color:#24292E;--shiki-dark:#E6E6E6">: </span><span style="color:#032F62;--shiki-dark:#CE9178">"prettier --write '&#123;src,tests&#125;/**/*.&#123;js,ts,svelte&#125;'"</span><span style="color:#24292E;--shiki-dark:#E6E6E6">,</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">	&#125;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">&#125;</span></span></code></pre><!-- HTML_TAG_END --><!-- HTML_TAG_START --><pre class="code-copy-target hidden">&#123;
+	"scripts" : &#123;
+		"lint": "prettier --check '&#123;src,tests&#125;/**/*.&#123;js,ts,svelte&#125;'",
+		"format": "prettier --write '&#123;src,tests&#125;/**/*.&#123;js,ts,svelte&#125;'",
+	&#125;
+&#125;</pre><!-- HTML_TAG_END --> <p data-svelte-h="svelte-13eid77">I specify the glob patterns in quotes so that the shell doesn’t expand them. This way it’s left to prettier to expand, which will work consistently across OSes and shell environments. The glob will match all files with a <code>js</code>, <code>ts</code>, or <code>svelte</code> extension that are in the <code>src</code>
+or <code>tests</code> folders. These can be customized per project.</p> <p data-svelte-h="svelte-bj6mdb"><code>npm run lint</code> will run prettier to <em>check</em> all the matched files in the project and report if any have incorrect styling. I find this most helpful in CICD workflows where code won’t be changed; I want to fail the build early if it doesn’t match the style convention.</p> <p data-svelte-h="svelte-1os89jn"><code>npm run format</code> uses prettier to <em>format</em> all the project files. This will change them on disk. I use it as a final check after making changes or if my editor isn’t configured to format on edit or save.</p> <p data-svelte-h="svelte-1p5zcp8">Speaking of configuring an editor to format on save…</p> <h3 id="configuring-zed-to-format-on-save-using-prettier" data-svelte-h="svelte-n7ws53"><a aria-hidden="true" tabindex="-1" href="#configuring-zed-to-format-on-save-using-prettier"><span class="icon icon-link"></span></a><a href="#configuring-zed-to-format-on-save-using-prettier" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a>Configuring zed to format on save using prettier</h3> <p data-svelte-h="svelte-j7r4fg">If you install <a href="https://zed.dev/" rel="nofollow">zed</a> now, this will be configured by default. If you have had zed installed since before ~April 2024, you’ll want to make one small change to zed settings.</p> <p data-svelte-h="svelte-12ek43x">from zed, you can do <code>cmd+shift+p</code> to open the command palette and select <code>zed: open settings</code>, or you can directly open the settings file at <code>~/.config/zed/settings.json</code>:</p> <!-- HTML_TAG_START --><pre class="shiki shiki-themes github-light slack-dark" style="background-color:#fff;--shiki-dark-bg:#222222;color:#24292e;--shiki-dark:#E6E6E6" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">&#123;</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#9CDCFE">  "formatter"</span><span style="color:#24292E;--shiki-dark:#E6E6E6">: </span><span style="color:#032F62;--shiki-dark:#CE9178">"auto"</span><span style="color:#24292E;--shiki-dark:#E6E6E6">,</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">&#125;</span></span></code></pre><!-- HTML_TAG_END --><!-- HTML_TAG_START --><pre class="code-copy-target hidden">&#123;
+  "formatter": "auto",
+&#125;</pre><!-- HTML_TAG_END --> <p data-svelte-h="svelte-qxxwsp">Now <code>&quot;auto&quot;</code> is the default setting in zed, so for new installs this isn’t relevant.</p> <h2 id="static-code-analysis-for-svelte--typescript-using-eslint" data-svelte-h="svelte-1yp82k2"><a aria-hidden="true" tabindex="-1" href="#static-code-analysis-for-svelte--typescript-using-eslint"><span class="icon icon-link"></span></a><a href="#static-code-analysis-for-svelte--typescript-using-eslint" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a>Static code analysis for svelte &amp; typescript using eslint</h2> <p data-svelte-h="svelte-13jc2pd">I absolutely love static code analysis tooling. When I was a C++ developer working in games, I found the <a href="https://pvs-studio.com/en/blog/posts/cpp/0249/" rel="nofollow">PVS Studio blog post about unreal engine</a> impactful, and read many other articles from them. Their blog sold me on the value of static analysis, but I wasn’t the only one! Shortly after the unreal blog post was published, Epic Games hired them for a full audit of Unreal Engine’s source code which at the time had recently released its source code.</p> <p data-svelte-h="svelte-1dqgyon">Now that I do web development, the tech stack and tools are different but my love of static code analysis remains strong as ever. I use typescript over javascript wherever possible, and eslint is the gold standard for static code analysis for both TS and JS.</p> <h3 id="installing-eslint-and-plugins" data-svelte-h="svelte-1rxrh2j"><a aria-hidden="true" tabindex="-1" href="#installing-eslint-and-plugins"><span class="icon icon-link"></span></a><a href="#installing-eslint-and-plugins" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a>Installing eslint and plugins</h3> <p data-svelte-h="svelte-1jy7x7i">As of this writing (April 2024), the latest version of eslint (9.0.0) isn’t supported by the <code>typescript-eslint</code> plugin, so I use the latest compatible version. As with prettier, the linting tools are only for development so I use <code>--save-dev</code> (or <code>-D</code> for short). Here’s the commands to install eslint and the plugins I use for typescript &amp; svelte projects:</p> <!-- HTML_TAG_START --><pre class="shiki shiki-themes github-light slack-dark" style="background-color:#fff;--shiki-dark-bg:#222222;color:#24292e;--shiki-dark:#E6E6E6" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#DCDCAA">npm</span><span style="color:#032F62;--shiki-dark:#CE9178"> i</span><span style="color:#005CC5;--shiki-dark:#CE9178"> --save-dev</span><span style="color:#032F62;--shiki-dark:#CE9178"> eslint@8.56.0</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#DCDCAA">npm</span><span style="color:#032F62;--shiki-dark:#CE9178"> i</span><span style="color:#005CC5;--shiki-dark:#CE9178"> --save-dev</span><span style="color:#032F62;--shiki-dark:#CE9178"> eslint-config-prettier@8.10.0</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#DCDCAA">npm</span><span style="color:#032F62;--shiki-dark:#CE9178"> i</span><span style="color:#005CC5;--shiki-dark:#CE9178"> --save-dev</span><span style="color:#032F62;--shiki-dark:#CE9178"> eslint-plugin-prettier@5.1.3</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#DCDCAA">npm</span><span style="color:#032F62;--shiki-dark:#CE9178"> i</span><span style="color:#005CC5;--shiki-dark:#CE9178"> --save-dev</span><span style="color:#032F62;--shiki-dark:#CE9178"> eslint-plugin-svelte@2.37.0</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#DCDCAA">npm</span><span style="color:#032F62;--shiki-dark:#CE9178"> i</span><span style="color:#005CC5;--shiki-dark:#CE9178"> --save-dev</span><span style="color:#032F62;--shiki-dark:#CE9178"> typescript-eslint@7.6.0</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#DCDCAA">npm</span><span style="color:#032F62;--shiki-dark:#CE9178"> i</span><span style="color:#005CC5;--shiki-dark:#CE9178"> --save-dev</span><span style="color:#032F62;--shiki-dark:#CE9178"> globals</span></span></code></pre><!-- HTML_TAG_END --><!-- HTML_TAG_START --><pre class="code-copy-target hidden">npm i --save-dev eslint@8.56.0
+npm i --save-dev eslint-config-prettier@8.10.0
+npm i --save-dev eslint-plugin-prettier@5.1.3
+npm i --save-dev eslint-plugin-svelte@2.37.0
+npm i --save-dev typescript-eslint@7.6.0
+npm i --save-dev globals</pre><!-- HTML_TAG_END --> <h3 id="configuring-eslint" data-svelte-h="svelte-1uday53"><a aria-hidden="true" tabindex="-1" href="#configuring-eslint"><span class="icon icon-link"></span></a><a href="#configuring-eslint" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a>Configuring eslint</h3> <p data-svelte-h="svelte-1d3xafx">Switching to the flat config was a rough adjustment. Some nuances and tricks I found helpful to know about are:</p> <ol data-svelte-h="svelte-18dbg18"><li>The configuration objects cascade, and if multiple config objects match a file the later ones override the early ones</li> <li><code>typescript-eslint</code> exports a <code>config</code> function whose parameters are typed eslint config objects. Super helpful!</li> <li><a href="https://eslint.org/docs/latest/use/configure/configuration-files#globally-ignoring-files-with-ignores" rel="nofollow">Globally ignore files</a> by adding a config object with only the <code>ignores</code> key set. This replaces the <code>.eslintignore</code> file of old.</li> <li><code>globals</code> has the global type definitions for a bunch of environments. This is needed for <a href="https://typescript-eslint.io/getting-started/typed-linting" rel="nofollow">linting with type information</a></li></ol> <p data-svelte-h="svelte-uraean">Here’s how I’ve gotten all the plugins to work together, plus a couple overrides I’m using in my <code>eslint.config.js</code>:</p> <!-- HTML_TAG_START --><pre class="shiki shiki-themes github-light slack-dark" style="background-color:#fff;--shiki-dark-bg:#222222;color:#24292e;--shiki-dark:#E6E6E6" tabindex="0" js twoslash><code><span class="line"><span style="color:#D73A49;--shiki-dark:#C586C0">import</span><span style="color:#24292E;--shiki-dark:#9CDCFE"> js</span><span style="color:#D73A49;--shiki-dark:#C586C0"> from</span><span style="color:#032F62;--shiki-dark:#CE9178"> '@eslint/js'</span><span style="color:#24292E;--shiki-dark:#E6E6E6">;</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#C586C0">import</span><span style="color:#24292E;--shiki-dark:#9CDCFE"> eslintConfigPrettier</span><span style="color:#D73A49;--shiki-dark:#C586C0"> from</span><span style="color:#032F62;--shiki-dark:#CE9178"> 'eslint-config-prettier'</span><span style="color:#24292E;--shiki-dark:#E6E6E6">;</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#C586C0">import</span><span style="color:#24292E;--shiki-dark:#9CDCFE"> eslintPluginSvelte</span><span style="color:#D73A49;--shiki-dark:#C586C0"> from</span><span style="color:#032F62;--shiki-dark:#CE9178"> 'eslint-plugin-svelte'</span><span style="color:#24292E;--shiki-dark:#E6E6E6">;</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#C586C0">import</span><span style="color:#24292E;--shiki-dark:#9CDCFE"> globals</span><span style="color:#D73A49;--shiki-dark:#C586C0"> from</span><span style="color:#032F62;--shiki-dark:#CE9178"> 'globals'</span><span style="color:#24292E;--shiki-dark:#E6E6E6">;</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#C586C0">import</span><span style="color:#24292E;--shiki-dark:#9CDCFE"> svelteParser</span><span style="color:#D73A49;--shiki-dark:#C586C0"> from</span><span style="color:#032F62;--shiki-dark:#CE9178"> 'svelte-eslint-parser'</span><span style="color:#24292E;--shiki-dark:#E6E6E6">;</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#C586C0">import</span><span style="color:#24292E;--shiki-dark:#9CDCFE"> tsEslint</span><span style="color:#D73A49;--shiki-dark:#C586C0"> from</span><span style="color:#032F62;--shiki-dark:#CE9178"> 'typescript-eslint'</span><span style="color:#24292E;--shiki-dark:#E6E6E6">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#C586C0">export</span><span style="color:#D73A49;--shiki-dark:#C586C0"> default</span><span style="color:#24292E;--shiki-dark:#9CDCFE"> tsEslint</span><span style="color:#24292E;--shiki-dark:#E6E6E6">.</span><span style="color:#6F42C1;--shiki-dark:#DCDCAA">config</span><span style="color:#24292E;--shiki-dark:#E6E6E6">(</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">	js</span><span style="color:#24292E;--shiki-dark:#E6E6E6">.</span><span style="color:#24292E;--shiki-dark:#9CDCFE">configs</span><span style="color:#24292E;--shiki-dark:#E6E6E6">.</span><span style="color:#24292E;--shiki-dark:#9CDCFE">recommended</span><span style="color:#24292E;--shiki-dark:#E6E6E6">,</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#D4D4D4">	...</span><span style="color:#24292E;--shiki-dark:#9CDCFE">tsEslint</span><span style="color:#24292E;--shiki-dark:#E6E6E6">.</span><span style="color:#24292E;--shiki-dark:#9CDCFE">configs</span><span style="color:#24292E;--shiki-dark:#E6E6E6">.</span><span style="color:#24292E;--shiki-dark:#9CDCFE">recommendedTypeChecked</span><span style="color:#24292E;--shiki-dark:#E6E6E6">,</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">	&#123;</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A9955">		// configure the ts parser for ts files</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">		files:</span><span style="color:#24292E;--shiki-dark:#E6E6E6"> [</span><span style="color:#032F62;--shiki-dark:#CE9178">'**/*.ts'</span><span style="color:#24292E;--shiki-dark:#E6E6E6">],</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">		languageOptions:</span><span style="color:#24292E;--shiki-dark:#E6E6E6"> &#123;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">			parser:</span><span style="color:#24292E;--shiki-dark:#9CDCFE"> tsEslint</span><span style="color:#24292E;--shiki-dark:#E6E6E6">.</span><span style="color:#24292E;--shiki-dark:#9CDCFE">parser</span><span style="color:#24292E;--shiki-dark:#E6E6E6">,</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">			parserOptions:</span><span style="color:#24292E;--shiki-dark:#E6E6E6"> &#123;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">				project:</span><span style="color:#005CC5;--shiki-dark:#569CD6"> true</span><span style="color:#24292E;--shiki-dark:#E6E6E6">,</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">				tsconfigRootDir:</span><span style="color:#D73A49;--shiki-dark:#C586C0"> import</span><span style="color:#24292E;--shiki-dark:#E6E6E6">.</span><span style="color:#005CC5;--shiki-dark:#9CDCFE">meta</span><span style="color:#24292E;--shiki-dark:#E6E6E6">.</span><span style="color:#24292E;--shiki-dark:#9CDCFE">dirname</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">			&#125;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">		&#125;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">	&#125;,</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">	&#123;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">		files:</span><span style="color:#24292E;--shiki-dark:#E6E6E6"> [</span><span style="color:#032F62;--shiki-dark:#CE9178">'*.js'</span><span style="color:#24292E;--shiki-dark:#E6E6E6">, </span><span style="color:#032F62;--shiki-dark:#CE9178">'*.config.ts'</span><span style="color:#24292E;--shiki-dark:#E6E6E6">],</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#D4D4D4">		...</span><span style="color:#24292E;--shiki-dark:#9CDCFE">tsEslint</span><span style="color:#24292E;--shiki-dark:#E6E6E6">.</span><span style="color:#24292E;--shiki-dark:#9CDCFE">configs</span><span style="color:#24292E;--shiki-dark:#E6E6E6">.</span><span style="color:#24292E;--shiki-dark:#9CDCFE">disableTypeChecked</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">	&#125;,</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#D4D4D4">	...</span><span style="color:#24292E;--shiki-dark:#9CDCFE">eslintPluginSvelte</span><span style="color:#24292E;--shiki-dark:#E6E6E6">.</span><span style="color:#24292E;--shiki-dark:#9CDCFE">configs</span><span style="color:#24292E;--shiki-dark:#E6E6E6">[</span><span style="color:#032F62;--shiki-dark:#CE9178">'flat/recommended'</span><span style="color:#24292E;--shiki-dark:#E6E6E6">],</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#D4D4D4">	...</span><span style="color:#24292E;--shiki-dark:#9CDCFE">eslintPluginSvelte</span><span style="color:#24292E;--shiki-dark:#E6E6E6">.</span><span style="color:#24292E;--shiki-dark:#9CDCFE">configs</span><span style="color:#24292E;--shiki-dark:#E6E6E6">[</span><span style="color:#032F62;--shiki-dark:#CE9178">'flat/prettier'</span><span style="color:#24292E;--shiki-dark:#E6E6E6">],</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">	&#123;</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A9955">		// dev tools and server logic run in node environments</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">		files:</span><span style="color:#24292E;--shiki-dark:#E6E6E6"> [</span><span style="color:#032F62;--shiki-dark:#CE9178">'**/*.server.ts'</span><span style="color:#24292E;--shiki-dark:#E6E6E6">, </span><span style="color:#032F62;--shiki-dark:#CE9178">'*.config.ts'</span><span style="color:#24292E;--shiki-dark:#E6E6E6">, </span><span style="color:#032F62;--shiki-dark:#CE9178">'*.config.js'</span><span style="color:#24292E;--shiki-dark:#E6E6E6">],</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">		languageOptions:</span><span style="color:#24292E;--shiki-dark:#E6E6E6"> &#123;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">			globals:</span><span style="color:#24292E;--shiki-dark:#E6E6E6"> &#123;</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#D4D4D4">				...</span><span style="color:#24292E;--shiki-dark:#9CDCFE">globals</span><span style="color:#24292E;--shiki-dark:#E6E6E6">.</span><span style="color:#24292E;--shiki-dark:#9CDCFE">node</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">			&#125;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">		&#125;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">	&#125;,</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">	&#123;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">		files:</span><span style="color:#24292E;--shiki-dark:#E6E6E6"> [</span><span style="color:#032F62;--shiki-dark:#CE9178">'**/*.svelte'</span><span style="color:#24292E;--shiki-dark:#E6E6E6">],</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">		languageOptions:</span><span style="color:#24292E;--shiki-dark:#E6E6E6"> &#123;</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A9955">			// mounted svelte components run in the browser</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">			globals:</span><span style="color:#24292E;--shiki-dark:#E6E6E6"> &#123;</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#D4D4D4">				...</span><span style="color:#24292E;--shiki-dark:#9CDCFE">globals</span><span style="color:#24292E;--shiki-dark:#E6E6E6">.</span><span style="color:#24292E;--shiki-dark:#9CDCFE">browser</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">			&#125;,</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">			ecmaVersion:</span><span style="color:#005CC5;--shiki-dark:#B5CEA8"> 2022</span><span style="color:#24292E;--shiki-dark:#E6E6E6">,</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">			sourceType:</span><span style="color:#032F62;--shiki-dark:#CE9178"> 'module'</span><span style="color:#24292E;--shiki-dark:#E6E6E6">,</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A9955">			// setup the svelte parser and give it the ts parser config</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">			parser:</span><span style="color:#24292E;--shiki-dark:#9CDCFE"> svelteParser</span><span style="color:#24292E;--shiki-dark:#E6E6E6">,</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">			parserOptions:</span><span style="color:#24292E;--shiki-dark:#E6E6E6"> &#123;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">				parser:</span><span style="color:#24292E;--shiki-dark:#9CDCFE"> tsEslint</span><span style="color:#24292E;--shiki-dark:#E6E6E6">.</span><span style="color:#24292E;--shiki-dark:#9CDCFE">parser</span><span style="color:#24292E;--shiki-dark:#E6E6E6">,</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A9955">				// needed so ts parser won't skip svelte files</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">				extraFileExtensions:</span><span style="color:#24292E;--shiki-dark:#E6E6E6"> [</span><span style="color:#032F62;--shiki-dark:#CE9178">'.svelte'</span><span style="color:#24292E;--shiki-dark:#E6E6E6">],</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A9955">				// svelte files need both &#96;tsconfig&#96;s</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">				project:</span><span style="color:#24292E;--shiki-dark:#E6E6E6"> [</span><span style="color:#032F62;--shiki-dark:#CE9178">'tsconfig.json'</span><span style="color:#24292E;--shiki-dark:#E6E6E6">, </span><span style="color:#032F62;--shiki-dark:#CE9178">'.svelte-kit/tsconfig.json'</span><span style="color:#24292E;--shiki-dark:#E6E6E6">],</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">				tsconfigRootDir:</span><span style="color:#D73A49;--shiki-dark:#C586C0"> import</span><span style="color:#24292E;--shiki-dark:#E6E6E6">.</span><span style="color:#005CC5;--shiki-dark:#9CDCFE">meta</span><span style="color:#24292E;--shiki-dark:#E6E6E6">.</span><span style="color:#24292E;--shiki-dark:#9CDCFE">dirname</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">			&#125;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">		&#125;,</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">		rules:</span><span style="color:#24292E;--shiki-dark:#E6E6E6"> &#123;</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A9955">			// ignore the $$Props types in shadcn-svelte</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#CE9178">			'@typescript-eslint/no-unused-vars'</span><span style="color:#24292E;--shiki-dark:#9CDCFE">:</span><span style="color:#24292E;--shiki-dark:#E6E6E6"> [</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#CE9178">				'error'</span><span style="color:#24292E;--shiki-dark:#E6E6E6">,</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">				&#123;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">					argsIgnorePattern:</span><span style="color:#032F62;--shiki-dark:#CE9178"> '$$'</span><span style="color:#24292E;--shiki-dark:#E6E6E6">,</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">					varsIgnorePattern:</span><span style="color:#032F62;--shiki-dark:#CE9178"> '$$'</span><span style="color:#24292E;--shiki-dark:#E6E6E6">,</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">					caughtErrorsIgnorePattern:</span><span style="color:#032F62;--shiki-dark:#CE9178"> '$$'</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">				&#125;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">			]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">		&#125;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">	&#125;,</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">	&#123;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">		files:</span><span style="color:#24292E;--shiki-dark:#E6E6E6"> [</span><span style="color:#032F62;--shiki-dark:#CE9178">'tests/**/*.ts'</span><span style="color:#24292E;--shiki-dark:#E6E6E6">],</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">		rules:</span><span style="color:#24292E;--shiki-dark:#E6E6E6"> &#123;</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#CE9178">			'no-empty-pattern'</span><span style="color:#24292E;--shiki-dark:#9CDCFE">:</span><span style="color:#24292E;--shiki-dark:#E6E6E6"> [</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#CE9178">				'error'</span><span style="color:#24292E;--shiki-dark:#E6E6E6">,</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">				&#123;</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A9955">					// I use &#96;&#123;&#125;&#96; when defining vitest fixtures</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">					allowObjectPatternsAsParameters:</span><span style="color:#005CC5;--shiki-dark:#569CD6"> true</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">				&#125;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">			]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">		&#125;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">	&#125;,</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">	&#123;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">		ignores:</span><span style="color:#24292E;--shiki-dark:#E6E6E6"> [</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#CE9178">			'.svelte-kit'</span><span style="color:#24292E;--shiki-dark:#E6E6E6">,</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#CE9178">			'.vercel'</span><span style="color:#24292E;--shiki-dark:#E6E6E6">,</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#CE9178">			'.github'</span><span style="color:#24292E;--shiki-dark:#E6E6E6">,</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#CE9178">			'.storybook'</span><span style="color:#24292E;--shiki-dark:#E6E6E6">,</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#CE9178">			'.vscode'</span><span style="color:#24292E;--shiki-dark:#E6E6E6">,</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#CE9178">			'build'</span><span style="color:#24292E;--shiki-dark:#E6E6E6">,</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#CE9178">			'static'</span><span style="color:#24292E;--shiki-dark:#E6E6E6">,</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#CE9178">			'package'</span><span style="color:#24292E;--shiki-dark:#E6E6E6">,</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#CE9178">			'coverage'</span><span style="color:#24292E;--shiki-dark:#E6E6E6">,</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#CE9178">			'node_modules'</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">		]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">	&#125;,</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A9955">	// this only disables rules; it goes last to win the cascade</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">	eslintConfigPrettier</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">);</span></span>
+<span class="line"></span></code></pre><!-- HTML_TAG_END --><!-- HTML_TAG_START --><pre class="code-copy-target hidden">import js from '@eslint/js';
+import eslintConfigPrettier from 'eslint-config-prettier';
+import eslintPluginSvelte from 'eslint-plugin-svelte';
+import globals from 'globals';
+import svelteParser from 'svelte-eslint-parser';
+import tsEslint from 'typescript-eslint';
+
+export default tsEslint.config(
+	js.configs.recommended,
+	...tsEslint.configs.recommendedTypeChecked,
+	&#123;
+		// configure the ts parser for ts files
+		files: ['**/*.ts'],
+		languageOptions: &#123;
+			parser: tsEslint.parser,
+			parserOptions: &#123;
+				project: true,
+				tsconfigRootDir: import.meta.dirname
+			&#125;
+		&#125;
+	&#125;,
+	&#123;
+		files: ['*.js', '*.config.ts'],
+		...tsEslint.configs.disableTypeChecked
+	&#125;,
+	...eslintPluginSvelte.configs['flat/recommended'],
+	...eslintPluginSvelte.configs['flat/prettier'],
+	&#123;
+		// dev tools and server logic run in node environments
+		files: ['**/*.server.ts', '*.config.ts', '*.config.js'],
+		languageOptions: &#123;
+			globals: &#123;
+				...globals.node
+			&#125;
+		&#125;
+	&#125;,
+	&#123;
+		files: ['**/*.svelte'],
+		languageOptions: &#123;
+			// mounted svelte components run in the browser
+			globals: &#123;
+				...globals.browser
+			&#125;,
+			ecmaVersion: 2022,
+			sourceType: 'module',
+			// setup the svelte parser and give it the ts parser config
+			parser: svelteParser,
+			parserOptions: &#123;
+				parser: tsEslint.parser,
+				// needed so ts parser won't skip svelte files
+				extraFileExtensions: ['.svelte'],
+				// svelte files need both &#96;tsconfig&#96;s
+				project: ['tsconfig.json', '.svelte-kit/tsconfig.json'],
+				tsconfigRootDir: import.meta.dirname
+			&#125;
+		&#125;,
+		rules: &#123;
+			// ignore the $$Props types in shadcn-svelte
+			'@typescript-eslint/no-unused-vars': [
+				'error',
+				&#123;
+					argsIgnorePattern: '$$',
+					varsIgnorePattern: '$$',
+					caughtErrorsIgnorePattern: '$$'
+				&#125;
+			]
+		&#125;
+	&#125;,
+	&#123;
+		files: ['tests/**/*.ts'],
+		rules: &#123;
+			'no-empty-pattern': [
+				'error',
+				&#123;
+					// I use &#96;&#123;&#125;&#96; when defining vitest fixtures
+					allowObjectPatternsAsParameters: true
+				&#125;
+			]
+		&#125;
+	&#125;,
+	&#123;
+		ignores: [
+			'.svelte-kit',
+			'.vercel',
+			'.github',
+			'.storybook',
+			'.vscode',
+			'build',
+			'static',
+			'package',
+			'coverage',
+			'node_modules'
+		]
+	&#125;,
+	// this only disables rules; it goes last to win the cascade
+	eslintConfigPrettier
+);
+</pre><!-- HTML_TAG_END --> <p data-svelte-h="svelte-ka0m9m">It was a bit tedious figuring out which config presets are provided as a single config object (<code>eslintConfigPrettier</code> and <code>js.configs.recommended</code>) and which provided multiple config objects and needed to be spread into the <code>tsEslint.config()</code> call.</p> <p data-svelte-h="svelte-1d643sl">The <code>&#39;@typescript-eslint/no-unused-vars</code> override for <code>.svelte</code> files is because of a pattern used in <a href="https://www.shadcn-svelte.com/" rel="nofollow">shadcn-svelte</a> to type component props.</p> <p data-svelte-h="svelte-1q8phol">The config for svelte files is the most tricky one. The parser needs to be set to the svelte parser. The svelte parser needs to be passed <code>parserOptions</code> which include a parser to use for the <code>&lt;script&gt;</code> blocks in svelte components. I use typescript in them, so it needs the <code>tsEslint.parser</code>, which in turn needs the <code>tsconfig</code> files and the root directory. I found it was necessary to provide both the root <code>tsconfig.json</code> as well as the one in <code>.svelte-kit/</code>.</p> <p data-svelte-h="svelte-c26n3y">Most of the config I think is pretty straightforward once you see it, but getting it all working was a tedious exercise. I’d suggest copy + pasting it and modifying to suit your needs.</p> <p data-svelte-h="svelte-1l2j2ko">One notable <em>omission</em> from the config is the prettier plugin. I previously used it, but opted to use prettier separately instead. Formatting and linting are separate concepts, and the general consensus among software engineers trends towards handling them separately. This decision results in faster eslint runs because it doesn’t need to parse every file a second time with prettier to check formatting. It also means less dependencies and avoids the need for another integration.</p> <h3 id="adding-a-lint-command-to-packagejson" data-svelte-h="svelte-fockc6"><a aria-hidden="true" tabindex="-1" href="#adding-a-lint-command-to-packagejson"><span class="icon icon-link"></span></a><a href="#adding-a-lint-command-to-packagejson" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a>Adding a lint command to <code>package.json</code></h3> <p data-svelte-h="svelte-1hso8ru">With everything configured, the last steps are to add a command to run the linter and fire it up!</p> <p data-svelte-h="svelte-tt1l48">Crack open the <code>package.json</code> file and add a couple commands to the <code>&quot;scripts&quot;</code> config:</p> <!-- HTML_TAG_START --><pre class="shiki shiki-themes github-light slack-dark" style="background-color:#fff;--shiki-dark-bg:#222222;color:#24292e;--shiki-dark:#E6E6E6" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">&#123;</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#9CDCFE">	"scripts"</span><span style="color:#24292E;--shiki-dark:#E6E6E6">: &#123;</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#9CDCFE">		"lint"</span><span style="color:#24292E;--shiki-dark:#E6E6E6">: </span><span style="color:#032F62;--shiki-dark:#CE9178">"eslint . --report-unused-disable-directives"</span><span style="color:#24292E;--shiki-dark:#E6E6E6">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#9CDCFE">		"lint:fix"</span><span style="color:#24292E;--shiki-dark:#E6E6E6">: </span><span style="color:#032F62;--shiki-dark:#CE9178">"eslint . --fix"</span><span style="color:#24292E;--shiki-dark:#E6E6E6">,</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A9955">		// Add this one if you want to always run prettier before linting</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#9CDCFE">		"prelint"</span><span style="color:#24292E;--shiki-dark:#E6E6E6">: </span><span style="color:#032F62;--shiki-dark:#CE9178">"npm run format"</span><span style="color:#24292E;--shiki-dark:#E6E6E6">,</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A9955">		// other scripts...</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">	&#125;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">&#125;</span></span></code></pre><!-- HTML_TAG_END --><!-- HTML_TAG_START --><pre class="code-copy-target hidden">&#123;
+	"scripts": &#123;
+		"lint": "eslint . --report-unused-disable-directives",
+		"lint:fix": "eslint . --fix",
+		// Add this one if you want to always run prettier before linting
+		"prelint": "npm run format",
+		// other scripts...
+	&#125;
+&#125;</pre><!-- HTML_TAG_END --> <p data-svelte-h="svelte-iif4k4">The <code>&quot;prelint&quot;</code> script, if provided, will always be run before the <code>&quot;lint&quot;</code> and <code>&quot;lint:fix&quot;</code> commands. It’s a super convenient way to ensure prettier runs before eslint. I also like that It reuses my existing <code>&quot;format&quot;</code> script rather than rewriting it in a second place. DRY code and all that.</p> <p data-svelte-h="svelte-1bw5zzv">Now that everything is set up, crack open your CLI of choice and run <code>npm run lint</code> to get a bunch of automated feedback on your code. Happy hacking!</p> <div class="divider"></div> <aside class="prose" data-svelte-h="svelte-1w3uusp"> <p>If you&#39;re feeling extra generous, you can show your support by buying me a
+			coffee with the button in the bottom right corner of the page.</p> <div class="divider"></div></aside></article>     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.css" integrity="sha384-KiWOvVjnN8qwAZbuQyWDIbfCLFhLXNETzBQjA/92pIowpC0d2O3nppDGQVgwd2nB" crossorigin="anonymous"></div>  
+			
+			<script>
+				{
+					__sveltekit_19kqoxc = {
+						base: new URL("../..", location).pathname.slice(0, -1),
+						env: {"PUBLIC_SUPABASE_ANON_KEY":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFlb3ZmZXRyaXNyZnFpZWF0bXp3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODcwNjM0NTYsImV4cCI6MjAwMjYzOTQ1Nn0.s9KXOQ0gDdl7e3lTUxdN5yfPI0rLZ-dSRMfEwoHhK00","PUBLIC_SUPABASE_URL":"https://aeovfetrisrfqieatmzw.supabase.co"}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [{"type":"data","data":{session:null,user:null},"uses":{}},null];
+
+					Promise.all([
+						import("../../_app/immutable/entry/start.6e87927c.js"),
+						import("../../_app/immutable/entry/app.c82a4428.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 13],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
