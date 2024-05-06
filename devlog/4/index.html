@@ -7,25 +7,27 @@
 		
 		<link href="../../_app/immutable/assets/0.a5f667c0.css" rel="stylesheet">
 		<link href="../../_app/immutable/assets/NoteGridStatusFilter.144730f5.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/3.a11d3883.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/codeblock.72bea1ad.css" rel="stylesheet">
 		<link href="../../_app/immutable/assets/MDSveXNoteLayout.61812917.css" rel="stylesheet">
-		<link rel="modulepreload" href="../../_app/immutable/entry/start.20460407.js">
+		<link rel="modulepreload" href="../../_app/immutable/entry/start.ec030468.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/scheduler.e9e6880c.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/singletons.8393c3ab.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/paths.69703f39.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/singletons.091d0967.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/paths.ac77e0d1.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/parse.bee59afc.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/control.f5b05b5f.js">
-		<link rel="modulepreload" href="../../_app/immutable/entry/app.6678aaa6.js">
+		<link rel="modulepreload" href="../../_app/immutable/entry/app.4535516a.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/preload-helper.41c905a7.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/index.ebf47752.js">
-		<link rel="modulepreload" href="../../_app/immutable/nodes/0.04552a64.js">
+		<link rel="modulepreload" href="../../_app/immutable/nodes/0.4136ea86.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/each.92ad7389.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/index.45b59163.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/navigation.0e70fa6b.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/toast.d2bf96c6.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/navigation.4d2a094e.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/toast.6b4bb553.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/spread.8a54911c.js">
-		<link rel="modulepreload" href="../../_app/immutable/nodes/3.41f96987.js">
-		<link rel="modulepreload" href="../../_app/immutable/nodes/16.7a70ec55.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/MDSveXNoteLayout.f7e41f8c.js">
+		<link rel="modulepreload" href="../../_app/immutable/nodes/3.0ed19908.js">
+		<link rel="modulepreload" href="../../_app/immutable/nodes/16.1d70215b.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/MDSveXNoteLayout.00510dc3.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/index.fce2e4f2.js"><!-- HEAD_svelte-cpyj77_START -->   <meta name="theme-color" content="dark"><!-- HTML_TAG_START --><script nonce="%sveltekit.nonce%">(function setInitialMode(defaultMode, themeColors2) {
   const rootEl = document.documentElement;
   const mode = localStorage.getItem("mode-watcher-mode") || defaultMode;
@@ -84,11 +86,11 @@ A: If you’re not financially well off, if you’re being kind you’re doing s
 		this.items.add(value);
 		return value;
 	&#125;
-&#125;</pre><!-- HTML_TAG_END --> <p data-svelte-h="svelte-130gud3">I think it could be cool to collect these small things into an NPM package of utilities that are super small and lightweight but broadly useful for web.</p> <h2 id="doc-duck" data-svelte-h="svelte-12rebzx"><a aria-hidden="true" tabindex="-1" href="#doc-duck"><span class="icon icon-link"></span></a><a href="#doc-duck" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a>Doc Duck</h2> <p data-svelte-h="svelte-13945qu">Some big news on the Doc Duck front this week!</p> <p data-svelte-h="svelte-day305">This week I set up test database seeding for Doc Duck. I learned about this in the Epic Web Dev course and immediately knew it would be useful to me. One timely benefit is that having a bunch of mocked data makes a dashboard demo look much better. I needed to record a dashboard demo to put on the new landing page for my CascadiaJS application (due this Sunday) so this was perfect. On that note…</p> <p data-svelte-h="svelte-v4xn5s">The new <a href="https://docduck.dev" rel="nofollow">Doc Duck</a> landing page is live! I got a lot of help designing this from Tony, and it looks much better than what I had come up with. It’s still missing some content I want to add, but I’m now happy enough with it that I’m willing to share the site with people. That’s a big milestone I was working towards for this week, and with good reason…</p> <p data-svelte-h="svelte-j13x2n">This week I applied to the <a href="https://cascadiajs.com/2024/startup-fair" rel="nofollow">Cascadia JS startup fair</a>! Part of the application is a link to the product, which is why I had a big milestone of getting it to a state I’m happy to share. Getting into this would be amazing for Doc Duck, because it would be a huge opportunity to talk to developers and companies building developer products. The visibility would help with both improving the product and landing some early customers.</p> <p data-svelte-h="svelte-o7cxt3">On the topic of applications, I also applied to the <a href="https://buildspace.io" rel="nofollow">buildspace</a> nights &amp; weekends program! It’s for people building stuff to find community and support. I learned about build space from Jon while we were at a new cowork called “The Garage.” Hilariously, the cowork is started by Michael, who was inspired to create it by his time at buildspace.</p> <p data-svelte-h="svelte-1h4vjpk">I also fixed a couple small bugs that were annoying me:</p> <ol data-svelte-h="svelte-933r3y"><li>When hovering over the feedback distribution chart for a doc, the tooltip theme was often incorrect. I fixed this by subscribing it to light/dark mode changes</li> <li>I broke sidebar collapsing behavior when I cleaned up the layout code a few weeks ago. That’s fixed now!</li></ol> <p data-svelte-h="svelte-pixpy6">Feedback now has status tracking. This makes it easy to manage feedback items like tasks. It represents an important step towards helping docs maintainers take action on the feedback they receive via Doc Duck.</p></div></div>  
+&#125;</pre><!-- HTML_TAG_END --> <p data-svelte-h="svelte-130gud3">I think it could be cool to collect these small things into an NPM package of utilities that are super small and lightweight but broadly useful for web.</p> <h2 id="doc-duck" data-svelte-h="svelte-12rebzx"><a aria-hidden="true" tabindex="-1" href="#doc-duck"><span class="icon icon-link"></span></a><a href="#doc-duck" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a>Doc Duck</h2> <p data-svelte-h="svelte-13945qu">Some big news on the Doc Duck front this week!</p> <p data-svelte-h="svelte-day305">This week I set up test database seeding for Doc Duck. I learned about this in the Epic Web Dev course and immediately knew it would be useful to me. One timely benefit is that having a bunch of mocked data makes a dashboard demo look much better. I needed to record a dashboard demo to put on the new landing page for my CascadiaJS application (due this Sunday) so this was perfect. On that note…</p> <p data-svelte-h="svelte-v4xn5s">The new <a href="https://docduck.dev" rel="nofollow">Doc Duck</a> landing page is live! I got a lot of help designing this from Tony, and it looks much better than what I had come up with. It’s still missing some content I want to add, but I’m now happy enough with it that I’m willing to share the site with people. That’s a big milestone I was working towards for this week, and with good reason…</p> <p data-svelte-h="svelte-j13x2n">This week I applied to the <a href="https://cascadiajs.com/2024/startup-fair" rel="nofollow">Cascadia JS startup fair</a>! Part of the application is a link to the product, which is why I had a big milestone of getting it to a state I’m happy to share. Getting into this would be amazing for Doc Duck, because it would be a huge opportunity to talk to developers and companies building developer products. The visibility would help with both improving the product and landing some early customers.</p> <p data-svelte-h="svelte-o7cxt3">On the topic of applications, I also applied to the <a href="https://buildspace.io" rel="nofollow">buildspace</a> nights &amp; weekends program! It’s for people building stuff to find community and support. I learned about build space from Jon while we were at a new cowork called “The Garage.” Hilariously, the cowork is started by Michael, who was inspired to create it by his time at buildspace.</p> <p data-svelte-h="svelte-1h4vjpk">I also fixed a couple small bugs that were annoying me:</p> <ol data-svelte-h="svelte-933r3y"><li>When hovering over the feedback distribution chart for a doc, the tooltip theme was often incorrect. I fixed this by subscribing it to light/dark mode changes</li> <li>I broke sidebar collapsing behavior when I cleaned up the layout code a few weeks ago. That’s fixed now!</li></ol> <p data-svelte-h="svelte-pixpy6">Feedback now has status tracking. This makes it easy to manage feedback items like tasks. It represents an important step towards helping docs maintainers take action on the feedback they receive via Doc Duck.</p> </div></div>  
 			
 			<script>
 				{
-					__sveltekit_qryp4l = {
+					__sveltekit_13fn8jh = {
 						base: new URL("../..", location).pathname.slice(0, -1),
 						env: {"PUBLIC_SUPABASE_ANON_KEY":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFlb3ZmZXRyaXNyZnFpZWF0bXp3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODcwNjM0NTYsImV4cCI6MjAwMjYzOTQ1Nn0.s9KXOQ0gDdl7e3lTUxdN5yfPI0rLZ-dSRMfEwoHhK00","PUBLIC_SUPABASE_URL":"https://aeovfetrisrfqieatmzw.supabase.co"}
 					};
@@ -98,8 +100,8 @@ A: If you’re not financially well off, if you’re being kind you’re doing s
 					const data = [{"type":"data","data":{session:null,user:null},"uses":{}},null,null];
 
 					Promise.all([
-						import("../../_app/immutable/entry/start.20460407.js"),
-						import("../../_app/immutable/entry/app.6678aaa6.js")
+						import("../../_app/immutable/entry/start.ec030468.js"),
+						import("../../_app/immutable/entry/app.4535516a.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 3, 16],
