@@ -6,10 +6,20 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Wed, 08 May 2024 22:27:06 GMT</pubDate>
-    <lastBuildDate>Wed, 08 May 2024 22:27:06 GMT</lastBuildDate>
+    <pubDate>Wed, 08 May 2024 22:30:22 GMT</pubDate>
+    <lastBuildDate>Wed, 08 May 2024 22:30:22 GMT</lastBuildDate>
     <ttl>60</ttl>
     
+    <item>
+      <title>Branded Types</title>
+      <link>https://allandeutsch.com/notes/branded-types</link>
+      <pubDate>Wed, 08 May 2024 00:00:00 GMT</pubDate>
+      <description>TypeScript is a structurally typed language, but can have nominal typing semantics using a technique called type branding</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/branded-types</guid>
+    </item>
+    
+
     <item>
       <title>Theory and practice</title>
       <link>https://allandeutsch.com/notes/theory-practice</link>
