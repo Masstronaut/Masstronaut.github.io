@@ -6,10 +6,30 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Fri, 10 May 2024 06:34:12 GMT</pubDate>
-    <lastBuildDate>Fri, 10 May 2024 06:34:12 GMT</lastBuildDate>
+    <pubDate>Fri, 10 May 2024 08:35:07 GMT</pubDate>
+    <lastBuildDate>Fri, 10 May 2024 08:35:07 GMT</lastBuildDate>
     <ttl>60</ttl>
     
+    <item>
+      <title>Add a demo link to TypeScript code blocks</title>
+      <link>https://allandeutsch.com/notes/code-block-tsplay-demo-link</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 GMT</pubDate>
+      <description>Seeing example code with syntax highlighting is great, but sometimes you've just gotta run the code and see what happens...</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/code-block-tsplay-demo-link</guid>
+    </item>
+    
+
+    <item>
+      <title>Make example code interactive</title>
+      <link>https://allandeutsch.com/notes/make-example-code-interactive</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 GMT</pubDate>
+      <description>Whenever possible, make code interactive. Interaction is the single most effective way to teach anything, including code!</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/make-example-code-interactive</guid>
+    </item>
+    
+
     <item>
       <title>Branded Types</title>
       <link>https://allandeutsch.com/notes/branded-types</link>

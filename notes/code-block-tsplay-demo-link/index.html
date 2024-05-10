@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="../../favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link href="../../_app/immutable/assets/0.6084d03f.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/NoteGridStatusFilter.144730f5.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/19.9b9dcce5.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/codeblock.72bea1ad.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/MDSveXNoteLayout.61812917.css" rel="stylesheet">
+		<link rel="modulepreload" href="../../_app/immutable/entry/start.eff3d6b3.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/scheduler.e9e6880c.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/singletons.edcb6483.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/paths.173c6e95.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/parse.bee59afc.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/control.f5b05b5f.js">
+		<link rel="modulepreload" href="../../_app/immutable/entry/app.5cbe2494.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/preload-helper.41c905a7.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/index.ebf47752.js">
+		<link rel="modulepreload" href="../../_app/immutable/nodes/0.4305e388.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/each.92ad7389.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/index.45b59163.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/navigation.45e46604.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/toast.8569df1f.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/spread.8a54911c.js">
+		<link rel="modulepreload" href="../../_app/immutable/nodes/19.c1e3d13a.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/LoadNote.cd51cb9d.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/stores.90071863.js"><title>Add a demo link to TypeScript code blocks - Allan Deutsch</title><!-- HEAD_svelte-1rm6mzl_START --><meta name="description" content="Seeing example code with syntax highlighting is great, but sometimes you've just gotta run the code and see what happens..."><meta property="og:title" content="Add a demo link to TypeScript code blocks"><meta property="og:type" content="article"><meta property="og:url" content="https://allandeutsch.com/notes/code-block-tsplay-demo-link"><meta property="og:description" content="Seeing example code with syntax highlighting is great, but sometimes you've just gotta run the code and see what happens..."><meta property="og:locale" content="en_US"><meta property="twitter:card" content="summary"><meta property="twitter:url" content="https://allandeutsch.com"><meta property="twitter:title" content="Add a demo link to TypeScript code blocks"><meta property="twitter:description" content="Seeing example code with syntax highlighting is great, but sometimes you've just gotta run the code and see what happens..."><meta property="twitter:site" content="@AllanDeutsch"><meta property="twitter:creator" content="@AllanDeutsch"><link rel="canonical" href="https://allandeutsch.com/notes/code-block-tsplay-demo-link"><script type="module" src="https://docduck.dev/selection.js" data-svelte-h="svelte-1qfon0b"></script><script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="AllanDeutsch" data-description="Support me on Buy me a coffee!" data-message="" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18" data-svelte-h="svelte-bv2cpr"></script><!-- HEAD_svelte-1rm6mzl_END --><!-- HEAD_svelte-cpyj77_START -->   <meta name="theme-color" content="dark"><!-- HTML_TAG_START --><script nonce="%sveltekit.nonce%">(function setInitialMode(defaultMode, themeColors2) {
+  const rootEl = document.documentElement;
+  const mode = localStorage.getItem("mode-watcher-mode") || defaultMode;
+  const light = mode === "light" || mode === "system" && window.matchMedia("(prefers-color-scheme: light)").matches;
+  rootEl.classList[light ? "remove" : "add"]("dark");
+  rootEl.style.colorScheme = light ? "light" : "dark";
+  if (themeColors2) {
+    const themeMetaEl = document.querySelector('meta[name="theme-color"]');
+    if (themeMetaEl) {
+      themeMetaEl.setAttribute("content", mode === "light" ? themeColors2.light : themeColors2.dark);
+    }
+  }
+  localStorage.setItem("mode-watcher-mode", mode);
+})("system", {"dark":"dark","light":"light"});</script><!-- HTML_TAG_END --><!-- HEAD_svelte-cpyj77_END -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=UA-86124920-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-86124920-1');
+		</script>
+	</head>
+	<body data-sveltekit-preload-data="hover" class="bg-base-100">
+		<div style="display: contents">  <div class="toaster  svelte-jyff3d"> </div> <div class="navbar bg-base-100"><div class="navbar-start"><div class="dropdown"><button tabindex="0" class="btn-ghost btn sm:hidden" data-svelte-h="svelte-1h8jdop"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16"></path></svg></button> <ul tabindex="0" class="dropdown-content menu rounded-box menu-sm mt-3 w-52 bg-base-100 p-2 shadow"><li><a href="/">Home</a></li><li><a href="/notes">Notes</a></li></ul></div> <a class="btn-ghost btn text-xl normal-case" href="/">Allan Deutsch</a></div> <div class="navbar-center hidden sm:flex"><ul class="menu menu-horizontal px-1 text-base"><li><a href="/">Home</a></li><li><a href="/notes">Notes</a></li></ul></div> <div class="navbar-end"> <div class="h-8" data-svelte-h="svelte-1hosge2"><a href="https://twitter.com/AllanDeutsch" class="group"><svg height="24" width="24" class="mr-1.5 inline fill-base-content transition-colors duration-300 group-hover:fill-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 612 612"><path d="M612 116.258a250.714 250.714 0 01-72.088 19.772c25.929-15.527 45.777-40.155 55.184-69.411-24.322 14.379-51.169 24.82-79.775 30.48-22.907-24.437-55.49-39.658-91.63-39.658-69.334 0-125.551 56.217-125.551 125.513 0 9.828 1.109 19.427 3.251 28.606-104.326-5.24-196.835-55.223-258.75-131.174-10.823 18.51-16.98 40.078-16.98 63.101 0 43.559 22.181 81.993 55.835 104.479a125.556 125.556 0 01-56.867-15.756v1.568c0 60.806 43.291 111.554 100.693 123.104-10.517 2.83-21.607 4.398-33.08 4.398-8.107 0-15.947-.803-23.634-2.333 15.985 49.907 62.336 86.199 117.253 87.194-42.947 33.654-97.099 53.655-155.916 53.655-10.134 0-20.116-.612-29.944-1.721 55.567 35.681 121.536 56.485 192.438 56.485 230.948 0 357.188-191.291 357.188-357.188l-.421-16.253c24.666-17.593 46.005-39.697 62.794-64.861z"></path></svg></a> <a href="https://github.com/masstronaut" class="group"><svg height="24" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true" class="mr-1.5 inline fill-base-content transition-colors duration-300 group-hover:fill-primary"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg></a></div> </div></div> <div class="p-1 sm:p-4"> <pi-select team="TKxfdiO22xOXIrW0c0Pfi"></pi-select> <article class="note-container prose mb-8 max-w-full px-2 svelte-w9emf5"><header class="w-full max-w-3xl self-center"><h1 class="mb-8 text-left text-4xl font-bold">Add a demo link to TypeScript code blocks</h1> <div class="text-md mb-12 mt-4 flex justify-between border-t border-t-neutral border-opacity-20 pt-1 text-base-content"><div><span class="pr-2" data-svelte-h="svelte-114jejz">🌱</span><span class="hidden sm:inline" data-svelte-h="svelte-1psjisz">Planted
+				</span>May 9, 2024.
+				</div> <div class="flex flex-col items-end"><div class="note__status seedling svelte-w9emf5">seedling 🌱</div> <div>1 minute read ⏱</div></div></div></header>  <p data-svelte-h="svelte-1442g5v">TypeScript Playground is an online tool to interactive with TypeScript. It’s a great way to test out small snippets, share repros, and experiment with the language as it is portable and requires no setup. Recently, I learned about another amazing feature - it’s possible to <em>Dynamically generate TypeScript Playground links</em> for any TypeScript code! Technical writing should <a href="/notes/Make%20example%20code%20interactive/">Make example code interactive</a>, and this is an excellent way to do it.</p> <p data-svelte-h="svelte-tpf3t9">Once I’ve got my TS playground link generated, all that’s left is to put the link on the page. Easy!</p> <p data-svelte-h="svelte-1gdki9i">I already built a copy button for my  code blocks, which makes this even easier. I modified that code to render TS playground links instead of copy buttons. This Svelte component renders a link as a small square button:</p> <!-- HTML_TAG_START --><pre class="shiki shiki-themes github-light slack-dark" style="background-color:#fff;--shiki-dark-bg:#222222;color:#24292e;--shiki-dark:#E6E6E6" tabindex="0" svelte filename="TSPlaygroundButton.svelte"><code><span class="line"><span style="color:#24292E;--shiki-dark:#808080">&#x3C;</span><span style="color:#22863A;--shiki-dark:#569CD6">script</span><span style="color:#6F42C1;--shiki-dark:#9CDCFE"> lang</span><span style="color:#24292E;--shiki-dark:#E6E6E6">=</span><span style="color:#032F62;--shiki-dark:#CE9178">"ts"</span><span style="color:#24292E;--shiki-dark:#808080">></span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#C586C0">	import</span><span style="color:#24292E;--shiki-dark:#D4D4D4"> &#123; </span><span style="color:#24292E;--shiki-dark:#9CDCFE">Icon</span><span style="color:#24292E;--shiki-dark:#D4D4D4"> &#125; </span><span style="color:#D73A49;--shiki-dark:#C586C0">from</span><span style="color:#032F62;--shiki-dark:#CE9178"> '@steeze-ui/svelte-icon'</span><span style="color:#24292E;--shiki-dark:#D4D4D4">;</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#C586C0">	import</span><span style="color:#24292E;--shiki-dark:#D4D4D4"> &#123; </span><span style="color:#24292E;--shiki-dark:#9CDCFE">ArrowTopRightOnSquare</span><span style="color:#24292E;--shiki-dark:#D4D4D4"> &#125; </span><span style="color:#D73A49;--shiki-dark:#C586C0">from</span><span style="color:#032F62;--shiki-dark:#CE9178"> '@steeze-ui/heroicons'</span><span style="color:#24292E;--shiki-dark:#D4D4D4">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#C586C0">	export</span><span style="color:#D73A49;--shiki-dark:#569CD6"> let</span><span style="color:#24292E;--shiki-dark:#9CDCFE"> href</span><span style="color:#D73A49;--shiki-dark:#D4D4D4">:</span><span style="color:#005CC5;--shiki-dark:#4EC9B0"> string</span><span style="color:#24292E;--shiki-dark:#D4D4D4">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#569CD6">	const</span><span style="color:#005CC5;--shiki-dark:#9CDCFE"> tailwindClasses</span><span style="color:#D73A49;--shiki-dark:#D4D4D4"> =</span><span style="color:#24292E;--shiki-dark:#D4D4D4"> </span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#CE9178">		"group flex items-center rounded-lg border "</span><span style="color:#D73A49;--shiki-dark:#D4D4D4"> +</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#CE9178">		"border-base-content/50 px-3 py-2 "</span><span style="color:#D73A49;--shiki-dark:#D4D4D4"> +</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#CE9178">		"hover:border-base-content transition-all "</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#D4D4D4">	</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A9955">	// Reactively add any classes passed to the component</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A9955">	// This allows component consumers to style the link</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#D4D4D4">	$</span><span style="color:#24292E;--shiki-dark:#D4D4D4">: </span><span style="color:#24292E;--shiki-dark:#9CDCFE">classes</span><span style="color:#D73A49;--shiki-dark:#D4D4D4"> =</span><span style="color:#24292E;--shiki-dark:#9CDCFE"> tailwindClasses</span><span style="color:#D73A49;--shiki-dark:#D4D4D4"> +</span><span style="color:#24292E;--shiki-dark:#D4D4D4"> $$</span><span style="color:#24292E;--shiki-dark:#9CDCFE">props</span><span style="color:#24292E;--shiki-dark:#D4D4D4">.</span><span style="color:#24292E;--shiki-dark:#9CDCFE">class</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#808080">&#x3C;/</span><span style="color:#22863A;--shiki-dark:#569CD6">script</span><span style="color:#24292E;--shiki-dark:#808080">></span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#808080">&#x3C;</span><span style="color:#22863A;--shiki-dark:#569CD6">a</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#9CDCFE">	class</span><span style="color:#24292E;--shiki-dark:#E6E6E6">=</span><span style="color:#24292E;--shiki-dark:#569CD6">&#123;</span><span style="color:#24292E;--shiki-dark:#9CDCFE">classes</span><span style="color:#24292E;--shiki-dark:#569CD6">&#125;</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#9CDCFE">	title</span><span style="color:#24292E;--shiki-dark:#E6E6E6">=</span><span style="color:#032F62;--shiki-dark:#CE9178">"Open in TypeScript playground"</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#9CDCFE">	target</span><span style="color:#24292E;--shiki-dark:#E6E6E6">=</span><span style="color:#032F62;--shiki-dark:#CE9178">"_blank"</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#9CDCFE">	&#123;</span><span style="color:#24292E;--shiki-dark:#9CDCFE">href</span><span style="color:#6F42C1;--shiki-dark:#9CDCFE">&#125;</span><span style="color:#24292E;--shiki-dark:#808080">></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#808080">	&#x3C;</span><span style="color:#005CC5;--shiki-dark:#4EC9B0">Icon</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#9CDCFE">		src</span><span style="color:#24292E;--shiki-dark:#E6E6E6">=</span><span style="color:#24292E;--shiki-dark:#569CD6">&#123;</span><span style="color:#24292E;--shiki-dark:#9CDCFE">ArrowTopRightOnSquare</span><span style="color:#24292E;--shiki-dark:#569CD6">&#125;</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#9CDCFE">		class</span><span style="color:#24292E;--shiki-dark:#E6E6E6">=</span><span style="color:#032F62;--shiki-dark:#CE9178">"w-6 stroke-base-content/50 transition-colors group-hover:stroke-base-content"</span><span style="color:#24292E;--shiki-dark:#808080"> /></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#808080">	&#x3C;</span><span style="color:#22863A;--shiki-dark:#569CD6">span</span><span style="color:#6F42C1;--shiki-dark:#9CDCFE"> class</span><span style="color:#24292E;--shiki-dark:#E6E6E6">=</span><span style="color:#032F62;--shiki-dark:#CE9178">"sr-only"</span><span style="color:#24292E;--shiki-dark:#808080">></span><span style="color:#24292E;--shiki-dark:#E6E6E6">Open this code snippet on typescript playground</span><span style="color:#24292E;--shiki-dark:#808080">&#x3C;/</span><span style="color:#22863A;--shiki-dark:#569CD6">span</span><span style="color:#24292E;--shiki-dark:#808080">></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#808080">&#x3C;/</span><span style="color:#22863A;--shiki-dark:#569CD6">a</span><span style="color:#24292E;--shiki-dark:#808080">></span></span></code></pre><!-- HTML_TAG_END --><!-- HTML_TAG_START --><pre class="code-copy-target hidden">&lt;script lang="ts"&gt;
+	import &#123; Icon &#125; from '@steeze-ui/svelte-icon';
+	import &#123; ArrowTopRightOnSquare &#125; from '@steeze-ui/heroicons';
+
+	export let href: string;
+
+	const tailwindClasses = 
+		"group flex items-center rounded-lg border " +
+		"border-base-content/50 px-3 py-2 " +
+		"hover:border-base-content transition-all "
+	
+	// Reactively add any classes passed to the component
+	// This allows component consumers to style the link
+	$: classes = tailwindClasses + $$props.class
+&lt;/script&gt;
+
+&lt;a
+	class=&#123;classes&#125;
+	title="Open in TypeScript playground"
+	target="_blank"
+	&#123;href&#125;&gt;
+	&lt;Icon
+		src=&#123;ArrowTopRightOnSquare&#125;
+		class="w-6 stroke-base-content/50 transition-colors group-hover:stroke-base-content" /&gt;
+	&lt;span class="sr-only"&gt;Open this code snippet on typescript playground&lt;/span&gt;
+&lt;/a&gt;</pre><!-- HTML_TAG_END --> <p data-svelte-h="svelte-23m2pj">Great! But I still need to find the <code>&lt;pre&gt;</code> tags with a <code>data-tsplay</code> attribute and use my new component with them. I only need this to happen on pages based on markdown and rendered using MDSveX, so I put the logic in my mdsvex layout component.</p> <p data-svelte-h="svelte-1w40amc">For these links to show up on my code blocks, I need to:</p> <ol data-svelte-h="svelte-1ff3o2d"><li>Find all the code block elements (<code>&lt;pre&gt;</code> tags) with a <code>data-tsplay</code> attribute</li> <li>Grab the TS playground link from the <code>data-tsplay</code> attribute</li> <li>Instantiate a <code>TSPlaygroundButton</code> with the link and put it on the code block</li></ol> <p data-svelte-h="svelte-5dolau">1 &amp; 2 are pretty straightforward with basic browser APIs. I’m using svelte, so I did number 3 with the <a href="https://svelte.dev/docs/client-side-component-api#creating-a-component" rel="nofollow">Svelte client-side component API</a>. It should be pretty similar in other frameworks.</p> <!-- HTML_TAG_START --><pre class="shiki shiki-themes github-light slack-dark" style="background-color:#fff;--shiki-dark-bg:#222222;color:#24292e;--shiki-dark:#E6E6E6" tabindex="0" svelte filename="MDSVexLayout.svelte"><code><span class="line"><span style="color:#24292E;--shiki-dark:#808080">&#x3C;</span><span style="color:#22863A;--shiki-dark:#569CD6">script</span><span style="color:#24292E;--shiki-dark:#808080">></span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#C586C0">	import</span><span style="color:#24292E;--shiki-dark:#D4D4D4"> &#123; </span><span style="color:#24292E;--shiki-dark:#9CDCFE">onMount</span><span style="color:#24292E;--shiki-dark:#D4D4D4"> &#125; </span><span style="color:#D73A49;--shiki-dark:#C586C0">from</span><span style="color:#032F62;--shiki-dark:#CE9178"> 'svelte'</span><span style="color:#24292E;--shiki-dark:#D4D4D4">;</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#C586C0">	import</span><span style="color:#24292E;--shiki-dark:#D4D4D4"> &#123; </span><span style="color:#D73A49;--shiki-dark:#C586C0">default</span><span style="color:#D73A49;--shiki-dark:#C586C0"> as</span><span style="color:#24292E;--shiki-dark:#9CDCFE"> TSPlaygroundButton</span><span style="color:#24292E;--shiki-dark:#D4D4D4"> &#125; </span><span style="color:#D73A49;--shiki-dark:#C586C0">from</span><span style="color:#032F62;--shiki-dark:#CE9178"> '$lib/components/TSPlaygroundButton.svelte'</span><span style="color:#24292E;--shiki-dark:#D4D4D4">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#569CD6">	function</span><span style="color:#6F42C1;--shiki-dark:#DCDCAA"> addTSPlaygroundLinkToCodeBlocks</span><span style="color:#24292E;--shiki-dark:#D4D4D4">() &#123;</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A9955">		// 1. Find all the code block elements with a playground link</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#569CD6">		const</span><span style="color:#005CC5;--shiki-dark:#9CDCFE"> codeblocks</span><span style="color:#D73A49;--shiki-dark:#D4D4D4"> =</span><span style="color:#24292E;--shiki-dark:#9CDCFE"> document</span><span style="color:#24292E;--shiki-dark:#D4D4D4">.</span><span style="color:#6F42C1;--shiki-dark:#DCDCAA">querySelectorAll</span><span style="color:#24292E;--shiki-dark:#D4D4D4">(</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#CE9178">			'pre.shiki[data-tsplay^="https://typescriptlang.org/play/#code/"]'</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#D4D4D4">		);</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">		Array</span><span style="color:#24292E;--shiki-dark:#D4D4D4">.</span><span style="color:#6F42C1;--shiki-dark:#DCDCAA">from</span><span style="color:#24292E;--shiki-dark:#D4D4D4">(</span><span style="color:#24292E;--shiki-dark:#9CDCFE">codeblocks</span><span style="color:#24292E;--shiki-dark:#D4D4D4">).</span><span style="color:#6F42C1;--shiki-dark:#DCDCAA">forEach</span><span style="color:#24292E;--shiki-dark:#D4D4D4">((</span><span style="color:#E36209;--shiki-dark:#9CDCFE">element</span><span style="color:#24292E;--shiki-dark:#D4D4D4">) </span><span style="color:#D73A49;--shiki-dark:#569CD6">=></span><span style="color:#24292E;--shiki-dark:#D4D4D4"> &#123;</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A9955">			// 2. grab the playground link</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#569CD6">			const</span><span style="color:#005CC5;--shiki-dark:#9CDCFE"> tsplaylink</span><span style="color:#D73A49;--shiki-dark:#D4D4D4"> =</span><span style="color:#24292E;--shiki-dark:#9CDCFE"> element</span><span style="color:#24292E;--shiki-dark:#D4D4D4">.</span><span style="color:#6F42C1;--shiki-dark:#DCDCAA">getAttribute</span><span style="color:#24292E;--shiki-dark:#D4D4D4">(</span><span style="color:#032F62;--shiki-dark:#CE9178">'data-tsplay'</span><span style="color:#24292E;--shiki-dark:#D4D4D4">);</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#C586C0">			if</span><span style="color:#24292E;--shiki-dark:#D4D4D4"> (</span><span style="color:#D73A49;--shiki-dark:#D4D4D4">!</span><span style="color:#24292E;--shiki-dark:#9CDCFE">tsplaylink</span><span style="color:#24292E;--shiki-dark:#D4D4D4">) &#123; </span><span style="color:#D73A49;--shiki-dark:#C586C0">return</span><span style="color:#24292E;--shiki-dark:#D4D4D4">; &#125;</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#569CD6">			const</span><span style="color:#005CC5;--shiki-dark:#9CDCFE"> anchor</span><span style="color:#D73A49;--shiki-dark:#D4D4D4"> =</span><span style="color:#24292E;--shiki-dark:#9CDCFE"> element</span><span style="color:#24292E;--shiki-dark:#D4D4D4">.</span><span style="color:#24292E;--shiki-dark:#9CDCFE">firstElementChild</span><span style="color:#24292E;--shiki-dark:#D4D4D4">;</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#C586C0">			if</span><span style="color:#24292E;--shiki-dark:#D4D4D4"> (</span><span style="color:#D73A49;--shiki-dark:#D4D4D4">!</span><span style="color:#24292E;--shiki-dark:#9CDCFE">anchor</span><span style="color:#24292E;--shiki-dark:#D4D4D4">) </span><span style="color:#D73A49;--shiki-dark:#C586C0">return</span><span style="color:#24292E;--shiki-dark:#D4D4D4">;</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A9955">			// 3. instantiate the button using the </span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#569CD6">			new</span><span style="color:#6F42C1;--shiki-dark:#DCDCAA"> TSPlaygroundButton</span><span style="color:#24292E;--shiki-dark:#D4D4D4">(&#123;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">				target:</span><span style="color:#24292E;--shiki-dark:#9CDCFE"> element</span><span style="color:#24292E;--shiki-dark:#D4D4D4">,</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">				anchor</span><span style="color:#24292E;--shiki-dark:#D4D4D4">,</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">				props:</span><span style="color:#24292E;--shiki-dark:#D4D4D4"> &#123;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">					href:</span><span style="color:#24292E;--shiki-dark:#9CDCFE"> tsplaylink</span><span style="color:#24292E;--shiki-dark:#D4D4D4">,</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A9955">					// This positions the link left of the copy button</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">					class:</span><span style="color:#032F62;--shiki-dark:#CE9178"> 'absolute top-2 right-16'</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#D4D4D4">				&#125;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#D4D4D4">			&#125;);</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#D4D4D4">		&#125;);</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#D4D4D4">	&#125;</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A9955">	// Once the page is mounted add the TS playground links</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#DCDCAA">	onMount</span><span style="color:#24292E;--shiki-dark:#D4D4D4">(() </span><span style="color:#D73A49;--shiki-dark:#569CD6">=></span><span style="color:#24292E;--shiki-dark:#D4D4D4"> &#123;</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#DCDCAA">		addTSPlaygroundLinkToCodeBlocks</span><span style="color:#24292E;--shiki-dark:#D4D4D4">();</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#D4D4D4">	&#125;);</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#808080">&#x3C;/</span><span style="color:#22863A;--shiki-dark:#569CD6">script</span><span style="color:#24292E;--shiki-dark:#808080">></span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#808080">&#x3C;</span><span style="color:#D73A49;--shiki-dark:#C586C0">slot</span><span style="color:#24292E;--shiki-dark:#808080"> /></span></span></code></pre><!-- HTML_TAG_END --><!-- HTML_TAG_START --><pre class="code-copy-target hidden">&lt;script&gt;
+	import &#123; onMount &#125; from 'svelte';
+	import &#123; default as TSPlaygroundButton &#125; from '$lib/components/TSPlaygroundButton.svelte';
+
+	function addTSPlaygroundLinkToCodeBlocks() &#123;
+		// 1. Find all the code block elements with a playground link
+		const codeblocks = document.querySelectorAll(
+			'pre.shiki[data-tsplay^="https://typescriptlang.org/play/#code/"]'
+		);
+		Array.from(codeblocks).forEach((element) =&gt; &#123;
+			// 2. grab the playground link
+			const tsplaylink = element.getAttribute('data-tsplay');
+			if (!tsplaylink) &#123; return; &#125;
+			const anchor = element.firstElementChild;
+			if (!anchor) return;
+			// 3. instantiate the button using the 
+			new TSPlaygroundButton(&#123;
+				target: element,
+				anchor,
+				props: &#123;
+					href: tsplaylink,
+					// This positions the link left of the copy button
+					class: 'absolute top-2 right-16'
+				&#125;
+			&#125;);
+		&#125;);
+	&#125;
+	// Once the page is mounted add the TS playground links
+	onMount(() =&gt; &#123;
+		addTSPlaygroundLinkToCodeBlocks();
+	&#125;);
+&lt;/script&gt;
+
+&lt;slot /&gt;</pre><!-- HTML_TAG_END --> <p data-svelte-h="svelte-w9uyvt">Adding these interactive links is how I <a href="/notes/Make%20example%20code%20interactive/">Make example code interactive</a> on my blog. I built it for a SeattleJS presentation on <a href="/notes/Branded%20Types/">Branded Types</a> that I ran out of that very blog post! It turned out to be a valuable tool for quick demos when I wanted to do live coding or show runtime outputs.</p> <div class="divider"></div> <aside class="prose" data-svelte-h="svelte-1w3uusp"> <p>If you&#39;re feeling extra generous, you can show your support by buying me a
+			coffee with the button in the bottom right corner of the page.</p> <div class="divider"></div></aside></article>     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.css" integrity="sha384-KiWOvVjnN8qwAZbuQyWDIbfCLFhLXNETzBQjA/92pIowpC0d2O3nppDGQVgwd2nB" crossorigin="anonymous"></div>  
+			
+			<script>
+				{
+					__sveltekit_rov0b5 = {
+						base: new URL("../..", location).pathname.slice(0, -1),
+						env: {"PUBLIC_SUPABASE_ANON_KEY":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFlb3ZmZXRyaXNyZnFpZWF0bXp3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODcwNjM0NTYsImV4cCI6MjAwMjYzOTQ1Nn0.s9KXOQ0gDdl7e3lTUxdN5yfPI0rLZ-dSRMfEwoHhK00","PUBLIC_SUPABASE_URL":"https://aeovfetrisrfqieatmzw.supabase.co"}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [{"type":"data","data":{session:null,user:null},"uses":{}},null];
+
+					Promise.all([
+						import("../../_app/immutable/entry/start.eff3d6b3.js"),
+						import("../../_app/immutable/entry/app.5cbe2494.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 19],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
