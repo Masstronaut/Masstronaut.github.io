@@ -6,10 +6,20 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Sat, 11 May 2024 20:49:10 GMT</pubDate>
-    <lastBuildDate>Sat, 11 May 2024 20:49:10 GMT</lastBuildDate>
+    <pubDate>Sat, 11 May 2024 21:55:23 GMT</pubDate>
+    <lastBuildDate>Sat, 11 May 2024 21:55:23 GMT</lastBuildDate>
     <ttl>60</ttl>
     
+    <item>
+      <title>Dynamically generate TypeScript Playground links</title>
+      <link>https://allandeutsch.com/notes/Dynamically generate TypeScript Playground links</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 GMT</pubDate>
+      <description>Something goes here</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/Dynamically generate TypeScript Playground links</guid>
+    </item>
+    
+
     <item>
       <title>Add a demo link to TypeScript code blocks</title>
       <link>https://allandeutsch.com/notes/code-block-tsplay-demo-link</link>
