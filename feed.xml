@@ -6,17 +6,17 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Sat, 11 May 2024 21:55:23 GMT</pubDate>
-    <lastBuildDate>Sat, 11 May 2024 21:55:23 GMT</lastBuildDate>
+    <pubDate>Sat, 11 May 2024 22:00:47 GMT</pubDate>
+    <lastBuildDate>Sat, 11 May 2024 22:00:47 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
       <title>Dynamically generate TypeScript Playground links</title>
-      <link>https://allandeutsch.com/notes/Dynamically generate TypeScript Playground links</link>
+      <link>https://allandeutsch.com/notes/dynamic-ts-playground-links</link>
       <pubDate>Thu, 09 May 2024 00:00:00 GMT</pubDate>
-      <description>Something goes here</description>
+      <description>TypeScript playground has a URL param to specify the code content. This makes it possible to always have up-to-date playground links for example code!</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/Dynamically generate TypeScript Playground links</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/dynamic-ts-playground-links</guid>
     </item>
     
 

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="../../favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link href="../../_app/immutable/assets/0.6084d03f.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/NoteGridStatusFilter.144730f5.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/19.9b9dcce5.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/codeblock.72bea1ad.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/MDSveXNoteLayout.61812917.css" rel="stylesheet">
+		<link rel="modulepreload" href="../../_app/immutable/entry/start.38bf6b34.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/scheduler.e9e6880c.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/singletons.e7ba1db9.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/paths.54936ce1.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/parse.bee59afc.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/control.f5b05b5f.js">
+		<link rel="modulepreload" href="../../_app/immutable/entry/app.035513f5.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/preload-helper.41c905a7.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/index.ebf47752.js">
+		<link rel="modulepreload" href="../../_app/immutable/nodes/0.ac7b9a09.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/each.92ad7389.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/index.45b59163.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/navigation.327555b2.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/toast.e7f933f1.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/spread.8a54911c.js">
+		<link rel="modulepreload" href="../../_app/immutable/nodes/19.27458c2c.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/LoadNote.93843b20.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/stores.a9eacc73.js"><title>Dynamically generate TypeScript Playground links - Allan Deutsch</title><!-- HEAD_svelte-1rm6mzl_START --><meta name="description" content="TypeScript playground has a URL param to specify the code content. This makes it possible to always have up-to-date playground links for example code!"><meta property="og:title" content="Dynamically generate TypeScript Playground links"><meta property="og:type" content="article"><meta property="og:url" content="https://allandeutsch.com/notes/dynamic-ts-playground-links"><meta property="og:description" content="TypeScript playground has a URL param to specify the code content. This makes it possible to always have up-to-date playground links for example code!"><meta property="og:locale" content="en_US"><meta property="twitter:card" content="summary"><meta property="twitter:url" content="https://allandeutsch.com"><meta property="twitter:title" content="Dynamically generate TypeScript Playground links"><meta property="twitter:description" content="TypeScript playground has a URL param to specify the code content. This makes it possible to always have up-to-date playground links for example code!"><meta property="twitter:site" content="@AllanDeutsch"><meta property="twitter:creator" content="@AllanDeutsch"><link rel="canonical" href="https://allandeutsch.com/notes/dynamic-ts-playground-links"><script type="module" src="https://docduck.dev/selection.js" data-svelte-h="svelte-1qfon0b"></script><script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="AllanDeutsch" data-description="Support me on Buy me a coffee!" data-message="" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18" data-svelte-h="svelte-bv2cpr"></script><!-- HEAD_svelte-1rm6mzl_END --><!-- HEAD_svelte-cpyj77_START -->   <meta name="theme-color" content="dark"><!-- HTML_TAG_START --><script nonce="%sveltekit.nonce%">(function setInitialMode(defaultMode, themeColors2) {
+  const rootEl = document.documentElement;
+  const mode = localStorage.getItem("mode-watcher-mode") || defaultMode;
+  const light = mode === "light" || mode === "system" && window.matchMedia("(prefers-color-scheme: light)").matches;
+  rootEl.classList[light ? "remove" : "add"]("dark");
+  rootEl.style.colorScheme = light ? "light" : "dark";
+  if (themeColors2) {
+    const themeMetaEl = document.querySelector('meta[name="theme-color"]');
+    if (themeMetaEl) {
+      themeMetaEl.setAttribute("content", mode === "light" ? themeColors2.light : themeColors2.dark);
+    }
+  }
+  localStorage.setItem("mode-watcher-mode", mode);
+})("system", {"dark":"dark","light":"light"});</script><!-- HTML_TAG_END --><!-- HEAD_svelte-cpyj77_END -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=UA-86124920-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-86124920-1');
+		</script>
+	</head>
+	<body data-sveltekit-preload-data="hover" class="bg-base-100">
+		<div style="display: contents">  <div class="toaster  svelte-jyff3d"> </div> <div class="navbar bg-base-100"><div class="navbar-start"><div class="dropdown"><button tabindex="0" class="btn-ghost btn sm:hidden" data-svelte-h="svelte-1h8jdop"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16"></path></svg></button> <ul tabindex="0" class="dropdown-content menu rounded-box menu-sm mt-3 w-52 bg-base-100 p-2 shadow"><li><a href="/">Home</a></li><li><a href="/notes">Notes</a></li></ul></div> <a class="btn-ghost btn text-xl normal-case" href="/">Allan Deutsch</a></div> <div class="navbar-center hidden sm:flex"><ul class="menu menu-horizontal px-1 text-base"><li><a href="/">Home</a></li><li><a href="/notes">Notes</a></li></ul></div> <div class="navbar-end"> <div class="h-8" data-svelte-h="svelte-1hosge2"><a href="https://twitter.com/AllanDeutsch" class="group"><svg height="24" width="24" class="mr-1.5 inline fill-base-content transition-colors duration-300 group-hover:fill-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 612 612"><path d="M612 116.258a250.714 250.714 0 01-72.088 19.772c25.929-15.527 45.777-40.155 55.184-69.411-24.322 14.379-51.169 24.82-79.775 30.48-22.907-24.437-55.49-39.658-91.63-39.658-69.334 0-125.551 56.217-125.551 125.513 0 9.828 1.109 19.427 3.251 28.606-104.326-5.24-196.835-55.223-258.75-131.174-10.823 18.51-16.98 40.078-16.98 63.101 0 43.559 22.181 81.993 55.835 104.479a125.556 125.556 0 01-56.867-15.756v1.568c0 60.806 43.291 111.554 100.693 123.104-10.517 2.83-21.607 4.398-33.08 4.398-8.107 0-15.947-.803-23.634-2.333 15.985 49.907 62.336 86.199 117.253 87.194-42.947 33.654-97.099 53.655-155.916 53.655-10.134 0-20.116-.612-29.944-1.721 55.567 35.681 121.536 56.485 192.438 56.485 230.948 0 357.188-191.291 357.188-357.188l-.421-16.253c24.666-17.593 46.005-39.697 62.794-64.861z"></path></svg></a> <a href="https://github.com/masstronaut" class="group"><svg height="24" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true" class="mr-1.5 inline fill-base-content transition-colors duration-300 group-hover:fill-primary"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg></a></div> </div></div> <div class="p-1 sm:p-4"> <pi-select team="TKxfdiO22xOXIrW0c0Pfi"></pi-select> <article class="note-container prose mb-8 max-w-full px-2 svelte-w9emf5"><header class="w-full max-w-3xl self-center"><h1 class="mb-8 text-left text-4xl font-bold">Dynamically generate TypeScript Playground links</h1> <div class="text-md mb-12 mt-4 flex justify-between border-t border-t-neutral border-opacity-20 pt-1 text-base-content"><div><span class="pr-2" data-svelte-h="svelte-114jejz">🌱</span><span class="hidden sm:inline" data-svelte-h="svelte-1psjisz">Planted
+				</span>May 9, 2024.
+				<br>Last tended May 11, 2024.</div> <div class="flex flex-col items-end"><div class="note__status budding svelte-w9emf5">budding 🌿</div> <div>1 minute read ⏱</div></div></div></header>  <p data-svelte-h="svelte-7lp34h">Recently I was presenting a talk at SeattleJS on <a href="/notes/Branded%20Types/">Branded Types</a> using my blog post as the visual content. I wanted to do some live coding, so I decided to add TypeScript playground links to my code snippets.</p> <p data-svelte-h="svelte-8sm578">Fun fact: it’s possible to <a href="https://www.typescriptlang.org/play/?#handbook-9" rel="nofollow">dynamically generate TypeScript playground links</a>!</p> <p data-svelte-h="svelte-f06i2j">The process is fairly simple:</p> <ol data-svelte-h="svelte-19piibu"><li>Use <code>lz-string</code> to base64 encode and zip the source code and URI encode the result (use <code>LZString.compressToEncodedURIComponent()</code>, an easy one-liner)</li> <li>Append the encoded string to a playground URL</li> <li>Put the link on the code block</li></ol> <p data-svelte-h="svelte-4sy04y">I love this solution because it generates an updated link every time I build my site. I’m guaranteed to have up-to-date playground links and don’t have to do anything after the initial setup. Awesome!</p> <p data-svelte-h="svelte-rtpeqb">I followed <a href="https://www.typescriptlang.org/play/?#handbook-9" rel="nofollow">the TS playground docs</a> to write the code that generates TS playground links. I updated my code highlighter function to generate the TS playground links and add them to a <code>data-tsplay</code> attribute on the containing <code>&lt;pre&gt;</code> tag for each TS code block. Check it out:</p> <!-- HTML_TAG_START --><pre class="shiki shiki-themes github-light slack-dark" style="background-color:#fff;--shiki-dark-bg:#222222;color:#24292e;--shiki-dark:#E6E6E6" tabindex="0" js filename="mdsvex.config.js"><code><span class="line"><span style="color:#D73A49;--shiki-dark:#569CD6">async</span><span style="color:#D73A49;--shiki-dark:#569CD6"> function</span><span style="color:#6F42C1;--shiki-dark:#DCDCAA"> ShikiTwoslashHighlighter</span><span style="color:#24292E;--shiki-dark:#E6E6E6">(</span><span style="color:#E36209;--shiki-dark:#9CDCFE">code</span><span style="color:#24292E;--shiki-dark:#E6E6E6">, </span><span style="color:#E36209;--shiki-dark:#9CDCFE">lang</span><span style="color:#24292E;--shiki-dark:#E6E6E6">, </span><span style="color:#E36209;--shiki-dark:#9CDCFE">meta</span><span style="color:#24292E;--shiki-dark:#E6E6E6">) &#123;</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#569CD6">	let</span><span style="color:#24292E;--shiki-dark:#9CDCFE"> tsPlaygroundLink</span><span style="color:#D73A49;--shiki-dark:#D4D4D4"> =</span><span style="color:#005CC5;--shiki-dark:#569CD6"> undefined</span><span style="color:#24292E;--shiki-dark:#E6E6E6">;</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#C586C0">		if</span><span style="color:#24292E;--shiki-dark:#E6E6E6"> (</span><span style="color:#24292E;--shiki-dark:#9CDCFE">lang</span><span style="color:#D73A49;--shiki-dark:#D4D4D4"> ===</span><span style="color:#032F62;--shiki-dark:#CE9178"> 'ts'</span><span style="color:#24292E;--shiki-dark:#E6E6E6">) &#123;</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A9955">			// Generate a TS Playground link</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">			tsPlaygroundLink</span><span style="color:#D73A49;--shiki-dark:#D4D4D4"> =</span><span style="color:#032F62;--shiki-dark:#CE9178"> &#96;https://typescriptlang.org/play/#code/</span><span style="color:#032F62;--shiki-dark:#569CD6">$&#123;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">				LZString</span><span style="color:#032F62;--shiki-dark:#D4D4D4">.</span><span style="color:#6F42C1;--shiki-dark:#DCDCAA">compressToEncodedURIComponent</span><span style="color:#032F62;--shiki-dark:#D4D4D4">(</span><span style="color:#24292E;--shiki-dark:#9CDCFE">code</span><span style="color:#032F62;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#569CD6">			&#125;</span><span style="color:#032F62;--shiki-dark:#CE9178">&#96;</span><span style="color:#24292E;--shiki-dark:#E6E6E6">;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">		&#125;</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#569CD6">	const</span><span style="color:#005CC5;--shiki-dark:#9CDCFE"> html</span><span style="color:#D73A49;--shiki-dark:#D4D4D4"> =</span><span style="color:#D73A49;--shiki-dark:#C586C0"> await</span><span style="color:#6F42C1;--shiki-dark:#DCDCAA"> codeToHtml</span><span style="color:#24292E;--shiki-dark:#E6E6E6">(</span><span style="color:#24292E;--shiki-dark:#9CDCFE">code</span><span style="color:#24292E;--shiki-dark:#E6E6E6">, &#123;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">		transformers:</span><span style="color:#24292E;--shiki-dark:#E6E6E6"> [</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A9955">			// This custom transformer adds the data-tsplay attribute</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">			&#123;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">				name:</span><span style="color:#032F62;--shiki-dark:#CE9178"> 'TSPlaygroundLinkInserter'</span><span style="color:#24292E;--shiki-dark:#E6E6E6">,</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#DCDCAA">				pre</span><span style="color:#24292E;--shiki-dark:#E6E6E6">(</span><span style="color:#E36209;--shiki-dark:#9CDCFE">el</span><span style="color:#24292E;--shiki-dark:#E6E6E6">) &#123;</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#C586C0">					if</span><span style="color:#24292E;--shiki-dark:#E6E6E6"> (</span><span style="color:#24292E;--shiki-dark:#9CDCFE">tsPlaygroundLink</span><span style="color:#D73A49;--shiki-dark:#D4D4D4"> !==</span><span style="color:#005CC5;--shiki-dark:#569CD6"> undefined</span><span style="color:#24292E;--shiki-dark:#E6E6E6">)</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#9CDCFE">						el</span><span style="color:#24292E;--shiki-dark:#E6E6E6">.</span><span style="color:#24292E;--shiki-dark:#9CDCFE">properties</span><span style="color:#24292E;--shiki-dark:#E6E6E6">[</span><span style="color:#032F62;--shiki-dark:#CE9178">'data-tsplay'</span><span style="color:#24292E;--shiki-dark:#E6E6E6">] </span><span style="color:#D73A49;--shiki-dark:#D4D4D4">=</span><span style="color:#24292E;--shiki-dark:#9CDCFE"> tsPlaygroundLink</span><span style="color:#24292E;--shiki-dark:#E6E6E6">;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">				&#125;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">			&#125;,</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A9955">			// other transformers...</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">		],</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A9955">		// other config options...</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">	&#125;);</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E6E6E6">	</span></span></code></pre><!-- HTML_TAG_END --><!-- HTML_TAG_START --><pre class="code-copy-target hidden">async function ShikiTwoslashHighlighter(code, lang, meta) &#123;
+	let tsPlaygroundLink = undefined;
+		if (lang === 'ts') &#123;
+			// Generate a TS Playground link
+			tsPlaygroundLink = &#96;https://typescriptlang.org/play/#code/$&#123;
+				LZString.compressToEncodedURIComponent(code)
+			&#125;&#96;;
+		&#125;
+	const html = await codeToHtml(code, &#123;
+		transformers: [
+			// This custom transformer adds the data-tsplay attribute
+			&#123;
+				name: 'TSPlaygroundLinkInserter',
+				pre(el) &#123;
+					if (tsPlaygroundLink !== undefined)
+						el.properties['data-tsplay'] = tsPlaygroundLink;
+				&#125;
+			&#125;,
+			// other transformers...
+		],
+		// other config options...
+	&#125;);
+	</pre><!-- HTML_TAG_END --> <p data-svelte-h="svelte-vcousv">With that I have playground links available in my output HTML. The last step I have to <a href="/notes/Make%20example%20code%20interactive/">Make example code interactive</a> on my blog is to <a href="/notes/Add%20a%20demo%20link%20to%20TypeScript%20code%20blocks/">Add a demo link to TypeScript code blocks</a>.</p> <p data-svelte-h="svelte-1abnvd7">I’m so glad I ended up doing this. Being able to quickly pop open a live editor to make changes and show runtime values made my Seattle JS talk much better!</p> <div class="divider"></div> <aside class="prose" data-svelte-h="svelte-1w3uusp"> <p>If you&#39;re feeling extra generous, you can show your support by buying me a
+			coffee with the button in the bottom right corner of the page.</p> <div class="divider"></div></aside></article>     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.css" integrity="sha384-KiWOvVjnN8qwAZbuQyWDIbfCLFhLXNETzBQjA/92pIowpC0d2O3nppDGQVgwd2nB" crossorigin="anonymous"></div>  
+			
+			<script>
+				{
+					__sveltekit_p1aike = {
+						base: new URL("../..", location).pathname.slice(0, -1),
+						env: {"PUBLIC_SUPABASE_ANON_KEY":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFlb3ZmZXRyaXNyZnFpZWF0bXp3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODcwNjM0NTYsImV4cCI6MjAwMjYzOTQ1Nn0.s9KXOQ0gDdl7e3lTUxdN5yfPI0rLZ-dSRMfEwoHhK00","PUBLIC_SUPABASE_URL":"https://aeovfetrisrfqieatmzw.supabase.co"}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [{"type":"data","data":{session:null,user:null},"uses":{}},null];
+
+					Promise.all([
+						import("../../_app/immutable/entry/start.38bf6b34.js"),
+						import("../../_app/immutable/entry/app.035513f5.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 19],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
