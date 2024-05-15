@@ -6,797 +6,847 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Wed, 15 May 2024 17:59:23 GMT</pubDate>
-    <lastBuildDate>Wed, 15 May 2024 17:59:23 GMT</lastBuildDate>
+    <pubDate>Wed, 15 May 2024 22:40:27 GMT</pubDate>
+    <lastBuildDate>Wed, 15 May 2024 22:40:27 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
+      <title>devlog 5: back on stage!</title>
+      <link>https://allandeutsch.com/notes/devlog/5</link>
+      <pubDate>Sat, 11 May 2024 00:00:00 GMT</pubDate>
+      <description>Back on stage, this time to present about TypeScript! I also made some PRs to TypeScript and added dynamic TS playground links.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/devlog/5</guid>
+    </item>
+    
+
+    <item>
       <title>Dynamically generate TypeScript Playground links</title>
-      <link>https://allandeutsch.com/notes/dynamic-ts-playground-links</link>
+      <link>https://allandeutsch.com/notes/notes/dynamic-ts-playground-links</link>
       <pubDate>Thu, 09 May 2024 00:00:00 GMT</pubDate>
       <description>TypeScript playground has a URL param to specify the code content. This makes it possible to always have up-to-date playground links for example code!</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/dynamic-ts-playground-links</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/dynamic-ts-playground-links</guid>
     </item>
     
 
     <item>
       <title>Make example code interactive</title>
-      <link>https://allandeutsch.com/notes/make-example-code-interactive</link>
+      <link>https://allandeutsch.com/notes/notes/make-example-code-interactive</link>
       <pubDate>Thu, 09 May 2024 00:00:00 GMT</pubDate>
       <description>Whenever possible, make code interactive. Interaction is the single most effective way to teach anything, including code!</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/make-example-code-interactive</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/make-example-code-interactive</guid>
     </item>
     
 
     <item>
       <title>Add a demo link to TypeScript code blocks</title>
-      <link>https://allandeutsch.com/notes/code-block-tsplay-demo-link</link>
+      <link>https://allandeutsch.com/notes/notes/code-block-tsplay-demo-link</link>
       <pubDate>Thu, 09 May 2024 00:00:00 GMT</pubDate>
       <description>Seeing example code with syntax highlighting is great, but sometimes you've just gotta run the code and see what happens...</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/code-block-tsplay-demo-link</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/code-block-tsplay-demo-link</guid>
     </item>
     
 
     <item>
       <title>Branded Types</title>
-      <link>https://allandeutsch.com/notes/branded-types</link>
+      <link>https://allandeutsch.com/notes/notes/branded-types</link>
       <pubDate>Wed, 08 May 2024 00:00:00 GMT</pubDate>
       <description>TypeScript is a structurally typed language, but can have nominal typing semantics using a technique called type branding</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/branded-types</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/branded-types</guid>
+    </item>
+    
+
+    <item>
+      <title>devlog 4: in glorious 5K</title>
+      <link>https://allandeutsch.com/notes/devlog/4</link>
+      <pubDate>Sun, 05 May 2024 00:00:00 GMT</pubDate>
+      <description>I went to the Berkshire Hathaway annual shareholder meeting, launched the Doc Duck site, and brushed up on my databases knowledge</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/devlog/4</guid>
     </item>
     
 
     <item>
       <title>Theory and practice</title>
-      <link>https://allandeutsch.com/notes/theory-practice</link>
+      <link>https://allandeutsch.com/notes/notes/theory-practice</link>
       <pubDate>Sun, 28 Apr 2024 00:00:00 GMT</pubDate>
       <description>Theory and practice are often at tension with each other, but they shouldn't be. Each benefits from a health dose of the other.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/theory-practice</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/theory-practice</guid>
     </item>
     
 
     <item>
       <title>Beautifully render code in Svelte</title>
-      <link>https://allandeutsch.com/notes/svelte-shiki-twoslash</link>
+      <link>https://allandeutsch.com/notes/notes/svelte-shiki-twoslash</link>
       <pubDate>Sun, 07 Apr 2024 00:00:00 GMT</pubDate>
       <description>How I transform the code in my markdown files into beautifully rendered snippets on this site.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/svelte-shiki-twoslash</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/svelte-shiki-twoslash</guid>
     </item>
     
 
     <item>
       <title>Linting and formatting a svelte project</title>
-      <link>https://allandeutsch.com/notes/lint-format-svelte</link>
+      <link>https://allandeutsch.com/notes/notes/lint-format-svelte</link>
       <pubDate>Sat, 13 Apr 2024 00:00:00 GMT</pubDate>
       <description>Pulling together a bunch of language tools can be a bother, but I find automated formatting & code review tools are worth the hassle.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/lint-format-svelte</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/lint-format-svelte</guid>
+    </item>
+    
+
+    <item>
+      <title>devlog 2</title>
+      <link>https://allandeutsch.com/notes/devlog/2</link>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 GMT</pubDate>
+      <description>Branding and landing page updates for my startup, plus an exciting personal announcement!</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/devlog/2</guid>
+    </item>
+    
+
+    <item>
+      <title>devlog 1</title>
+      <link>https://allandeutsch.com/notes/devlog/1</link>
+      <pubDate>Sun, 14 Apr 2024 00:00:00 GMT</pubDate>
+      <description>Code block updates on allandeutsch.com and detailed feedback on Doc Duck. Plus a new post!</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/devlog/1</guid>
+    </item>
+    
+
+    <item>
+      <title>devlog0: init</title>
+      <link>https://allandeutsch.com/notes/devlog/0</link>
+      <pubDate>Sun, 07 Apr 2024 00:00:00 GMT</pubDate>
+      <description>My first devlog!</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/devlog/0</guid>
     </item>
     
 
     <item>
       <title>Type branding removes structural type compatibility</title>
-      <link>https://allandeutsch.com/notes/structural-branded-types-nominal</link>
+      <link>https://allandeutsch.com/notes/notes/structural-branded-types-nominal</link>
       <pubDate>Sat, 03 Feb 2024 00:00:00 GMT</pubDate>
       <description>A structural type can be "branded" to add context to values by using the type system for annotations as is done with nominal types. Doing so makes them incompatible with structurally equivalent types.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/structural-branded-types-nominal</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/structural-branded-types-nominal</guid>
     </item>
     
 
     <item>
       <title>Resolving CORS errors in SvelteKit</title>
-      <link>https://allandeutsch.com/notes/sveltekit-cors</link>
+      <link>https://allandeutsch.com/notes/notes/sveltekit-cors</link>
       <pubDate>Wed, 27 Mar 2024 00:00:00 GMT</pubDate>
       <description>Cross-origin resource sharing requests let a user access resources on one site from another, but only if the server performs the secret CORS handshake with the browser.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/sveltekit-cors</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/sveltekit-cors</guid>
     </item>
     
 
     <item>
       <title>Total Typescript notes</title>
-      <link>https://allandeutsch.com/notes/total-typescript-notes</link>
+      <link>https://allandeutsch.com/notes/notes/total-typescript-notes</link>
       <pubDate>Thu, 23 Nov 2023 00:00:00 GMT</pubDate>
       <description>I've learned a lot from this course, and use this note to record bits I want to remember and riff on some of my observations.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/total-typescript-notes</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/total-typescript-notes</guid>
     </item>
     
 
     <item>
       <title>Pasta Arabica</title>
-      <link>https://allandeutsch.com/notes/pasta-arabica</link>
+      <link>https://allandeutsch.com/notes/notes/pasta-arabica</link>
       <pubDate>Wed, 06 Mar 2024 00:00:00 GMT</pubDate>
       <description>An improvised pasta dish made to drawn inspiration from the flavors and sounds of the Middle East. It is hearty and surprisingly bright.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/pasta-arabica</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/pasta-arabica</guid>
     </item>
     
 
     <item>
       <title>TypeScript assertion functions increase type safety</title>
-      <link>https://allandeutsch.com/notes/assertion-functions</link>
+      <link>https://allandeutsch.com/notes/notes/assertion-functions</link>
       <pubDate>Fri, 16 Feb 2024 00:00:00 GMT</pubDate>
       <description>Assertion functions let the programmer narrow types using a named function, making type narrowing much more readable.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/assertion-functions</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/assertion-functions</guid>
     </item>
     
 
     <item>
       <title>Make API misuse hard</title>
-      <link>https://allandeutsch.com/notes/make-api-misuse-hard</link>
+      <link>https://allandeutsch.com/notes/notes/make-api-misuse-hard</link>
       <pubDate>Wed, 14 Feb 2024 00:00:00 GMT</pubDate>
       <description>Being hard to misuse is an underrated characteristic of exceptional APIs, especially when the possibility needs to be exposed to the client for advanced scenarios.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/make-api-misuse-hard</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/make-api-misuse-hard</guid>
     </item>
     
 
     <item>
       <title>The publishing pipeline for allandeutsch.com</title>
-      <link>https://allandeutsch.com/notes/publishing-this-site</link>
+      <link>https://allandeutsch.com/notes/notes/publishing-this-site</link>
       <pubDate>Mon, 04 Oct 2021 00:00:00 GMT</pubDate>
       <description>An overview of how I avoided needing to copy+paste my notes into blogging software to publish them.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/publishing-this-site</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/publishing-this-site</guid>
     </item>
     
 
     <item>
       <title>Svelte component APIs</title>
-      <link>https://allandeutsch.com/notes/svelte-component-apis</link>
+      <link>https://allandeutsch.com/notes/notes/svelte-component-apis</link>
       <pubDate>Tue, 13 Feb 2024 00:00:00 GMT</pubDate>
       <description>There are many ways to Svelte a component...</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/svelte-component-apis</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/svelte-component-apis</guid>
     </item>
     
 
     <item>
       <title>Slugs make links readable</title>
-      <link>https://allandeutsch.com/notes/slugs-make-links-readable</link>
+      <link>https://allandeutsch.com/notes/notes/slugs-make-links-readable</link>
       <pubDate>Sun, 04 Feb 2024 00:00:00 GMT</pubDate>
       <description>Special characters aren't valid in URLs, so custom slugs are used to make links easier to read.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/slugs-make-links-readable</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/slugs-make-links-readable</guid>
     </item>
     
 
     <item>
       <title>Structural types increase data compatibility</title>
-      <link>https://allandeutsch.com/notes/structural-types-increase-compatibility</link>
+      <link>https://allandeutsch.com/notes/notes/structural-types-increase-compatibility</link>
       <pubDate>Sun, 04 Feb 2024 00:00:00 GMT</pubDate>
       <description>Structural types are only concerned with the shape of data, rather than the names of types. This makes data types more compatible.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/structural-types-increase-compatibility</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/structural-types-increase-compatibility</guid>
     </item>
     
 
     <item>
       <title>Playa del Carmen travel guide</title>
-      <link>https://allandeutsch.com/notes/pdc-travel-guide</link>
+      <link>https://allandeutsch.com/notes/notes/pdc-travel-guide</link>
       <pubDate>Sat, 30 Dec 2023 00:00:00 GMT</pubDate>
       <description>Tips from my travels to PDC, including where to eat, stay, and visit!</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/pdc-travel-guide</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/pdc-travel-guide</guid>
     </item>
     
 
     <item>
       <title>Mac tips</title>
-      <link>https://allandeutsch.com/notes/mac-tips</link>
+      <link>https://allandeutsch.com/notes/notes/mac-tips</link>
       <pubDate>Wed, 23 Jun 2021 00:00:00 GMT</pubDate>
       <description>Various tips, hotkeys, and software I use on my Mac that I find to be broadly helpful and think everyone should know about.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/mac-tips</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/mac-tips</guid>
     </item>
     
 
     <item>
       <title>Adding users to new teams with Lucia auth and Prisma</title>
-      <link>https://allandeutsch.com/notes/customer-teams-lucia</link>
+      <link>https://allandeutsch.com/notes/notes/customer-teams-lucia</link>
       <pubDate>Mon, 16 Oct 2023 00:00:00 GMT</pubDate>
       <description>When building a B2B product, most customers will want to invite their team members. This post explores how I added support for that to Penguinsight, a user feedback SaaS I'm building.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/customer-teams-lucia</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/customer-teams-lucia</guid>
     </item>
     
 
     <item>
       <title>Value proposition</title>
-      <link>https://allandeutsch.com/notes/value-proposition</link>
+      <link>https://allandeutsch.com/notes/notes/value-proposition</link>
       <pubDate>Sun, 13 Jun 2021 00:00:00 GMT</pubDate>
       <description>The way(s) a product or service benefits its target customers and the statement describing it.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/value-proposition</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/value-proposition</guid>
     </item>
     
 
     <item>
       <title>Seattle area cafés I like</title>
-      <link>https://allandeutsch.com/notes/seattle-cafes</link>
+      <link>https://allandeutsch.com/notes/notes/seattle-cafes</link>
       <pubDate>Sat, 28 Aug 2021 00:00:00 GMT</pubDate>
       <description>A curated list of my favorite Seattle area cafes to sit, sip, and relax or work.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/seattle-cafes</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/seattle-cafes</guid>
     </item>
     
 
     <item>
       <title>Restaurants I like</title>
-      <link>https://allandeutsch.com/notes/restaurants</link>
+      <link>https://allandeutsch.com/notes/notes/restaurants</link>
       <pubDate>Sun, 13 Jun 2021 00:00:00 GMT</pubDate>
       <description>A list of some of my favorite places to get a meal in the Seattle area.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/restaurants</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/restaurants</guid>
     </item>
     
 
     <item>
       <title>I want a smaller phone</title>
-      <link>https://allandeutsch.com/notes/smaller-phone</link>
+      <link>https://allandeutsch.com/notes/notes/smaller-phone</link>
       <pubDate>Mon, 26 Jun 2023 00:00:00 GMT</pubDate>
       <description>As a tech guy, I'm often interested in the latest and greatest gadget. This has historically meant the biggest and best smart phone, but no longer...</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/smaller-phone</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/smaller-phone</guid>
     </item>
     
 
     <item>
       <title>git-cheatsheet</title>
-      <link>https://allandeutsch.com/notes/git-cheatsheet</link>
+      <link>https://allandeutsch.com/notes/notes/git-cheatsheet</link>
       <pubDate>Tue, 24 May 2022 00:00:00 GMT</pubDate>
       <description>Some common scenarios and how to resolve them using git.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/git-cheatsheet</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/git-cheatsheet</guid>
     </item>
     
 
     <item>
       <title>10 questions to evaluate a startup idea</title>
-      <link>https://allandeutsch.com/notes/Evaluating a startup idea</link>
+      <link>https://allandeutsch.com/notes/notes/evaluating-startup-idea</link>
       <pubDate>Sat, 17 Jun 2023 00:00:00 GMT</pubDate>
       <description>10 questions to ask about any startup idea that will help you evaluate if it's worth pursuing.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/Evaluating a startup idea</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/evaluating-startup-idea</guid>
     </item>
     
 
     <item>
       <title>Reflections on work-life balance</title>
-      <link>https://allandeutsch.com/notes/work-life-balance</link>
+      <link>https://allandeutsch.com/notes/notes/work-life-balance</link>
       <pubDate>Wed, 05 Apr 2023 00:00:00 GMT</pubDate>
       <description>These are my reflections on how I view work-life balance, and how that view has changed over time.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/work-life-balance</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/work-life-balance</guid>
     </item>
     
 
     <item>
       <title>Cozumel travel guide</title>
-      <link>https://allandeutsch.com/notes/cozumel-travel-guide</link>
+      <link>https://allandeutsch.com/notes/notes/cozumel-travel-guide</link>
       <pubDate>Sun, 24 Jul 2022 00:00:00 GMT</pubDate>
       <description>A brief guide on having a successful trip to the SCUBA diving island paradise of Mexico, Cozumel.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/cozumel-travel-guide</guid>
-    </item>
-    
-
-    <item>
-      <title>Cross-Price Elasticity of Demand (CPED)</title>
-      <link>https://allandeutsch.com/notes/cross-price-elasticity</link>
-      <pubDate>Tue, 28 Sep 2021 00:00:00 GMT</pubDate>
-      <description>Microeconomics tool for quantifying the change in demand for a product in response to price changes for substitute goods.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/cross-price-elasticity</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/cozumel-travel-guide</guid>
     </item>
     
 
     <item>
       <title>Positioning statement</title>
-      <link>https://allandeutsch.com/notes/positioning-statement</link>
+      <link>https://allandeutsch.com/notes/notes/positioning-statement</link>
       <pubDate>Wed, 11 Aug 2021 00:00:00 GMT</pubDate>
       <description>A position statement explains how a product fits into its market.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/positioning-statement</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/positioning-statement</guid>
+    </item>
+    
+
+    <item>
+      <title>Cross-Price Elasticity of Demand (CPED)</title>
+      <link>https://allandeutsch.com/notes/notes/cross-price-elasticity</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 GMT</pubDate>
+      <description>Microeconomics tool for quantifying the change in demand for a product in response to price changes for substitute goods.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/cross-price-elasticity</guid>
     </item>
     
 
     <item>
       <title>Price Elasticity of Demand (PED)</title>
-      <link>https://allandeutsch.com/notes/price-elasticity-demand</link>
+      <link>https://allandeutsch.com/notes/notes/price-elasticity-demand</link>
       <pubDate>Tue, 28 Sep 2021 00:00:00 GMT</pubDate>
       <description>Price changes impact the demand for goods and services. PED is a microeconomics tool for quantifyng that impact.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/price-elasticity-demand</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/price-elasticity-demand</guid>
     </item>
     
 
     <item>
       <title>Money market</title>
-      <link>https://allandeutsch.com/notes/money-market</link>
+      <link>https://allandeutsch.com/notes/notes/money-market</link>
       <pubDate>Sun, 23 Jan 2022 00:00:00 GMT</pubDate>
       <description>The market for currency and the mechanics that govern it, such as interest rates, money supply, and the required reserve ratio.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/money-market</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/money-market</guid>
     </item>
     
 
     <item>
       <title>Setting up a SvelteKit project with Storybook</title>
-      <link>https://allandeutsch.com/notes/sveltekit-storybook-setup</link>
+      <link>https://allandeutsch.com/notes/notes/sveltekit-storybook-setup</link>
       <pubDate>Tue, 19 Apr 2022 00:00:00 GMT</pubDate>
       <description>Setting up Storybook on a SvelteKit project doesn't work out of the box using the config tool. This guide walks you through a few extra steps needed to get SvelteKit and Storybook running.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/sveltekit-storybook-setup</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/sveltekit-storybook-setup</guid>
     </item>
     
 
     <item>
       <title>Avocado toast</title>
-      <link>https://allandeutsch.com/notes/avocado-toast</link>
+      <link>https://allandeutsch.com/notes/notes/avocado-toast</link>
       <pubDate>Fri, 01 Oct 2021 00:00:00 GMT</pubDate>
       <description>Perhaps the icon of a generation, avocado toast is a delicious and nutritious way to start the day. </description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/avocado-toast</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/avocado-toast</guid>
     </item>
     
 
     <item>
       <title>Present three options to build consensus</title>
-      <link>https://allandeutsch.com/notes/three-options-consensus</link>
+      <link>https://allandeutsch.com/notes/notes/three-options-consensus</link>
       <pubDate>Wed, 07 Apr 2021 00:00:00 GMT</pubDate>
       <description>Cognitive biases lead people to evaluate options in context. There are strong biases that impact decision making when there are one or two options.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/three-options-consensus</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/three-options-consensus</guid>
     </item>
     
 
     <item>
       <title>Single-option aversion bias</title>
-      <link>https://allandeutsch.com/notes/single-option-aversion-bias</link>
+      <link>https://allandeutsch.com/notes/notes/single-option-aversion-bias</link>
       <pubDate>Fri, 26 Mar 2021 00:00:00 GMT</pubDate>
       <description>People are biased against deciding on a single option. Multiple options enable people to compare and make informed decisions.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/single-option-aversion-bias</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/single-option-aversion-bias</guid>
     </item>
     
 
     <item>
       <title>Microeconomics</title>
-      <link>https://allandeutsch.com/notes/microeconomics</link>
+      <link>https://allandeutsch.com/notes/notes/microeconomics</link>
       <pubDate>Sun, 19 Sep 2021 00:00:00 GMT</pubDate>
       <description>An overview of my notes on microeconomics.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/microeconomics</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/microeconomics</guid>
     </item>
     
 
     <item>
       <title>Costs of production</title>
-      <link>https://allandeutsch.com/notes/production-cost</link>
+      <link>https://allandeutsch.com/notes/notes/production-cost</link>
       <pubDate>Tue, 28 Sep 2021 00:00:00 GMT</pubDate>
       <description>Understanding the costs facing a business is an important part of evaluating its profitability. There are two categories of costs - fixed and variable.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/production-cost</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/production-cost</guid>
     </item>
     
 
     <item>
       <title>Price elasticity</title>
-      <link>https://allandeutsch.com/notes/price-elasticity</link>
+      <link>https://allandeutsch.com/notes/notes/price-elasticity</link>
       <pubDate>Wed, 22 Sep 2021 00:00:00 GMT</pubDate>
       <description>Price elasticity measures how much the demand for a good changes in response to price changes.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/price-elasticity</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/price-elasticity</guid>
     </item>
     
 
     <item>
       <title>Opportunity cost</title>
-      <link>https://allandeutsch.com/notes/opportunity-cost</link>
+      <link>https://allandeutsch.com/notes/notes/opportunity-cost</link>
       <pubDate>Sun, 16 Jan 2022 00:00:00 GMT</pubDate>
       <description>The most valuable alternative that must be given up.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/opportunity-cost</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/opportunity-cost</guid>
     </item>
     
 
     <item>
       <title>Marginal utility</title>
-      <link>https://allandeutsch.com/notes/marginal-utility</link>
+      <link>https://allandeutsch.com/notes/notes/marginal-utility</link>
       <pubDate>Mon, 20 Sep 2021 00:00:00 GMT</pubDate>
       <description>The incremental value gained from have one more of something.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/marginal-utility</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/marginal-utility</guid>
     </item>
     
 
     <item>
       <title>Consumer demand</title>
-      <link>https://allandeutsch.com/notes/consumer-demand</link>
+      <link>https://allandeutsch.com/notes/notes/consumer-demand</link>
       <pubDate>Wed, 22 Sep 2021 00:00:00 GMT</pubDate>
       <description>Consumer demand looks at the three types of relationships between goods and how price changes to one product affects demand for another.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/consumer-demand</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/consumer-demand</guid>
     </item>
     
 
     <item>
       <title>Supply and demand</title>
-      <link>https://allandeutsch.com/notes/supply-demand</link>
+      <link>https://allandeutsch.com/notes/notes/supply-demand</link>
       <pubDate>Sun, 19 Sep 2021 00:00:00 GMT</pubDate>
       <description>An area of microeconomics focused on how price influences the behavior of producers and consumers.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/supply-demand</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/supply-demand</guid>
     </item>
     
 
     <item>
       <title>Market forces</title>
-      <link>https://allandeutsch.com/notes/market-forces</link>
+      <link>https://allandeutsch.com/notes/notes/market-forces</link>
       <pubDate>Sun, 09 Jan 2022 00:00:00 GMT</pubDate>
       <description>The factors that impact the price of goods and services, which in turn drives supply and demand changes.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/market-forces</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/market-forces</guid>
     </item>
     
 
     <item>
       <title>Great UI shadows imitate real shadows</title>
-      <link>https://allandeutsch.com/notes/ui-shadows</link>
+      <link>https://allandeutsch.com/notes/notes/ui-shadows</link>
       <pubDate>Thu, 21 Oct 2021 00:00:00 GMT</pubDate>
       <description>UI shadows should create an illusion of depth. For the best illusion, imitate reality.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/ui-shadows</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/ui-shadows</guid>
     </item>
     
 
     <item>
       <title>The principal-agent problem</title>
-      <link>https://allandeutsch.com/notes/principal-agent-problem</link>
+      <link>https://allandeutsch.com/notes/notes/principal-agent-problem</link>
       <pubDate>Mon, 29 Nov 2021 00:00:00 GMT</pubDate>
       <description>When there is a conflict in priorities between one party (the principal) and another party (the agent) that executions on their behalf.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/principal-agent-problem</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/principal-agent-problem</guid>
     </item>
     
 
     <item>
       <title>Grapow</title>
-      <link>https://allandeutsch.com/notes/grapow</link>
+      <link>https://allandeutsch.com/notes/notes/grapow</link>
       <pubDate>Sat, 06 Nov 2021 00:00:00 GMT</pubDate>
       <description>Grapow is a sweet & spicy Thai dish made with ground meat, Thai chilis, and Thai basil. This dish is often requested by friends joining for dinner.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/grapow</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/grapow</guid>
     </item>
     
 
     <item>
       <title>Improve site previews on social media by unfurling webpages</title>
-      <link>https://allandeutsch.com/notes/site-unfurling</link>
+      <link>https://allandeutsch.com/notes/notes/site-unfurling</link>
       <pubDate>Sun, 31 Oct 2021 00:00:00 GMT</pubDate>
       <description>Some webpages have nice previews when shared on social media. These can be specified in the page HTML. Previews make the site user-friendly before users even visit it!</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/site-unfurling</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/site-unfurling</guid>
     </item>
     
 
     <item>
       <title>Value innovation</title>
-      <link>https://allandeutsch.com/notes/value-innovation</link>
+      <link>https://allandeutsch.com/notes/notes/value-innovation</link>
       <pubDate>Sun, 12 Sep 2021 00:00:00 GMT</pubDate>
       <description>Value innovation is how companies offer dramatically higher value at lower costs, escaping competition.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/value-innovation</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/value-innovation</guid>
     </item>
     
 
     <item>
       <title>Use contrast to direct attention</title>
-      <link>https://allandeutsch.com/notes/use-contrast-direct-attention</link>
+      <link>https://allandeutsch.com/notes/notes/use-contrast-direct-attention</link>
       <pubDate>Thu, 25 Mar 2021 00:00:00 GMT</pubDate>
       <description>Visual focus is naturally drawn to contrast. Use contrast in design to direct attention.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/use-contrast-direct-attention</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/use-contrast-direct-attention</guid>
     </item>
     
 
     <item>
       <title>Make hard decisions quickly</title>
-      <link>https://allandeutsch.com/notes/hard-decisions</link>
+      <link>https://allandeutsch.com/notes/notes/hard-decisions</link>
       <pubDate>Tue, 15 Jun 2021 00:00:00 GMT</pubDate>
       <description>The less differentiated the options are, the harder it is to choose one.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/hard-decisions</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/hard-decisions</guid>
     </item>
     
 
     <item>
       <title>Type-1 and Type-2 Decisions</title>
-      <link>https://allandeutsch.com/notes/type-1-2-decisions</link>
+      <link>https://allandeutsch.com/notes/notes/type-1-2-decisions</link>
       <pubDate>Wed, 14 Jul 2021 00:00:00 GMT</pubDate>
       <description>A decision dichotomy based on if the decision can be mitigated or reversed.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/type-1-2-decisions</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/type-1-2-decisions</guid>
     </item>
     
 
     <item>
       <title>Ask, don't tell</title>
-      <link>https://allandeutsch.com/notes/ask-dont-tell</link>
+      <link>https://allandeutsch.com/notes/notes/ask-dont-tell</link>
       <pubDate>Mon, 14 Jun 2021 00:00:00 GMT</pubDate>
       <description>Giving unprompted advice is ineffective. Instead, lead people to ask for advice.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/ask-dont-tell</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/ask-dont-tell</guid>
     </item>
     
 
     <item>
       <title>Vicious and virtuous cycles</title>
-      <link>https://allandeutsch.com/notes/vicious-virtuous-cycles</link>
+      <link>https://allandeutsch.com/notes/notes/vicious-virtuous-cycles</link>
       <pubDate>Fri, 24 Sep 2021 00:00:00 GMT</pubDate>
       <description>Self-reinforcing cycles that act as compound growth systems. Negative cycles are vicious, positive cycles are virtuous.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/vicious-virtuous-cycles</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/vicious-virtuous-cycles</guid>
     </item>
     
 
     <item>
       <title>Categories of customer attributes</title>
-      <link>https://allandeutsch.com/notes/customer-attribute-categories</link>
+      <link>https://allandeutsch.com/notes/notes/customer-attribute-categories</link>
       <pubDate>Thu, 23 Sep 2021 00:00:00 GMT</pubDate>
       <description>Customer attributes can be grouped as demographic, psychographic, geographic, or behavior.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/customer-attribute-categories</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/customer-attribute-categories</guid>
     </item>
     
 
     <item>
       <title>The fundamental habits</title>
-      <link>https://allandeutsch.com/notes/fundamental-habits</link>
+      <link>https://allandeutsch.com/notes/notes/fundamental-habits</link>
       <pubDate>Thu, 23 Sep 2021 00:00:00 GMT</pubDate>
       <description>These simple behaviors are often challenging, but provide a rock solid foundation for the rest of life.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/fundamental-habits</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/fundamental-habits</guid>
     </item>
     
 
     <item>
       <title>Utility</title>
-      <link>https://allandeutsch.com/notes/utility</link>
+      <link>https://allandeutsch.com/notes/notes/utility</link>
       <pubDate>Wed, 22 Sep 2021 00:00:00 GMT</pubDate>
       <description>Utility is the microeconomics concept for how much satisfaction, pain reduction, happiness, or value a buyer gets from a product or service.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/utility</guid>
-    </item>
-    
-
-    <item>
-      <title>Blue Ocean</title>
-      <link>https://allandeutsch.com/notes/blue-ocean</link>
-      <pubDate>Fri, 10 Sep 2021 00:00:00 GMT</pubDate>
-      <description>Blue oceans are markets that haven't been created yet. They are lucrative business opportunities.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/blue-ocean</guid>
-    </item>
-    
-
-    <item>
-      <title>Common traits of successful blue ocean strategies</title>
-      <link>https://allandeutsch.com/notes/traits-successful-blue-ocean-strategy</link>
-      <pubDate>Thu, 16 Sep 2021 00:00:00 GMT</pubDate>
-      <description>Great strategies have a clear focus, diverge from competition, and are easy to explain.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/traits-successful-blue-ocean-strategy</guid>
-    </item>
-    
-
-    <item>
-      <title>Segmentation, Targeting, and Positioning (STP)</title>
-      <link>https://allandeutsch.com/notes/segmentation-targeting-positioning</link>
-      <pubDate>Wed, 11 Aug 2021 00:00:00 GMT</pubDate>
-      <description>Group consumers into segments, determine which to target, and estable the product's position for them.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/segmentation-targeting-positioning</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/utility</guid>
     </item>
     
 
     <item>
       <title>Value curve</title>
-      <link>https://allandeutsch.com/notes/value-curve</link>
+      <link>https://allandeutsch.com/notes/notes/value-curve</link>
       <pubDate>Thu, 16 Sep 2021 00:00:00 GMT</pubDate>
       <description>The line on a strategy canvas showing the emphasis a company places on each factor of competition in its industry.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/value-curve</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/value-curve</guid>
     </item>
     
 
     <item>
-      <title>Blue Ocean strategy</title>
-      <link>https://allandeutsch.com/notes/blue-ocean-strategy</link>
-      <pubDate>Wed, 15 Sep 2021 00:00:00 GMT</pubDate>
-      <description>Blue ocean strategy is about creating new markets to escape competition.</description>
+      <title>Common traits of successful blue ocean strategies</title>
+      <link>https://allandeutsch.com/notes/notes/traits-successful-blue-ocean-strategy</link>
+      <pubDate>Thu, 16 Sep 2021 00:00:00 GMT</pubDate>
+      <description>Great strategies have a clear focus, diverge from competition, and are easy to explain.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/blue-ocean-strategy</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/traits-successful-blue-ocean-strategy</guid>
+    </item>
+    
+
+    <item>
+      <title>Segmentation, Targeting, and Positioning (STP)</title>
+      <link>https://allandeutsch.com/notes/notes/segmentation-targeting-positioning</link>
+      <pubDate>Wed, 11 Aug 2021 00:00:00 GMT</pubDate>
+      <description>Group consumers into segments, determine which to target, and estable the product's position for them.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/segmentation-targeting-positioning</guid>
+    </item>
+    
+
+    <item>
+      <title>Blue Ocean</title>
+      <link>https://allandeutsch.com/notes/notes/blue-ocean</link>
+      <pubDate>Fri, 10 Sep 2021 00:00:00 GMT</pubDate>
+      <description>Blue oceans are markets that haven't been created yet. They are lucrative business opportunities.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/blue-ocean</guid>
     </item>
     
 
     <item>
       <title>Factors of competition</title>
-      <link>https://allandeutsch.com/notes/competition-factors</link>
+      <link>https://allandeutsch.com/notes/notes/competition-factors</link>
       <pubDate>Wed, 15 Sep 2021 00:00:00 GMT</pubDate>
       <description>The factors that companies/products within an industry typically compete on to provide value to customers.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/competition-factors</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/competition-factors</guid>
+    </item>
+    
+
+    <item>
+      <title>Blue Ocean strategy</title>
+      <link>https://allandeutsch.com/notes/notes/blue-ocean-strategy</link>
+      <pubDate>Wed, 15 Sep 2021 00:00:00 GMT</pubDate>
+      <description>Blue ocean strategy is about creating new markets to escape competition.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/blue-ocean-strategy</guid>
     </item>
     
 
     <item>
       <title>The Four Actions framework</title>
-      <link>https://allandeutsch.com/notes/four-actions-framework</link>
+      <link>https://allandeutsch.com/notes/notes/four-actions-framework</link>
       <pubDate>Wed, 15 Sep 2021 00:00:00 GMT</pubDate>
       <description>Helps identify which factors a business should eliminate, reduce, raise, and create. Typically used with a strategy canvas.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/four-actions-framework</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/four-actions-framework</guid>
     </item>
     
 
     <item>
       <title>The strategy canvas</title>
-      <link>https://allandeutsch.com/notes/strategy-canvas</link>
+      <link>https://allandeutsch.com/notes/notes/strategy-canvas</link>
       <pubDate>Mon, 13 Sep 2021 00:00:00 GMT</pubDate>
       <description>An analytical tool that shows how much emphasis companies place on value areas in their industry.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/strategy-canvas</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/strategy-canvas</guid>
     </item>
     
 
     <item>
       <title>Red ocean</title>
-      <link>https://allandeutsch.com/notes/red-ocean</link>
+      <link>https://allandeutsch.com/notes/notes/red-ocean</link>
       <pubDate>Fri, 10 Sep 2021 00:00:00 GMT</pubDate>
       <description>Crowded markets where customers have many options to choose from, resulting in cutthroat competition.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/red-ocean</guid>
-    </item>
-    
-
-    <item>
-      <title>Business Model Canvas</title>
-      <link>https://allandeutsch.com/notes/business-model-canvas</link>
-      <pubDate>Mon, 14 Jun 2021 00:00:00 GMT</pubDate>
-      <description>A modern alternative to a business plan. It has 9 sections with details of the business, its customers, and how it provides value.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/business-model-canvas</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/red-ocean</guid>
     </item>
     
 
     <item>
       <title>Customer relationship</title>
-      <link>https://allandeutsch.com/notes/customer-relationship</link>
+      <link>https://allandeutsch.com/notes/notes/customer-relationship</link>
       <pubDate>Wed, 16 Jun 2021 00:00:00 GMT</pubDate>
       <description>The interactions a business has with customers and the strategies around those interactions.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/customer-relationship</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/customer-relationship</guid>
+    </item>
+    
+
+    <item>
+      <title>Business Model Canvas</title>
+      <link>https://allandeutsch.com/notes/notes/business-model-canvas</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 GMT</pubDate>
+      <description>A modern alternative to a business plan. It has 9 sections with details of the business, its customers, and how it provides value.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/business-model-canvas</guid>
     </item>
     
 
     <item>
       <title>Build infrastructure after not having it becomes painful</title>
-      <link>https://allandeutsch.com/notes/build-infrastructure-after-pain</link>
+      <link>https://allandeutsch.com/notes/notes/build-infrastructure-after-pain</link>
       <pubDate>Fri, 02 Jul 2021 00:00:00 GMT</pubDate>
       <description>The pain caused by a lack of infrastructure proves the infrastructure is necessary.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/build-infrastructure-after-pain</guid>
-    </item>
-    
-
-    <item>
-      <title>Distribution channel</title>
-      <link>https://allandeutsch.com/notes/distribution-channel</link>
-      <pubDate>Wed, 16 Jun 2021 00:00:00 GMT</pubDate>
-      <description>Distribution channels are how products and services get from a business to its customers.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/distribution-channel</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/build-infrastructure-after-pain</guid>
     </item>
     
 
     <item>
       <title>Monetized content creation is a compound growth system</title>
-      <link>https://allandeutsch.com/notes/monetized-content-compound-growth</link>
+      <link>https://allandeutsch.com/notes/notes/monetized-content-compound-growth</link>
       <pubDate>Wed, 07 Apr 2021 00:00:00 GMT</pubDate>
       <description>New content creates new organic inbound traffic and retains the audience. Old content creates more value from new audience.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/monetized-content-compound-growth</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/monetized-content-compound-growth</guid>
+    </item>
+    
+
+    <item>
+      <title>Distribution channel</title>
+      <link>https://allandeutsch.com/notes/notes/distribution-channel</link>
+      <pubDate>Wed, 16 Jun 2021 00:00:00 GMT</pubDate>
+      <description>Distribution channels are how products and services get from a business to its customers.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/distribution-channel</guid>
     </item>
     
 
     <item>
       <title>Compound growth system</title>
-      <link>https://allandeutsch.com/notes/compound-growth-system</link>
+      <link>https://allandeutsch.com/notes/notes/compound-growth-system</link>
       <pubDate>Thu, 12 Aug 2021 00:00:00 GMT</pubDate>
       <description>Any system in which growth is proportional to the principal, added to that principal, and then repeated.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/compound-growth-system</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/compound-growth-system</guid>
     </item>
     
 
     <item>
       <title>Compound growth is most impactful at the end</title>
-      <link>https://allandeutsch.com/notes/compound-growth-most-impactful-at-end</link>
+      <link>https://allandeutsch.com/notes/notes/compound-growth-most-impactful-at-end</link>
       <pubDate>Thu, 12 Aug 2021 00:00:00 GMT</pubDate>
       <description>Compound growth is exponential. Each compounding period generates more growth than the previous one.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/compound-growth-most-impactful-at-end</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/compound-growth-most-impactful-at-end</guid>
     </item>
     
 
     <item>
       <title>Customer segment</title>
-      <link>https://allandeutsch.com/notes/customer-segment</link>
+      <link>https://allandeutsch.com/notes/notes/customer-segment</link>
       <pubDate>Sun, 13 Jun 2021 00:00:00 GMT</pubDate>
       <description>The groups of people a business aims to serve.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/customer-segment</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/customer-segment</guid>
     </item>
     
 
     <item>
       <title>Situation analysis</title>
-      <link>https://allandeutsch.com/notes/situation-analysis</link>
+      <link>https://allandeutsch.com/notes/notes/situation-analysis</link>
       <pubDate>Tue, 10 Aug 2021 00:00:00 GMT</pubDate>
       <description>A tool for identifying and evaluating the market conditions for a product or service.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/situation-analysis</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/situation-analysis</guid>
     </item>
     
 
     <item>
       <title>The learning process</title>
-      <link>https://allandeutsch.com/notes/learning-process</link>
+      <link>https://allandeutsch.com/notes/notes/learning-process</link>
       <pubDate>Tue, 27 Jul 2021 00:00:00 GMT</pubDate>
       <description>A repeating cycle of receiving input, processing it to create output, evaluating that output, and evaluating results to improve future processing.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/learning-process</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/learning-process</guid>
     </item>
     
 
     <item>
       <title>My spaced repetition workflow</title>
-      <link>https://allandeutsch.com/notes/spaced-repetition-workflow</link>
+      <link>https://allandeutsch.com/notes/notes/spaced-repetition-workflow</link>
       <pubDate>Fri, 25 Jun 2021 00:00:00 GMT</pubDate>
       <description>The setup and workflow I use to retain what I learn and deepen my understanding.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/spaced-repetition-workflow</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/spaced-repetition-workflow</guid>
     </item>
     
 
     <item>
       <title>The world is recursive</title>
-      <link>https://allandeutsch.com/notes/world-recursive</link>
+      <link>https://allandeutsch.com/notes/notes/world-recursive</link>
       <pubDate>Wed, 14 Apr 2021 00:00:00 GMT</pubDate>
       <description>The same things happen across domains and contexts all over the world. Very little is unique or novel.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/world-recursive</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/world-recursive</guid>
     </item>
     
 
     <item>
       <title>Give mostly positive feedback</title>
-      <link>https://allandeutsch.com/notes/positive-feedback</link>
+      <link>https://allandeutsch.com/notes/notes/positive-feedback</link>
       <pubDate>Mon, 15 Mar 2021 00:00:00 GMT</pubDate>
       <description>Both positive and negative feedback are important, but on high performing teams positive feedback outweighs constructive feedback 5 to 1.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/positive-feedback</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/positive-feedback</guid>
     </item>
     
   </channel>
