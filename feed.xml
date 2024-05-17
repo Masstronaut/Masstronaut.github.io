@@ -6,8 +6,8 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Thu, 16 May 2024 23:34:46 GMT</pubDate>
-    <lastBuildDate>Thu, 16 May 2024 23:34:46 GMT</lastBuildDate>
+    <pubDate>Fri, 17 May 2024 06:35:36 GMT</pubDate>
+    <lastBuildDate>Fri, 17 May 2024 06:35:36 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
@@ -67,6 +67,16 @@
       <description>I went to the Berkshire Hathaway annual shareholder meeting, launched the Doc Duck site, and brushed up on my databases knowledge</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/devlog/4</guid>
+    </item>
+    
+
+    <item>
+      <title>devlog 3: now with more pixels</title>
+      <link>https://allandeutsch.com/notes/devlog/3</link>
+      <pubDate>Sun, 28 Apr 2024 00:00:00 GMT</pubDate>
+      <description>Professional web forms, dogfooding Doc Duck, and glorious images on the internet!</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/devlog/3</guid>
     </item>
     
 
