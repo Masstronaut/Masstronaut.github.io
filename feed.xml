@@ -6,10 +6,20 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Sun, 19 May 2024 06:37:23 GMT</pubDate>
-    <lastBuildDate>Sun, 19 May 2024 06:37:23 GMT</lastBuildDate>
+    <pubDate>Sun, 19 May 2024 06:54:44 GMT</pubDate>
+    <lastBuildDate>Sun, 19 May 2024 06:54:44 GMT</lastBuildDate>
     <ttl>60</ttl>
     
+    <item>
+      <title>Total Typescript notes</title>
+      <link>https://allandeutsch.com/notes/notes/total-typescript-notes</link>
+      <pubDate>Thu, 23 Nov 2023 00:00:00 GMT</pubDate>
+      <description>I've learned a lot from this course, and use this note to record bits I want to remember and riff on some of my observations.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/notes/total-typescript-notes</guid>
+    </item>
+    
+
     <item>
       <title>devlog 5: back on stage!</title>
       <link>https://allandeutsch.com/notes/devlog/5</link>
@@ -157,16 +167,6 @@
       <description>Cross-origin resource sharing requests let a user access resources on one site from another, but only if the server performs the secret CORS handshake with the browser.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/notes/sveltekit-cors</guid>
-    </item>
-    
-
-    <item>
-      <title>Total Typescript notes</title>
-      <link>https://allandeutsch.com/notes/notes/total-typescript-notes</link>
-      <pubDate>Thu, 23 Nov 2023 00:00:00 GMT</pubDate>
-      <description>I've learned a lot from this course, and use this note to record bits I want to remember and riff on some of my observations.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/notes/total-typescript-notes</guid>
     </item>
     
 
