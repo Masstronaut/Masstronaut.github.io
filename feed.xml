@@ -6,12 +6,12 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Mon, 20 May 2024 04:30:19 GMT</pubDate>
-    <lastBuildDate>Mon, 20 May 2024 04:30:19 GMT</lastBuildDate>
+    <pubDate>Mon, 20 May 2024 04:42:02 GMT</pubDate>
+    <lastBuildDate>Mon, 20 May 2024 04:42:02 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
-      <title>"devlog 6: a routing overhaul!"</title>
+      <title>devlog 6: routing overhaul</title>
       <link>https://allandeutsch.com/notes/devlog/6</link>
       <pubDate>Wed, 15 May 2024 00:00:00 GMT</pubDate>
       <description>A major overhaul to routing on this site! Plus TS identity functions, reference sheets, and my resume!</description>
