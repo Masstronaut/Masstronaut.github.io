@@ -6,8 +6,8 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Mon, 20 May 2024 19:09:54 GMT</pubDate>
-    <lastBuildDate>Mon, 20 May 2024 19:09:54 GMT</lastBuildDate>
+    <pubDate>Mon, 20 May 2024 19:30:45 GMT</pubDate>
+    <lastBuildDate>Mon, 20 May 2024 19:30:45 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
@@ -161,7 +161,7 @@
     
 
     <item>
-      <title>devlog0: init</title>
+      <title>devlog 0: init</title>
       <link>https://allandeutsch.com/notes/devlog/0</link>
       <pubDate>Sun, 07 Apr 2024 00:00:00 GMT</pubDate>
       <description>My first devlog!</description>
