@@ -6,8 +6,8 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Sun, 02 Jun 2024 22:35:47 GMT</pubDate>
-    <lastBuildDate>Sun, 02 Jun 2024 22:35:47 GMT</lastBuildDate>
+    <pubDate>Mon, 03 Jun 2024 03:40:19 GMT</pubDate>
+    <lastBuildDate>Mon, 03 Jun 2024 03:40:19 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
@@ -235,7 +235,7 @@
       <link>https://allandeutsch.com/notes/customer-teams-lucia</link>
       <pubDate>Mon, 16 Oct 2023 00:00:00 GMT</pubDate>
       <modified>Sun, 22 Oct 2023 00:00:00 GMT</modified>
-      <description>When building a B2B product, most customers will want to invite their team members. This post explores how I added support for that to Penguinsight, a user feedback SaaS I'm building.</description>
+      <description>When building a B2B product, most customers will want to invite their team members. This post explores how I added support for that to Doc Duck, a documentation feedback solution I'm building.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/customer-teams-lucia</guid>
     </item>
@@ -896,8 +896,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Sun, 02 Jun 2024 22:35:47 GMT</pubDate>
-    <lastBuildDate>Sun, 02 Jun 2024 22:35:47 GMT</lastBuildDate>
+    <pubDate>Mon, 03 Jun 2024 03:40:19 GMT</pubDate>
+    <lastBuildDate>Mon, 03 Jun 2024 03:40:19 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
