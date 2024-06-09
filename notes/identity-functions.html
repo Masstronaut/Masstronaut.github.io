@@ -9,23 +9,23 @@
 		<link href="../_app/immutable/assets/LoadNote.144730f5.css" rel="stylesheet">
 		<link href="../_app/immutable/assets/MDSveXNoteLayout.61812917.css" rel="stylesheet">
 		<link href="../_app/immutable/assets/6.8a973cea.css" rel="stylesheet">
-		<link rel="modulepreload" href="../_app/immutable/entry/start.0945c241.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/start.1f6b0dbb.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/scheduler.7131e7f1.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/singletons.87165671.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/paths.a85e98f0.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/singletons.79c11f22.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/paths.f0909e9d.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/parse.bee59afc.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/control.c2cf8273.js">
-		<link rel="modulepreload" href="../_app/immutable/entry/app.2eeadbe3.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/app.5952b383.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/preload-helper.a4192956.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/index.9e889c2d.js">
-		<link rel="modulepreload" href="../_app/immutable/nodes/0.dac443c4.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/0.9f6a34a4.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/each.49c20442.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/LoadNote.7214bf83.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/navigation.924c45c4.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/toast.a662013c.js">
-		<link rel="modulepreload" href="../_app/immutable/nodes/6.e95ee1bd.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/stores.5c56f189.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/NoteGrid.2d948dc1.js"><title>Identity functions - Allan Deutsch</title><!-- HEAD_svelte-x3qw35_START --><meta name="description" content="Identity functions make it possible to provide a much better developer experience at API boundaries by improving the type"><meta property="og:title" content="Identity functions"><meta property="og:type" content="article"><meta property="og:url" content="https://allandeutsch.com/notes/identity-functions"><meta property="og:description" content="Identity functions make it possible to provide a much better developer experience at API boundaries by improving the type"><meta property="og:locale" content="en_US"><meta property="twitter:card" content="summary"><meta property="twitter:url" content="https://allandeutsch.com"><meta property="twitter:title" content="Identity functions"><meta property="twitter:description" content="Identity functions make it possible to provide a much better developer experience at API boundaries by improving the type"><meta property="twitter:site" content="@AllanDeutsch"><meta property="twitter:creator" content="@AllanDeutsch"><link rel="canonical" href="https://allandeutsch.com/notes/identity-functions"><script type="module" src="https://docduck.dev/selection.js" data-svelte-h="svelte-1qfon0b"></script><script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="AllanDeutsch" data-description="Support me on Buy me a coffee!" data-message="" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18" data-svelte-h="svelte-bv2cpr"></script><!-- HEAD_svelte-x3qw35_END --><!-- HEAD_svelte-cpyj77_START -->   <meta name="theme-color" content="dark"><!-- HTML_TAG_START --><script nonce="%sveltekit.nonce%">(function setInitialMode(defaultMode, themeColors2) {
+		<link rel="modulepreload" href="../_app/immutable/chunks/LoadNote.38d6f53d.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/navigation.35224b23.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/toast.bd609833.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/6.6d7a4db6.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/stores.c320b671.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/NoteGrid.e8cdf805.js"><title>Identity functions - Allan Deutsch</title><!-- HEAD_svelte-x3qw35_START --><meta name="description" content="Identity functions make it possible to provide a much better developer experience at API boundaries by improving the type"><meta property="og:title" content="Identity functions"><meta property="og:type" content="article"><meta property="og:url" content="https://allandeutsch.com/notes/identity-functions"><meta property="og:description" content="Identity functions make it possible to provide a much better developer experience at API boundaries by improving the type"><meta property="og:locale" content="en_US"><meta property="twitter:card" content="summary"><meta property="twitter:url" content="https://allandeutsch.com"><meta property="twitter:title" content="Identity functions"><meta property="twitter:description" content="Identity functions make it possible to provide a much better developer experience at API boundaries by improving the type"><meta property="twitter:site" content="@AllanDeutsch"><meta property="twitter:creator" content="@AllanDeutsch"><link rel="canonical" href="https://allandeutsch.com/notes/identity-functions"><script type="module" src="https://docduck.dev/selection.js" data-svelte-h="svelte-1qfon0b"></script><script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="AllanDeutsch" data-description="Support me on Buy me a coffee!" data-message="" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18" data-svelte-h="svelte-bv2cpr"></script><!-- HEAD_svelte-x3qw35_END --><!-- HEAD_svelte-cpyj77_START -->   <meta name="theme-color" content="dark"><!-- HTML_TAG_START --><script nonce="%sveltekit.nonce%">(function setInitialMode(defaultMode, themeColors2) {
   const rootEl = document.documentElement;
   const mode = localStorage.getItem("mode-watcher-mode") || defaultMode;
   const light = mode === "light" || mode === "system" && window.matchMedia("(prefers-color-scheme: light)").matches;
@@ -274,7 +274,7 @@ router['/hello/world']('Greetings!')
 			
 			<script>
 				{
-					__sveltekit_4ek4ij = {
+					__sveltekit_1f87c70 = {
 						base: new URL("..", location).pathname.slice(0, -1),
 						env: {"PUBLIC_SUPABASE_ANON_KEY":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFlb3ZmZXRyaXNyZnFpZWF0bXp3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODcwNjM0NTYsImV4cCI6MjAwMjYzOTQ1Nn0.s9KXOQ0gDdl7e3lTUxdN5yfPI0rLZ-dSRMfEwoHhK00","PUBLIC_SUPABASE_URL":"https://aeovfetrisrfqieatmzw.supabase.co"}
 					};
@@ -284,8 +284,8 @@ router['/hello/world']('Greetings!')
 					const data = [{"type":"data","data":{session:null,user:null},"uses":{}},null];
 
 					Promise.all([
-						import("../_app/immutable/entry/start.0945c241.js"),
-						import("../_app/immutable/entry/app.2eeadbe3.js")
+						import("../_app/immutable/entry/start.1f6b0dbb.js"),
+						import("../_app/immutable/entry/app.5952b383.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 6],
