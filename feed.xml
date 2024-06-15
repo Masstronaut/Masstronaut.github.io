@@ -6,8 +6,8 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Wed, 12 Jun 2024 17:56:40 GMT</pubDate>
-    <lastBuildDate>Wed, 12 Jun 2024 17:56:40 GMT</lastBuildDate>
+    <pubDate>Sat, 15 Jun 2024 23:30:38 GMT</pubDate>
+    <lastBuildDate>Sat, 15 Jun 2024 23:30:38 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
@@ -462,17 +462,6 @@
     
 
     <item>
-      <title>Marginal utility</title>
-      <link>https://allandeutsch.com/notes/marginal-utility</link>
-      <pubDate>Mon, 20 Sep 2021 00:00:00 GMT</pubDate>
-      <modified>Sat, 15 Jan 2022 00:00:00 GMT</modified>
-      <description>The incremental value gained from have one more of something.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/marginal-utility</guid>
-    </item>
-    
-
-    <item>
       <title>Consumer demand</title>
       <link>https://allandeutsch.com/notes/consumer-demand</link>
       <pubDate>Wed, 22 Sep 2021 00:00:00 GMT</pubDate>
@@ -480,6 +469,17 @@
       <description>Consumer demand looks at the three types of relationships between goods and how price changes to one product affects demand for another.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/consumer-demand</guid>
+    </item>
+    
+
+    <item>
+      <title>Marginal utility</title>
+      <link>https://allandeutsch.com/notes/marginal-utility</link>
+      <pubDate>Mon, 20 Sep 2021 00:00:00 GMT</pubDate>
+      <modified>Sat, 15 Jan 2022 00:00:00 GMT</modified>
+      <description>The incremental value gained from have one more of something.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/marginal-utility</guid>
     </item>
     
 
@@ -896,10 +896,21 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Wed, 12 Jun 2024 17:56:40 GMT</pubDate>
-    <lastBuildDate>Wed, 12 Jun 2024 17:56:40 GMT</lastBuildDate>
+    <pubDate>Sat, 15 Jun 2024 23:30:38 GMT</pubDate>
+    <lastBuildDate>Sat, 15 Jun 2024 23:30:38 GMT</lastBuildDate>
     <ttl>60</ttl>
     
+    <item>
+      <title>devlog 9: Buildspace begins!</title>
+      <link>https://allandeutsch.com/devlog/9</link>
+      <pubDate>Sat, 15 Jun 2024 00:00:00 GMT</pubDate>
+      <modified>Sat, 15 Jun 2024 00:00:00 GMT</modified>
+      <description>Doc Duck's feedback widget is now branded!</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/devlog/9</guid>
+    </item>
+    
+
     <item>
       <title>devlog 8: Squeaky clean feedback UX</title>
       <link>https://allandeutsch.com/devlog/8</link>
