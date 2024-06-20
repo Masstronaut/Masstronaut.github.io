@@ -6,10 +6,21 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Thu, 20 Jun 2024 19:46:55 GMT</pubDate>
-    <lastBuildDate>Thu, 20 Jun 2024 19:46:55 GMT</lastBuildDate>
+    <pubDate>Thu, 20 Jun 2024 20:37:19 GMT</pubDate>
+    <lastBuildDate>Thu, 20 Jun 2024 20:37:19 GMT</lastBuildDate>
     <ttl>60</ttl>
     
+    <item>
+      <title>Thinking channels</title>
+      <link>https://allandeutsch.com/notes/thinking-channels</link>
+      <pubDate>Tue, 13 Jun 2023 00:00:00 GMT</pubDate>
+      <modified>Thu, 20 Jun 2024 00:00:00 GMT</modified>
+      <description>Thinking about the same concept in a different way is often a big unlock to deeper and clearer understanding</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/thinking-channels</guid>
+    </item>
+    
+
     <item>
       <title>Identity functions</title>
       <link>https://allandeutsch.com/notes/identity-functions</link>
@@ -896,8 +907,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Thu, 20 Jun 2024 19:46:55 GMT</pubDate>
-    <lastBuildDate>Thu, 20 Jun 2024 19:46:55 GMT</lastBuildDate>
+    <pubDate>Thu, 20 Jun 2024 20:37:19 GMT</pubDate>
+    <lastBuildDate>Thu, 20 Jun 2024 20:37:19 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
