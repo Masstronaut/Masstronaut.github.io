@@ -6,8 +6,8 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Wed, 26 Jun 2024 21:02:15 GMT</pubDate>
-    <lastBuildDate>Wed, 26 Jun 2024 21:02:15 GMT</lastBuildDate>
+    <pubDate>Wed, 26 Jun 2024 21:13:38 GMT</pubDate>
+    <lastBuildDate>Wed, 26 Jun 2024 21:13:38 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
@@ -907,10 +907,21 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Wed, 26 Jun 2024 21:02:15 GMT</pubDate>
-    <lastBuildDate>Wed, 26 Jun 2024 21:02:15 GMT</lastBuildDate>
+    <pubDate>Wed, 26 Jun 2024 21:13:38 GMT</pubDate>
+    <lastBuildDate>Wed, 26 Jun 2024 21:13:38 GMT</lastBuildDate>
     <ttl>60</ttl>
     
+    <item>
+      <title>devlog 10: CascadiaJS</title>
+      <link>https://allandeutsch.com/devlog/10</link>
+      <pubDate>Sun, 23 Jun 2024 00:00:00 GMT</pubDate>
+      <modified>Wed, 26 Jun 2024 00:00:00 GMT</modified>
+      <description>Doc Duck takes to the stage! Finding my first customer and also inspiration at the PNW's premier JS conference.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/devlog/10</guid>
+    </item>
+    
+
     <item>
       <title>devlog 9: Buildspace begins!</title>
       <link>https://allandeutsch.com/devlog/9</link>
