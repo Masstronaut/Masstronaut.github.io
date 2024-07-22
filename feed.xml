@@ -6,8 +6,8 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Mon, 22 Jul 2024 20:58:09 GMT</pubDate>
-    <lastBuildDate>Mon, 22 Jul 2024 20:58:09 GMT</lastBuildDate>
+    <pubDate>Mon, 22 Jul 2024 21:18:15 GMT</pubDate>
+    <lastBuildDate>Mon, 22 Jul 2024 21:18:15 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
@@ -55,17 +55,6 @@
     
 
     <item>
-      <title>Add a demo link to TypeScript code blocks</title>
-      <link>https://allandeutsch.com/notes/code-block-tsplay-demo-link</link>
-      <pubDate>Thu, 09 May 2024 00:00:00 GMT</pubDate>
-      <modified>Thu, 09 May 2024 00:00:00 GMT</modified>
-      <description>Seeing example code with syntax highlighting is great, but sometimes you've just gotta run the code and see what happens...</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/code-block-tsplay-demo-link</guid>
-    </item>
-    
-
-    <item>
       <title>Make example code interactive</title>
       <link>https://allandeutsch.com/notes/make-example-code-interactive</link>
       <pubDate>Thu, 09 May 2024 00:00:00 GMT</pubDate>
@@ -73,6 +62,17 @@
       <description>Whenever possible, make code interactive. Interaction is the single most effective way to teach anything, including code!</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/make-example-code-interactive</guid>
+    </item>
+    
+
+    <item>
+      <title>Add a demo link to TypeScript code blocks</title>
+      <link>https://allandeutsch.com/notes/code-block-tsplay-demo-link</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 GMT</pubDate>
+      <modified>Thu, 09 May 2024 00:00:00 GMT</modified>
+      <description>Seeing example code with syntax highlighting is great, but sometimes you've just gotta run the code and see what happens...</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/code-block-tsplay-demo-link</guid>
     </item>
     
 
@@ -473,17 +473,6 @@
     
 
     <item>
-      <title>Marginal utility</title>
-      <link>https://allandeutsch.com/notes/marginal-utility</link>
-      <pubDate>Mon, 20 Sep 2021 00:00:00 GMT</pubDate>
-      <modified>Sat, 15 Jan 2022 00:00:00 GMT</modified>
-      <description>The incremental value gained from have one more of something.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/marginal-utility</guid>
-    </item>
-    
-
-    <item>
       <title>Consumer demand</title>
       <link>https://allandeutsch.com/notes/consumer-demand</link>
       <pubDate>Wed, 22 Sep 2021 00:00:00 GMT</pubDate>
@@ -491,6 +480,17 @@
       <description>Consumer demand looks at the three types of relationships between goods and how price changes to one product affects demand for another.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/consumer-demand</guid>
+    </item>
+    
+
+    <item>
+      <title>Marginal utility</title>
+      <link>https://allandeutsch.com/notes/marginal-utility</link>
+      <pubDate>Mon, 20 Sep 2021 00:00:00 GMT</pubDate>
+      <modified>Sat, 15 Jan 2022 00:00:00 GMT</modified>
+      <description>The incremental value gained from have one more of something.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/marginal-utility</guid>
     </item>
     
 
@@ -682,17 +682,6 @@
     
 
     <item>
-      <title>Segmentation, Targeting, and Positioning (STP)</title>
-      <link>https://allandeutsch.com/notes/segmentation-targeting-positioning</link>
-      <pubDate>Wed, 11 Aug 2021 00:00:00 GMT</pubDate>
-      <modified>Tue, 21 Sep 2021 00:00:00 GMT</modified>
-      <description>Group consumers into segments, determine which to target, and estable the product's position for them.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/segmentation-targeting-positioning</guid>
-    </item>
-    
-
-    <item>
       <title>Blue Ocean</title>
       <link>https://allandeutsch.com/notes/blue-ocean</link>
       <pubDate>Fri, 10 Sep 2021 00:00:00 GMT</pubDate>
@@ -704,13 +693,13 @@
     
 
     <item>
-      <title>Factors of competition</title>
-      <link>https://allandeutsch.com/notes/competition-factors</link>
-      <pubDate>Wed, 15 Sep 2021 00:00:00 GMT</pubDate>
-      <modified>Thu, 16 Sep 2021 00:00:00 GMT</modified>
-      <description>The factors that companies/products within an industry typically compete on to provide value to customers.</description>
+      <title>Segmentation, Targeting, and Positioning (STP)</title>
+      <link>https://allandeutsch.com/notes/segmentation-targeting-positioning</link>
+      <pubDate>Wed, 11 Aug 2021 00:00:00 GMT</pubDate>
+      <modified>Tue, 21 Sep 2021 00:00:00 GMT</modified>
+      <description>Group consumers into segments, determine which to target, and estable the product's position for them.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/competition-factors</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/segmentation-targeting-positioning</guid>
     </item>
     
 
@@ -722,6 +711,17 @@
       <description>Blue ocean strategy is about creating new markets to escape competition.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/blue-ocean-strategy</guid>
+    </item>
+    
+
+    <item>
+      <title>Factors of competition</title>
+      <link>https://allandeutsch.com/notes/competition-factors</link>
+      <pubDate>Wed, 15 Sep 2021 00:00:00 GMT</pubDate>
+      <modified>Thu, 16 Sep 2021 00:00:00 GMT</modified>
+      <description>The factors that companies/products within an industry typically compete on to provide value to customers.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/competition-factors</guid>
     </item>
     
 
@@ -759,17 +759,6 @@
     
 
     <item>
-      <title>Customer relationship</title>
-      <link>https://allandeutsch.com/notes/customer-relationship</link>
-      <pubDate>Wed, 16 Jun 2021 00:00:00 GMT</pubDate>
-      <modified>Wed, 01 Sep 2021 00:00:00 GMT</modified>
-      <description>The interactions a business has with customers and the strategies around those interactions.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/customer-relationship</guid>
-    </item>
-    
-
-    <item>
       <title>Business Model Canvas</title>
       <link>https://allandeutsch.com/notes/business-model-canvas</link>
       <pubDate>Mon, 14 Jun 2021 00:00:00 GMT</pubDate>
@@ -777,6 +766,17 @@
       <description>A modern alternative to a business plan. It has 9 sections with details of the business, its customers, and how it provides value.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/business-model-canvas</guid>
+    </item>
+    
+
+    <item>
+      <title>Customer relationship</title>
+      <link>https://allandeutsch.com/notes/customer-relationship</link>
+      <pubDate>Wed, 16 Jun 2021 00:00:00 GMT</pubDate>
+      <modified>Wed, 01 Sep 2021 00:00:00 GMT</modified>
+      <description>The interactions a business has with customers and the strategies around those interactions.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/customer-relationship</guid>
     </item>
     
 
@@ -792,17 +792,6 @@
     
 
     <item>
-      <title>Monetized content creation is a compound growth system</title>
-      <link>https://allandeutsch.com/notes/monetized-content-compound-growth</link>
-      <pubDate>Wed, 07 Apr 2021 00:00:00 GMT</pubDate>
-      <modified>Sun, 15 Aug 2021 00:00:00 GMT</modified>
-      <description>New content creates new organic inbound traffic and retains the audience. Old content creates more value from new audience.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/monetized-content-compound-growth</guid>
-    </item>
-    
-
-    <item>
       <title>Distribution channel</title>
       <link>https://allandeutsch.com/notes/distribution-channel</link>
       <pubDate>Wed, 16 Jun 2021 00:00:00 GMT</pubDate>
@@ -810,6 +799,17 @@
       <description>Distribution channels are how products and services get from a business to its customers.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/distribution-channel</guid>
+    </item>
+    
+
+    <item>
+      <title>Monetized content creation is a compound growth system</title>
+      <link>https://allandeutsch.com/notes/monetized-content-compound-growth</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 GMT</pubDate>
+      <modified>Sun, 15 Aug 2021 00:00:00 GMT</modified>
+      <description>New content creates new organic inbound traffic and retains the audience. Old content creates more value from new audience.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/monetized-content-compound-growth</guid>
     </item>
     
 
@@ -825,17 +825,6 @@
     
 
     <item>
-      <title>Customer segment</title>
-      <link>https://allandeutsch.com/notes/customer-segment</link>
-      <pubDate>Sun, 13 Jun 2021 00:00:00 GMT</pubDate>
-      <modified>Thu, 12 Aug 2021 00:00:00 GMT</modified>
-      <description>The groups of people a business aims to serve.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/customer-segment</guid>
-    </item>
-    
-
-    <item>
       <title>Compound growth system</title>
       <link>https://allandeutsch.com/notes/compound-growth-system</link>
       <pubDate>Thu, 12 Aug 2021 00:00:00 GMT</pubDate>
@@ -843,6 +832,17 @@
       <description>Any system in which growth is proportional to the principal, added to that principal, and then repeated.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/compound-growth-system</guid>
+    </item>
+    
+
+    <item>
+      <title>Customer segment</title>
+      <link>https://allandeutsch.com/notes/customer-segment</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 GMT</pubDate>
+      <modified>Thu, 12 Aug 2021 00:00:00 GMT</modified>
+      <description>The groups of people a business aims to serve.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/customer-segment</guid>
     </item>
     
 
@@ -907,8 +907,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Mon, 22 Jul 2024 20:58:09 GMT</pubDate>
-    <lastBuildDate>Mon, 22 Jul 2024 20:58:09 GMT</lastBuildDate>
+    <pubDate>Mon, 22 Jul 2024 21:18:15 GMT</pubDate>
+    <lastBuildDate>Mon, 22 Jul 2024 21:18:15 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
