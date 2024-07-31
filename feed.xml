@@ -6,10 +6,21 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Wed, 31 Jul 2024 15:16:55 GMT</pubDate>
-    <lastBuildDate>Wed, 31 Jul 2024 15:16:55 GMT</lastBuildDate>
+    <pubDate>Wed, 31 Jul 2024 15:43:20 GMT</pubDate>
+    <lastBuildDate>Wed, 31 Jul 2024 15:43:20 GMT</lastBuildDate>
     <ttl>60</ttl>
     
+    <item>
+      <title>I use Neovim btw</title>
+      <link>https://allandeutsch.com/notes/use-neovim</link>
+      <pubDate>Tue, 30 Jul 2024 00:00:00 GMT</pubDate>
+      <modified>Tue, 30 Jul 2024 00:00:00 GMT</modified>
+      <description>Imagine a world where something as simple as editing text becomes a fun and challenging puzzle to be solved.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/use-neovim</guid>
+    </item>
+    
+
     <item>
       <title>Thinking channels</title>
       <link>https://allandeutsch.com/notes/thinking-channels</link>
@@ -907,8 +918,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Wed, 31 Jul 2024 15:16:55 GMT</pubDate>
-    <lastBuildDate>Wed, 31 Jul 2024 15:16:55 GMT</lastBuildDate>
+    <pubDate>Wed, 31 Jul 2024 15:43:20 GMT</pubDate>
+    <lastBuildDate>Wed, 31 Jul 2024 15:43:20 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
