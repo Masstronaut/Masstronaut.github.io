@@ -6,8 +6,8 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Thu, 01 Aug 2024 15:05:06 GMT</pubDate>
-    <lastBuildDate>Thu, 01 Aug 2024 15:05:06 GMT</lastBuildDate>
+    <pubDate>Fri, 02 Aug 2024 19:06:28 GMT</pubDate>
+    <lastBuildDate>Fri, 02 Aug 2024 19:06:28 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
@@ -462,17 +462,6 @@
     
 
     <item>
-      <title>Price elasticity</title>
-      <link>https://allandeutsch.com/notes/price-elasticity</link>
-      <pubDate>Wed, 22 Sep 2021 00:00:00 GMT</pubDate>
-      <modified>Sun, 16 Jan 2022 00:00:00 GMT</modified>
-      <description>Price elasticity measures how much the demand for a good changes in response to price changes.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/price-elasticity</guid>
-    </item>
-    
-
-    <item>
       <title>Opportunity cost</title>
       <link>https://allandeutsch.com/notes/opportunity-cost</link>
       <pubDate>Sun, 16 Jan 2022 00:00:00 GMT</pubDate>
@@ -484,13 +473,13 @@
     
 
     <item>
-      <title>Consumer demand</title>
-      <link>https://allandeutsch.com/notes/consumer-demand</link>
+      <title>Price elasticity</title>
+      <link>https://allandeutsch.com/notes/price-elasticity</link>
       <pubDate>Wed, 22 Sep 2021 00:00:00 GMT</pubDate>
-      <modified>Sat, 15 Jan 2022 00:00:00 GMT</modified>
-      <description>Consumer demand looks at the three types of relationships between goods and how price changes to one product affects demand for another.</description>
+      <modified>Sun, 16 Jan 2022 00:00:00 GMT</modified>
+      <description>Price elasticity measures how much the demand for a good changes in response to price changes.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/consumer-demand</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/price-elasticity</guid>
     </item>
     
 
@@ -506,13 +495,13 @@
     
 
     <item>
-      <title>Supply and demand</title>
-      <link>https://allandeutsch.com/notes/supply-demand</link>
-      <pubDate>Sun, 19 Sep 2021 00:00:00 GMT</pubDate>
-      <modified>Sun, 09 Jan 2022 00:00:00 GMT</modified>
-      <description>An area of microeconomics focused on how price influences the behavior of producers and consumers.</description>
+      <title>Consumer demand</title>
+      <link>https://allandeutsch.com/notes/consumer-demand</link>
+      <pubDate>Wed, 22 Sep 2021 00:00:00 GMT</pubDate>
+      <modified>Sat, 15 Jan 2022 00:00:00 GMT</modified>
+      <description>Consumer demand looks at the three types of relationships between goods and how price changes to one product affects demand for another.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/supply-demand</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/consumer-demand</guid>
     </item>
     
 
@@ -524,6 +513,17 @@
       <description>The factors that impact the price of goods and services, which in turn drives supply and demand changes.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/market-forces</guid>
+    </item>
+    
+
+    <item>
+      <title>Supply and demand</title>
+      <link>https://allandeutsch.com/notes/supply-demand</link>
+      <pubDate>Sun, 19 Sep 2021 00:00:00 GMT</pubDate>
+      <modified>Sun, 09 Jan 2022 00:00:00 GMT</modified>
+      <description>An area of microeconomics focused on how price influences the behavior of producers and consumers.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/supply-demand</guid>
     </item>
     
 
@@ -671,24 +671,13 @@
     
 
     <item>
-      <title>Common traits of successful blue ocean strategies</title>
-      <link>https://allandeutsch.com/notes/traits-successful-blue-ocean-strategy</link>
-      <pubDate>Thu, 16 Sep 2021 00:00:00 GMT</pubDate>
+      <title>Segmentation, Targeting, and Positioning (STP)</title>
+      <link>https://allandeutsch.com/notes/segmentation-targeting-positioning</link>
+      <pubDate>Wed, 11 Aug 2021 00:00:00 GMT</pubDate>
       <modified>Tue, 21 Sep 2021 00:00:00 GMT</modified>
-      <description>Great strategies have a clear focus, diverge from competition, and are easy to explain.</description>
+      <description>Group consumers into segments, determine which to target, and estable the product's position for them.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/traits-successful-blue-ocean-strategy</guid>
-    </item>
-    
-
-    <item>
-      <title>Value curve</title>
-      <link>https://allandeutsch.com/notes/value-curve</link>
-      <pubDate>Thu, 16 Sep 2021 00:00:00 GMT</pubDate>
-      <modified>Tue, 21 Sep 2021 00:00:00 GMT</modified>
-      <description>The line on a strategy canvas showing the emphasis a company places on each factor of competition in its industry.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/value-curve</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/segmentation-targeting-positioning</guid>
     </item>
     
 
@@ -704,24 +693,24 @@
     
 
     <item>
-      <title>Segmentation, Targeting, and Positioning (STP)</title>
-      <link>https://allandeutsch.com/notes/segmentation-targeting-positioning</link>
-      <pubDate>Wed, 11 Aug 2021 00:00:00 GMT</pubDate>
+      <title>Value curve</title>
+      <link>https://allandeutsch.com/notes/value-curve</link>
+      <pubDate>Thu, 16 Sep 2021 00:00:00 GMT</pubDate>
       <modified>Tue, 21 Sep 2021 00:00:00 GMT</modified>
-      <description>Group consumers into segments, determine which to target, and estable the product's position for them.</description>
+      <description>The line on a strategy canvas showing the emphasis a company places on each factor of competition in its industry.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/segmentation-targeting-positioning</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/value-curve</guid>
     </item>
     
 
     <item>
-      <title>Blue Ocean strategy</title>
-      <link>https://allandeutsch.com/notes/blue-ocean-strategy</link>
-      <pubDate>Wed, 15 Sep 2021 00:00:00 GMT</pubDate>
-      <modified>Thu, 16 Sep 2021 00:00:00 GMT</modified>
-      <description>Blue ocean strategy is about creating new markets to escape competition.</description>
+      <title>Common traits of successful blue ocean strategies</title>
+      <link>https://allandeutsch.com/notes/traits-successful-blue-ocean-strategy</link>
+      <pubDate>Thu, 16 Sep 2021 00:00:00 GMT</pubDate>
+      <modified>Tue, 21 Sep 2021 00:00:00 GMT</modified>
+      <description>Great strategies have a clear focus, diverge from competition, and are easy to explain.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/blue-ocean-strategy</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/traits-successful-blue-ocean-strategy</guid>
     </item>
     
 
@@ -733,6 +722,17 @@
       <description>The factors that companies/products within an industry typically compete on to provide value to customers.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/competition-factors</guid>
+    </item>
+    
+
+    <item>
+      <title>Blue Ocean strategy</title>
+      <link>https://allandeutsch.com/notes/blue-ocean-strategy</link>
+      <pubDate>Wed, 15 Sep 2021 00:00:00 GMT</pubDate>
+      <modified>Thu, 16 Sep 2021 00:00:00 GMT</modified>
+      <description>Blue ocean strategy is about creating new markets to escape competition.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/blue-ocean-strategy</guid>
     </item>
     
 
@@ -825,13 +825,13 @@
     
 
     <item>
-      <title>Compound growth is most impactful at the end</title>
-      <link>https://allandeutsch.com/notes/compound-growth-most-impactful-at-end</link>
-      <pubDate>Thu, 12 Aug 2021 00:00:00 GMT</pubDate>
+      <title>Customer segment</title>
+      <link>https://allandeutsch.com/notes/customer-segment</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 GMT</pubDate>
       <modified>Thu, 12 Aug 2021 00:00:00 GMT</modified>
-      <description>Compound growth is exponential. Each compounding period generates more growth than the previous one.</description>
+      <description>The groups of people a business aims to serve.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/compound-growth-most-impactful-at-end</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/customer-segment</guid>
     </item>
     
 
@@ -847,13 +847,13 @@
     
 
     <item>
-      <title>Customer segment</title>
-      <link>https://allandeutsch.com/notes/customer-segment</link>
-      <pubDate>Sun, 13 Jun 2021 00:00:00 GMT</pubDate>
+      <title>Compound growth is most impactful at the end</title>
+      <link>https://allandeutsch.com/notes/compound-growth-most-impactful-at-end</link>
+      <pubDate>Thu, 12 Aug 2021 00:00:00 GMT</pubDate>
       <modified>Thu, 12 Aug 2021 00:00:00 GMT</modified>
-      <description>The groups of people a business aims to serve.</description>
+      <description>Compound growth is exponential. Each compounding period generates more growth than the previous one.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/customer-segment</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/compound-growth-most-impactful-at-end</guid>
     </item>
     
 
@@ -918,8 +918,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Thu, 01 Aug 2024 15:05:06 GMT</pubDate>
-    <lastBuildDate>Thu, 01 Aug 2024 15:05:06 GMT</lastBuildDate>
+    <pubDate>Fri, 02 Aug 2024 19:06:28 GMT</pubDate>
+    <lastBuildDate>Fri, 02 Aug 2024 19:06:28 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
