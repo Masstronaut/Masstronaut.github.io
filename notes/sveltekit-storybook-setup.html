@@ -9,23 +9,23 @@
 		<link href="../_app/immutable/assets/LoadNote.144730f5.css" rel="stylesheet">
 		<link href="../_app/immutable/assets/MDSveXNoteLayout.61812917.css" rel="stylesheet">
 		<link href="../_app/immutable/assets/6.8a973cea.css" rel="stylesheet">
-		<link rel="modulepreload" href="../_app/immutable/entry/start.0fcacf9d.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/start.6e6b6397.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/scheduler.7131e7f1.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/singletons.70b5a444.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/paths.268fc70a.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/singletons.41012e90.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/paths.acca156e.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/parse.bee59afc.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/control.c2cf8273.js">
-		<link rel="modulepreload" href="../_app/immutable/entry/app.041effb8.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/app.7cb6fabf.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/preload-helper.a4192956.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/index.9e889c2d.js">
-		<link rel="modulepreload" href="../_app/immutable/nodes/0.f5b7b824.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/0.ef490244.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/each.49c20442.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/LoadNote.27faabcd.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/navigation.8e96d49a.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/toast.771647ec.js">
-		<link rel="modulepreload" href="../_app/immutable/nodes/6.66f90ac7.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/stores.7b3d9dd6.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/NoteGrid.a8c66be4.js"><title>Setting up a SvelteKit project with Storybook - Allan Deutsch</title><!-- HEAD_svelte-x3qw35_START --><meta name="description" content="Setting up Storybook on a SvelteKit project doesn't work out of the box using the config tool. This guide walks you through a few extra steps needed to get SvelteKit and Storybook running."><meta property="og:title" content="Setting up a SvelteKit project with Storybook"><meta property="og:type" content="article"><meta property="og:url" content="https://allandeutsch.com/notes/sveltekit-storybook-setup"><meta property="og:description" content="Setting up Storybook on a SvelteKit project doesn't work out of the box using the config tool. This guide walks you through a few extra steps needed to get SvelteKit and Storybook running."><meta property="og:locale" content="en_US"><meta property="twitter:card" content="summary"><meta property="twitter:url" content="https://allandeutsch.com"><meta property="twitter:title" content="Setting up a SvelteKit project with Storybook"><meta property="twitter:description" content="Setting up Storybook on a SvelteKit project doesn't work out of the box using the config tool. This guide walks you through a few extra steps needed to get SvelteKit and Storybook running."><meta property="twitter:site" content="@AllanDeutsch"><meta property="twitter:creator" content="@AllanDeutsch"><link rel="canonical" href="https://allandeutsch.com/notes/sveltekit-storybook-setup"><script type="module" src="https://docduck.dev/selection.js" data-svelte-h="svelte-1qfon0b"></script><script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="AllanDeutsch" data-description="Support me on Buy me a coffee!" data-message="" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18" data-svelte-h="svelte-bv2cpr"></script><!-- HEAD_svelte-x3qw35_END --><!-- HEAD_svelte-cpyj77_START -->   <meta name="theme-color" content="dark"><!-- HTML_TAG_START --><script nonce="%sveltekit.nonce%">(function setInitialMode(defaultMode, themeColors2) {
+		<link rel="modulepreload" href="../_app/immutable/chunks/LoadNote.799532f3.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/navigation.11701355.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/toast.113b722d.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/6.9731f719.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/stores.07b33848.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/NoteGrid.be4bef84.js"><title>Setting up a SvelteKit project with Storybook - Allan Deutsch</title><!-- HEAD_svelte-x3qw35_START --><meta name="description" content="Setting up Storybook on a SvelteKit project doesn't work out of the box using the config tool. This guide walks you through a few extra steps needed to get SvelteKit and Storybook running."><meta property="og:title" content="Setting up a SvelteKit project with Storybook"><meta property="og:type" content="article"><meta property="og:url" content="https://allandeutsch.com/notes/sveltekit-storybook-setup"><meta property="og:description" content="Setting up Storybook on a SvelteKit project doesn't work out of the box using the config tool. This guide walks you through a few extra steps needed to get SvelteKit and Storybook running."><meta property="og:locale" content="en_US"><meta property="twitter:card" content="summary"><meta property="twitter:url" content="https://allandeutsch.com"><meta property="twitter:title" content="Setting up a SvelteKit project with Storybook"><meta property="twitter:description" content="Setting up Storybook on a SvelteKit project doesn't work out of the box using the config tool. This guide walks you through a few extra steps needed to get SvelteKit and Storybook running."><meta property="twitter:site" content="@AllanDeutsch"><meta property="twitter:creator" content="@AllanDeutsch"><link rel="canonical" href="https://allandeutsch.com/notes/sveltekit-storybook-setup"><script type="module" src="https://docduck.dev/selection.js" data-svelte-h="svelte-1qfon0b"></script><script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="AllanDeutsch" data-description="Support me on Buy me a coffee!" data-message="" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18" data-svelte-h="svelte-bv2cpr"></script><!-- HEAD_svelte-x3qw35_END --><!-- HEAD_svelte-cpyj77_START -->   <meta name="theme-color" content="dark"><!-- HTML_TAG_START --><script nonce="%sveltekit.nonce%">(function setInitialMode(defaultMode, themeColors2) {
   const rootEl = document.documentElement;
   const mode = localStorage.getItem("mode-watcher-mode") || defaultMode;
   const light = mode === "light" || mode === "system" && window.matchMedia("(prefers-color-scheme: light)").matches;
@@ -183,7 +183,7 @@ export const parameters = &#123;
 			
 			<script>
 				{
-					__sveltekit_brc6k9 = {
+					__sveltekit_1ky06cd = {
 						base: new URL("..", location).pathname.slice(0, -1),
 						env: {"PUBLIC_SUPABASE_ANON_KEY":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFlb3ZmZXRyaXNyZnFpZWF0bXp3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODcwNjM0NTYsImV4cCI6MjAwMjYzOTQ1Nn0.s9KXOQ0gDdl7e3lTUxdN5yfPI0rLZ-dSRMfEwoHhK00","PUBLIC_SUPABASE_URL":"https://aeovfetrisrfqieatmzw.supabase.co"}
 					};
@@ -193,8 +193,8 @@ export const parameters = &#123;
 					const data = [{"type":"data","data":{session:null,user:null},"uses":{}},null];
 
 					Promise.all([
-						import("../_app/immutable/entry/start.0fcacf9d.js"),
-						import("../_app/immutable/entry/app.041effb8.js")
+						import("../_app/immutable/entry/start.6e6b6397.js"),
+						import("../_app/immutable/entry/app.7cb6fabf.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 6],
