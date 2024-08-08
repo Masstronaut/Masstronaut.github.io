@@ -12,467 +12,560 @@
 					<loc>https://allandeutsch.com/notes/use-neovim</loc>
 					<lastmod>2024-07-30</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/devlog/10</loc>
 					<lastmod>2024-06-26</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/thinking-channels</loc>
 					<lastmod>2024-06-20</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/devlog/9</loc>
 					<lastmod>2024-06-15</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/devlog/8</loc>
 					<lastmod>2024-06-05</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/devlog</loc>
 					<lastmod>2024-06-05</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/devlog/7</loc>
 					<lastmod>2024-05-27</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/devlog/6</loc>
 					<lastmod>2024-05-19</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/identity-functions</loc>
 					<lastmod>2024-05-19</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/total-typescript-notes</loc>
 					<lastmod>2024-05-19</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/devlog/5</loc>
 					<lastmod>2024-5-11</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/dynamic-ts-playground-links</loc>
 					<lastmod>2024-05-11</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/code-block-tsplay-demo-link</loc>
 					<lastmod>2024-05-09</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/make-example-code-interactive</loc>
 					<lastmod>2024-05-09</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/branded-types</loc>
 					<lastmod>2024-05-08</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/devlog/4</loc>
 					<lastmod>2024-05-05</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/devlog/3</loc>
 					<lastmod>2024-04-28</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/theory-practice</loc>
 					<lastmod>2024-04-28</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/svelte-shiki-twoslash</loc>
 					<lastmod>2024-04-24</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/lint-format-svelte</loc>
 					<lastmod>2024-04-24</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/devlog/2</loc>
 					<lastmod>2024-04-21</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/devlog/1</loc>
 					<lastmod>2024-04-14</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/devlog/0</loc>
 					<lastmod>2024-04-07</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/structural-branded-types-nominal</loc>
 					<lastmod>2024-04-06</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/sveltekit-cors</loc>
 					<lastmod>2024-03-30</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/pasta-arabica</loc>
 					<lastmod>2024-03-06</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/assertion-functions</loc>
 					<lastmod>2024-02-16</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/make-api-misuse-hard</loc>
 					<lastmod>2024-02-13</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/publishing-this-site</loc>
 					<lastmod>2024-02-07</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/svelte-component-apis</loc>
 					<lastmod>2024-02-06</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/slugs-make-links-readable</loc>
 					<lastmod>2024-02-04</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/structural-types-increase-compatibility</loc>
 					<lastmod>2024-02-04</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/pdc-travel-guide</loc>
 					<lastmod>2024-01-01</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/mac-tips</loc>
 					<lastmod>2023-12-30</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/customer-teams-lucia</loc>
 					<lastmod>2023-10-22</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/value-proposition</loc>
 					<lastmod>2023-09-14</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/seattle-cafes</loc>
 					<lastmod>2023-09-14</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/restaurants</loc>
 					<lastmod>2023-08-19</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/smaller-phone</loc>
 					<lastmod>2023-07-09</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/git-cheatsheet</loc>
 					<lastmod>2023-06-28</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/evaluating-startup-idea</loc>
 					<lastmod>2023-06-17</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/work-life-balance</loc>
 					<lastmod>2023-04-05</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/cozumel-travel-guide</loc>
 					<lastmod>2022-07-24</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/positioning-statement</loc>
 					<lastmod>2022-05-21</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/cross-price-elasticity</loc>
 					<lastmod>2022-05-21</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/price-elasticity-demand</loc>
 					<lastmod>2022-05-21</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/money-market</loc>
 					<lastmod>2022-05-06</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/sveltekit-storybook-setup</loc>
 					<lastmod>2022-04-19</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/avocado-toast</loc>
 					<lastmod>2022-04-13</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/three-options-consensus</loc>
 					<lastmod>2022-04-13</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/single-option-aversion-bias</loc>
 					<lastmod>2022-04-12</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/microeconomics</loc>
 					<lastmod>2022-01-18</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/production-cost</loc>
 					<lastmod>2022-01-17</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/price-elasticity</loc>
 					<lastmod>2022-01-16</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/opportunity-cost</loc>
 					<lastmod>2022-01-16</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/marginal-utility</loc>
 					<lastmod>2022-01-15</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/consumer-demand</loc>
 					<lastmod>2022-01-15</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/supply-demand</loc>
 					<lastmod>2022-01-09</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/market-forces</loc>
 					<lastmod>2022-01-09</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/ui-shadows</loc>
 					<lastmod>2021-12-21</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/principal-agent-problem</loc>
 					<lastmod>2021-11-29</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/grapow</loc>
 					<lastmod>2021-11-06</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/site-unfurling</loc>
 					<lastmod>2021-10-31</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/value-innovation</loc>
 					<lastmod>2021-10-21</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/use-contrast-direct-attention</loc>
 					<lastmod>2021-10-11</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/hard-decisions</loc>
 					<lastmod>2021-10-08</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/type-1-2-decisions</loc>
 					<lastmod>2021-10-04</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/ask-dont-tell</loc>
 					<lastmod>2021-10-01</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/vicious-virtuous-cycles</loc>
 					<lastmod>2021-09-24</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/fundamental-habits</loc>
 					<lastmod>2021-09-23</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/customer-attribute-categories</loc>
 					<lastmod>2021-09-23</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/utility</loc>
 					<lastmod>2021-09-22</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/traits-successful-blue-ocean-strategy</loc>
 					<lastmod>2021-09-21</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/value-curve</loc>
 					<lastmod>2021-09-21</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/blue-ocean</loc>
 					<lastmod>2021-09-21</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/segmentation-targeting-positioning</loc>
 					<lastmod>2021-09-21</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/competition-factors</loc>
 					<lastmod>2021-09-16</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/blue-ocean-strategy</loc>
 					<lastmod>2021-09-16</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/four-actions-framework</loc>
 					<lastmod>2021-09-15</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/strategy-canvas</loc>
 					<lastmod>2021-09-13</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/red-ocean</loc>
 					<lastmod>2021-09-10</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/customer-relationship</loc>
 					<lastmod>2021-09-01</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/business-model-canvas</loc>
 					<lastmod>2021-09-01</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/build-infrastructure-after-pain</loc>
 					<lastmod>2021-08-16</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/monetized-content-compound-growth</loc>
 					<lastmod>2021-08-15</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/distribution-channel</loc>
 					<lastmod>2021-08-15</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/compound-growth-most-impactful-at-end</loc>
 					<lastmod>2021-08-12</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/compound-growth-system</loc>
 					<lastmod>2021-08-12</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/customer-segment</loc>
 					<lastmod>2021-08-12</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/situation-analysis</loc>
 					<lastmod>2021-08-10</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/learning-process</loc>
 					<lastmod>2021-07-27</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/spaced-repetition-workflow</loc>
 					<lastmod>2021-06-25</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/world-recursive</loc>
 					<lastmod>2021-04-14</lastmod>
 				</url>
-			,
+			
+
 				<url>
 					<loc>https://allandeutsch.com/notes/positive-feedback</loc>
 					<lastmod>2021-03-15</lastmod>
