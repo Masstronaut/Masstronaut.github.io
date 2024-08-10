@@ -6,8 +6,8 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Sat, 10 Aug 2024 00:23:24 GMT</pubDate>
-    <lastBuildDate>Sat, 10 Aug 2024 00:23:24 GMT</lastBuildDate>
+    <pubDate>Sat, 10 Aug 2024 14:46:41 GMT</pubDate>
+    <lastBuildDate>Sat, 10 Aug 2024 14:46:41 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
@@ -918,10 +918,21 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Sat, 10 Aug 2024 00:23:24 GMT</pubDate>
-    <lastBuildDate>Sat, 10 Aug 2024 00:23:24 GMT</lastBuildDate>
+    <pubDate>Sat, 10 Aug 2024 14:46:41 GMT</pubDate>
+    <lastBuildDate>Sat, 10 Aug 2024 14:46:41 GMT</lastBuildDate>
     <ttl>60</ttl>
     
+    <item>
+      <title>devlog 11</title>
+      <link>https://allandeutsch.com/devlog/11</link>
+      <pubDate>Sun, 28 Jul 2024 00:00:00 GMT</pubDate>
+      <modified>Tue, 09 Jul 2024 00:00:00 GMT</modified>
+      <description>Learning new technologies, vim, and neovim!</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/devlog/11</guid>
+    </item>
+    
+
     <item>
       <title>devlog 10: CascadiaJS</title>
       <link>https://allandeutsch.com/devlog/10</link>
