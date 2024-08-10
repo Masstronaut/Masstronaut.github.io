@@ -6,10 +6,21 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Sat, 10 Aug 2024 18:19:18 GMT</pubDate>
-    <lastBuildDate>Sat, 10 Aug 2024 18:19:18 GMT</lastBuildDate>
+    <pubDate>Sat, 10 Aug 2024 18:24:20 GMT</pubDate>
+    <lastBuildDate>Sat, 10 Aug 2024 18:24:20 GMT</lastBuildDate>
     <ttl>60</ttl>
     
+    <item>
+      <title>Open neovim edgebar with focus set</title>
+      <link>https://allandeutsch.com/notes/focus-edgy-view</link>
+      <pubDate>Sat, 10 Aug 2024 00:00:00 GMT</pubDate>
+      <modified>Sat, 10 Aug 2024 00:00:00 GMT</modified>
+      <description>A deep dive into neovim config, controlling focus, pane management with edgy.nvim, and a little open source contribution to boot!</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/focus-edgy-view</guid>
+    </item>
+    
+
     <item>
       <title>I use Neovim btw</title>
       <link>https://allandeutsch.com/notes/use-neovim</link>
@@ -918,8 +929,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Sat, 10 Aug 2024 18:19:18 GMT</pubDate>
-    <lastBuildDate>Sat, 10 Aug 2024 18:19:18 GMT</lastBuildDate>
+    <pubDate>Sat, 10 Aug 2024 18:24:20 GMT</pubDate>
+    <lastBuildDate>Sat, 10 Aug 2024 18:24:20 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
