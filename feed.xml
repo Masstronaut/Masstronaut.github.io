@@ -6,10 +6,21 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Thu, 15 Aug 2024 07:47:14 GMT</pubDate>
-    <lastBuildDate>Thu, 15 Aug 2024 07:47:14 GMT</lastBuildDate>
+    <pubDate>Thu, 15 Aug 2024 08:10:48 GMT</pubDate>
+    <lastBuildDate>Thu, 15 Aug 2024 08:10:48 GMT</lastBuildDate>
     <ttl>60</ttl>
     
+    <item>
+      <title>Classy coding - JavaScript OOP through the ages</title>
+      <link>https://allandeutsch.com/notes/classy-javascript</link>
+      <pubDate>Wed, 14 Aug 2024 00:00:00 GMT</pubDate>
+      <modified>Wed, 14 Aug 2024 00:00:00 GMT</modified>
+      <description>Learn how object-oriented programming works in JavaScript. Starting from the early days and building up to modern JavaScript OOP syntax.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/classy-javascript</guid>
+    </item>
+    
+
     <item>
       <title>Open neovim edgebar with focus set</title>
       <link>https://allandeutsch.com/notes/focus-edgy-view</link>
@@ -29,17 +40,6 @@
       <description>Imagine a world where something as simple as editing text becomes a fun and challenging puzzle to be solved.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/use-neovim</guid>
-    </item>
-    
-
-    <item>
-      <title>Classy coding - JavaScript OOP through the ages</title>
-      <link>https://allandeutsch.com/notes/classy-javascript</link>
-      <pubDate>Sat, 27 Jul 2024 00:00:00 GMT</pubDate>
-      <modified>Sat, 27 Jul 2024 00:00:00 GMT</modified>
-      <description>Learn how object-oriented programming works in JavaScript. Starting from the early days and building up to modern JavaScript OOP syntax.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/classy-javascript</guid>
     </item>
     
 
@@ -825,17 +825,6 @@
     
 
     <item>
-      <title>Distribution channel</title>
-      <link>https://allandeutsch.com/notes/distribution-channel</link>
-      <pubDate>Wed, 16 Jun 2021 00:00:00 GMT</pubDate>
-      <modified>Sun, 15 Aug 2021 00:00:00 GMT</modified>
-      <description>Distribution channels are how products and services get from a business to its customers.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/distribution-channel</guid>
-    </item>
-    
-
-    <item>
       <title>Monetized content creation is a compound growth system</title>
       <link>https://allandeutsch.com/notes/monetized-content-compound-growth</link>
       <pubDate>Wed, 07 Apr 2021 00:00:00 GMT</pubDate>
@@ -843,6 +832,17 @@
       <description>New content creates new organic inbound traffic and retains the audience. Old content creates more value from new audience.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/monetized-content-compound-growth</guid>
+    </item>
+    
+
+    <item>
+      <title>Distribution channel</title>
+      <link>https://allandeutsch.com/notes/distribution-channel</link>
+      <pubDate>Wed, 16 Jun 2021 00:00:00 GMT</pubDate>
+      <modified>Sun, 15 Aug 2021 00:00:00 GMT</modified>
+      <description>Distribution channels are how products and services get from a business to its customers.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/distribution-channel</guid>
     </item>
     
 
@@ -940,8 +940,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Thu, 15 Aug 2024 07:47:14 GMT</pubDate>
-    <lastBuildDate>Thu, 15 Aug 2024 07:47:14 GMT</lastBuildDate>
+    <pubDate>Thu, 15 Aug 2024 08:10:48 GMT</pubDate>
+    <lastBuildDate>Thu, 15 Aug 2024 08:10:48 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
