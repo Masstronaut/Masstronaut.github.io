@@ -6,8 +6,8 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Thu, 15 Aug 2024 08:10:48 GMT</pubDate>
-    <lastBuildDate>Thu, 15 Aug 2024 08:10:48 GMT</lastBuildDate>
+    <pubDate>Thu, 15 Aug 2024 08:36:24 GMT</pubDate>
+    <lastBuildDate>Thu, 15 Aug 2024 08:36:24 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
@@ -15,7 +15,7 @@
       <link>https://allandeutsch.com/notes/classy-javascript</link>
       <pubDate>Wed, 14 Aug 2024 00:00:00 GMT</pubDate>
       <modified>Wed, 14 Aug 2024 00:00:00 GMT</modified>
-      <description>Learn how object-oriented programming works in JavaScript. Starting from the early days and building up to modern JavaScript OOP syntax.</description>
+      <description>Embark on a journey to learn about how OOP has been done throughout JavaScript's history, with our destination set on understanding how we should do it today and what all the modern syntax is doing for us under the hood.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/classy-javascript</guid>
     </item>
@@ -940,8 +940,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Thu, 15 Aug 2024 08:10:48 GMT</pubDate>
-    <lastBuildDate>Thu, 15 Aug 2024 08:10:48 GMT</lastBuildDate>
+    <pubDate>Thu, 15 Aug 2024 08:36:24 GMT</pubDate>
+    <lastBuildDate>Thu, 15 Aug 2024 08:36:24 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
