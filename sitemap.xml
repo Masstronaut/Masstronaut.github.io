@@ -9,6 +9,12 @@
       >
 			
 				<url>
+					<loc>https://allandeutsch.com/devlog/12</loc>
+					<lastmod>2024-08-23</lastmod>
+				</url>
+			
+
+				<url>
 					<loc>https://allandeutsch.com/notes/classy-javascript</loc>
 					<lastmod>2024-08-14</lastmod>
 				</url>
@@ -51,13 +57,13 @@
 			
 
 				<url>
-					<loc>https://allandeutsch.com/devlog/8</loc>
+					<loc>https://allandeutsch.com/devlog</loc>
 					<lastmod>2024-06-05</lastmod>
 				</url>
 			
 
 				<url>
-					<loc>https://allandeutsch.com/devlog</loc>
+					<loc>https://allandeutsch.com/devlog/8</loc>
 					<lastmod>2024-06-05</lastmod>
 				</url>
 			
