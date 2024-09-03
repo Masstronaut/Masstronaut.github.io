@@ -6,8 +6,8 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Tue, 03 Sep 2024 19:11:01 GMT</pubDate>
-    <lastBuildDate>Tue, 03 Sep 2024 19:11:01 GMT</lastBuildDate>
+    <pubDate>Tue, 03 Sep 2024 20:26:27 GMT</pubDate>
+    <lastBuildDate>Tue, 03 Sep 2024 20:26:27 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
@@ -506,17 +506,6 @@
     
 
     <item>
-      <title>Consumer demand</title>
-      <link>https://allandeutsch.com/notes/consumer-demand</link>
-      <pubDate>Wed, 22 Sep 2021 00:00:00 GMT</pubDate>
-      <modified>Sat, 15 Jan 2022 00:00:00 GMT</modified>
-      <description>Consumer demand looks at the three types of relationships between goods and how price changes to one product affects demand for another.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/consumer-demand</guid>
-    </item>
-    
-
-    <item>
       <title>Marginal utility</title>
       <link>https://allandeutsch.com/notes/marginal-utility</link>
       <pubDate>Mon, 20 Sep 2021 00:00:00 GMT</pubDate>
@@ -524,6 +513,17 @@
       <description>The incremental value gained from have one more of something.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/marginal-utility</guid>
+    </item>
+    
+
+    <item>
+      <title>Consumer demand</title>
+      <link>https://allandeutsch.com/notes/consumer-demand</link>
+      <pubDate>Wed, 22 Sep 2021 00:00:00 GMT</pubDate>
+      <modified>Sat, 15 Jan 2022 00:00:00 GMT</modified>
+      <description>Consumer demand looks at the three types of relationships between goods and how price changes to one product affects demand for another.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/consumer-demand</guid>
     </item>
     
 
@@ -704,17 +704,6 @@
     
 
     <item>
-      <title>Blue Ocean</title>
-      <link>https://allandeutsch.com/notes/blue-ocean</link>
-      <pubDate>Fri, 10 Sep 2021 00:00:00 GMT</pubDate>
-      <modified>Tue, 21 Sep 2021 00:00:00 GMT</modified>
-      <description>Blue oceans are markets that haven't been created yet. They are lucrative business opportunities.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/blue-ocean</guid>
-    </item>
-    
-
-    <item>
       <title>Value curve</title>
       <link>https://allandeutsch.com/notes/value-curve</link>
       <pubDate>Thu, 16 Sep 2021 00:00:00 GMT</pubDate>
@@ -722,6 +711,17 @@
       <description>The line on a strategy canvas showing the emphasis a company places on each factor of competition in its industry.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/value-curve</guid>
+    </item>
+    
+
+    <item>
+      <title>Blue Ocean</title>
+      <link>https://allandeutsch.com/notes/blue-ocean</link>
+      <pubDate>Fri, 10 Sep 2021 00:00:00 GMT</pubDate>
+      <modified>Tue, 21 Sep 2021 00:00:00 GMT</modified>
+      <description>Blue oceans are markets that haven't been created yet. They are lucrative business opportunities.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/blue-ocean</guid>
     </item>
     
 
@@ -792,17 +792,6 @@
     
 
     <item>
-      <title>Business Model Canvas</title>
-      <link>https://allandeutsch.com/notes/business-model-canvas</link>
-      <pubDate>Mon, 14 Jun 2021 00:00:00 GMT</pubDate>
-      <modified>Wed, 01 Sep 2021 00:00:00 GMT</modified>
-      <description>A modern alternative to a business plan. It has 9 sections with details of the business, its customers, and how it provides value.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/business-model-canvas</guid>
-    </item>
-    
-
-    <item>
       <title>Customer relationship</title>
       <link>https://allandeutsch.com/notes/customer-relationship</link>
       <pubDate>Wed, 16 Jun 2021 00:00:00 GMT</pubDate>
@@ -810,6 +799,17 @@
       <description>The interactions a business has with customers and the strategies around those interactions.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/customer-relationship</guid>
+    </item>
+    
+
+    <item>
+      <title>Business Model Canvas</title>
+      <link>https://allandeutsch.com/notes/business-model-canvas</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 GMT</pubDate>
+      <modified>Wed, 01 Sep 2021 00:00:00 GMT</modified>
+      <description>A modern alternative to a business plan. It has 9 sections with details of the business, its customers, and how it provides value.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/business-model-canvas</guid>
     </item>
     
 
@@ -940,8 +940,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Tue, 03 Sep 2024 19:11:01 GMT</pubDate>
-    <lastBuildDate>Tue, 03 Sep 2024 19:11:01 GMT</lastBuildDate>
+    <pubDate>Tue, 03 Sep 2024 20:26:27 GMT</pubDate>
+    <lastBuildDate>Tue, 03 Sep 2024 20:26:27 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
