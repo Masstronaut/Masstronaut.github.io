@@ -6,10 +6,21 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Wed, 02 Oct 2024 20:36:49 GMT</pubDate>
-    <lastBuildDate>Wed, 02 Oct 2024 20:36:49 GMT</lastBuildDate>
+    <pubDate>Sat, 05 Oct 2024 19:54:32 GMT</pubDate>
+    <lastBuildDate>Sat, 05 Oct 2024 19:54:32 GMT</lastBuildDate>
     <ttl>60</ttl>
     
+    <item>
+      <title>Cozumel travel guide</title>
+      <link>https://allandeutsch.com/notes/cozumel-travel-guide</link>
+      <pubDate>Sun, 24 Jul 2022 00:00:00 GMT</pubDate>
+      <modified>Sat, 05 Oct 2024 00:00:00 GMT</modified>
+      <description>A brief guide on having a successful trip to the SCUBA diving island paradise of Mexico, Cozumel.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/cozumel-travel-guide</guid>
+    </item>
+    
+
     <item>
       <title>Classy coding - JavaScript OOP through the ages</title>
       <link>https://allandeutsch.com/notes/classy-javascript</link>
@@ -359,17 +370,6 @@
       <description>These are my reflections on how I view work-life balance, and how that view has changed over time.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/work-life-balance</guid>
-    </item>
-    
-
-    <item>
-      <title>Cozumel travel guide</title>
-      <link>https://allandeutsch.com/notes/cozumel-travel-guide</link>
-      <pubDate>Sun, 24 Jul 2022 00:00:00 GMT</pubDate>
-      <modified>Sun, 24 Jul 2022 00:00:00 GMT</modified>
-      <description>A brief guide on having a successful trip to the SCUBA diving island paradise of Mexico, Cozumel.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/cozumel-travel-guide</guid>
     </item>
     
 
@@ -940,8 +940,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Wed, 02 Oct 2024 20:36:49 GMT</pubDate>
-    <lastBuildDate>Wed, 02 Oct 2024 20:36:49 GMT</lastBuildDate>
+    <pubDate>Sat, 05 Oct 2024 19:54:32 GMT</pubDate>
+    <lastBuildDate>Sat, 05 Oct 2024 19:54:32 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
