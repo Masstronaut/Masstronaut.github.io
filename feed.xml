@@ -6,8 +6,8 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Thu, 12 Dec 2024 18:52:46 GMT</pubDate>
-    <lastBuildDate>Thu, 12 Dec 2024 18:52:46 GMT</lastBuildDate>
+    <pubDate>Wed, 18 Dec 2024 19:53:46 GMT</pubDate>
+    <lastBuildDate>Wed, 18 Dec 2024 19:53:46 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
@@ -99,17 +99,6 @@
     
 
     <item>
-      <title>Make example code interactive</title>
-      <link>https://allandeutsch.com/notes/make-example-code-interactive</link>
-      <pubDate>Thu, 09 May 2024 00:00:00 GMT</pubDate>
-      <modified>Thu, 09 May 2024 00:00:00 GMT</modified>
-      <description>Whenever possible, make code interactive. Interaction is the single most effective way to teach anything, including code!</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/make-example-code-interactive</guid>
-    </item>
-    
-
-    <item>
       <title>Add a demo link to TypeScript code blocks</title>
       <link>https://allandeutsch.com/notes/code-block-tsplay-demo-link</link>
       <pubDate>Thu, 09 May 2024 00:00:00 GMT</pubDate>
@@ -117,6 +106,17 @@
       <description>Seeing example code with syntax highlighting is great, but sometimes you've just gotta run the code and see what happens...</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/code-block-tsplay-demo-link</guid>
+    </item>
+    
+
+    <item>
+      <title>Make example code interactive</title>
+      <link>https://allandeutsch.com/notes/make-example-code-interactive</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 GMT</pubDate>
+      <modified>Thu, 09 May 2024 00:00:00 GMT</modified>
+      <description>Whenever possible, make code interactive. Interaction is the single most effective way to teach anything, including code!</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/make-example-code-interactive</guid>
     </item>
     
 
@@ -506,17 +506,6 @@
     
 
     <item>
-      <title>Consumer demand</title>
-      <link>https://allandeutsch.com/notes/consumer-demand</link>
-      <pubDate>Wed, 22 Sep 2021 00:00:00 GMT</pubDate>
-      <modified>Sat, 15 Jan 2022 00:00:00 GMT</modified>
-      <description>Consumer demand looks at the three types of relationships between goods and how price changes to one product affects demand for another.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/consumer-demand</guid>
-    </item>
-    
-
-    <item>
       <title>Marginal utility</title>
       <link>https://allandeutsch.com/notes/marginal-utility</link>
       <pubDate>Mon, 20 Sep 2021 00:00:00 GMT</pubDate>
@@ -524,6 +513,17 @@
       <description>The incremental value gained from have one more of something.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/marginal-utility</guid>
+    </item>
+    
+
+    <item>
+      <title>Consumer demand</title>
+      <link>https://allandeutsch.com/notes/consumer-demand</link>
+      <pubDate>Wed, 22 Sep 2021 00:00:00 GMT</pubDate>
+      <modified>Sat, 15 Jan 2022 00:00:00 GMT</modified>
+      <description>Consumer demand looks at the three types of relationships between goods and how price changes to one product affects demand for another.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/consumer-demand</guid>
     </item>
     
 
@@ -693,13 +693,13 @@
     
 
     <item>
-      <title>Value curve</title>
-      <link>https://allandeutsch.com/notes/value-curve</link>
-      <pubDate>Thu, 16 Sep 2021 00:00:00 GMT</pubDate>
+      <title>Blue Ocean</title>
+      <link>https://allandeutsch.com/notes/blue-ocean</link>
+      <pubDate>Fri, 10 Sep 2021 00:00:00 GMT</pubDate>
       <modified>Tue, 21 Sep 2021 00:00:00 GMT</modified>
-      <description>The line on a strategy canvas showing the emphasis a company places on each factor of competition in its industry.</description>
+      <description>Blue oceans are markets that haven't been created yet. They are lucrative business opportunities.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/value-curve</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/blue-ocean</guid>
     </item>
     
 
@@ -715,6 +715,17 @@
     
 
     <item>
+      <title>Value curve</title>
+      <link>https://allandeutsch.com/notes/value-curve</link>
+      <pubDate>Thu, 16 Sep 2021 00:00:00 GMT</pubDate>
+      <modified>Tue, 21 Sep 2021 00:00:00 GMT</modified>
+      <description>The line on a strategy canvas showing the emphasis a company places on each factor of competition in its industry.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/value-curve</guid>
+    </item>
+    
+
+    <item>
       <title>Segmentation, Targeting, and Positioning (STP)</title>
       <link>https://allandeutsch.com/notes/segmentation-targeting-positioning</link>
       <pubDate>Wed, 11 Aug 2021 00:00:00 GMT</pubDate>
@@ -726,13 +737,13 @@
     
 
     <item>
-      <title>Blue Ocean</title>
-      <link>https://allandeutsch.com/notes/blue-ocean</link>
-      <pubDate>Fri, 10 Sep 2021 00:00:00 GMT</pubDate>
-      <modified>Tue, 21 Sep 2021 00:00:00 GMT</modified>
-      <description>Blue oceans are markets that haven't been created yet. They are lucrative business opportunities.</description>
+      <title>Blue Ocean strategy</title>
+      <link>https://allandeutsch.com/notes/blue-ocean-strategy</link>
+      <pubDate>Wed, 15 Sep 2021 00:00:00 GMT</pubDate>
+      <modified>Thu, 16 Sep 2021 00:00:00 GMT</modified>
+      <description>Blue ocean strategy is about creating new markets to escape competition.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/blue-ocean</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/blue-ocean-strategy</guid>
     </item>
     
 
@@ -744,17 +755,6 @@
       <description>The factors that companies/products within an industry typically compete on to provide value to customers.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/competition-factors</guid>
-    </item>
-    
-
-    <item>
-      <title>Blue Ocean strategy</title>
-      <link>https://allandeutsch.com/notes/blue-ocean-strategy</link>
-      <pubDate>Wed, 15 Sep 2021 00:00:00 GMT</pubDate>
-      <modified>Thu, 16 Sep 2021 00:00:00 GMT</modified>
-      <description>Blue ocean strategy is about creating new markets to escape competition.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/blue-ocean-strategy</guid>
     </item>
     
 
@@ -940,8 +940,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2024 Allan Deutsch</copyright>
-    <pubDate>Thu, 12 Dec 2024 18:52:46 GMT</pubDate>
-    <lastBuildDate>Thu, 12 Dec 2024 18:52:46 GMT</lastBuildDate>
+    <pubDate>Wed, 18 Dec 2024 19:53:46 GMT</pubDate>
+    <lastBuildDate>Wed, 18 Dec 2024 19:53:46 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
