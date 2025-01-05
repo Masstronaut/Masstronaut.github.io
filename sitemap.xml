@@ -9,6 +9,12 @@
       >
 			
 				<url>
+					<loc>https://allandeutsch.com/uses</loc>
+					<lastmod>2025-01-04</lastmod>
+				</url>
+			
+
+				<url>
 					<loc>https://allandeutsch.com/gold-mac</loc>
 					<lastmod>2024-12-22</lastmod>
 				</url>
@@ -153,13 +159,13 @@
 			
 
 				<url>
-					<loc>https://allandeutsch.com/notes/lint-format-svelte</loc>
+					<loc>https://allandeutsch.com/notes/svelte-shiki-twoslash</loc>
 					<lastmod>2024-04-24</lastmod>
 				</url>
 			
 
 				<url>
-					<loc>https://allandeutsch.com/notes/svelte-shiki-twoslash</loc>
+					<loc>https://allandeutsch.com/notes/lint-format-svelte</loc>
 					<lastmod>2024-04-24</lastmod>
 				</url>
 			
