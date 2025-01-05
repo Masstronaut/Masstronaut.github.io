@@ -6,8 +6,8 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Sun, 05 Jan 2025 07:50:14 GMT</pubDate>
-    <lastBuildDate>Sun, 05 Jan 2025 07:50:14 GMT</lastBuildDate>
+    <pubDate>Sun, 05 Jan 2025 08:36:48 GMT</pubDate>
+    <lastBuildDate>Sun, 05 Jan 2025 08:36:48 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
@@ -143,17 +143,6 @@
     
 
     <item>
-      <title>Beautifully render code in Svelte</title>
-      <link>https://allandeutsch.com/notes/svelte-shiki-twoslash</link>
-      <pubDate>Sun, 07 Apr 2024 00:00:00 GMT</pubDate>
-      <modified>Wed, 24 Apr 2024 00:00:00 GMT</modified>
-      <description>How I transform the code in my markdown files into beautifully rendered snippets on this site.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/svelte-shiki-twoslash</guid>
-    </item>
-    
-
-    <item>
       <title>Linting and formatting a svelte project</title>
       <link>https://allandeutsch.com/notes/lint-format-svelte</link>
       <pubDate>Sat, 13 Apr 2024 00:00:00 GMT</pubDate>
@@ -161,6 +150,17 @@
       <description>Pulling together a bunch of language tools can be a bother, but I find automated formatting & code review tools are worth the hassle.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/lint-format-svelte</guid>
+    </item>
+    
+
+    <item>
+      <title>Beautifully render code in Svelte</title>
+      <link>https://allandeutsch.com/notes/svelte-shiki-twoslash</link>
+      <pubDate>Sun, 07 Apr 2024 00:00:00 GMT</pubDate>
+      <modified>Wed, 24 Apr 2024 00:00:00 GMT</modified>
+      <description>How I transform the code in my markdown files into beautifully rendered snippets on this site.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/svelte-shiki-twoslash</guid>
     </item>
     
 
@@ -940,8 +940,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Sun, 05 Jan 2025 07:50:14 GMT</pubDate>
-    <lastBuildDate>Sun, 05 Jan 2025 07:50:14 GMT</lastBuildDate>
+    <pubDate>Sun, 05 Jan 2025 08:36:48 GMT</pubDate>
+    <lastBuildDate>Sun, 05 Jan 2025 08:36:48 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
