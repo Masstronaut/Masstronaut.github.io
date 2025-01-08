@@ -6,10 +6,21 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Wed, 08 Jan 2025 20:11:47 GMT</pubDate>
-    <lastBuildDate>Wed, 08 Jan 2025 20:11:47 GMT</lastBuildDate>
+    <pubDate>Wed, 08 Jan 2025 20:15:39 GMT</pubDate>
+    <lastBuildDate>Wed, 08 Jan 2025 20:15:39 GMT</lastBuildDate>
     <ttl>60</ttl>
     
+    <item>
+      <title>Gifts</title>
+      <link>https://allandeutsch.com/notes/gifts</link>
+      <pubDate>Fri, 03 Jan 2025 00:00:00 GMT</pubDate>
+      <modified>Wed, 08 Jan 2025 00:00:00 GMT</modified>
+      <description>Gifts can be an unwanted obligation or a fun way to show some love. This is my attempt at shifting them towards the latter.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/gifts</guid>
+    </item>
+    
+
     <item>
       <title>Cozumel travel guide</title>
       <link>https://allandeutsch.com/notes/cozumel-travel-guide</link>
@@ -940,8 +951,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Wed, 08 Jan 2025 20:11:47 GMT</pubDate>
-    <lastBuildDate>Wed, 08 Jan 2025 20:11:47 GMT</lastBuildDate>
+    <pubDate>Wed, 08 Jan 2025 20:15:39 GMT</pubDate>
+    <lastBuildDate>Wed, 08 Jan 2025 20:15:39 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
