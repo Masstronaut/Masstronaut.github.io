@@ -6,8 +6,8 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Sat, 11 Jan 2025 21:08:24 GMT</pubDate>
-    <lastBuildDate>Sat, 11 Jan 2025 21:08:24 GMT</lastBuildDate>
+    <pubDate>Sat, 11 Jan 2025 22:26:51 GMT</pubDate>
+    <lastBuildDate>Sat, 11 Jan 2025 22:26:51 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
@@ -704,17 +704,6 @@
     
 
     <item>
-      <title>Common traits of successful blue ocean strategies</title>
-      <link>https://allandeutsch.com/notes/traits-successful-blue-ocean-strategy</link>
-      <pubDate>Thu, 16 Sep 2021 00:00:00 GMT</pubDate>
-      <modified>Tue, 21 Sep 2021 00:00:00 GMT</modified>
-      <description>Great strategies have a clear focus, diverge from competition, and are easy to explain.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/traits-successful-blue-ocean-strategy</guid>
-    </item>
-    
-
-    <item>
       <title>Blue Ocean</title>
       <link>https://allandeutsch.com/notes/blue-ocean</link>
       <pubDate>Fri, 10 Sep 2021 00:00:00 GMT</pubDate>
@@ -722,6 +711,17 @@
       <description>Blue oceans are markets that haven't been created yet. They are lucrative business opportunities.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/blue-ocean</guid>
+    </item>
+    
+
+    <item>
+      <title>Common traits of successful blue ocean strategies</title>
+      <link>https://allandeutsch.com/notes/traits-successful-blue-ocean-strategy</link>
+      <pubDate>Thu, 16 Sep 2021 00:00:00 GMT</pubDate>
+      <modified>Tue, 21 Sep 2021 00:00:00 GMT</modified>
+      <description>Great strategies have a clear focus, diverge from competition, and are easy to explain.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/traits-successful-blue-ocean-strategy</guid>
     </item>
     
 
@@ -951,8 +951,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Sat, 11 Jan 2025 21:08:24 GMT</pubDate>
-    <lastBuildDate>Sat, 11 Jan 2025 21:08:24 GMT</lastBuildDate>
+    <pubDate>Sat, 11 Jan 2025 22:26:51 GMT</pubDate>
+    <lastBuildDate>Sat, 11 Jan 2025 22:26:51 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
