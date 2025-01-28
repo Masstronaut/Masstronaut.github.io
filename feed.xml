@@ -6,8 +6,8 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Fri, 24 Jan 2025 21:24:00 GMT</pubDate>
-    <lastBuildDate>Fri, 24 Jan 2025 21:24:00 GMT</lastBuildDate>
+    <pubDate>Tue, 28 Jan 2025 23:16:47 GMT</pubDate>
+    <lastBuildDate>Tue, 28 Jan 2025 23:16:47 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
@@ -110,17 +110,6 @@
     
 
     <item>
-      <title>Make example code interactive</title>
-      <link>https://allandeutsch.com/notes/make-example-code-interactive</link>
-      <pubDate>Thu, 09 May 2024 00:00:00 GMT</pubDate>
-      <modified>Thu, 09 May 2024 00:00:00 GMT</modified>
-      <description>Whenever possible, make code interactive. Interaction is the single most effective way to teach anything, including code!</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/make-example-code-interactive</guid>
-    </item>
-    
-
-    <item>
       <title>Add a demo link to TypeScript code blocks</title>
       <link>https://allandeutsch.com/notes/code-block-tsplay-demo-link</link>
       <pubDate>Thu, 09 May 2024 00:00:00 GMT</pubDate>
@@ -128,6 +117,17 @@
       <description>Seeing example code with syntax highlighting is great, but sometimes you've just gotta run the code and see what happens...</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/code-block-tsplay-demo-link</guid>
+    </item>
+    
+
+    <item>
+      <title>Make example code interactive</title>
+      <link>https://allandeutsch.com/notes/make-example-code-interactive</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 GMT</pubDate>
+      <modified>Thu, 09 May 2024 00:00:00 GMT</modified>
+      <description>Whenever possible, make code interactive. Interaction is the single most effective way to teach anything, including code!</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/make-example-code-interactive</guid>
     </item>
     
 
@@ -951,8 +951,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Fri, 24 Jan 2025 21:24:00 GMT</pubDate>
-    <lastBuildDate>Fri, 24 Jan 2025 21:24:00 GMT</lastBuildDate>
+    <pubDate>Tue, 28 Jan 2025 23:16:47 GMT</pubDate>
+    <lastBuildDate>Tue, 28 Jan 2025 23:16:47 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
