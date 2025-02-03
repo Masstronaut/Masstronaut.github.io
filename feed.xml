@@ -6,10 +6,21 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Mon, 03 Feb 2025 02:45:47 GMT</pubDate>
-    <lastBuildDate>Mon, 03 Feb 2025 02:45:47 GMT</lastBuildDate>
+    <pubDate>Mon, 03 Feb 2025 02:53:46 GMT</pubDate>
+    <lastBuildDate>Mon, 03 Feb 2025 02:53:46 GMT</lastBuildDate>
     <ttl>60</ttl>
     
+    <item>
+      <title>Improving zsh startup times</title>
+      <link>https://allandeutsch.com/notes/zsh-startup</link>
+      <pubDate>Fri, 31 Jan 2025 00:00:00 GMT</pubDate>
+      <modified>Sun, 02 Feb 2025 00:00:00 GMT</modified>
+      <description>Applying my skills in performance optimization in a new domain: terminal (zsh) startup speed.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/zsh-startup</guid>
+    </item>
+    
+
     <item>
       <title>Gifts</title>
       <link>https://allandeutsch.com/notes/gifts</link>
@@ -951,8 +962,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Mon, 03 Feb 2025 02:45:47 GMT</pubDate>
-    <lastBuildDate>Mon, 03 Feb 2025 02:45:47 GMT</lastBuildDate>
+    <pubDate>Mon, 03 Feb 2025 02:53:46 GMT</pubDate>
+    <lastBuildDate>Mon, 03 Feb 2025 02:53:46 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
