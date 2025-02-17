@@ -6,10 +6,21 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Mon, 17 Feb 2025 01:02:13 GMT</pubDate>
-    <lastBuildDate>Mon, 17 Feb 2025 01:02:13 GMT</lastBuildDate>
+    <pubDate>Mon, 17 Feb 2025 21:22:33 GMT</pubDate>
+    <lastBuildDate>Mon, 17 Feb 2025 21:22:33 GMT</lastBuildDate>
     <ttl>60</ttl>
     
+    <item>
+      <title>The fundamental habits</title>
+      <link>https://allandeutsch.com/notes/fundamental-habits</link>
+      <pubDate>Thu, 23 Sep 2021 00:00:00 GMT</pubDate>
+      <modified>Mon, 17 Feb 2025 00:00:00 GMT</modified>
+      <description>These simple behaviors are often challenging, but provide a rock solid foundation for the rest of life.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/fundamental-habits</guid>
+    </item>
+    
+
     <item>
       <title>Improving zsh startup times</title>
       <link>https://allandeutsch.com/notes/zsh-startup</link>
@@ -682,17 +693,6 @@
     
 
     <item>
-      <title>The fundamental habits</title>
-      <link>https://allandeutsch.com/notes/fundamental-habits</link>
-      <pubDate>Thu, 23 Sep 2021 00:00:00 GMT</pubDate>
-      <modified>Thu, 23 Sep 2021 00:00:00 GMT</modified>
-      <description>These simple behaviors are often challenging, but provide a rock solid foundation for the rest of life.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/fundamental-habits</guid>
-    </item>
-    
-
-    <item>
       <title>Categories of customer attributes</title>
       <link>https://allandeutsch.com/notes/customer-attribute-categories</link>
       <pubDate>Thu, 23 Sep 2021 00:00:00 GMT</pubDate>
@@ -962,8 +962,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Mon, 17 Feb 2025 01:02:13 GMT</pubDate>
-    <lastBuildDate>Mon, 17 Feb 2025 01:02:13 GMT</lastBuildDate>
+    <pubDate>Mon, 17 Feb 2025 21:22:33 GMT</pubDate>
+    <lastBuildDate>Mon, 17 Feb 2025 21:22:33 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
