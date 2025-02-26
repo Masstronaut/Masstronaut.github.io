@@ -6,8 +6,8 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Wed, 26 Feb 2025 02:57:41 GMT</pubDate>
-    <lastBuildDate>Wed, 26 Feb 2025 02:57:41 GMT</lastBuildDate>
+    <pubDate>Wed, 26 Feb 2025 03:03:41 GMT</pubDate>
+    <lastBuildDate>Wed, 26 Feb 2025 03:03:41 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
@@ -737,17 +737,6 @@
     
 
     <item>
-      <title>Segmentation, Targeting, and Positioning (STP)</title>
-      <link>https://allandeutsch.com/notes/segmentation-targeting-positioning</link>
-      <pubDate>Wed, 11 Aug 2021 00:00:00 GMT</pubDate>
-      <modified>Tue, 21 Sep 2021 00:00:00 GMT</modified>
-      <description>Group consumers into segments, determine which to target, and estable the product's position for them.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/segmentation-targeting-positioning</guid>
-    </item>
-    
-
-    <item>
       <title>Value curve</title>
       <link>https://allandeutsch.com/notes/value-curve</link>
       <pubDate>Thu, 16 Sep 2021 00:00:00 GMT</pubDate>
@@ -755,6 +744,17 @@
       <description>The line on a strategy canvas showing the emphasis a company places on each factor of competition in its industry.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/value-curve</guid>
+    </item>
+    
+
+    <item>
+      <title>Segmentation, Targeting, and Positioning (STP)</title>
+      <link>https://allandeutsch.com/notes/segmentation-targeting-positioning</link>
+      <pubDate>Wed, 11 Aug 2021 00:00:00 GMT</pubDate>
+      <modified>Tue, 21 Sep 2021 00:00:00 GMT</modified>
+      <description>Group consumers into segments, determine which to target, and estable the product's position for them.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/segmentation-targeting-positioning</guid>
     </item>
     
 
@@ -962,8 +962,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Wed, 26 Feb 2025 02:57:41 GMT</pubDate>
-    <lastBuildDate>Wed, 26 Feb 2025 02:57:41 GMT</lastBuildDate>
+    <pubDate>Wed, 26 Feb 2025 03:03:41 GMT</pubDate>
+    <lastBuildDate>Wed, 26 Feb 2025 03:03:41 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
