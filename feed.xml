@@ -6,10 +6,32 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Wed, 19 Mar 2025 22:21:46 GMT</pubDate>
-    <lastBuildDate>Wed, 19 Mar 2025 22:21:46 GMT</lastBuildDate>
+    <pubDate>Mon, 31 Mar 2025 06:31:42 GMT</pubDate>
+    <lastBuildDate>Mon, 31 Mar 2025 06:31:42 GMT</lastBuildDate>
     <ttl>60</ttl>
     
+    <item>
+      <title>Seattle area cafés I like</title>
+      <link>https://allandeutsch.com/notes/seattle-cafes</link>
+      <pubDate>Sat, 28 Aug 2021 00:00:00 GMT</pubDate>
+      <modified>Sun, 30 Mar 2025 00:00:00 GMT</modified>
+      <description>A curated list of my favorite Seattle area cafes to sit, sip, and relax or work.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/seattle-cafes</guid>
+    </item>
+    
+
+    <item>
+      <title>Restaurants I like</title>
+      <link>https://allandeutsch.com/notes/restaurants</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 GMT</pubDate>
+      <modified>Sun, 30 Mar 2025 00:00:00 GMT</modified>
+      <description>A list of some of my favorite places to get a meal in the Seattle area.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/restaurants</guid>
+    </item>
+    
+
     <item>
       <title>The fundamental habits</title>
       <link>https://allandeutsch.com/notes/fundamental-habits</link>
@@ -337,28 +359,6 @@
       <description>The way(s) a product or service benefits its target customers and the statement describing it.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/value-proposition</guid>
-    </item>
-    
-
-    <item>
-      <title>Seattle area cafés I like</title>
-      <link>https://allandeutsch.com/notes/seattle-cafes</link>
-      <pubDate>Sat, 28 Aug 2021 00:00:00 GMT</pubDate>
-      <modified>Thu, 14 Sep 2023 00:00:00 GMT</modified>
-      <description>A curated list of my favorite Seattle area cafes to sit, sip, and relax or work.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/seattle-cafes</guid>
-    </item>
-    
-
-    <item>
-      <title>Restaurants I like</title>
-      <link>https://allandeutsch.com/notes/restaurants</link>
-      <pubDate>Sun, 13 Jun 2021 00:00:00 GMT</pubDate>
-      <modified>Sat, 19 Aug 2023 00:00:00 GMT</modified>
-      <description>A list of some of my favorite places to get a meal in the Seattle area.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/restaurants</guid>
     </item>
     
 
@@ -962,8 +962,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Wed, 19 Mar 2025 22:21:46 GMT</pubDate>
-    <lastBuildDate>Wed, 19 Mar 2025 22:21:46 GMT</lastBuildDate>
+    <pubDate>Mon, 31 Mar 2025 06:31:42 GMT</pubDate>
+    <lastBuildDate>Mon, 31 Mar 2025 06:31:42 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>

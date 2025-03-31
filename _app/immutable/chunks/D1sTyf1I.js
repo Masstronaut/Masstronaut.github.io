@@ -1,0 +1,1 @@
+import{t as i,a as p}from"./-j1eTb9y.js";import{c as r,ag as m,r as t}from"./CqL3m0EW.js";import{s as n}from"./B7aGl16T.js";import"./C6XMAdTe.js";var c=i('<div class="table-container col-start-1 col-end-4 w-full overflow-x-scroll svelte-jm9m59"><table><!></table></div>');function h(e,l){var a=c(),o=r(a),s=r(o);n(s,()=>l.children??m),t(o),t(a),p(e,a)}export{h as T};
