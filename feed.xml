@@ -6,8 +6,8 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Mon, 21 Apr 2025 21:17:34 GMT</pubDate>
-    <lastBuildDate>Mon, 21 Apr 2025 21:17:34 GMT</lastBuildDate>
+    <pubDate>Tue, 22 Apr 2025 22:37:13 GMT</pubDate>
+    <lastBuildDate>Tue, 22 Apr 2025 22:37:13 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
@@ -121,17 +121,6 @@
     
 
     <item>
-      <title>Identity functions</title>
-      <link>https://allandeutsch.com/notes/identity-functions</link>
-      <pubDate>Sat, 18 May 2024 00:00:00 GMT</pubDate>
-      <modified>Sun, 19 May 2024 00:00:00 GMT</modified>
-      <description>Identity functions make it possible to provide a much better developer experience at API boundaries by improving the type</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/identity-functions</guid>
-    </item>
-    
-
-    <item>
       <title>Total Typescript notes</title>
       <link>https://allandeutsch.com/notes/total-typescript-notes</link>
       <pubDate>Thu, 23 Nov 2023 00:00:00 GMT</pubDate>
@@ -139,6 +128,17 @@
       <description>I've learned a lot from this course, and use this note to record bits I want to remember and riff on some of my observations.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/total-typescript-notes</guid>
+    </item>
+    
+
+    <item>
+      <title>Identity functions</title>
+      <link>https://allandeutsch.com/notes/identity-functions</link>
+      <pubDate>Sat, 18 May 2024 00:00:00 GMT</pubDate>
+      <modified>Sun, 19 May 2024 00:00:00 GMT</modified>
+      <description>Identity functions make it possible to provide a much better developer experience at API boundaries by improving the type</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/identity-functions</guid>
     </item>
     
 
@@ -297,17 +297,6 @@
     
 
     <item>
-      <title>Slugs make links readable</title>
-      <link>https://allandeutsch.com/notes/slugs-make-links-readable</link>
-      <pubDate>Sun, 04 Feb 2024 00:00:00 GMT</pubDate>
-      <modified>Sun, 04 Feb 2024 00:00:00 GMT</modified>
-      <description>Special characters aren't valid in URLs, so custom slugs are used to make links easier to read.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/slugs-make-links-readable</guid>
-    </item>
-    
-
-    <item>
       <title>Structural types increase data compatibility</title>
       <link>https://allandeutsch.com/notes/structural-types-increase-compatibility</link>
       <pubDate>Sun, 04 Feb 2024 00:00:00 GMT</pubDate>
@@ -315,6 +304,17 @@
       <description>Structural types are only concerned with the shape of data, rather than the names of types. This makes data types more compatible.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/structural-types-increase-compatibility</guid>
+    </item>
+    
+
+    <item>
+      <title>Slugs make links readable</title>
+      <link>https://allandeutsch.com/notes/slugs-make-links-readable</link>
+      <pubDate>Sun, 04 Feb 2024 00:00:00 GMT</pubDate>
+      <modified>Sun, 04 Feb 2024 00:00:00 GMT</modified>
+      <description>Special characters aren't valid in URLs, so custom slugs are used to make links easier to read.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/slugs-make-links-readable</guid>
     </item>
     
 
@@ -418,17 +418,6 @@
     
 
     <item>
-      <title>Cross-Price Elasticity of Demand (CPED)</title>
-      <link>https://allandeutsch.com/notes/cross-price-elasticity</link>
-      <pubDate>Tue, 28 Sep 2021 00:00:00 GMT</pubDate>
-      <modified>Sat, 21 May 2022 00:00:00 GMT</modified>
-      <description>Microeconomics tool for quantifying the change in demand for a product in response to price changes for substitute goods.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/cross-price-elasticity</guid>
-    </item>
-    
-
-    <item>
       <title>Price Elasticity of Demand (PED)</title>
       <link>https://allandeutsch.com/notes/price-elasticity-demand</link>
       <pubDate>Tue, 28 Sep 2021 00:00:00 GMT</pubDate>
@@ -436,6 +425,17 @@
       <description>Price changes impact the demand for goods and services. PED is a microeconomics tool for quantifyng that impact.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/price-elasticity-demand</guid>
+    </item>
+    
+
+    <item>
+      <title>Cross-Price Elasticity of Demand (CPED)</title>
+      <link>https://allandeutsch.com/notes/cross-price-elasticity</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 GMT</pubDate>
+      <modified>Sat, 21 May 2022 00:00:00 GMT</modified>
+      <description>Microeconomics tool for quantifying the change in demand for a product in response to price changes for substitute goods.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/cross-price-elasticity</guid>
     </item>
     
 
@@ -962,8 +962,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Mon, 21 Apr 2025 21:17:34 GMT</pubDate>
-    <lastBuildDate>Mon, 21 Apr 2025 21:17:34 GMT</lastBuildDate>
+    <pubDate>Tue, 22 Apr 2025 22:37:13 GMT</pubDate>
+    <lastBuildDate>Tue, 22 Apr 2025 22:37:13 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
