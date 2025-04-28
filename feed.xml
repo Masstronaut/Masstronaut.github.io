@@ -6,8 +6,8 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Tue, 22 Apr 2025 22:37:13 GMT</pubDate>
-    <lastBuildDate>Tue, 22 Apr 2025 22:37:13 GMT</lastBuildDate>
+    <pubDate>Mon, 28 Apr 2025 07:50:08 GMT</pubDate>
+    <lastBuildDate>Mon, 28 Apr 2025 07:50:08 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
@@ -297,17 +297,6 @@
     
 
     <item>
-      <title>Structural types increase data compatibility</title>
-      <link>https://allandeutsch.com/notes/structural-types-increase-compatibility</link>
-      <pubDate>Sun, 04 Feb 2024 00:00:00 GMT</pubDate>
-      <modified>Sun, 04 Feb 2024 00:00:00 GMT</modified>
-      <description>Structural types are only concerned with the shape of data, rather than the names of types. This makes data types more compatible.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/structural-types-increase-compatibility</guid>
-    </item>
-    
-
-    <item>
       <title>Slugs make links readable</title>
       <link>https://allandeutsch.com/notes/slugs-make-links-readable</link>
       <pubDate>Sun, 04 Feb 2024 00:00:00 GMT</pubDate>
@@ -315,6 +304,17 @@
       <description>Special characters aren't valid in URLs, so custom slugs are used to make links easier to read.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/slugs-make-links-readable</guid>
+    </item>
+    
+
+    <item>
+      <title>Structural types increase data compatibility</title>
+      <link>https://allandeutsch.com/notes/structural-types-increase-compatibility</link>
+      <pubDate>Sun, 04 Feb 2024 00:00:00 GMT</pubDate>
+      <modified>Sun, 04 Feb 2024 00:00:00 GMT</modified>
+      <description>Structural types are only concerned with the shape of data, rather than the names of types. This makes data types more compatible.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/structural-types-increase-compatibility</guid>
     </item>
     
 
@@ -517,17 +517,6 @@
     
 
     <item>
-      <title>Opportunity cost</title>
-      <link>https://allandeutsch.com/notes/opportunity-cost</link>
-      <pubDate>Sun, 16 Jan 2022 00:00:00 GMT</pubDate>
-      <modified>Sun, 16 Jan 2022 00:00:00 GMT</modified>
-      <description>The most valuable alternative that must be given up.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/opportunity-cost</guid>
-    </item>
-    
-
-    <item>
       <title>Price elasticity</title>
       <link>https://allandeutsch.com/notes/price-elasticity</link>
       <pubDate>Wed, 22 Sep 2021 00:00:00 GMT</pubDate>
@@ -539,13 +528,13 @@
     
 
     <item>
-      <title>Marginal utility</title>
-      <link>https://allandeutsch.com/notes/marginal-utility</link>
-      <pubDate>Mon, 20 Sep 2021 00:00:00 GMT</pubDate>
-      <modified>Sat, 15 Jan 2022 00:00:00 GMT</modified>
-      <description>The incremental value gained from have one more of something.</description>
+      <title>Opportunity cost</title>
+      <link>https://allandeutsch.com/notes/opportunity-cost</link>
+      <pubDate>Sun, 16 Jan 2022 00:00:00 GMT</pubDate>
+      <modified>Sun, 16 Jan 2022 00:00:00 GMT</modified>
+      <description>The most valuable alternative that must be given up.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/marginal-utility</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/opportunity-cost</guid>
     </item>
     
 
@@ -561,13 +550,13 @@
     
 
     <item>
-      <title>Market forces</title>
-      <link>https://allandeutsch.com/notes/market-forces</link>
-      <pubDate>Sun, 09 Jan 2022 00:00:00 GMT</pubDate>
-      <modified>Sun, 09 Jan 2022 00:00:00 GMT</modified>
-      <description>The factors that impact the price of goods and services, which in turn drives supply and demand changes.</description>
+      <title>Marginal utility</title>
+      <link>https://allandeutsch.com/notes/marginal-utility</link>
+      <pubDate>Mon, 20 Sep 2021 00:00:00 GMT</pubDate>
+      <modified>Sat, 15 Jan 2022 00:00:00 GMT</modified>
+      <description>The incremental value gained from have one more of something.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/market-forces</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/marginal-utility</guid>
     </item>
     
 
@@ -579,6 +568,17 @@
       <description>An area of microeconomics focused on how price influences the behavior of producers and consumers.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/supply-demand</guid>
+    </item>
+    
+
+    <item>
+      <title>Market forces</title>
+      <link>https://allandeutsch.com/notes/market-forces</link>
+      <pubDate>Sun, 09 Jan 2022 00:00:00 GMT</pubDate>
+      <modified>Sun, 09 Jan 2022 00:00:00 GMT</modified>
+      <description>The factors that impact the price of goods and services, which in turn drives supply and demand changes.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/market-forces</guid>
     </item>
     
 
@@ -726,6 +726,17 @@
     
 
     <item>
+      <title>Value curve</title>
+      <link>https://allandeutsch.com/notes/value-curve</link>
+      <pubDate>Thu, 16 Sep 2021 00:00:00 GMT</pubDate>
+      <modified>Tue, 21 Sep 2021 00:00:00 GMT</modified>
+      <description>The line on a strategy canvas showing the emphasis a company places on each factor of competition in its industry.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/value-curve</guid>
+    </item>
+    
+
+    <item>
       <title>Segmentation, Targeting, and Positioning (STP)</title>
       <link>https://allandeutsch.com/notes/segmentation-targeting-positioning</link>
       <pubDate>Wed, 11 Aug 2021 00:00:00 GMT</pubDate>
@@ -744,17 +755,6 @@
       <description>Great strategies have a clear focus, diverge from competition, and are easy to explain.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/traits-successful-blue-ocean-strategy</guid>
-    </item>
-    
-
-    <item>
-      <title>Value curve</title>
-      <link>https://allandeutsch.com/notes/value-curve</link>
-      <pubDate>Thu, 16 Sep 2021 00:00:00 GMT</pubDate>
-      <modified>Tue, 21 Sep 2021 00:00:00 GMT</modified>
-      <description>The line on a strategy canvas showing the emphasis a company places on each factor of competition in its industry.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/value-curve</guid>
     </item>
     
 
@@ -962,8 +962,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Tue, 22 Apr 2025 22:37:13 GMT</pubDate>
-    <lastBuildDate>Tue, 22 Apr 2025 22:37:13 GMT</lastBuildDate>
+    <pubDate>Mon, 28 Apr 2025 07:50:08 GMT</pubDate>
+    <lastBuildDate>Mon, 28 Apr 2025 07:50:08 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
