@@ -6,8 +6,8 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Wed, 14 May 2025 08:03:26 GMT</pubDate>
-    <lastBuildDate>Wed, 14 May 2025 08:03:26 GMT</lastBuildDate>
+    <pubDate>Sat, 24 May 2025 12:56:33 GMT</pubDate>
+    <lastBuildDate>Sat, 24 May 2025 12:56:33 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
@@ -154,17 +154,6 @@
     
 
     <item>
-      <title>Make example code interactive</title>
-      <link>https://allandeutsch.com/notes/make-example-code-interactive</link>
-      <pubDate>Thu, 09 May 2024 00:00:00 GMT</pubDate>
-      <modified>Thu, 09 May 2024 00:00:00 GMT</modified>
-      <description>Whenever possible, make code interactive. Interaction is the single most effective way to teach anything, including code!</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/make-example-code-interactive</guid>
-    </item>
-    
-
-    <item>
       <title>Add a demo link to TypeScript code blocks</title>
       <link>https://allandeutsch.com/notes/code-block-tsplay-demo-link</link>
       <pubDate>Thu, 09 May 2024 00:00:00 GMT</pubDate>
@@ -172,6 +161,17 @@
       <description>Seeing example code with syntax highlighting is great, but sometimes you've just gotta run the code and see what happens...</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/code-block-tsplay-demo-link</guid>
+    </item>
+    
+
+    <item>
+      <title>Make example code interactive</title>
+      <link>https://allandeutsch.com/notes/make-example-code-interactive</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 GMT</pubDate>
+      <modified>Thu, 09 May 2024 00:00:00 GMT</modified>
+      <description>Whenever possible, make code interactive. Interaction is the single most effective way to teach anything, including code!</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/make-example-code-interactive</guid>
     </item>
     
 
@@ -407,17 +407,6 @@
     
 
     <item>
-      <title>Positioning statement</title>
-      <link>https://allandeutsch.com/notes/positioning-statement</link>
-      <pubDate>Wed, 11 Aug 2021 00:00:00 GMT</pubDate>
-      <modified>Sat, 21 May 2022 00:00:00 GMT</modified>
-      <description>A position statement explains how a product fits into its market.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/positioning-statement</guid>
-    </item>
-    
-
-    <item>
       <title>Cross-Price Elasticity of Demand (CPED)</title>
       <link>https://allandeutsch.com/notes/cross-price-elasticity</link>
       <pubDate>Tue, 28 Sep 2021 00:00:00 GMT</pubDate>
@@ -425,6 +414,17 @@
       <description>Microeconomics tool for quantifying the change in demand for a product in response to price changes for substitute goods.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/cross-price-elasticity</guid>
+    </item>
+    
+
+    <item>
+      <title>Positioning statement</title>
+      <link>https://allandeutsch.com/notes/positioning-statement</link>
+      <pubDate>Wed, 11 Aug 2021 00:00:00 GMT</pubDate>
+      <modified>Sat, 21 May 2022 00:00:00 GMT</modified>
+      <description>A position statement explains how a product fits into its market.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/positioning-statement</guid>
     </item>
     
 
@@ -880,17 +880,6 @@
     
 
     <item>
-      <title>Compound growth system</title>
-      <link>https://allandeutsch.com/notes/compound-growth-system</link>
-      <pubDate>Thu, 12 Aug 2021 00:00:00 GMT</pubDate>
-      <modified>Thu, 12 Aug 2021 00:00:00 GMT</modified>
-      <description>Any system in which growth is proportional to the principal, added to that principal, and then repeated.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/compound-growth-system</guid>
-    </item>
-    
-
-    <item>
       <title>Customer segment</title>
       <link>https://allandeutsch.com/notes/customer-segment</link>
       <pubDate>Sun, 13 Jun 2021 00:00:00 GMT</pubDate>
@@ -898,6 +887,17 @@
       <description>The groups of people a business aims to serve.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/customer-segment</guid>
+    </item>
+    
+
+    <item>
+      <title>Compound growth system</title>
+      <link>https://allandeutsch.com/notes/compound-growth-system</link>
+      <pubDate>Thu, 12 Aug 2021 00:00:00 GMT</pubDate>
+      <modified>Thu, 12 Aug 2021 00:00:00 GMT</modified>
+      <description>Any system in which growth is proportional to the principal, added to that principal, and then repeated.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/compound-growth-system</guid>
     </item>
     
 
@@ -962,8 +962,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Wed, 14 May 2025 08:03:26 GMT</pubDate>
-    <lastBuildDate>Wed, 14 May 2025 08:03:26 GMT</lastBuildDate>
+    <pubDate>Sat, 24 May 2025 12:56:33 GMT</pubDate>
+    <lastBuildDate>Sat, 24 May 2025 12:56:33 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
