@@ -1,0 +1,1 @@
+import{m as l,n as u}from"./fxLts69-.js";function o(i,f,e,r,s){var d;l&&u();var t=(d=f.$$slots)==null?void 0:d[e],n=!1;t===!0&&(t=f[e==="default"?"children":e],n=!0),t===void 0?s!==null&&s(i):t(i,n?()=>r:r)}export{o as s};
