@@ -1,0 +1,1 @@
+import{t as i,a as p}from"./DxLz9yiU.js";import{c as r,ac as c,r as t}from"./DOUKym4R.js";import{s as m}from"./7p8ASLCS.js";import"./BFvoo-wp.js";var n=i('<div class="table-container col-start-1 col-end-4 w-full overflow-x-scroll svelte-jm9m59"><table><!></table></div>');function h(e,l){var a=n(),o=r(a),s=r(o);m(s,()=>l.children??c),t(o),t(a),p(e,a)}export{h as T};
