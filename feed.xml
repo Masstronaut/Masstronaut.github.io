@@ -6,8 +6,8 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Tue, 10 Jun 2025 01:41:14 GMT</pubDate>
-    <lastBuildDate>Tue, 10 Jun 2025 01:41:14 GMT</lastBuildDate>
+    <pubDate>Wed, 11 Jun 2025 09:54:33 GMT</pubDate>
+    <lastBuildDate>Wed, 11 Jun 2025 09:54:33 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
@@ -418,17 +418,6 @@
     
 
     <item>
-      <title>Cross-Price Elasticity of Demand (CPED)</title>
-      <link>https://allandeutsch.com/notes/cross-price-elasticity</link>
-      <pubDate>Tue, 28 Sep 2021 00:00:00 GMT</pubDate>
-      <modified>Sat, 21 May 2022 00:00:00 GMT</modified>
-      <description>Microeconomics tool for quantifying the change in demand for a product in response to price changes for substitute goods.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/cross-price-elasticity</guid>
-    </item>
-    
-
-    <item>
       <title>Price Elasticity of Demand (PED)</title>
       <link>https://allandeutsch.com/notes/price-elasticity-demand</link>
       <pubDate>Tue, 28 Sep 2021 00:00:00 GMT</pubDate>
@@ -436,6 +425,17 @@
       <description>Price changes impact the demand for goods and services. PED is a microeconomics tool for quantifyng that impact.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/price-elasticity-demand</guid>
+    </item>
+    
+
+    <item>
+      <title>Cross-Price Elasticity of Demand (CPED)</title>
+      <link>https://allandeutsch.com/notes/cross-price-elasticity</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 GMT</pubDate>
+      <modified>Sat, 21 May 2022 00:00:00 GMT</modified>
+      <description>Microeconomics tool for quantifying the change in demand for a product in response to price changes for substitute goods.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/cross-price-elasticity</guid>
     </item>
     
 
@@ -715,17 +715,6 @@
     
 
     <item>
-      <title>Blue Ocean</title>
-      <link>https://allandeutsch.com/notes/blue-ocean</link>
-      <pubDate>Fri, 10 Sep 2021 00:00:00 GMT</pubDate>
-      <modified>Tue, 21 Sep 2021 00:00:00 GMT</modified>
-      <description>Blue oceans are markets that haven't been created yet. They are lucrative business opportunities.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/blue-ocean</guid>
-    </item>
-    
-
-    <item>
       <title>Segmentation, Targeting, and Positioning (STP)</title>
       <link>https://allandeutsch.com/notes/segmentation-targeting-positioning</link>
       <pubDate>Wed, 11 Aug 2021 00:00:00 GMT</pubDate>
@@ -733,6 +722,17 @@
       <description>Group consumers into segments, determine which to target, and estable the product's position for them.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/segmentation-targeting-positioning</guid>
+    </item>
+    
+
+    <item>
+      <title>Value curve</title>
+      <link>https://allandeutsch.com/notes/value-curve</link>
+      <pubDate>Thu, 16 Sep 2021 00:00:00 GMT</pubDate>
+      <modified>Tue, 21 Sep 2021 00:00:00 GMT</modified>
+      <description>The line on a strategy canvas showing the emphasis a company places on each factor of competition in its industry.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/value-curve</guid>
     </item>
     
 
@@ -748,13 +748,13 @@
     
 
     <item>
-      <title>Value curve</title>
-      <link>https://allandeutsch.com/notes/value-curve</link>
-      <pubDate>Thu, 16 Sep 2021 00:00:00 GMT</pubDate>
+      <title>Blue Ocean</title>
+      <link>https://allandeutsch.com/notes/blue-ocean</link>
+      <pubDate>Fri, 10 Sep 2021 00:00:00 GMT</pubDate>
       <modified>Tue, 21 Sep 2021 00:00:00 GMT</modified>
-      <description>The line on a strategy canvas showing the emphasis a company places on each factor of competition in its industry.</description>
+      <description>Blue oceans are markets that haven't been created yet. They are lucrative business opportunities.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/value-curve</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/blue-ocean</guid>
     </item>
     
 
@@ -869,17 +869,6 @@
     
 
     <item>
-      <title>Compound growth is most impactful at the end</title>
-      <link>https://allandeutsch.com/notes/compound-growth-most-impactful-at-end</link>
-      <pubDate>Thu, 12 Aug 2021 00:00:00 GMT</pubDate>
-      <modified>Thu, 12 Aug 2021 00:00:00 GMT</modified>
-      <description>Compound growth is exponential. Each compounding period generates more growth than the previous one.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/compound-growth-most-impactful-at-end</guid>
-    </item>
-    
-
-    <item>
       <title>Compound growth system</title>
       <link>https://allandeutsch.com/notes/compound-growth-system</link>
       <pubDate>Thu, 12 Aug 2021 00:00:00 GMT</pubDate>
@@ -898,6 +887,17 @@
       <description>The groups of people a business aims to serve.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/customer-segment</guid>
+    </item>
+    
+
+    <item>
+      <title>Compound growth is most impactful at the end</title>
+      <link>https://allandeutsch.com/notes/compound-growth-most-impactful-at-end</link>
+      <pubDate>Thu, 12 Aug 2021 00:00:00 GMT</pubDate>
+      <modified>Thu, 12 Aug 2021 00:00:00 GMT</modified>
+      <description>Compound growth is exponential. Each compounding period generates more growth than the previous one.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/compound-growth-most-impactful-at-end</guid>
     </item>
     
 
@@ -962,8 +962,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Tue, 10 Jun 2025 01:41:14 GMT</pubDate>
-    <lastBuildDate>Tue, 10 Jun 2025 01:41:14 GMT</lastBuildDate>
+    <pubDate>Wed, 11 Jun 2025 09:54:33 GMT</pubDate>
+    <lastBuildDate>Wed, 11 Jun 2025 09:54:33 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>

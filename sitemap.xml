@@ -105,13 +105,13 @@
 			
 
 				<url>
-					<loc>https://allandeutsch.com/devlog</loc>
+					<loc>https://allandeutsch.com/devlog/8</loc>
 					<lastmod>2024-06-05</lastmod>
 				</url>
 			
 
 				<url>
-					<loc>https://allandeutsch.com/devlog/8</loc>
+					<loc>https://allandeutsch.com/devlog</loc>
 					<lastmod>2024-06-05</lastmod>
 				</url>
 			
@@ -327,13 +327,13 @@
 			
 
 				<url>
-					<loc>https://allandeutsch.com/notes/cross-price-elasticity</loc>
+					<loc>https://allandeutsch.com/notes/price-elasticity-demand</loc>
 					<lastmod>2022-05-21</lastmod>
 				</url>
 			
 
 				<url>
-					<loc>https://allandeutsch.com/notes/price-elasticity-demand</loc>
+					<loc>https://allandeutsch.com/notes/cross-price-elasticity</loc>
 					<lastmod>2022-05-21</lastmod>
 				</url>
 			
@@ -489,13 +489,13 @@
 			
 
 				<url>
-					<loc>https://allandeutsch.com/notes/blue-ocean</loc>
+					<loc>https://allandeutsch.com/notes/segmentation-targeting-positioning</loc>
 					<lastmod>2021-09-21</lastmod>
 				</url>
 			
 
 				<url>
-					<loc>https://allandeutsch.com/notes/segmentation-targeting-positioning</loc>
+					<loc>https://allandeutsch.com/notes/value-curve</loc>
 					<lastmod>2021-09-21</lastmod>
 				</url>
 			
@@ -507,7 +507,7 @@
 			
 
 				<url>
-					<loc>https://allandeutsch.com/notes/value-curve</loc>
+					<loc>https://allandeutsch.com/notes/blue-ocean</loc>
 					<lastmod>2021-09-21</lastmod>
 				</url>
 			
@@ -573,12 +573,6 @@
 			
 
 				<url>
-					<loc>https://allandeutsch.com/notes/compound-growth-most-impactful-at-end</loc>
-					<lastmod>2021-08-12</lastmod>
-				</url>
-			
-
-				<url>
 					<loc>https://allandeutsch.com/notes/compound-growth-system</loc>
 					<lastmod>2021-08-12</lastmod>
 				</url>
@@ -586,6 +580,12 @@
 
 				<url>
 					<loc>https://allandeutsch.com/notes/customer-segment</loc>
+					<lastmod>2021-08-12</lastmod>
+				</url>
+			
+
+				<url>
+					<loc>https://allandeutsch.com/notes/compound-growth-most-impactful-at-end</loc>
 					<lastmod>2021-08-12</lastmod>
 				</url>
 			
