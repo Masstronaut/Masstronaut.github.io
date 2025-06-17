@@ -6,8 +6,8 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Wed, 11 Jun 2025 22:05:23 GMT</pubDate>
-    <lastBuildDate>Wed, 11 Jun 2025 22:05:23 GMT</lastBuildDate>
+    <pubDate>Tue, 17 Jun 2025 00:06:30 GMT</pubDate>
+    <lastBuildDate>Tue, 17 Jun 2025 00:06:30 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
@@ -121,17 +121,6 @@
     
 
     <item>
-      <title>Total Typescript notes</title>
-      <link>https://allandeutsch.com/notes/total-typescript-notes</link>
-      <pubDate>Thu, 23 Nov 2023 00:00:00 GMT</pubDate>
-      <modified>Sun, 19 May 2024 00:00:00 GMT</modified>
-      <description>I've learned a lot from this course, and use this note to record bits I want to remember and riff on some of my observations.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/total-typescript-notes</guid>
-    </item>
-    
-
-    <item>
       <title>Identity functions</title>
       <link>https://allandeutsch.com/notes/identity-functions</link>
       <pubDate>Sat, 18 May 2024 00:00:00 GMT</pubDate>
@@ -139,6 +128,17 @@
       <description>Identity functions make it possible to provide a much better developer experience at API boundaries by improving the type</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/identity-functions</guid>
+    </item>
+    
+
+    <item>
+      <title>Total Typescript notes</title>
+      <link>https://allandeutsch.com/notes/total-typescript-notes</link>
+      <pubDate>Thu, 23 Nov 2023 00:00:00 GMT</pubDate>
+      <modified>Sun, 19 May 2024 00:00:00 GMT</modified>
+      <description>I've learned a lot from this course, and use this note to record bits I want to remember and riff on some of my observations.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/total-typescript-notes</guid>
     </item>
     
 
@@ -462,17 +462,6 @@
     
 
     <item>
-      <title>Avocado toast</title>
-      <link>https://allandeutsch.com/notes/avocado-toast</link>
-      <pubDate>Fri, 01 Oct 2021 00:00:00 GMT</pubDate>
-      <modified>Wed, 13 Apr 2022 00:00:00 GMT</modified>
-      <description>Perhaps the icon of a generation, avocado toast is a delicious and nutritious way to start the day. </description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/avocado-toast</guid>
-    </item>
-    
-
-    <item>
       <title>Present three options to build consensus</title>
       <link>https://allandeutsch.com/notes/three-options-consensus</link>
       <pubDate>Wed, 07 Apr 2021 00:00:00 GMT</pubDate>
@@ -480,6 +469,17 @@
       <description>Cognitive biases lead people to evaluate options in context. There are strong biases that impact decision making when there are one or two options.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/three-options-consensus</guid>
+    </item>
+    
+
+    <item>
+      <title>Avocado toast</title>
+      <link>https://allandeutsch.com/notes/avocado-toast</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 GMT</pubDate>
+      <modified>Wed, 13 Apr 2022 00:00:00 GMT</modified>
+      <description>Perhaps the icon of a generation, avocado toast is a delicious and nutritious way to start the day. </description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/avocado-toast</guid>
     </item>
     
 
@@ -962,8 +962,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Wed, 11 Jun 2025 22:05:23 GMT</pubDate>
-    <lastBuildDate>Wed, 11 Jun 2025 22:05:23 GMT</lastBuildDate>
+    <pubDate>Tue, 17 Jun 2025 00:06:30 GMT</pubDate>
+    <lastBuildDate>Tue, 17 Jun 2025 00:06:30 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
