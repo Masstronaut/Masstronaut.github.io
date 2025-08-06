@@ -6,8 +6,8 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Mon, 04 Aug 2025 00:38:22 GMT</pubDate>
-    <lastBuildDate>Mon, 04 Aug 2025 00:38:22 GMT</lastBuildDate>
+    <pubDate>Wed, 06 Aug 2025 17:51:34 GMT</pubDate>
+    <lastBuildDate>Wed, 06 Aug 2025 17:51:34 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
@@ -759,17 +759,6 @@
     
 
     <item>
-      <title>Blue Ocean strategy</title>
-      <link>https://allandeutsch.com/notes/blue-ocean-strategy</link>
-      <pubDate>Wed, 15 Sep 2021 00:00:00 GMT</pubDate>
-      <modified>Thu, 16 Sep 2021 00:00:00 GMT</modified>
-      <description>Blue ocean strategy is about creating new markets to escape competition.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/blue-ocean-strategy</guid>
-    </item>
-    
-
-    <item>
       <title>Factors of competition</title>
       <link>https://allandeutsch.com/notes/competition-factors</link>
       <pubDate>Wed, 15 Sep 2021 00:00:00 GMT</pubDate>
@@ -777,6 +766,17 @@
       <description>The factors that companies/products within an industry typically compete on to provide value to customers.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/competition-factors</guid>
+    </item>
+    
+
+    <item>
+      <title>Blue Ocean strategy</title>
+      <link>https://allandeutsch.com/notes/blue-ocean-strategy</link>
+      <pubDate>Wed, 15 Sep 2021 00:00:00 GMT</pubDate>
+      <modified>Thu, 16 Sep 2021 00:00:00 GMT</modified>
+      <description>Blue ocean strategy is about creating new markets to escape competition.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/blue-ocean-strategy</guid>
     </item>
     
 
@@ -962,8 +962,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Mon, 04 Aug 2025 00:38:22 GMT</pubDate>
-    <lastBuildDate>Mon, 04 Aug 2025 00:38:22 GMT</lastBuildDate>
+    <pubDate>Wed, 06 Aug 2025 17:51:34 GMT</pubDate>
+    <lastBuildDate>Wed, 06 Aug 2025 17:51:34 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
