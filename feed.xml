@@ -6,8 +6,8 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Wed, 06 Aug 2025 20:52:49 GMT</pubDate>
-    <lastBuildDate>Wed, 06 Aug 2025 20:52:49 GMT</lastBuildDate>
+    <pubDate>Wed, 06 Aug 2025 21:03:51 GMT</pubDate>
+    <lastBuildDate>Wed, 06 Aug 2025 21:03:51 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
@@ -165,17 +165,6 @@
     
 
     <item>
-      <title>Add a demo link to TypeScript code blocks</title>
-      <link>https://allandeutsch.com/notes/code-block-tsplay-demo-link</link>
-      <pubDate>Thu, 09 May 2024 00:00:00 GMT</pubDate>
-      <modified>Thu, 09 May 2024 00:00:00 GMT</modified>
-      <description>Seeing example code with syntax highlighting is great, but sometimes you've just gotta run the code and see what happens...</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/code-block-tsplay-demo-link</guid>
-    </item>
-    
-
-    <item>
       <title>Make example code interactive</title>
       <link>https://allandeutsch.com/notes/make-example-code-interactive</link>
       <pubDate>Thu, 09 May 2024 00:00:00 GMT</pubDate>
@@ -183,6 +172,17 @@
       <description>Whenever possible, make code interactive. Interaction is the single most effective way to teach anything, including code!</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/make-example-code-interactive</guid>
+    </item>
+    
+
+    <item>
+      <title>Add a demo link to TypeScript code blocks</title>
+      <link>https://allandeutsch.com/notes/code-block-tsplay-demo-link</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 GMT</pubDate>
+      <modified>Thu, 09 May 2024 00:00:00 GMT</modified>
+      <description>Seeing example code with syntax highlighting is great, but sometimes you've just gotta run the code and see what happens...</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/code-block-tsplay-demo-link</guid>
     </item>
     
 
@@ -418,17 +418,6 @@
     
 
     <item>
-      <title>Cross-Price Elasticity of Demand (CPED)</title>
-      <link>https://allandeutsch.com/notes/cross-price-elasticity</link>
-      <pubDate>Tue, 28 Sep 2021 00:00:00 GMT</pubDate>
-      <modified>Sat, 21 May 2022 00:00:00 GMT</modified>
-      <description>Microeconomics tool for quantifying the change in demand for a product in response to price changes for substitute goods.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/cross-price-elasticity</guid>
-    </item>
-    
-
-    <item>
       <title>Positioning statement</title>
       <link>https://allandeutsch.com/notes/positioning-statement</link>
       <pubDate>Wed, 11 Aug 2021 00:00:00 GMT</pubDate>
@@ -436,6 +425,17 @@
       <description>A position statement explains how a product fits into its market.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/positioning-statement</guid>
+    </item>
+    
+
+    <item>
+      <title>Cross-Price Elasticity of Demand (CPED)</title>
+      <link>https://allandeutsch.com/notes/cross-price-elasticity</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 GMT</pubDate>
+      <modified>Sat, 21 May 2022 00:00:00 GMT</modified>
+      <description>Microeconomics tool for quantifying the change in demand for a product in response to price changes for substitute goods.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/cross-price-elasticity</guid>
     </item>
     
 
@@ -962,8 +962,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Wed, 06 Aug 2025 20:52:49 GMT</pubDate>
-    <lastBuildDate>Wed, 06 Aug 2025 20:52:49 GMT</lastBuildDate>
+    <pubDate>Wed, 06 Aug 2025 21:03:51 GMT</pubDate>
+    <lastBuildDate>Wed, 06 Aug 2025 21:03:51 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
