@@ -6,8 +6,8 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Mon, 11 Aug 2025 00:55:17 GMT</pubDate>
-    <lastBuildDate>Mon, 11 Aug 2025 00:55:17 GMT</lastBuildDate>
+    <pubDate>Mon, 11 Aug 2025 01:08:49 GMT</pubDate>
+    <lastBuildDate>Mon, 11 Aug 2025 01:08:49 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
@@ -176,17 +176,6 @@
     
 
     <item>
-      <title>Add a demo link to TypeScript code blocks</title>
-      <link>https://allandeutsch.com/notes/code-block-tsplay-demo-link</link>
-      <pubDate>Thu, 09 May 2024 00:00:00 GMT</pubDate>
-      <modified>Thu, 09 May 2024 00:00:00 GMT</modified>
-      <description>Seeing example code with syntax highlighting is great, but sometimes you've just gotta run the code and see what happens...</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/code-block-tsplay-demo-link</guid>
-    </item>
-    
-
-    <item>
       <title>Make example code interactive</title>
       <link>https://allandeutsch.com/notes/make-example-code-interactive</link>
       <pubDate>Thu, 09 May 2024 00:00:00 GMT</pubDate>
@@ -194,6 +183,17 @@
       <description>Whenever possible, make code interactive. Interaction is the single most effective way to teach anything, including code!</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/make-example-code-interactive</guid>
+    </item>
+    
+
+    <item>
+      <title>Add a demo link to TypeScript code blocks</title>
+      <link>https://allandeutsch.com/notes/code-block-tsplay-demo-link</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 GMT</pubDate>
+      <modified>Thu, 09 May 2024 00:00:00 GMT</modified>
+      <description>Seeing example code with syntax highlighting is great, but sometimes you've just gotta run the code and see what happens...</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/code-block-tsplay-demo-link</guid>
     </item>
     
 
@@ -962,8 +962,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Mon, 11 Aug 2025 00:55:17 GMT</pubDate>
-    <lastBuildDate>Mon, 11 Aug 2025 00:55:17 GMT</lastBuildDate>
+    <pubDate>Mon, 11 Aug 2025 01:08:49 GMT</pubDate>
+    <lastBuildDate>Mon, 11 Aug 2025 01:08:49 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
