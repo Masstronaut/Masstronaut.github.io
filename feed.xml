@@ -6,8 +6,8 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Thu, 28 Aug 2025 19:39:14 GMT</pubDate>
-    <lastBuildDate>Thu, 28 Aug 2025 19:39:14 GMT</lastBuildDate>
+    <pubDate>Thu, 28 Aug 2025 20:14:06 GMT</pubDate>
+    <lastBuildDate>Thu, 28 Aug 2025 20:14:06 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
@@ -715,17 +715,6 @@
     
 
     <item>
-      <title>Common traits of successful blue ocean strategies</title>
-      <link>https://allandeutsch.com/notes/traits-successful-blue-ocean-strategy</link>
-      <pubDate>Thu, 16 Sep 2021 00:00:00 GMT</pubDate>
-      <modified>Tue, 21 Sep 2021 00:00:00 GMT</modified>
-      <description>Great strategies have a clear focus, diverge from competition, and are easy to explain.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/traits-successful-blue-ocean-strategy</guid>
-    </item>
-    
-
-    <item>
       <title>Value curve</title>
       <link>https://allandeutsch.com/notes/value-curve</link>
       <pubDate>Thu, 16 Sep 2021 00:00:00 GMT</pubDate>
@@ -733,6 +722,17 @@
       <description>The line on a strategy canvas showing the emphasis a company places on each factor of competition in its industry.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/value-curve</guid>
+    </item>
+    
+
+    <item>
+      <title>Common traits of successful blue ocean strategies</title>
+      <link>https://allandeutsch.com/notes/traits-successful-blue-ocean-strategy</link>
+      <pubDate>Thu, 16 Sep 2021 00:00:00 GMT</pubDate>
+      <modified>Tue, 21 Sep 2021 00:00:00 GMT</modified>
+      <description>Great strategies have a clear focus, diverge from competition, and are easy to explain.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/traits-successful-blue-ocean-strategy</guid>
     </item>
     
 
@@ -962,8 +962,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Thu, 28 Aug 2025 19:39:14 GMT</pubDate>
-    <lastBuildDate>Thu, 28 Aug 2025 19:39:14 GMT</lastBuildDate>
+    <pubDate>Thu, 28 Aug 2025 20:14:06 GMT</pubDate>
+    <lastBuildDate>Thu, 28 Aug 2025 20:14:06 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
