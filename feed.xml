@@ -6,8 +6,8 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Thu, 28 Aug 2025 20:14:06 GMT</pubDate>
-    <lastBuildDate>Thu, 28 Aug 2025 20:14:06 GMT</lastBuildDate>
+    <pubDate>Sun, 31 Aug 2025 18:39:19 GMT</pubDate>
+    <lastBuildDate>Sun, 31 Aug 2025 18:39:19 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
@@ -429,17 +429,6 @@
     
 
     <item>
-      <title>Cross-Price Elasticity of Demand (CPED)</title>
-      <link>https://allandeutsch.com/notes/cross-price-elasticity</link>
-      <pubDate>Tue, 28 Sep 2021 00:00:00 GMT</pubDate>
-      <modified>Sat, 21 May 2022 00:00:00 GMT</modified>
-      <description>Microeconomics tool for quantifying the change in demand for a product in response to price changes for substitute goods.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/cross-price-elasticity</guid>
-    </item>
-    
-
-    <item>
       <title>Positioning statement</title>
       <link>https://allandeutsch.com/notes/positioning-statement</link>
       <pubDate>Wed, 11 Aug 2021 00:00:00 GMT</pubDate>
@@ -447,6 +436,17 @@
       <description>A position statement explains how a product fits into its market.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/positioning-statement</guid>
+    </item>
+    
+
+    <item>
+      <title>Cross-Price Elasticity of Demand (CPED)</title>
+      <link>https://allandeutsch.com/notes/cross-price-elasticity</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 GMT</pubDate>
+      <modified>Sat, 21 May 2022 00:00:00 GMT</modified>
+      <description>Microeconomics tool for quantifying the change in demand for a product in response to price changes for substitute goods.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/cross-price-elasticity</guid>
     </item>
     
 
@@ -715,17 +715,6 @@
     
 
     <item>
-      <title>Value curve</title>
-      <link>https://allandeutsch.com/notes/value-curve</link>
-      <pubDate>Thu, 16 Sep 2021 00:00:00 GMT</pubDate>
-      <modified>Tue, 21 Sep 2021 00:00:00 GMT</modified>
-      <description>The line on a strategy canvas showing the emphasis a company places on each factor of competition in its industry.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/value-curve</guid>
-    </item>
-    
-
-    <item>
       <title>Common traits of successful blue ocean strategies</title>
       <link>https://allandeutsch.com/notes/traits-successful-blue-ocean-strategy</link>
       <pubDate>Thu, 16 Sep 2021 00:00:00 GMT</pubDate>
@@ -733,6 +722,17 @@
       <description>Great strategies have a clear focus, diverge from competition, and are easy to explain.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/traits-successful-blue-ocean-strategy</guid>
+    </item>
+    
+
+    <item>
+      <title>Value curve</title>
+      <link>https://allandeutsch.com/notes/value-curve</link>
+      <pubDate>Thu, 16 Sep 2021 00:00:00 GMT</pubDate>
+      <modified>Tue, 21 Sep 2021 00:00:00 GMT</modified>
+      <description>The line on a strategy canvas showing the emphasis a company places on each factor of competition in its industry.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/value-curve</guid>
     </item>
     
 
@@ -962,8 +962,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Thu, 28 Aug 2025 20:14:06 GMT</pubDate>
-    <lastBuildDate>Thu, 28 Aug 2025 20:14:06 GMT</lastBuildDate>
+    <pubDate>Sun, 31 Aug 2025 18:39:19 GMT</pubDate>
+    <lastBuildDate>Sun, 31 Aug 2025 18:39:19 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
