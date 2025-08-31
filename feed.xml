@@ -6,8 +6,8 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Sun, 31 Aug 2025 21:46:55 GMT</pubDate>
-    <lastBuildDate>Sun, 31 Aug 2025 21:46:55 GMT</lastBuildDate>
+    <pubDate>Sun, 31 Aug 2025 21:59:56 GMT</pubDate>
+    <lastBuildDate>Sun, 31 Aug 2025 21:59:56 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
@@ -429,17 +429,6 @@
     
 
     <item>
-      <title>Positioning statement</title>
-      <link>https://allandeutsch.com/notes/positioning-statement</link>
-      <pubDate>Wed, 11 Aug 2021 00:00:00 GMT</pubDate>
-      <modified>Sat, 21 May 2022 00:00:00 GMT</modified>
-      <description>A position statement explains how a product fits into its market.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/positioning-statement</guid>
-    </item>
-    
-
-    <item>
       <title>Cross-Price Elasticity of Demand (CPED)</title>
       <link>https://allandeutsch.com/notes/cross-price-elasticity</link>
       <pubDate>Tue, 28 Sep 2021 00:00:00 GMT</pubDate>
@@ -447,6 +436,17 @@
       <description>Microeconomics tool for quantifying the change in demand for a product in response to price changes for substitute goods.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/cross-price-elasticity</guid>
+    </item>
+    
+
+    <item>
+      <title>Positioning statement</title>
+      <link>https://allandeutsch.com/notes/positioning-statement</link>
+      <pubDate>Wed, 11 Aug 2021 00:00:00 GMT</pubDate>
+      <modified>Sat, 21 May 2022 00:00:00 GMT</modified>
+      <description>A position statement explains how a product fits into its market.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/positioning-statement</guid>
     </item>
     
 
@@ -962,8 +962,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Sun, 31 Aug 2025 21:46:55 GMT</pubDate>
-    <lastBuildDate>Sun, 31 Aug 2025 21:46:55 GMT</lastBuildDate>
+    <pubDate>Sun, 31 Aug 2025 21:59:56 GMT</pubDate>
+    <lastBuildDate>Sun, 31 Aug 2025 21:59:56 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
