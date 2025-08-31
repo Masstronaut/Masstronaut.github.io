@@ -6,8 +6,8 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Sun, 31 Aug 2025 19:28:02 GMT</pubDate>
-    <lastBuildDate>Sun, 31 Aug 2025 19:28:02 GMT</lastBuildDate>
+    <pubDate>Sun, 31 Aug 2025 21:46:55 GMT</pubDate>
+    <lastBuildDate>Sun, 31 Aug 2025 21:46:55 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
@@ -440,17 +440,6 @@
     
 
     <item>
-      <title>Price Elasticity of Demand (PED)</title>
-      <link>https://allandeutsch.com/notes/price-elasticity-demand</link>
-      <pubDate>Tue, 28 Sep 2021 00:00:00 GMT</pubDate>
-      <modified>Sat, 21 May 2022 00:00:00 GMT</modified>
-      <description>Price changes impact the demand for goods and services. PED is a microeconomics tool for quantifyng that impact.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/price-elasticity-demand</guid>
-    </item>
-    
-
-    <item>
       <title>Cross-Price Elasticity of Demand (CPED)</title>
       <link>https://allandeutsch.com/notes/cross-price-elasticity</link>
       <pubDate>Tue, 28 Sep 2021 00:00:00 GMT</pubDate>
@@ -458,6 +447,17 @@
       <description>Microeconomics tool for quantifying the change in demand for a product in response to price changes for substitute goods.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/cross-price-elasticity</guid>
+    </item>
+    
+
+    <item>
+      <title>Price Elasticity of Demand (PED)</title>
+      <link>https://allandeutsch.com/notes/price-elasticity-demand</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 GMT</pubDate>
+      <modified>Sat, 21 May 2022 00:00:00 GMT</modified>
+      <description>Price changes impact the demand for goods and services. PED is a microeconomics tool for quantifyng that impact.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/price-elasticity-demand</guid>
     </item>
     
 
@@ -737,17 +737,6 @@
     
 
     <item>
-      <title>Blue Ocean</title>
-      <link>https://allandeutsch.com/notes/blue-ocean</link>
-      <pubDate>Fri, 10 Sep 2021 00:00:00 GMT</pubDate>
-      <modified>Tue, 21 Sep 2021 00:00:00 GMT</modified>
-      <description>Blue oceans are markets that haven't been created yet. They are lucrative business opportunities.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/blue-ocean</guid>
-    </item>
-    
-
-    <item>
       <title>Segmentation, Targeting, and Positioning (STP)</title>
       <link>https://allandeutsch.com/notes/segmentation-targeting-positioning</link>
       <pubDate>Wed, 11 Aug 2021 00:00:00 GMT</pubDate>
@@ -755,6 +744,17 @@
       <description>Group consumers into segments, determine which to target, and estable the product's position for them.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/segmentation-targeting-positioning</guid>
+    </item>
+    
+
+    <item>
+      <title>Blue Ocean</title>
+      <link>https://allandeutsch.com/notes/blue-ocean</link>
+      <pubDate>Fri, 10 Sep 2021 00:00:00 GMT</pubDate>
+      <modified>Tue, 21 Sep 2021 00:00:00 GMT</modified>
+      <description>Blue oceans are markets that haven't been created yet. They are lucrative business opportunities.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/blue-ocean</guid>
     </item>
     
 
@@ -962,8 +962,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Sun, 31 Aug 2025 19:28:02 GMT</pubDate>
-    <lastBuildDate>Sun, 31 Aug 2025 19:28:02 GMT</lastBuildDate>
+    <pubDate>Sun, 31 Aug 2025 21:46:55 GMT</pubDate>
+    <lastBuildDate>Sun, 31 Aug 2025 21:46:55 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
