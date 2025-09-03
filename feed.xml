@@ -6,8 +6,8 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Mon, 01 Sep 2025 19:25:30 GMT</pubDate>
-    <lastBuildDate>Mon, 01 Sep 2025 19:25:30 GMT</lastBuildDate>
+    <pubDate>Wed, 03 Sep 2025 21:07:32 GMT</pubDate>
+    <lastBuildDate>Wed, 03 Sep 2025 21:07:32 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
@@ -715,17 +715,6 @@
     
 
     <item>
-      <title>Common traits of successful blue ocean strategies</title>
-      <link>https://allandeutsch.com/notes/traits-successful-blue-ocean-strategy</link>
-      <pubDate>Thu, 16 Sep 2021 00:00:00 GMT</pubDate>
-      <modified>Tue, 21 Sep 2021 00:00:00 GMT</modified>
-      <description>Great strategies have a clear focus, diverge from competition, and are easy to explain.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/traits-successful-blue-ocean-strategy</guid>
-    </item>
-    
-
-    <item>
       <title>Value curve</title>
       <link>https://allandeutsch.com/notes/value-curve</link>
       <pubDate>Thu, 16 Sep 2021 00:00:00 GMT</pubDate>
@@ -737,13 +726,13 @@
     
 
     <item>
-      <title>Segmentation, Targeting, and Positioning (STP)</title>
-      <link>https://allandeutsch.com/notes/segmentation-targeting-positioning</link>
-      <pubDate>Wed, 11 Aug 2021 00:00:00 GMT</pubDate>
+      <title>Common traits of successful blue ocean strategies</title>
+      <link>https://allandeutsch.com/notes/traits-successful-blue-ocean-strategy</link>
+      <pubDate>Thu, 16 Sep 2021 00:00:00 GMT</pubDate>
       <modified>Tue, 21 Sep 2021 00:00:00 GMT</modified>
-      <description>Group consumers into segments, determine which to target, and estable the product's position for them.</description>
+      <description>Great strategies have a clear focus, diverge from competition, and are easy to explain.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/segmentation-targeting-positioning</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/traits-successful-blue-ocean-strategy</guid>
     </item>
     
 
@@ -755,6 +744,17 @@
       <description>Blue oceans are markets that haven't been created yet. They are lucrative business opportunities.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/blue-ocean</guid>
+    </item>
+    
+
+    <item>
+      <title>Segmentation, Targeting, and Positioning (STP)</title>
+      <link>https://allandeutsch.com/notes/segmentation-targeting-positioning</link>
+      <pubDate>Wed, 11 Aug 2021 00:00:00 GMT</pubDate>
+      <modified>Tue, 21 Sep 2021 00:00:00 GMT</modified>
+      <description>Group consumers into segments, determine which to target, and estable the product's position for them.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/segmentation-targeting-positioning</guid>
     </item>
     
 
@@ -962,8 +962,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Mon, 01 Sep 2025 19:25:30 GMT</pubDate>
-    <lastBuildDate>Mon, 01 Sep 2025 19:25:30 GMT</lastBuildDate>
+    <pubDate>Wed, 03 Sep 2025 21:07:32 GMT</pubDate>
+    <lastBuildDate>Wed, 03 Sep 2025 21:07:32 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
