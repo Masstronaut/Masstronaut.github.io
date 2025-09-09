@@ -6,8 +6,8 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Wed, 03 Sep 2025 21:07:32 GMT</pubDate>
-    <lastBuildDate>Wed, 03 Sep 2025 21:07:32 GMT</lastBuildDate>
+    <pubDate>Tue, 09 Sep 2025 16:37:24 GMT</pubDate>
+    <lastBuildDate>Tue, 09 Sep 2025 16:37:24 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
@@ -715,17 +715,6 @@
     
 
     <item>
-      <title>Value curve</title>
-      <link>https://allandeutsch.com/notes/value-curve</link>
-      <pubDate>Thu, 16 Sep 2021 00:00:00 GMT</pubDate>
-      <modified>Tue, 21 Sep 2021 00:00:00 GMT</modified>
-      <description>The line on a strategy canvas showing the emphasis a company places on each factor of competition in its industry.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/value-curve</guid>
-    </item>
-    
-
-    <item>
       <title>Common traits of successful blue ocean strategies</title>
       <link>https://allandeutsch.com/notes/traits-successful-blue-ocean-strategy</link>
       <pubDate>Thu, 16 Sep 2021 00:00:00 GMT</pubDate>
@@ -737,13 +726,13 @@
     
 
     <item>
-      <title>Blue Ocean</title>
-      <link>https://allandeutsch.com/notes/blue-ocean</link>
-      <pubDate>Fri, 10 Sep 2021 00:00:00 GMT</pubDate>
+      <title>Value curve</title>
+      <link>https://allandeutsch.com/notes/value-curve</link>
+      <pubDate>Thu, 16 Sep 2021 00:00:00 GMT</pubDate>
       <modified>Tue, 21 Sep 2021 00:00:00 GMT</modified>
-      <description>Blue oceans are markets that haven't been created yet. They are lucrative business opportunities.</description>
+      <description>The line on a strategy canvas showing the emphasis a company places on each factor of competition in its industry.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/blue-ocean</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/value-curve</guid>
     </item>
     
 
@@ -755,6 +744,17 @@
       <description>Group consumers into segments, determine which to target, and estable the product's position for them.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/segmentation-targeting-positioning</guid>
+    </item>
+    
+
+    <item>
+      <title>Blue Ocean</title>
+      <link>https://allandeutsch.com/notes/blue-ocean</link>
+      <pubDate>Fri, 10 Sep 2021 00:00:00 GMT</pubDate>
+      <modified>Tue, 21 Sep 2021 00:00:00 GMT</modified>
+      <description>Blue oceans are markets that haven't been created yet. They are lucrative business opportunities.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/blue-ocean</guid>
     </item>
     
 
@@ -962,8 +962,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Wed, 03 Sep 2025 21:07:32 GMT</pubDate>
-    <lastBuildDate>Wed, 03 Sep 2025 21:07:32 GMT</lastBuildDate>
+    <pubDate>Tue, 09 Sep 2025 16:37:24 GMT</pubDate>
+    <lastBuildDate>Tue, 09 Sep 2025 16:37:24 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
