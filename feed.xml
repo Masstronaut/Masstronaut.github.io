@@ -6,8 +6,8 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Tue, 09 Sep 2025 16:37:24 GMT</pubDate>
-    <lastBuildDate>Tue, 09 Sep 2025 16:37:24 GMT</lastBuildDate>
+    <pubDate>Tue, 16 Sep 2025 07:25:23 GMT</pubDate>
+    <lastBuildDate>Tue, 16 Sep 2025 07:25:23 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
@@ -869,17 +869,6 @@
     
 
     <item>
-      <title>Compound growth system</title>
-      <link>https://allandeutsch.com/notes/compound-growth-system</link>
-      <pubDate>Thu, 12 Aug 2021 00:00:00 GMT</pubDate>
-      <modified>Thu, 12 Aug 2021 00:00:00 GMT</modified>
-      <description>Any system in which growth is proportional to the principal, added to that principal, and then repeated.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/compound-growth-system</guid>
-    </item>
-    
-
-    <item>
       <title>Customer segment</title>
       <link>https://allandeutsch.com/notes/customer-segment</link>
       <pubDate>Sun, 13 Jun 2021 00:00:00 GMT</pubDate>
@@ -898,6 +887,17 @@
       <description>Compound growth is exponential. Each compounding period generates more growth than the previous one.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/compound-growth-most-impactful-at-end</guid>
+    </item>
+    
+
+    <item>
+      <title>Compound growth system</title>
+      <link>https://allandeutsch.com/notes/compound-growth-system</link>
+      <pubDate>Thu, 12 Aug 2021 00:00:00 GMT</pubDate>
+      <modified>Thu, 12 Aug 2021 00:00:00 GMT</modified>
+      <description>Any system in which growth is proportional to the principal, added to that principal, and then repeated.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/compound-growth-system</guid>
     </item>
     
 
@@ -962,8 +962,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Tue, 09 Sep 2025 16:37:24 GMT</pubDate>
-    <lastBuildDate>Tue, 09 Sep 2025 16:37:24 GMT</lastBuildDate>
+    <pubDate>Tue, 16 Sep 2025 07:25:23 GMT</pubDate>
+    <lastBuildDate>Tue, 16 Sep 2025 07:25:23 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
