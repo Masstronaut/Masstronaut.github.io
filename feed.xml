@@ -6,8 +6,8 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Tue, 23 Sep 2025 19:01:54 GMT</pubDate>
-    <lastBuildDate>Tue, 23 Sep 2025 19:01:54 GMT</lastBuildDate>
+    <pubDate>Tue, 23 Sep 2025 20:27:46 GMT</pubDate>
+    <lastBuildDate>Tue, 23 Sep 2025 20:27:46 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
@@ -95,6 +95,17 @@
       <description>Gifts can be an unwanted obligation or a fun way to show some love. This is my attempt at shifting them towards the latter.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/gifts</guid>
+    </item>
+    
+
+    <item>
+      <title>Gold Mac n Cheese</title>
+      <link>https://allandeutsch.com/notes/gold-mac</link>
+      <pubDate>Sun, 22 Dec 2024 00:00:00 GMT</pubDate>
+      <modified>Sun, 22 Dec 2024 00:00:00 GMT</modified>
+      <description>Beautifully golden mac n cheese, elevated for the palate of a discerning foodie.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/gold-mac</guid>
     </item>
     
 
@@ -962,8 +973,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Tue, 23 Sep 2025 19:01:54 GMT</pubDate>
-    <lastBuildDate>Tue, 23 Sep 2025 19:01:54 GMT</lastBuildDate>
+    <pubDate>Tue, 23 Sep 2025 20:27:46 GMT</pubDate>
+    <lastBuildDate>Tue, 23 Sep 2025 20:27:46 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
