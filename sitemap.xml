@@ -123,13 +123,13 @@
 			
 
 				<url>
-					<loc>https://allandeutsch.com/devlog</loc>
+					<loc>https://allandeutsch.com/devlog/8</loc>
 					<lastmod>2024-06-05</lastmod>
 				</url>
 			
 
 				<url>
-					<loc>https://allandeutsch.com/devlog/8</loc>
+					<loc>https://allandeutsch.com/devlog</loc>
 					<lastmod>2024-06-05</lastmod>
 				</url>
 			
@@ -137,12 +137,6 @@
 				<url>
 					<loc>https://allandeutsch.com/devlog/7</loc>
 					<lastmod>2024-05-27</lastmod>
-				</url>
-			
-
-				<url>
-					<loc>https://allandeutsch.com/devlog/6</loc>
-					<lastmod>2024-05-19</lastmod>
 				</url>
 			
 
@@ -159,14 +153,20 @@
 			
 
 				<url>
-					<loc>https://allandeutsch.com/devlog/5</loc>
-					<lastmod>2024-5-11</lastmod>
+					<loc>https://allandeutsch.com/devlog/6</loc>
+					<lastmod>2024-05-19</lastmod>
 				</url>
 			
 
 				<url>
 					<loc>https://allandeutsch.com/notes/dynamic-ts-playground-links</loc>
 					<lastmod>2024-05-11</lastmod>
+				</url>
+			
+
+				<url>
+					<loc>https://allandeutsch.com/devlog/5</loc>
+					<lastmod>2024-5-11</lastmod>
 				</url>
 			
 
@@ -195,13 +195,13 @@
 			
 
 				<url>
-					<loc>https://allandeutsch.com/devlog/3</loc>
+					<loc>https://allandeutsch.com/notes/theory-practice</loc>
 					<lastmod>2024-04-28</lastmod>
 				</url>
 			
 
 				<url>
-					<loc>https://allandeutsch.com/notes/theory-practice</loc>
+					<loc>https://allandeutsch.com/devlog/3</loc>
 					<lastmod>2024-04-28</lastmod>
 				</url>
 			
@@ -279,13 +279,13 @@
 			
 
 				<url>
-					<loc>https://allandeutsch.com/notes/slugs-make-links-readable</loc>
+					<loc>https://allandeutsch.com/notes/structural-types-increase-compatibility</loc>
 					<lastmod>2024-02-04</lastmod>
 				</url>
 			
 
 				<url>
-					<loc>https://allandeutsch.com/notes/structural-types-increase-compatibility</loc>
+					<loc>https://allandeutsch.com/notes/slugs-make-links-readable</loc>
 					<lastmod>2024-02-04</lastmod>
 				</url>
 			
@@ -333,13 +333,13 @@
 			
 
 				<url>
-					<loc>https://allandeutsch.com/notes/positioning-statement</loc>
+					<loc>https://allandeutsch.com/notes/cross-price-elasticity</loc>
 					<lastmod>2022-05-21</lastmod>
 				</url>
 			
 
 				<url>
-					<loc>https://allandeutsch.com/notes/cross-price-elasticity</loc>
+					<loc>https://allandeutsch.com/notes/positioning-statement</loc>
 					<lastmod>2022-05-21</lastmod>
 				</url>
 			
@@ -393,13 +393,13 @@
 			
 
 				<url>
-					<loc>https://allandeutsch.com/notes/marginal-utility</loc>
+					<loc>https://allandeutsch.com/notes/consumer-demand</loc>
 					<lastmod>2022-01-15</lastmod>
 				</url>
 			
 
 				<url>
-					<loc>https://allandeutsch.com/notes/consumer-demand</loc>
+					<loc>https://allandeutsch.com/notes/marginal-utility</loc>
 					<lastmod>2022-01-15</lastmod>
 				</url>
 			
@@ -489,6 +489,18 @@
 			
 
 				<url>
+					<loc>https://allandeutsch.com/notes/blue-ocean</loc>
+					<lastmod>2021-09-21</lastmod>
+				</url>
+			
+
+				<url>
+					<loc>https://allandeutsch.com/notes/segmentation-targeting-positioning</loc>
+					<lastmod>2021-09-21</lastmod>
+				</url>
+			
+
+				<url>
 					<loc>https://allandeutsch.com/notes/traits-successful-blue-ocean-strategy</loc>
 					<lastmod>2021-09-21</lastmod>
 				</url>
@@ -501,25 +513,13 @@
 			
 
 				<url>
-					<loc>https://allandeutsch.com/notes/segmentation-targeting-positioning</loc>
-					<lastmod>2021-09-21</lastmod>
-				</url>
-			
-
-				<url>
-					<loc>https://allandeutsch.com/notes/blue-ocean</loc>
-					<lastmod>2021-09-21</lastmod>
-				</url>
-			
-
-				<url>
-					<loc>https://allandeutsch.com/notes/competition-factors</loc>
+					<loc>https://allandeutsch.com/notes/blue-ocean-strategy</loc>
 					<lastmod>2021-09-16</lastmod>
 				</url>
 			
 
 				<url>
-					<loc>https://allandeutsch.com/notes/blue-ocean-strategy</loc>
+					<loc>https://allandeutsch.com/notes/competition-factors</loc>
 					<lastmod>2021-09-16</lastmod>
 				</url>
 			
@@ -543,13 +543,13 @@
 			
 
 				<url>
-					<loc>https://allandeutsch.com/notes/customer-relationship</loc>
+					<loc>https://allandeutsch.com/notes/business-model-canvas</loc>
 					<lastmod>2021-09-01</lastmod>
 				</url>
 			
 
 				<url>
-					<loc>https://allandeutsch.com/notes/business-model-canvas</loc>
+					<loc>https://allandeutsch.com/notes/customer-relationship</loc>
 					<lastmod>2021-09-01</lastmod>
 				</url>
 			
@@ -573,6 +573,12 @@
 			
 
 				<url>
+					<loc>https://allandeutsch.com/notes/compound-growth-most-impactful-at-end</loc>
+					<lastmod>2021-08-12</lastmod>
+				</url>
+			
+
+				<url>
 					<loc>https://allandeutsch.com/notes/compound-growth-system</loc>
 					<lastmod>2021-08-12</lastmod>
 				</url>
@@ -580,12 +586,6 @@
 
 				<url>
 					<loc>https://allandeutsch.com/notes/customer-segment</loc>
-					<lastmod>2021-08-12</lastmod>
-				</url>
-			
-
-				<url>
-					<loc>https://allandeutsch.com/notes/compound-growth-most-impactful-at-end</loc>
 					<lastmod>2021-08-12</lastmod>
 				</url>
 			

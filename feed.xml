@@ -6,8 +6,8 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Wed, 24 Sep 2025 18:55:46 GMT</pubDate>
-    <lastBuildDate>Wed, 24 Sep 2025 18:55:46 GMT</lastBuildDate>
+    <pubDate>Thu, 25 Sep 2025 01:34:58 GMT</pubDate>
+    <lastBuildDate>Thu, 25 Sep 2025 01:34:58 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
@@ -341,17 +341,6 @@
     
 
     <item>
-      <title>Slugs make links readable</title>
-      <link>https://allandeutsch.com/notes/slugs-make-links-readable</link>
-      <pubDate>Sun, 04 Feb 2024 00:00:00 GMT</pubDate>
-      <modified>Sun, 04 Feb 2024 00:00:00 GMT</modified>
-      <description>Special characters aren't valid in URLs, so custom slugs are used to make links easier to read.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/slugs-make-links-readable</guid>
-    </item>
-    
-
-    <item>
       <title>Structural types increase data compatibility</title>
       <link>https://allandeutsch.com/notes/structural-types-increase-compatibility</link>
       <pubDate>Sun, 04 Feb 2024 00:00:00 GMT</pubDate>
@@ -359,6 +348,17 @@
       <description>Structural types are only concerned with the shape of data, rather than the names of types. This makes data types more compatible.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/structural-types-increase-compatibility</guid>
+    </item>
+    
+
+    <item>
+      <title>Slugs make links readable</title>
+      <link>https://allandeutsch.com/notes/slugs-make-links-readable</link>
+      <pubDate>Sun, 04 Feb 2024 00:00:00 GMT</pubDate>
+      <modified>Sun, 04 Feb 2024 00:00:00 GMT</modified>
+      <description>Special characters aren't valid in URLs, so custom slugs are used to make links easier to read.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/slugs-make-links-readable</guid>
     </item>
     
 
@@ -440,17 +440,6 @@
     
 
     <item>
-      <title>Positioning statement</title>
-      <link>https://allandeutsch.com/notes/positioning-statement</link>
-      <pubDate>Wed, 11 Aug 2021 00:00:00 GMT</pubDate>
-      <modified>Sat, 21 May 2022 00:00:00 GMT</modified>
-      <description>A position statement explains how a product fits into its market.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/positioning-statement</guid>
-    </item>
-    
-
-    <item>
       <title>Cross-Price Elasticity of Demand (CPED)</title>
       <link>https://allandeutsch.com/notes/cross-price-elasticity</link>
       <pubDate>Tue, 28 Sep 2021 00:00:00 GMT</pubDate>
@@ -458,6 +447,17 @@
       <description>Microeconomics tool for quantifying the change in demand for a product in response to price changes for substitute goods.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/cross-price-elasticity</guid>
+    </item>
+    
+
+    <item>
+      <title>Positioning statement</title>
+      <link>https://allandeutsch.com/notes/positioning-statement</link>
+      <pubDate>Wed, 11 Aug 2021 00:00:00 GMT</pubDate>
+      <modified>Sat, 21 May 2022 00:00:00 GMT</modified>
+      <description>A position statement explains how a product fits into its market.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/positioning-statement</guid>
     </item>
     
 
@@ -550,17 +550,6 @@
     
 
     <item>
-      <title>Marginal utility</title>
-      <link>https://allandeutsch.com/notes/marginal-utility</link>
-      <pubDate>Mon, 20 Sep 2021 00:00:00 GMT</pubDate>
-      <modified>Sat, 15 Jan 2022 00:00:00 GMT</modified>
-      <description>The incremental value gained from have one more of something.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/marginal-utility</guid>
-    </item>
-    
-
-    <item>
       <title>Consumer demand</title>
       <link>https://allandeutsch.com/notes/consumer-demand</link>
       <pubDate>Wed, 22 Sep 2021 00:00:00 GMT</pubDate>
@@ -568,6 +557,17 @@
       <description>Consumer demand looks at the three types of relationships between goods and how price changes to one product affects demand for another.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/consumer-demand</guid>
+    </item>
+    
+
+    <item>
+      <title>Marginal utility</title>
+      <link>https://allandeutsch.com/notes/marginal-utility</link>
+      <pubDate>Mon, 20 Sep 2021 00:00:00 GMT</pubDate>
+      <modified>Sat, 15 Jan 2022 00:00:00 GMT</modified>
+      <description>The incremental value gained from have one more of something.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/marginal-utility</guid>
     </item>
     
 
@@ -726,6 +726,28 @@
     
 
     <item>
+      <title>Blue Ocean</title>
+      <link>https://allandeutsch.com/notes/blue-ocean</link>
+      <pubDate>Fri, 10 Sep 2021 00:00:00 GMT</pubDate>
+      <modified>Tue, 21 Sep 2021 00:00:00 GMT</modified>
+      <description>Blue oceans are markets that haven't been created yet. They are lucrative business opportunities.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/blue-ocean</guid>
+    </item>
+    
+
+    <item>
+      <title>Segmentation, Targeting, and Positioning (STP)</title>
+      <link>https://allandeutsch.com/notes/segmentation-targeting-positioning</link>
+      <pubDate>Wed, 11 Aug 2021 00:00:00 GMT</pubDate>
+      <modified>Tue, 21 Sep 2021 00:00:00 GMT</modified>
+      <description>Group consumers into segments, determine which to target, and estable the product's position for them.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/segmentation-targeting-positioning</guid>
+    </item>
+    
+
+    <item>
       <title>Common traits of successful blue ocean strategies</title>
       <link>https://allandeutsch.com/notes/traits-successful-blue-ocean-strategy</link>
       <pubDate>Thu, 16 Sep 2021 00:00:00 GMT</pubDate>
@@ -748,24 +770,13 @@
     
 
     <item>
-      <title>Segmentation, Targeting, and Positioning (STP)</title>
-      <link>https://allandeutsch.com/notes/segmentation-targeting-positioning</link>
-      <pubDate>Wed, 11 Aug 2021 00:00:00 GMT</pubDate>
-      <modified>Tue, 21 Sep 2021 00:00:00 GMT</modified>
-      <description>Group consumers into segments, determine which to target, and estable the product's position for them.</description>
+      <title>Blue Ocean strategy</title>
+      <link>https://allandeutsch.com/notes/blue-ocean-strategy</link>
+      <pubDate>Wed, 15 Sep 2021 00:00:00 GMT</pubDate>
+      <modified>Thu, 16 Sep 2021 00:00:00 GMT</modified>
+      <description>Blue ocean strategy is about creating new markets to escape competition.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/segmentation-targeting-positioning</guid>
-    </item>
-    
-
-    <item>
-      <title>Blue Ocean</title>
-      <link>https://allandeutsch.com/notes/blue-ocean</link>
-      <pubDate>Fri, 10 Sep 2021 00:00:00 GMT</pubDate>
-      <modified>Tue, 21 Sep 2021 00:00:00 GMT</modified>
-      <description>Blue oceans are markets that haven't been created yet. They are lucrative business opportunities.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/blue-ocean</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/blue-ocean-strategy</guid>
     </item>
     
 
@@ -777,17 +788,6 @@
       <description>The factors that companies/products within an industry typically compete on to provide value to customers.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/competition-factors</guid>
-    </item>
-    
-
-    <item>
-      <title>Blue Ocean strategy</title>
-      <link>https://allandeutsch.com/notes/blue-ocean-strategy</link>
-      <pubDate>Wed, 15 Sep 2021 00:00:00 GMT</pubDate>
-      <modified>Thu, 16 Sep 2021 00:00:00 GMT</modified>
-      <description>Blue ocean strategy is about creating new markets to escape competition.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/blue-ocean-strategy</guid>
     </item>
     
 
@@ -825,17 +825,6 @@
     
 
     <item>
-      <title>Customer relationship</title>
-      <link>https://allandeutsch.com/notes/customer-relationship</link>
-      <pubDate>Wed, 16 Jun 2021 00:00:00 GMT</pubDate>
-      <modified>Wed, 01 Sep 2021 00:00:00 GMT</modified>
-      <description>The interactions a business has with customers and the strategies around those interactions.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/customer-relationship</guid>
-    </item>
-    
-
-    <item>
       <title>Business Model Canvas</title>
       <link>https://allandeutsch.com/notes/business-model-canvas</link>
       <pubDate>Mon, 14 Jun 2021 00:00:00 GMT</pubDate>
@@ -843,6 +832,17 @@
       <description>A modern alternative to a business plan. It has 9 sections with details of the business, its customers, and how it provides value.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/business-model-canvas</guid>
+    </item>
+    
+
+    <item>
+      <title>Customer relationship</title>
+      <link>https://allandeutsch.com/notes/customer-relationship</link>
+      <pubDate>Wed, 16 Jun 2021 00:00:00 GMT</pubDate>
+      <modified>Wed, 01 Sep 2021 00:00:00 GMT</modified>
+      <description>The interactions a business has with customers and the strategies around those interactions.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/customer-relationship</guid>
     </item>
     
 
@@ -880,6 +880,17 @@
     
 
     <item>
+      <title>Compound growth is most impactful at the end</title>
+      <link>https://allandeutsch.com/notes/compound-growth-most-impactful-at-end</link>
+      <pubDate>Thu, 12 Aug 2021 00:00:00 GMT</pubDate>
+      <modified>Thu, 12 Aug 2021 00:00:00 GMT</modified>
+      <description>Compound growth is exponential. Each compounding period generates more growth than the previous one.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/compound-growth-most-impactful-at-end</guid>
+    </item>
+    
+
+    <item>
       <title>Compound growth system</title>
       <link>https://allandeutsch.com/notes/compound-growth-system</link>
       <pubDate>Thu, 12 Aug 2021 00:00:00 GMT</pubDate>
@@ -898,17 +909,6 @@
       <description>The groups of people a business aims to serve.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/customer-segment</guid>
-    </item>
-    
-
-    <item>
-      <title>Compound growth is most impactful at the end</title>
-      <link>https://allandeutsch.com/notes/compound-growth-most-impactful-at-end</link>
-      <pubDate>Thu, 12 Aug 2021 00:00:00 GMT</pubDate>
-      <modified>Thu, 12 Aug 2021 00:00:00 GMT</modified>
-      <description>Compound growth is exponential. Each compounding period generates more growth than the previous one.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/compound-growth-most-impactful-at-end</guid>
     </item>
     
 
@@ -973,8 +973,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Wed, 24 Sep 2025 18:55:46 GMT</pubDate>
-    <lastBuildDate>Wed, 24 Sep 2025 18:55:46 GMT</lastBuildDate>
+    <pubDate>Thu, 25 Sep 2025 01:34:58 GMT</pubDate>
+    <lastBuildDate>Thu, 25 Sep 2025 01:34:58 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
