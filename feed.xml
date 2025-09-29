@@ -6,8 +6,8 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Mon, 29 Sep 2025 17:52:38 GMT</pubDate>
-    <lastBuildDate>Mon, 29 Sep 2025 17:52:38 GMT</lastBuildDate>
+    <pubDate>Mon, 29 Sep 2025 21:13:45 GMT</pubDate>
+    <lastBuildDate>Mon, 29 Sep 2025 21:13:45 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
@@ -22,17 +22,6 @@
     
 
     <item>
-      <title>Costs of production</title>
-      <link>https://allandeutsch.com/notes/production-cost</link>
-      <pubDate>Tue, 28 Sep 2021 00:00:00 GMT</pubDate>
-      <modified>Wed, 06 Aug 2025 00:00:00 GMT</modified>
-      <description>Understanding the costs facing a business is an important part of evaluating its profitability. There are two categories of costs - fixed and variable.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/production-cost</guid>
-    </item>
-    
-
-    <item>
       <title>Present three options to build consensus</title>
       <link>https://allandeutsch.com/notes/three-options-consensus</link>
       <pubDate>Wed, 07 Apr 2021 00:00:00 GMT</pubDate>
@@ -40,6 +29,17 @@
       <description>Cognitive biases lead people to evaluate options in context. There are strong biases that impact decision making when there are one or two options.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/three-options-consensus</guid>
+    </item>
+    
+
+    <item>
+      <title>Costs of production</title>
+      <link>https://allandeutsch.com/notes/production-cost</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 GMT</pubDate>
+      <modified>Wed, 06 Aug 2025 00:00:00 GMT</modified>
+      <description>Understanding the costs facing a business is an important part of evaluating its profitability. There are two categories of costs - fixed and variable.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/production-cost</guid>
     </item>
     
 
@@ -165,17 +165,6 @@
     
 
     <item>
-      <title>Identity functions</title>
-      <link>https://allandeutsch.com/notes/identity-functions</link>
-      <pubDate>Sat, 18 May 2024 00:00:00 GMT</pubDate>
-      <modified>Sun, 19 May 2024 00:00:00 GMT</modified>
-      <description>Identity functions make it possible to provide a much better developer experience at API boundaries by improving the type</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/identity-functions</guid>
-    </item>
-    
-
-    <item>
       <title>Total Typescript notes</title>
       <link>https://allandeutsch.com/notes/total-typescript-notes</link>
       <pubDate>Thu, 23 Nov 2023 00:00:00 GMT</pubDate>
@@ -183,6 +172,17 @@
       <description>I've learned a lot from this course, and use this note to record bits I want to remember and riff on some of my observations.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/total-typescript-notes</guid>
+    </item>
+    
+
+    <item>
+      <title>Identity functions</title>
+      <link>https://allandeutsch.com/notes/identity-functions</link>
+      <pubDate>Sat, 18 May 2024 00:00:00 GMT</pubDate>
+      <modified>Sun, 19 May 2024 00:00:00 GMT</modified>
+      <description>Identity functions make it possible to provide a much better developer experience at API boundaries by improving the type</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/identity-functions</guid>
     </item>
     
 
@@ -198,17 +198,6 @@
     
 
     <item>
-      <title>Make example code interactive</title>
-      <link>https://allandeutsch.com/notes/make-example-code-interactive</link>
-      <pubDate>Thu, 09 May 2024 00:00:00 GMT</pubDate>
-      <modified>Thu, 09 May 2024 00:00:00 GMT</modified>
-      <description>Whenever possible, make code interactive. Interaction is the single most effective way to teach anything, including code!</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/make-example-code-interactive</guid>
-    </item>
-    
-
-    <item>
       <title>Add a demo link to TypeScript code blocks</title>
       <link>https://allandeutsch.com/notes/code-block-tsplay-demo-link</link>
       <pubDate>Thu, 09 May 2024 00:00:00 GMT</pubDate>
@@ -216,6 +205,17 @@
       <description>Seeing example code with syntax highlighting is great, but sometimes you've just gotta run the code and see what happens...</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/code-block-tsplay-demo-link</guid>
+    </item>
+    
+
+    <item>
+      <title>Make example code interactive</title>
+      <link>https://allandeutsch.com/notes/make-example-code-interactive</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 GMT</pubDate>
+      <modified>Thu, 09 May 2024 00:00:00 GMT</modified>
+      <description>Whenever possible, make code interactive. Interaction is the single most effective way to teach anything, including code!</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/make-example-code-interactive</guid>
     </item>
     
 
@@ -341,17 +341,6 @@
     
 
     <item>
-      <title>Structural types increase data compatibility</title>
-      <link>https://allandeutsch.com/notes/structural-types-increase-compatibility</link>
-      <pubDate>Sun, 04 Feb 2024 00:00:00 GMT</pubDate>
-      <modified>Sun, 04 Feb 2024 00:00:00 GMT</modified>
-      <description>Structural types are only concerned with the shape of data, rather than the names of types. This makes data types more compatible.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/structural-types-increase-compatibility</guid>
-    </item>
-    
-
-    <item>
       <title>Slugs make links readable</title>
       <link>https://allandeutsch.com/notes/slugs-make-links-readable</link>
       <pubDate>Sun, 04 Feb 2024 00:00:00 GMT</pubDate>
@@ -359,6 +348,17 @@
       <description>Special characters aren't valid in URLs, so custom slugs are used to make links easier to read.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/slugs-make-links-readable</guid>
+    </item>
+    
+
+    <item>
+      <title>Structural types increase data compatibility</title>
+      <link>https://allandeutsch.com/notes/structural-types-increase-compatibility</link>
+      <pubDate>Sun, 04 Feb 2024 00:00:00 GMT</pubDate>
+      <modified>Sun, 04 Feb 2024 00:00:00 GMT</modified>
+      <description>Structural types are only concerned with the shape of data, rather than the names of types. This makes data types more compatible.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/structural-types-increase-compatibility</guid>
     </item>
     
 
@@ -440,13 +440,13 @@
     
 
     <item>
-      <title>Cross-Price Elasticity of Demand (CPED)</title>
-      <link>https://allandeutsch.com/notes/cross-price-elasticity</link>
+      <title>Price Elasticity of Demand (PED)</title>
+      <link>https://allandeutsch.com/notes/price-elasticity-demand</link>
       <pubDate>Tue, 28 Sep 2021 00:00:00 GMT</pubDate>
       <modified>Sat, 21 May 2022 00:00:00 GMT</modified>
-      <description>Microeconomics tool for quantifying the change in demand for a product in response to price changes for substitute goods.</description>
+      <description>Price changes impact the demand for goods and services. PED is a microeconomics tool for quantifyng that impact.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/cross-price-elasticity</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/price-elasticity-demand</guid>
     </item>
     
 
@@ -462,13 +462,13 @@
     
 
     <item>
-      <title>Price Elasticity of Demand (PED)</title>
-      <link>https://allandeutsch.com/notes/price-elasticity-demand</link>
+      <title>Cross-Price Elasticity of Demand (CPED)</title>
+      <link>https://allandeutsch.com/notes/cross-price-elasticity</link>
       <pubDate>Tue, 28 Sep 2021 00:00:00 GMT</pubDate>
       <modified>Sat, 21 May 2022 00:00:00 GMT</modified>
-      <description>Price changes impact the demand for goods and services. PED is a microeconomics tool for quantifyng that impact.</description>
+      <description>Microeconomics tool for quantifying the change in demand for a product in response to price changes for substitute goods.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/price-elasticity-demand</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/cross-price-elasticity</guid>
     </item>
     
 
@@ -528,17 +528,6 @@
     
 
     <item>
-      <title>Opportunity cost</title>
-      <link>https://allandeutsch.com/notes/opportunity-cost</link>
-      <pubDate>Sun, 16 Jan 2022 00:00:00 GMT</pubDate>
-      <modified>Sun, 16 Jan 2022 00:00:00 GMT</modified>
-      <description>The most valuable alternative that must be given up.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/opportunity-cost</guid>
-    </item>
-    
-
-    <item>
       <title>Price elasticity</title>
       <link>https://allandeutsch.com/notes/price-elasticity</link>
       <pubDate>Wed, 22 Sep 2021 00:00:00 GMT</pubDate>
@@ -550,13 +539,13 @@
     
 
     <item>
-      <title>Consumer demand</title>
-      <link>https://allandeutsch.com/notes/consumer-demand</link>
-      <pubDate>Wed, 22 Sep 2021 00:00:00 GMT</pubDate>
-      <modified>Sat, 15 Jan 2022 00:00:00 GMT</modified>
-      <description>Consumer demand looks at the three types of relationships between goods and how price changes to one product affects demand for another.</description>
+      <title>Opportunity cost</title>
+      <link>https://allandeutsch.com/notes/opportunity-cost</link>
+      <pubDate>Sun, 16 Jan 2022 00:00:00 GMT</pubDate>
+      <modified>Sun, 16 Jan 2022 00:00:00 GMT</modified>
+      <description>The most valuable alternative that must be given up.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/consumer-demand</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/opportunity-cost</guid>
     </item>
     
 
@@ -572,13 +561,13 @@
     
 
     <item>
-      <title>Market forces</title>
-      <link>https://allandeutsch.com/notes/market-forces</link>
-      <pubDate>Sun, 09 Jan 2022 00:00:00 GMT</pubDate>
-      <modified>Sun, 09 Jan 2022 00:00:00 GMT</modified>
-      <description>The factors that impact the price of goods and services, which in turn drives supply and demand changes.</description>
+      <title>Consumer demand</title>
+      <link>https://allandeutsch.com/notes/consumer-demand</link>
+      <pubDate>Wed, 22 Sep 2021 00:00:00 GMT</pubDate>
+      <modified>Sat, 15 Jan 2022 00:00:00 GMT</modified>
+      <description>Consumer demand looks at the three types of relationships between goods and how price changes to one product affects demand for another.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/market-forces</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/consumer-demand</guid>
     </item>
     
 
@@ -590,6 +579,17 @@
       <description>An area of microeconomics focused on how price influences the behavior of producers and consumers.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/supply-demand</guid>
+    </item>
+    
+
+    <item>
+      <title>Market forces</title>
+      <link>https://allandeutsch.com/notes/market-forces</link>
+      <pubDate>Sun, 09 Jan 2022 00:00:00 GMT</pubDate>
+      <modified>Sun, 09 Jan 2022 00:00:00 GMT</modified>
+      <description>The factors that impact the price of goods and services, which in turn drives supply and demand changes.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/market-forces</guid>
     </item>
     
 
@@ -726,24 +726,13 @@
     
 
     <item>
-      <title>Blue Ocean</title>
-      <link>https://allandeutsch.com/notes/blue-ocean</link>
-      <pubDate>Fri, 10 Sep 2021 00:00:00 GMT</pubDate>
+      <title>Value curve</title>
+      <link>https://allandeutsch.com/notes/value-curve</link>
+      <pubDate>Thu, 16 Sep 2021 00:00:00 GMT</pubDate>
       <modified>Tue, 21 Sep 2021 00:00:00 GMT</modified>
-      <description>Blue oceans are markets that haven't been created yet. They are lucrative business opportunities.</description>
+      <description>The line on a strategy canvas showing the emphasis a company places on each factor of competition in its industry.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/blue-ocean</guid>
-    </item>
-    
-
-    <item>
-      <title>Segmentation, Targeting, and Positioning (STP)</title>
-      <link>https://allandeutsch.com/notes/segmentation-targeting-positioning</link>
-      <pubDate>Wed, 11 Aug 2021 00:00:00 GMT</pubDate>
-      <modified>Tue, 21 Sep 2021 00:00:00 GMT</modified>
-      <description>Group consumers into segments, determine which to target, and estable the product's position for them.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/segmentation-targeting-positioning</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/value-curve</guid>
     </item>
     
 
@@ -759,24 +748,24 @@
     
 
     <item>
-      <title>Value curve</title>
-      <link>https://allandeutsch.com/notes/value-curve</link>
-      <pubDate>Thu, 16 Sep 2021 00:00:00 GMT</pubDate>
+      <title>Segmentation, Targeting, and Positioning (STP)</title>
+      <link>https://allandeutsch.com/notes/segmentation-targeting-positioning</link>
+      <pubDate>Wed, 11 Aug 2021 00:00:00 GMT</pubDate>
       <modified>Tue, 21 Sep 2021 00:00:00 GMT</modified>
-      <description>The line on a strategy canvas showing the emphasis a company places on each factor of competition in its industry.</description>
+      <description>Group consumers into segments, determine which to target, and estable the product's position for them.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/value-curve</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/segmentation-targeting-positioning</guid>
     </item>
     
 
     <item>
-      <title>Blue Ocean strategy</title>
-      <link>https://allandeutsch.com/notes/blue-ocean-strategy</link>
-      <pubDate>Wed, 15 Sep 2021 00:00:00 GMT</pubDate>
-      <modified>Thu, 16 Sep 2021 00:00:00 GMT</modified>
-      <description>Blue ocean strategy is about creating new markets to escape competition.</description>
+      <title>Blue Ocean</title>
+      <link>https://allandeutsch.com/notes/blue-ocean</link>
+      <pubDate>Fri, 10 Sep 2021 00:00:00 GMT</pubDate>
+      <modified>Tue, 21 Sep 2021 00:00:00 GMT</modified>
+      <description>Blue oceans are markets that haven't been created yet. They are lucrative business opportunities.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/blue-ocean-strategy</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/blue-ocean</guid>
     </item>
     
 
@@ -788,6 +777,17 @@
       <description>The factors that companies/products within an industry typically compete on to provide value to customers.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/competition-factors</guid>
+    </item>
+    
+
+    <item>
+      <title>Blue Ocean strategy</title>
+      <link>https://allandeutsch.com/notes/blue-ocean-strategy</link>
+      <pubDate>Wed, 15 Sep 2021 00:00:00 GMT</pubDate>
+      <modified>Thu, 16 Sep 2021 00:00:00 GMT</modified>
+      <description>Blue ocean strategy is about creating new markets to escape competition.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/blue-ocean-strategy</guid>
     </item>
     
 
@@ -825,17 +825,6 @@
     
 
     <item>
-      <title>Business Model Canvas</title>
-      <link>https://allandeutsch.com/notes/business-model-canvas</link>
-      <pubDate>Mon, 14 Jun 2021 00:00:00 GMT</pubDate>
-      <modified>Wed, 01 Sep 2021 00:00:00 GMT</modified>
-      <description>A modern alternative to a business plan. It has 9 sections with details of the business, its customers, and how it provides value.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/business-model-canvas</guid>
-    </item>
-    
-
-    <item>
       <title>Customer relationship</title>
       <link>https://allandeutsch.com/notes/customer-relationship</link>
       <pubDate>Wed, 16 Jun 2021 00:00:00 GMT</pubDate>
@@ -843,6 +832,17 @@
       <description>The interactions a business has with customers and the strategies around those interactions.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/customer-relationship</guid>
+    </item>
+    
+
+    <item>
+      <title>Business Model Canvas</title>
+      <link>https://allandeutsch.com/notes/business-model-canvas</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 GMT</pubDate>
+      <modified>Wed, 01 Sep 2021 00:00:00 GMT</modified>
+      <description>A modern alternative to a business plan. It has 9 sections with details of the business, its customers, and how it provides value.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/business-model-canvas</guid>
     </item>
     
 
@@ -858,17 +858,6 @@
     
 
     <item>
-      <title>Distribution channel</title>
-      <link>https://allandeutsch.com/notes/distribution-channel</link>
-      <pubDate>Wed, 16 Jun 2021 00:00:00 GMT</pubDate>
-      <modified>Sun, 15 Aug 2021 00:00:00 GMT</modified>
-      <description>Distribution channels are how products and services get from a business to its customers.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/distribution-channel</guid>
-    </item>
-    
-
-    <item>
       <title>Monetized content creation is a compound growth system</title>
       <link>https://allandeutsch.com/notes/monetized-content-compound-growth</link>
       <pubDate>Wed, 07 Apr 2021 00:00:00 GMT</pubDate>
@@ -880,13 +869,24 @@
     
 
     <item>
-      <title>Compound growth is most impactful at the end</title>
-      <link>https://allandeutsch.com/notes/compound-growth-most-impactful-at-end</link>
-      <pubDate>Thu, 12 Aug 2021 00:00:00 GMT</pubDate>
-      <modified>Thu, 12 Aug 2021 00:00:00 GMT</modified>
-      <description>Compound growth is exponential. Each compounding period generates more growth than the previous one.</description>
+      <title>Distribution channel</title>
+      <link>https://allandeutsch.com/notes/distribution-channel</link>
+      <pubDate>Wed, 16 Jun 2021 00:00:00 GMT</pubDate>
+      <modified>Sun, 15 Aug 2021 00:00:00 GMT</modified>
+      <description>Distribution channels are how products and services get from a business to its customers.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/compound-growth-most-impactful-at-end</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/distribution-channel</guid>
+    </item>
+    
+
+    <item>
+      <title>Customer segment</title>
+      <link>https://allandeutsch.com/notes/customer-segment</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 GMT</pubDate>
+      <modified>Thu, 12 Aug 2021 00:00:00 GMT</modified>
+      <description>The groups of people a business aims to serve.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/customer-segment</guid>
     </item>
     
 
@@ -902,13 +902,13 @@
     
 
     <item>
-      <title>Customer segment</title>
-      <link>https://allandeutsch.com/notes/customer-segment</link>
-      <pubDate>Sun, 13 Jun 2021 00:00:00 GMT</pubDate>
+      <title>Compound growth is most impactful at the end</title>
+      <link>https://allandeutsch.com/notes/compound-growth-most-impactful-at-end</link>
+      <pubDate>Thu, 12 Aug 2021 00:00:00 GMT</pubDate>
       <modified>Thu, 12 Aug 2021 00:00:00 GMT</modified>
-      <description>The groups of people a business aims to serve.</description>
+      <description>Compound growth is exponential. Each compounding period generates more growth than the previous one.</description>
       <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/customer-segment</guid>
+      <guid isPermalink="true">https://allandeutsch.com/notes/compound-growth-most-impactful-at-end</guid>
     </item>
     
 
@@ -973,8 +973,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Mon, 29 Sep 2025 17:52:38 GMT</pubDate>
-    <lastBuildDate>Mon, 29 Sep 2025 17:52:38 GMT</lastBuildDate>
+    <pubDate>Mon, 29 Sep 2025 21:13:45 GMT</pubDate>
+    <lastBuildDate>Mon, 29 Sep 2025 21:13:45 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
