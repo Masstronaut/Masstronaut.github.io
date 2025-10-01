@@ -6,8 +6,8 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Tue, 30 Sep 2025 08:20:20 GMT</pubDate>
-    <lastBuildDate>Tue, 30 Sep 2025 08:20:20 GMT</lastBuildDate>
+    <pubDate>Wed, 01 Oct 2025 21:47:43 GMT</pubDate>
+    <lastBuildDate>Wed, 01 Oct 2025 21:47:43 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
@@ -18,6 +18,17 @@
       <description>Tips from my travels to PDC, including where to eat, stay, and visit!</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/pdc-travel-guide</guid>
+    </item>
+    
+
+    <item>
+      <title>Take the reins when using LLMs for development</title>
+      <link>https://allandeutsch.com/notes/rein-in-llms</link>
+      <pubDate>Sun, 31 Aug 2025 00:00:00 GMT</pubDate>
+      <modified>Sun, 31 Aug 2025 00:00:00 GMT</modified>
+      <description>LLMs are an incredible evolution of the next word suggestion features of early smartphones, but just as before their predictions are only right for a little while at a time.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/rein-in-llms</guid>
     </item>
     
 
@@ -973,8 +984,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Tue, 30 Sep 2025 08:20:20 GMT</pubDate>
-    <lastBuildDate>Tue, 30 Sep 2025 08:20:20 GMT</lastBuildDate>
+    <pubDate>Wed, 01 Oct 2025 21:47:43 GMT</pubDate>
+    <lastBuildDate>Wed, 01 Oct 2025 21:47:43 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
