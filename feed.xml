@@ -6,8 +6,8 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Tue, 04 Nov 2025 01:15:13 GMT</pubDate>
-    <lastBuildDate>Tue, 04 Nov 2025 01:15:13 GMT</lastBuildDate>
+    <pubDate>Tue, 04 Nov 2025 01:34:26 GMT</pubDate>
+    <lastBuildDate>Tue, 04 Nov 2025 01:34:26 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
@@ -984,10 +984,21 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Tue, 04 Nov 2025 01:15:13 GMT</pubDate>
-    <lastBuildDate>Tue, 04 Nov 2025 01:15:13 GMT</lastBuildDate>
+    <pubDate>Tue, 04 Nov 2025 01:34:26 GMT</pubDate>
+    <lastBuildDate>Tue, 04 Nov 2025 01:34:26 GMT</lastBuildDate>
     <ttl>60</ttl>
     
+    <item>
+      <title>devlog 15: inline comment rendering</title>
+      <link>https://allandeutsch.com/devlog/15</link>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 GMT</pubDate>
+      <modified>Mon, 03 Nov 2025 00:00:00 GMT</modified>
+      <description>Imagine being able to see word processor style comments, inline, on any website! Turns out it's not small feat...</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/devlog/15</guid>
+    </item>
+    
+
     <item>
       <title>devlog 14: typesafe TypeScript</title>
       <link>https://allandeutsch.com/devlog/14</link>
