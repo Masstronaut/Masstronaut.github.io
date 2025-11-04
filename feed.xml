@@ -6,8 +6,8 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Mon, 03 Nov 2025 23:03:22 GMT</pubDate>
-    <lastBuildDate>Mon, 03 Nov 2025 23:03:22 GMT</lastBuildDate>
+    <pubDate>Tue, 04 Nov 2025 00:13:27 GMT</pubDate>
+    <lastBuildDate>Tue, 04 Nov 2025 00:13:27 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
@@ -984,10 +984,32 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Mon, 03 Nov 2025 23:03:22 GMT</pubDate>
-    <lastBuildDate>Mon, 03 Nov 2025 23:03:22 GMT</lastBuildDate>
+    <pubDate>Tue, 04 Nov 2025 00:13:27 GMT</pubDate>
+    <lastBuildDate>Tue, 04 Nov 2025 00:13:27 GMT</lastBuildDate>
     <ttl>60</ttl>
     
+    <item>
+      <title>devlog 14: typesafe TypeScript</title>
+      <link>https://allandeutsch.com/devlog/14</link>
+      <pubDate>Thu, 16 Oct 2025 00:00:00 GMT</pubDate>
+      <modified>Thu, 16 Oct 2025 00:00:00 GMT</modified>
+      <description>TypeScript brings types to JS, but it's still up to the developer to leverage them to write safer code.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/devlog/14</guid>
+    </item>
+    
+
+    <item>
+      <title>devlog 13: frontend tooling updates</title>
+      <link>https://allandeutsch.com/devlog/13</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 GMT</pubDate>
+      <modified>Mon, 24 Feb 2025 00:00:00 GMT</modified>
+      <description>Upgrading dependencies: a pain, but one that often comes with sweet rewards.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/devlog/13</guid>
+    </item>
+    
+
     <item>
       <title>devlog 12: What if MacOS was a linux distro</title>
       <link>https://allandeutsch.com/devlog/12</link>
