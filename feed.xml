@@ -6,10 +6,21 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Tue, 11 Nov 2025 07:38:19 GMT</pubDate>
-    <lastBuildDate>Tue, 11 Nov 2025 07:38:19 GMT</lastBuildDate>
+    <pubDate>Wed, 12 Nov 2025 00:22:19 GMT</pubDate>
+    <lastBuildDate>Wed, 12 Nov 2025 00:22:19 GMT</lastBuildDate>
     <ttl>60</ttl>
     
+    <item>
+      <title>Restaurants I like</title>
+      <link>https://allandeutsch.com/notes/restaurants</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 GMT</pubDate>
+      <modified>Tue, 11 Nov 2025 00:00:00 GMT</modified>
+      <description>A list of some of my favorite places to get a meal in the Seattle area.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/restaurants</guid>
+    </item>
+    
+
     <item>
       <title>Seattle area cafés I like</title>
       <link>https://allandeutsch.com/notes/seattle-cafes</link>
@@ -62,17 +73,6 @@
       <description>Understanding the costs facing a business is an important part of evaluating its profitability. There are two categories of costs - fixed and variable.</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/production-cost</guid>
-    </item>
-    
-
-    <item>
-      <title>Restaurants I like</title>
-      <link>https://allandeutsch.com/notes/restaurants</link>
-      <pubDate>Sun, 13 Jun 2021 00:00:00 GMT</pubDate>
-      <modified>Sun, 30 Mar 2025 00:00:00 GMT</modified>
-      <description>A list of some of my favorite places to get a meal in the Seattle area.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/restaurants</guid>
     </item>
     
 
@@ -984,8 +984,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Tue, 11 Nov 2025 07:38:19 GMT</pubDate>
-    <lastBuildDate>Tue, 11 Nov 2025 07:38:19 GMT</lastBuildDate>
+    <pubDate>Wed, 12 Nov 2025 00:22:19 GMT</pubDate>
+    <lastBuildDate>Wed, 12 Nov 2025 00:22:19 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
