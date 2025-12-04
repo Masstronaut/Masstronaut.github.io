@@ -6,10 +6,21 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Thu, 04 Dec 2025 08:06:44 GMT</pubDate>
-    <lastBuildDate>Thu, 04 Dec 2025 08:06:44 GMT</lastBuildDate>
+    <pubDate>Thu, 04 Dec 2025 09:18:55 GMT</pubDate>
+    <lastBuildDate>Thu, 04 Dec 2025 09:18:55 GMT</lastBuildDate>
     <ttl>60</ttl>
     
+    <item>
+      <title>Loft remodel reference</title>
+      <link>https://allandeutsch.com/notes/loft-remodel</link>
+      <pubDate>Wed, 03 Dec 2025 00:00:00 GMT</pubDate>
+      <modified>Wed, 03 Dec 2025 00:00:00 GMT</modified>
+      <description>We want to update our loft to better suit our current and future lifestyle. Documenting what that looks like is the first step!</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/loft-remodel</guid>
+    </item>
+    
+
     <item>
       <title>Restaurants I like</title>
       <link>https://allandeutsch.com/notes/restaurants</link>
@@ -984,8 +995,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2025 Allan Deutsch</copyright>
-    <pubDate>Thu, 04 Dec 2025 08:06:44 GMT</pubDate>
-    <lastBuildDate>Thu, 04 Dec 2025 08:06:44 GMT</lastBuildDate>
+    <pubDate>Thu, 04 Dec 2025 09:18:55 GMT</pubDate>
+    <lastBuildDate>Thu, 04 Dec 2025 09:18:55 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
