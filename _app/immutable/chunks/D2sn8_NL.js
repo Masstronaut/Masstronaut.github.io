@@ -1,0 +1,21 @@
+const e=`---
+title: Fake Door test
+description: A method for directly testing how a new offering will perform that doesn't require creating it first. Also, it won't piss off your customers!
+slug: notes/fake-door-test
+publish: true
+lastmod: 2026-04-22
+date: 2026-04-22
+aliases:
+- null
+tags:
+- status/seedling
+---
+
+A fake door test is where customers are offered an option that doesn't exist to gauge interest in it. Fake door tests are a great way to figure out how much money a new offering/tier could be making without having to build it first. Fake door tests are great because they let you test purchase behavior **directly**, a notable improvement over something like a survey.
+
+Fake doors can be risky, as offering a *prospect* who is ready to buy an option that doesn't exist could mean missing out on a sale. It also risks their trust, as they might feel like a *bait-and-switch* was pulled on them. Notably, this is only a problem if the bait is better than the switch. If you bait them with a basic offering, then switch them to a more premium one at the basic price, they will be happy about it.
+
+Trivially, a fake door could be implemented as a separate, temporary, and lower price for an existing higher tier offering. imagine I have a product with "Basic" and "Premium" and I want to evaluate a "Basic+" offering. With a fake door test, when someone buys Basic+, I give them a message like "Congratulations! We're running a promo and you've been upgraded to premium for no extra cost." Now I have empiric evidence that they were willing to buy Basic+ at my advertised price. I'm happy to have trustworthy data about a Basic+ offering and they're happy they got a free upgrade from Basic+ to premium. Everyone wins.
+
+The important constraint here is that fake door tests should be testing an offering worse than whatever the customer actually gets. Sell someone an "ultra pro max" offering and price, then delivering only a "pro" at that price is a sure way to make them angry.
+`;export{e as default};

@@ -6,10 +6,21 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2026 Allan Deutsch</copyright>
-    <pubDate>Mon, 13 Apr 2026 18:35:11 GMT</pubDate>
-    <lastBuildDate>Mon, 13 Apr 2026 18:35:11 GMT</lastBuildDate>
+    <pubDate>Wed, 22 Apr 2026 19:10:24 GMT</pubDate>
+    <lastBuildDate>Wed, 22 Apr 2026 19:10:24 GMT</lastBuildDate>
     <ttl>60</ttl>
     
+    <item>
+      <title>Fake Door test</title>
+      <link>https://allandeutsch.com/notes/fake-door-test</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+      <modified>Wed, 22 Apr 2026 00:00:00 GMT</modified>
+      <description>A method for directly testing how a new offering will perform that doesn't require creating it first. Also, it won't piss off your customers!</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/fake-door-test</guid>
+    </item>
+    
+
     <item>
       <title>Loft remodel reference</title>
       <link>https://allandeutsch.com/notes/loft-remodel</link>
@@ -995,8 +1006,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2026 Allan Deutsch</copyright>
-    <pubDate>Mon, 13 Apr 2026 18:35:11 GMT</pubDate>
-    <lastBuildDate>Mon, 13 Apr 2026 18:35:11 GMT</lastBuildDate>
+    <pubDate>Wed, 22 Apr 2026 19:10:24 GMT</pubDate>
+    <lastBuildDate>Wed, 22 Apr 2026 19:10:24 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
