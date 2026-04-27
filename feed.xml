@@ -6,10 +6,21 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2026 Allan Deutsch</copyright>
-    <pubDate>Mon, 27 Apr 2026 21:21:25 GMT</pubDate>
-    <lastBuildDate>Mon, 27 Apr 2026 21:21:25 GMT</lastBuildDate>
+    <pubDate>Mon, 27 Apr 2026 22:54:59 GMT</pubDate>
+    <lastBuildDate>Mon, 27 Apr 2026 22:54:59 GMT</lastBuildDate>
     <ttl>60</ttl>
     
+    <item>
+      <title>grep cheat sheet</title>
+      <link>https://allandeutsch.com/notes/grep-cheat-sheet</link>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <modified>Mon, 27 Apr 2026 00:00:00 GMT</modified>
+      <description>`grep -h` is worthless, so I use this cheat sheet to remember the syntax for things I like to grep.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/grep-cheat-sheet</guid>
+    </item>
+    
+
     <item>
       <title>Fake Door test</title>
       <link>https://allandeutsch.com/notes/fake-door-test</link>
@@ -1006,8 +1017,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2026 Allan Deutsch</copyright>
-    <pubDate>Mon, 27 Apr 2026 21:21:25 GMT</pubDate>
-    <lastBuildDate>Mon, 27 Apr 2026 21:21:25 GMT</lastBuildDate>
+    <pubDate>Mon, 27 Apr 2026 22:54:59 GMT</pubDate>
+    <lastBuildDate>Mon, 27 Apr 2026 22:54:59 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
