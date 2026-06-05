@@ -6,10 +6,21 @@
     <description>Content from Allan's notes, via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2026 Allan Deutsch</copyright>
-    <pubDate>Mon, 01 Jun 2026 21:55:04 GMT</pubDate>
-    <lastBuildDate>Mon, 01 Jun 2026 21:55:04 GMT</lastBuildDate>
+    <pubDate>Fri, 05 Jun 2026 22:28:28 GMT</pubDate>
+    <lastBuildDate>Fri, 05 Jun 2026 22:28:28 GMT</lastBuildDate>
     <ttl>60</ttl>
     
+    <item>
+      <title>Restaurants I like</title>
+      <link>https://allandeutsch.com/notes/restaurants</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 GMT</pubDate>
+      <modified>Fri, 05 Jun 2026 00:00:00 GMT</modified>
+      <description>A list of some of my favorite places to get a meal in the Seattle area.</description>
+      <author>Allan Deutsch</author>
+      <guid isPermalink="true">https://allandeutsch.com/notes/restaurants</guid>
+    </item>
+    
+
     <item>
       <title>grep cheat sheet</title>
       <link>https://allandeutsch.com/notes/grep-cheat-sheet</link>
@@ -40,17 +51,6 @@
       <description>We want to update our loft to better suit our current and future lifestyle. Documenting what that looks like is the first step!</description>
       <author>Allan Deutsch</author>
       <guid isPermalink="true">https://allandeutsch.com/notes/loft-remodel</guid>
-    </item>
-    
-
-    <item>
-      <title>Restaurants I like</title>
-      <link>https://allandeutsch.com/notes/restaurants</link>
-      <pubDate>Sun, 13 Jun 2021 00:00:00 GMT</pubDate>
-      <modified>Tue, 11 Nov 2025 00:00:00 GMT</modified>
-      <description>A list of some of my favorite places to get a meal in the Seattle area.</description>
-      <author>Allan Deutsch</author>
-      <guid isPermalink="true">https://allandeutsch.com/notes/restaurants</guid>
     </item>
     
 
@@ -1017,8 +1017,8 @@
     <description>Allan's weekly devlog, published via RSS.</description>
     <language>en-us</language>
     <copyright>Copyright (c) 2026 Allan Deutsch</copyright>
-    <pubDate>Mon, 01 Jun 2026 21:55:04 GMT</pubDate>
-    <lastBuildDate>Mon, 01 Jun 2026 21:55:04 GMT</lastBuildDate>
+    <pubDate>Fri, 05 Jun 2026 22:28:28 GMT</pubDate>
+    <lastBuildDate>Fri, 05 Jun 2026 22:28:28 GMT</lastBuildDate>
     <ttl>60</ttl>
     
     <item>
